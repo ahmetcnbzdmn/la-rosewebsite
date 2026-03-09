@@ -1,0 +1,60 @@
+/* Base reset for La Rosée clone */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  display: block;
+  place-items: unset;
+}
+
+#app {
+  max-width: unset;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+button {
+  all: unset;
+  box-sizing: revert;
+}
+
+button:where(:not(:disabled)) {
+  cursor: pointer;
+}
+
+img,
+svg,
+video {
+  display: block;
+}
+
+img,
+video {
+  width: 100%;
+  height: auto;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+}

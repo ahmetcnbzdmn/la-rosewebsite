@@ -1,0 +1,20 @@
+{
+    "nav": {
+        "home": "Anasayfa",
+        "bestSellers": "Çok Satanlar",
+        "face": "Yüz",
+        "body": "Vücut",
+        "hair": "Saç",
+        "ourStory": "Hikayemiz"
+    },
+    "hero": {
+        "title": "Doğal Güzellik, Ortaya Çıktı",
+        "subtitle": "Tüm cilt tipleri için özel olarak üretilen ultra temiz cilt bakım koleksiyonumuzu keşfedin.",
+        "cta": "Şimdi Alışveriş Yap"
+    },
+    "footer": {
+        "newsletter": "Özel teklifler için bültenimize katılın.",
+        "subscribe": "Abone Ol",
+        "placeholder": "E-posta adresinizi girin"
+    }
+}

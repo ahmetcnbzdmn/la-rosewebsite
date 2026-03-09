@@ -1,0 +1,88 @@
+{
+    "products": [
+        {
+            "name": "Duo Pressed Powder & Refillable Compact",
+            "slug": "stick-solaire-spf-50-visage-et-zones-sensibles",
+            "image": "https://a.storyblok.com/f/196368/3473x3473/93597b88d8/visuels-sous-menu.jpg"
+        },
+        {
+            "name": "Cleansing Balm",
+            "slug": "masque-en-stick-nourrissant",
+            "image": "https://a.storyblok.com/f/196368/3473x3473/293fc792e7/visuels-sous-menu-janv-26-04-1.jpg"
+        },
+        {
+            "name": "Moisturizing Body Cream",
+            "slug": "moisturizing-body-cream",
+            "image": "https://a.storyblok.com/f/196368/1920x2232/28043a346e/creme-corps-200ml.jpg"
+        }
+    ],
+    "collections": [
+        {
+            "name": "Face care",
+            "slug": "soin-visage",
+            "image": "https://a.storyblok.com/f/196368/960x1200/88e7e0b5b0/soins-visage-la-rosee.jpg"
+        },
+        {
+            "name": "Body care",
+            "slug": "soins-corps",
+            "image": "https://a.storyblok.com/f/196368/960x1200/15bc69ecd0/menu-categorie-soins-corps.jpg"
+        },
+        {
+            "name": "Hair care",
+            "slug": "soins-cheveux",
+            "image": "https://a.storyblok.com/f/196368/960x1200/31ac02070b/menu-capillaire-soins-cheveux.jpg"
+        },
+        {
+            "name": "Skincare makeup",
+            "slug": "soins-maquillages",
+            "image": "https://a.storyblok.com/f/196368/960x1200/555b204aaa/packshot-menu-make-up.jpg"
+        },
+        {
+            "name": "Baby care",
+            "slug": "soins-bebe",
+            "image": "https://a.storyblok.com/f/196368/960x1200/0a62340c61/soins-bebe-mon-petit-la-rosee.jpg"
+        },
+        {
+            "name": "Sun care",
+            "slug": "solaires",
+            "image": "https://a.storyblok.com/f/196368/960x1200/4ff7e1f2cd/solaires-la-rosee.jpg"
+        },
+        {
+            "name": "Daily hygiene",
+            "slug": "hygiene-du-quotidien",
+            "image": "https://a.storyblok.com/f/196368/960x1200/e283ea33ae/menu-categorie-hygiene.jpg"
+        },
+        {
+            "name": "Accessories",
+            "slug": "accessoires",
+            "image": "https://a.storyblok.com/f/196368/960x1200/c1b002f30c/accessoires-la-rosee.jpg"
+        }
+    ],
+    "commitments": [
+        {
+            "name": "The ecological transition",
+            "slug": "la-transition-ecologique-au-coeur-de-toutes-nos-decisions",
+            "image": "https://a.storyblok.com/f/196368/3840x2160/a02e18fbf0/deodorant-transition-ecologique.jpg"
+        },
+        {
+            "name": "Our story",
+            "slug": "notre-histoire",
+            "image": "https://a.storyblok.com/f/196368/2000x2000/1b44626fae/visuels-categorie-page-impact-1-1.jpg"
+        },
+        {
+            "name": "Our formulas",
+            "slug": "nos-formules",
+            "image": "https://a.storyblok.com/f/196368/2000x2000/aab480cdc3/visuels-categorie-page-impact-2-1.jpg"
+        },
+        {
+            "name": "Our packagings",
+            "slug": "nos-packagings",
+            "image": "https://a.storyblok.com/f/196368/2000x2000/00a5f0a3cf/visuels-categorie-page-impact-3-1.jpg"
+        },
+        {
+            "name": "Concrete actions for the planet",
+            "slug": "des-actions-concretes-pour-la-planete",
+            "image": "https://a.storyblok.com/f/196368/2000x2000/7e5e096a24/visuels-categorie-page-impact-6.jpg"
+        }
+    ]
+}

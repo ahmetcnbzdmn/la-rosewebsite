@@ -1,0 +1,20 @@
+{
+    "nav": {
+        "home": "Home",
+        "bestSellers": "Best Sellers",
+        "face": "Face",
+        "body": "Body",
+        "hair": "Hair",
+        "ourStory": "Our Story"
+    },
+    "hero": {
+        "title": "Natural Beauty, Revealed",
+        "subtitle": "Discover our collection of ultra-clean skincare products, crafted for all skin types.",
+        "cta": "Shop Now"
+    },
+    "footer": {
+        "newsletter": "Join our newsletter for exclusive offers.",
+        "subscribe": "Subscribe",
+        "placeholder": "Enter your email"
+    }
+}

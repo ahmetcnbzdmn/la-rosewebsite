@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Refillable Moisturizing Detangling Hair Conditioner",
+        "price": "€6.95",
+        "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Apres_shampoing_demelant_-_vente_responsable_c27ebcb4-bfe5-4345-9a9b-2addd795ff3f.jpg?v=1772180768",
+        "slug": "apres-shampoing-demelant"
+    },
+    {
+        "name": "3 in 1 Regenerating Mask Stick",
+        "price": "€18.90",
+        "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Masqueenstickregenerant.jpg?v=1688374230",
+        "slug": "masque-en-stick-regenerant"
+    },
+    {
+        "name": "Moisturizing Tonic Lotion",
+        "price": "€16.90",
+        "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Lotion_tonique_meilleur_produit_pharma_2026.jpg?v=1761140341",
+        "slug": "lotion-tonique"
+    },
+    {
+        "name": "Purifying Anti-Blemish Serum",
+        "price": "€26.90",
+        "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Serum_purifiant_-_awards_e747d331-2d31-4523-8601-763f873f71a9.jpg?v=1772099382",
+        "slug": "serum-purifiant"
+    },
+    {
+        "name": "Moisturizing Face Cream",
+        "price": "€19.90",
+        "image": "https://a.storyblok.com/f/196368/960x1200/88e7e0b5b0/soins-visage-la-rosee.jpg",
+        "slug": "creme-visage"
+    }
+]
