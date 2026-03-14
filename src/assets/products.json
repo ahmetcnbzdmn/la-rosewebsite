@@ -1,32 +1,1272 @@
 [
-    {
-        "name": "Refillable Moisturizing Detangling Hair Conditioner",
-        "price": "€6.95",
-        "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Apres_shampoing_demelant_-_vente_responsable_c27ebcb4-bfe5-4345-9a9b-2addd795ff3f.jpg?v=1772180768",
-        "slug": "apres-shampoing-demelant"
-    },
-    {
-        "name": "3 in 1 Regenerating Mask Stick",
-        "price": "€18.90",
-        "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Masqueenstickregenerant.jpg?v=1688374230",
-        "slug": "masque-en-stick-regenerant"
-    },
-    {
-        "name": "Moisturizing Tonic Lotion",
-        "price": "€16.90",
-        "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Lotion_tonique_meilleur_produit_pharma_2026.jpg?v=1761140341",
-        "slug": "lotion-tonique"
-    },
-    {
-        "name": "Purifying Anti-Blemish Serum",
-        "price": "€26.90",
-        "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Serum_purifiant_-_awards_e747d331-2d31-4523-8601-763f873f71a9.jpg?v=1772099382",
-        "slug": "serum-purifiant"
-    },
-    {
-        "name": "Moisturizing Face Cream",
-        "price": "€19.90",
-        "image": "https://a.storyblok.com/f/196368/960x1200/88e7e0b5b0/soins-visage-la-rosee.jpg",
-        "slug": "creme-visage"
-    }
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Gommagevisage.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Gomamge_visage.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/gommage-doux-visage",
+    "slug": "gommage-doux-visage",
+    "name": "Gentle Face Scrub",
+    "subtitle": "à l'aloe vera BIO",
+    "price_eur": "TL15.90",
+    "price": "604 ₺",
+    "category": "yuz-bakimi",
+    "name_tr": "Nazik Yüz Peeling"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Masqueenstickregenerant.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/masque-en-stick-regenerant-3-en-1",
+    "slug": "masque-en-stick-regenerant-3-en-1",
+    "name": "3 in 1 Regenerating Mask Stick",
+    "subtitle": "with white clay",
+    "price_eur": "TL18.90",
+    "price": "718 ₺",
+    "category": "yuz-bakimi",
+    "name_tr": "3'ü 1 Arada Yenileyici Maske Stick"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Coffretexport.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Coffret_export.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/coffret-soins-decouverte",
+    "slug": "coffret-soins-decouverte",
+    "name": "Discovery Skincare Set",
+    "price_eur": "TL38.80",
+    "price": "1.474 ₺",
+    "badges": [
+      "New"
+    ],
+    "category": "rutinler",
+    "name_tr": "Keşif Cilt Bakım Seti"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Coffret_anniversaire_pop-up_2.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Coffret_pop_up.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/coffret-peau-nette",
+    "slug": "coffret-peau-nette",
+    "name": "Clear Skin Set",
+    "price_eur": "TL34.80",
+    "price": "1.322 ₺",
+    "badges": [
+      "New"
+    ],
+    "category": "rutinler",
+    "name_tr": "Temiz Cilt Seti"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Masqueensticknourrissant.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/masque-en-stick-nourrissant",
+    "slug": "masque-en-stick-nourrissant",
+    "name": "Nourishing Mask Stick",
+    "subtitle": "à l'huile d'amande douce BIO",
+    "price_eur": "TL19.90",
+    "price": "756 ₺",
+    "category": "yuz-bakimi",
+    "name_tr": "Besleyici Maske Stick"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Lotion_tonique_meilleur_produit_pharma_2026.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Lotion_tonique.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/lotion-tonique-hydratante",
+    "slug": "lotion-tonique-hydratante",
+    "name": "Moisturizing Tonic Lotion",
+    "subtitle": "à la camomille BIO et aux oligo-éléments",
+    "price_eur": "TL16.90",
+    "price": "642 ₺",
+    "category": "yuz-bakimi",
+    "name_tr": "Nemlendirici Tonik Losyon"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Baume_demaquillant.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/baume-demaquillant-fondant-rechargeable",
+    "slug": "baume-demaquillant-fondant-rechargeable",
+    "name": "Refillable Melting Cleansing Balm",
+    "subtitle": "with upcycled organic cherry kernel oil",
+    "price_eur": "TL18.90",
+    "price": "718 ₺",
+    "badges": [
+      "New",
+      "Rechargeable"
+    ],
+    "category": "yuz-bakimi",
+    "name_tr": "Yenilenebilir Erime Temizleme Balm"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Rechargebaumedemaquillant.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Recharge_baume_demaquillant.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/recharge-baume-demaquillant-fondant",
+    "slug": "recharge-baume-demaquillant-fondant",
+    "name": "Melting Cleansing Balm Refill",
+    "subtitle": "with upcycled organic cherry kernel oil",
+    "price_eur": "TL16.90",
+    "price": "642 ₺",
+    "badges": [
+      "New"
+    ],
+    "category": "yuz-bakimi",
+    "name_tr": "Erime Temizleme Balm Yenileme Kartuşu"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Gelee_micellaire.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Gelee_micellaire_619e49f0-d999-4d7b-baa7-0f6578a1c308.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/gelee-micellaire-demaquillante",
+    "slug": "gelee-micellaire-demaquillante",
+    "name": "Ultra-Soft Make-Up Remover Micellar Gel",
+    "subtitle": "with organic floral solutions",
+    "price_eur": "TL15.90",
+    "price": "604 ₺",
+    "category": "yuz-bakimi",
+    "name_tr": "Ultra Yumuşak Makyaj Temizleyici Misel Jel"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Gel_nettoyant_anti-imperf_meilleur_produit_pharma_2026.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/recharge-gel-nettoyant-anti-imperfections",
+    "slug": "recharge-gel-nettoyant-anti-imperfections",
+    "name": "Anti-Blemish Cleansing Gel Refill",
+    "subtitle": "with zinc and organic fruit acids",
+    "price_eur": "TL14.90",
+    "price": "566 ₺",
+    "badges": [
+      "New"
+    ],
+    "category": "yuz-bakimi",
+    "name_tr": "Leke Karşıtı Temizleme Jeli Yenileme Kartuşu"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Flacongelnettoyant.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Flacon_gel_nettoyant.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/flacon-gel-nettoyant-en-verre",
+    "slug": "flacon-gel-nettoyant-en-verre",
+    "name": "Cleansing Gel Glass Bottle",
+    "price_eur": "TL4.90",
+    "price": "186 ₺",
+    "category": "yuz-bakimi",
+    "name_tr": "Temizleme Jeli Cam Şişe"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Contourdesyeux.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/contour-des-yeux-defatigant",
+    "slug": "contour-des-yeux-defatigant",
+    "name": "Anti-Fatigue Eye Contour",
+    "subtitle": "with organic aloe vera",
+    "price_eur": "TL21.90",
+    "price": "832 ₺",
+    "badges": [
+      "Best-seller"
+    ],
+    "category": "yuz-bakimi",
+    "name_tr": "Yorgunluk Karşıtı Göz Çevresi Kremi"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Serum_purifiant_-_awards_e747d331-2d31-4523-8601-763f873f71a9.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/serum-purifiant-anti-imperfections",
+    "slug": "serum-purifiant-anti-imperfections",
+    "name": "Purifying Anti-Blemish Serum",
+    "subtitle": "with zinc and organic fruit acids",
+    "price_eur": "TL26.90",
+    "price": "1.022 ₺",
+    "badges": [
+      "New"
+    ],
+    "category": "yuz-bakimi",
+    "name_tr": "Arındırıcı Leke Karşıtı Serum"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Serum_desalterant_6ec15abb-289a-4ae5-88e4-b551e9e5b352.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/serum-desalterant",
+    "slug": "serum-desalterant",
+    "name": "Hydrating Face Serum",
+    "subtitle": "with hyaluronic acid",
+    "price_eur": "TL26.90",
+    "price": "1.022 ₺",
+    "category": "yuz-bakimi",
+    "name_tr": "Nemlendirici Yüz Serumu"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Serum_repulpant_988996f2-2fd3-41f2-bdef-0641bbc77468.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/serum-visage-repulpant",
+    "slug": "serum-visage-repulpant",
+    "name": "Plumping Face Serum",
+    "subtitle": "with 5 organic vegetal oils",
+    "price_eur": "TL25.90",
+    "price": "984 ₺",
+    "category": "yuz-bakimi",
+    "name_tr": "Dolgunlaştırıcı Yüz Serumu"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Concentre_bonne_mine_37929f69-8f65-4f53-a64f-924f856d1fa2.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/concentre-bonne-mine",
+    "slug": "concentre-bonne-mine",
+    "name": "Radiance Concentrate",
+    "subtitle": "with organic carrot and apricot",
+    "price_eur": "TL29.90",
+    "price": "1.136 ₺",
+    "badges": [
+      "Best-seller"
+    ],
+    "category": "makyaj-bakim",
+    "name_tr": "Işıltı Konsantresi"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Routine_soin_maquillage_d75a3e54-348f-4f85-b072-f8e1c4d99f8c.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Routine_soin_maquillage.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/duo-bonne-mine",
+    "slug": "duo-bonne-mine",
+    "name": "Healthy Glow Duo",
+    "price_eur": "TL34.90",
+    "price": "1.326 ₺",
+    "badges": [
+      "-12%"
+    ],
+    "category": "makyaj-bakim",
+    "name_tr": "Sağlıklı Işıltı İkilisi"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Gel_creme_cff35670-1ecc-4cd4-97ff-d6dda40409df.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Gel_creme.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/gel-creme-hydratant-visage",
+    "slug": "gel-creme-hydratant-visage",
+    "name": "Moisturizing Cream-Gel",
+    "subtitle": "with organic cucumber",
+    "price_eur": "TL19.90",
+    "price": "756 ₺",
+    "category": "yuz-bakimi",
+    "name_tr": "Nemlendirici Krem-Jel"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Creme_hydratante_karite_b7f5b2b6-bc56-4e78-80e2-4c97525e86a4.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Creme_karite.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/creme-hydratante-visage",
+    "slug": "creme-hydratante-visage",
+    "name": "Moisturizing Cream",
+    "subtitle": "with organic shea butter",
+    "price_eur": "TL19.90",
+    "price": "756 ₺",
+    "badges": [
+      "Best-seller"
+    ],
+    "category": "yuz-bakimi",
+    "name_tr": "Nemlendirici Krem"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Stick_correcteur_bd7c2683-4d3c-422c-a565-7a0fb7c31b53.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Stick_correcteur_teinte.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/stick-correcteur-teinte-anti-imperfections-rechargeable",
+    "slug": "stick-correcteur-teinte-anti-imperfections-rechargeable",
+    "name": "Refillable Anti-Blemish Tinted Concealer Stick",
+    "subtitle": "with zinc",
+    "price_eur": "TL12.90",
+    "price": "490 ₺",
+    "badges": [
+      "New",
+      "Rechargeable"
+    ],
+    "category": "makyaj-bakim",
+    "name_tr": "Yenilenebilir Renkli Leke Karşıtı Kapatıcı Stick"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Rechargestickcorrecteur.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Recharge_stick_correcteur_teinte.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/recharge-stick-correcteur-teinte-anti-imperfections",
+    "slug": "recharge-stick-correcteur-teinte-anti-imperfections",
+    "name": "Anti-Blemish Tinted Concealer Stick - Refill",
+    "subtitle": "with zinc",
+    "price_eur": "TL10.90",
+    "price": "414 ₺",
+    "badges": [
+      "New"
+    ],
+    "category": "makyaj-bakim",
+    "name_tr": "Renkli Leke Karşıtı Kapatıcı Stick Yenileme"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Poudre_medium_3_93addc28-0a87-48bf-b5fe-65c8a4e73fcf.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Poudre-medium.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/recharge-poudre-compacte-soin",
+    "slug": "recharge-poudre-compacte-soin",
+    "name": "Skincare Pressed Powder Refill",
+    "subtitle": "with organic apricot oil",
+    "price_eur": "TL18.90",
+    "price": "718 ₺",
+    "badges": [
+      "New",
+      "Rechargeable"
+    ],
+    "category": "makyaj-bakim",
+    "name_tr": "Bakım Sıkıştırılmış Pudra Yenileme"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Boitiervide.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Boitier_vide.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/boitier-poudre-rechargeable",
+    "slug": "boitier-poudre-rechargeable",
+    "name": "Refillable Powder Compact",
+    "price_eur": "TL6.90",
+    "price": "262 ₺",
+    "badges": [
+      "New"
+    ],
+    "category": "makyaj-bakim",
+    "name_tr": "Yenilenebilir Pudra Kompakt"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Pinceau.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/pinceau-teint",
+    "slug": "pinceau-teint",
+    "name": "Complexion Brush",
+    "price_eur": "TL15.90",
+    "price": "604 ₺",
+    "badges": [
+      "New"
+    ],
+    "category": "makyaj-bakim",
+    "name_tr": "Ten Fırçası"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Routine_maquillage_-_medium_V2.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Routine_maquillage_-_medium_7b427084-2898-48aa-add0-87d92bd53214.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/routine-maquillage-soin",
+    "slug": "routine-maquillage-soin",
+    "name": "Skincare-infused makeup routine",
+    "price_eur": "TL64.00",
+    "price": "2.432 ₺",
+    "badges": [
+      "New",
+      "-10%"
+    ],
+    "category": "makyaj-bakim",
+    "name_tr": "Bakım Destekli Makyaj Rutini"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/BaumeSOS.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Baume_SOS.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/baume-sos-reparateur",
+    "slug": "baume-sos-reparateur",
+    "name": "SOS Repair Balm",
+    "subtitle": "with waxes and vegetable oils",
+    "price_eur": "TL14.90",
+    "price": "566 ₺",
+    "category": "yuz-bakimi",
+    "name_tr": "SOS Onarıcı Balm"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Stick_levres_incolore_3932ed5c-1377-42a9-942f-e2ea3e413bb1.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/SL_incolore.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/stick-levres-nourrissant-rechargeable",
+    "slug": "stick-levres-nourrissant-rechargeable",
+    "name": "Refillable Nourishing Lip Balm",
+    "subtitle": "with organic shea butter",
+    "price_eur": "TL6.95",
+    "price": "264 ₺",
+    "badges": [
+      "Rechargeable"
+    ],
+    "category": "makyaj-bakim",
+    "name_tr": "Yenilenebilir Besleyici Dudak Balm"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Rechargesticklevresincolore.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Recharge_SL.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/recharge-stick-levres-nourrissant",
+    "slug": "recharge-stick-levres-nourrissant",
+    "name": "Nourishing Lip Balm Refill",
+    "subtitle": "with organic shea butter",
+    "price_eur": "TL5.90",
+    "price": "224 ₺",
+    "category": "makyaj-bakim",
+    "name_tr": "Besleyici Dudak Balm Yenileme Kartuşu"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Stick_levres_teinte.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/stick-levres-teinte-rechargeable",
+    "slug": "stick-levres-teinte-rechargeable",
+    "name": "Refillable Tinted Nourishing Lip Balm",
+    "subtitle": "with organic shea butter",
+    "price_eur": "TL9.90",
+    "price": "376 ₺",
+    "badges": [
+      "Rechargeable"
+    ],
+    "category": "makyaj-bakim",
+    "name_tr": "Yenilenebilir Renkli Besleyici Dudak Balm"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Coffret_eclat_flux_ba00eba3-7363-4a99-a279-93e0a9743b64.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Coffret_eclat_bis.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/coffret-soins-eclat",
+    "slug": "coffret-soins-eclat",
+    "name": "Duo Light Gift Set",
+    "price_eur": "TL33.80",
+    "price": "1.284 ₺",
+    "category": "rutinler",
+    "name_tr": "Işıltı İkili Hediye Seti"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Coffret_nomade_-_SL_teinte.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Coffrettourismerose_8f775923-4504-40f6-b71a-b9ecc2bb920d.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/coffret-soins-nomades-teintes",
+    "slug": "coffret-soins-nomades-teintes",
+    "name": "Tinted Nomad Care Set",
+    "price_eur": "TL16.80",
+    "price": "638 ₺",
+    "badges": [
+      "-34%"
+    ],
+    "category": "makyaj-bakim",
+    "name_tr": "Renkli Göçebe Bakım Seti"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Recharge_stick_levres_teinte.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/rechargeSLteinte.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/recharge-stick-levres-teinte",
+    "slug": "recharge-stick-levres-teinte",
+    "name": "Tinted Lip Balm Refill",
+    "price_eur": "TL8.50",
+    "price": "323 ₺",
+    "category": "makyaj-bakim",
+    "name_tr": "Renkli Dudak Balm Yenileme Kartuşu"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Creme_mains_48fea303-2a63-4378-8ec9-de53f796551a.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Creme_mains_9275c14a-2935-482f-a954-0d4907d6b985.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/creme-mains-ultra-reparatrice",
+    "slug": "creme-mains-ultra-reparatrice",
+    "name": "Ultra-Repair Hand Cream",
+    "subtitle": "with organic medical plants",
+    "price_eur": "TL6.90",
+    "price": "262 ₺",
+    "category": "vucut-bakimi",
+    "name_tr": "Ultra Onarıcı El Kremi"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Deodorant_rechargeable_2026_3.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Deodorantfraicheurrechargeable.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/deodorant-fraicheur",
+    "slug": "deodorant-fraicheur",
+    "name": "Refillable Fresh Deodorant",
+    "subtitle": "with probiotics",
+    "price_eur": "TL10.90",
+    "price": "414 ₺",
+    "badges": [
+      "Best-seller",
+      "Rechargeable"
+    ],
+    "category": "vucut-bakimi",
+    "name_tr": "Yenilenebilir Ferahlatıcı Deodorant"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Recharge_deodorant_f1932c17-4d67-4d99-abd4-da5c88011e06.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Rechargedeodorantfraicheurrechargeable.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/recharge-deodorant-fraicheur",
+    "slug": "recharge-deodorant-fraicheur",
+    "name": "Fresh Deodorant Refill",
+    "subtitle": "with probiotics",
+    "price_eur": "TL8.90",
+    "price": "338 ₺",
+    "badges": [
+      "Best-seller"
+    ],
+    "category": "vucut-bakimi",
+    "name_tr": "Ferahlatıcı Deodorant Yenileme Kartuşu"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Dentifrice_fe253772-adfe-456f-a680-8cd4b969489e.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Dentifrice_3ef15827-633b-4027-95c0-1f1fff16cfe0.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/dentifrice-soin-complet",
+    "slug": "dentifrice-soin-complet",
+    "name": "Toothpaste Complete Care",
+    "subtitle": "with organic mint",
+    "price_eur": "TL6.49",
+    "price": "247 ₺",
+    "category": "vucut-bakimi",
+    "name_tr": "Komple Bakım Diş Macunu"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Savonsurgras.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Savon.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/savon-surgras-ultra-doux-naturel",
+    "slug": "savon-surgras-ultra-doux-naturel",
+    "name": "Ultra-Mild Extra Rich Soap",
+    "subtitle": "with organic shea butter",
+    "price_eur": "TL5.90",
+    "price": "224 ₺",
+    "category": "vucut-bakimi",
+    "name_tr": "Ultra Hafif Zengin Sabun"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/duosavonetboitebiscuit.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Boite_a_savon_biscuit.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/duo-savon-et-boite-a-savon-2-en-1-biscuit",
+    "slug": "duo-savon-et-boite-a-savon-2-en-1-biscuit",
+    "name": "Duo Soap and 2 in 1 Soap Box",
+    "subtitle": "with organic shea butter",
+    "price_eur": "TL19.90",
+    "price": "756 ₺",
+    "badges": [
+      "-4%"
+    ],
+    "category": "vucut-bakimi",
+    "name_tr": "Sabun ve 2'si 1 Arada Sabunluk İkilisi (Mavi)"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/duo_savon_et_boite_bleue_eb22af65-75cf-4b16-9b72-57426825e397.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Boite_a_savon_bleu.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/duo-savon-surgras-et-sa-boite-2-en-1-bleu",
+    "slug": "duo-savon-surgras-et-sa-boite-2-en-1-bleu",
+    "name": "Duo Soap and 2 in 1 Soap Box",
+    "subtitle": "with organic shea butter",
+    "price_eur": "TL19.90",
+    "price": "756 ₺",
+    "badges": [
+      "-4%"
+    ],
+    "category": "vucut-bakimi",
+    "name_tr": "Sabun ve 2'si 1 Arada Sabunluk İkilisi (Mavi)"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Kit_voyage_10_ans.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Kit_voyage_10ans_9be4385f-3b95-4ba8-a8b1-9c619e771496.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/kit-voyage-10-ans",
+    "slug": "kit-voyage-10-ans",
+    "name": "10th Anniversary Special Edition Travel Kit",
+    "price_eur": "TL8.90",
+    "price": "338 ₺",
+    "badges": [
+      "Nouveauté"
+    ],
+    "category": "vucut-bakimi",
+    "name_tr": "10. Yıl Özel Sürüm Seyahat Kiti"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Gommagecorpsrechargeable_3.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/gommage-corps-nourrissant",
+    "slug": "gommage-corps-nourrissant",
+    "name": "Refillable Nourishing Body Scrub",
+    "subtitle": "with sugar and organic vegetable oils",
+    "price_eur": "TL20.90",
+    "price": "794 ₺",
+    "badges": [
+      "Rechargeable"
+    ],
+    "category": "vucut-bakimi",
+    "name_tr": "Yenilenebilir Besleyici Vücut Peeling"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Rechargegommagecorps.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Rechargegommagecorps_1.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/recharge-gommage-corps-nourrissant",
+    "slug": "recharge-gommage-corps-nourrissant",
+    "name": "Nourishing Body Scrub Refill",
+    "subtitle": "with sugar and organic vegetable oils",
+    "price_eur": "TL18.90",
+    "price": "718 ₺",
+    "category": "vucut-bakimi",
+    "name_tr": "Besleyici Vücut Peeling Yenileme Kartuşu"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Coffret_bougie_-_nouvelle_version.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Coffret_anniversaire_-_noel.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/coffret-soins-corps",
+    "slug": "coffret-soins-corps",
+    "name": "Body care set",
+    "price_eur": "TL39.80",
+    "price": "1.512 ₺",
+    "badges": [
+      "New"
+    ],
+    "category": "vucut-bakimi",
+    "name_tr": "Vücut Bakım Seti"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Huile_de_douche.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Huile_de_douche_295feeb0-5a20-4cf2-a7a1-9b432eb2dcd0.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/huile-de-douche-lavante-rechargeable",
+    "slug": "huile-de-douche-lavante-rechargeable",
+    "name": "Cleansing Shower Oil",
+    "subtitle": "with organic sunflower seed oil",
+    "price_eur": "TL16.90",
+    "price": "642 ₺",
+    "badges": [
+      "Rechargeable"
+    ],
+    "category": "vucut-bakimi",
+    "name_tr": "Temizleyici Duş Yağı"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Recharge_Huile_de_douche_SH_2026.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Ecorechargehdd_8805e66d-b6e4-4da8-b2b9-052596100fb3.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/ecorecharge-huile-de-douche-lavante",
+    "slug": "ecorecharge-huile-de-douche-lavante",
+    "name": "Cleansing Shower Oil - Refill",
+    "subtitle": "with organic sunflower seed oil",
+    "price_eur": "TL28.90",
+    "price": "1.098 ₺",
+    "category": "vucut-bakimi",
+    "name_tr": "Temizleyici Duş Yağı Yenileme Kartuşu"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Creme_corps_400ml_2024.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Cremecorps400ml.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/creme-corps-hydratante-400-ml",
+    "slug": "creme-corps-hydratante-400-ml",
+    "name": "Moisturizing Body Cream - Large format",
+    "subtitle": "with organic shea butter",
+    "price_eur": "TL24.90",
+    "price": "946 ₺",
+    "badges": [
+      "-17%"
+    ],
+    "category": "vucut-bakimi",
+    "name_tr": "Nemlendirici Vücut Kremi - Büyük Boy"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Creme_corps_200ml.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Creme_corps_200ml_2_2024_b749c02b-a352-454f-bdb4-06e9338408bd.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/creme-corps-hydratante",
+    "slug": "creme-corps-hydratante",
+    "name": "Moisturizing Body Cream",
+    "subtitle": "with organic shea butter",
+    "price_eur": "TL17.90",
+    "price": "680 ₺",
+    "category": "vucut-bakimi",
+    "name_tr": "Nemlendirici Vücut Kremi"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Huiledesoinnourrissante.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/huile-de-soin-nourrissante",
+    "slug": "huile-de-soin-nourrissante",
+    "name": "Nourishing Care Oil",
+    "subtitle": "with organic vegetable oils",
+    "price_eur": "TL23.90",
+    "price": "908 ₺",
+    "category": "vucut-bakimi",
+    "name_tr": "Besleyici Bakım Yağı"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Flaconshampoing_c107e80e-431d-4ea6-b95b-9aa6583d6399.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Flaconenverrecapillaires.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/flacon-de-shampoing-en-verre",
+    "slug": "flacon-de-shampoing-en-verre",
+    "name": "Glass shampoo bottle",
+    "price_eur": "TL4.90",
+    "price": "186 ₺",
+    "category": "sac-bakimi",
+    "name_tr": "Cam Şampuan Şişesi"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Masquecapillairereparateur.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Masquecapillaire.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/masque-capillaire-reparateur-rechargeable",
+    "slug": "masque-capillaire-reparateur-rechargeable",
+    "name": "Refillable Repairing Hair Mask",
+    "subtitle": "with vegetable keratin and organic coconut oil",
+    "price_eur": "TL19.90",
+    "price": "756 ₺",
+    "badges": [
+      "Rechargeable"
+    ],
+    "category": "sac-bakimi",
+    "name_tr": "Yenilenebilir Onarıcı Saç Maskesi"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Rechargemasquecapillairereparateur.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Rechargemasquecapillaire.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/recharge-masque-capillaire-reparateur",
+    "slug": "recharge-masque-capillaire-reparateur",
+    "name": "Repairing Hair Mask Refill",
+    "subtitle": "with vegetable keratin and organic coconut oil",
+    "price_eur": "TL17.90",
+    "price": "680 ₺",
+    "category": "sac-bakimi",
+    "name_tr": "Onarıcı Saç Maskesi Yenileme Kartuşu"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Coffret_ma_routine_bain.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Coffret_routine_bain_bis.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/coffret-ma-routine-bain",
+    "slug": "coffret-ma-routine-bain",
+    "name": "My Bath Routine Gift Set",
+    "price_eur": "TL28.80",
+    "price": "1.094 ₺",
+    "category": "vucut-bakimi",
+    "name_tr": "Banyo Rutinim Hediye Seti"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Coffret_de_niassance.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Coffret_naissance_bis.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/coffret-de-naissance",
+    "slug": "coffret-de-naissance",
+    "name": "Birth Gift Set",
+    "price_eur": "TL24.80",
+    "price": "942 ₺",
+    "category": "rutinler",
+    "name_tr": "Doğum Hediye Seti"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Routinedemaquillage_ea176aeb-3890-4fcc-b983-78938b19c51a.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Routine_demaquillage_556a661b-c427-41f4-b983-d141aff003af.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/routine-visage-demaquillage",
+    "slug": "routine-visage-demaquillage",
+    "name": "Make-up removal routine",
+    "price_eur": "TL32.80",
+    "price": "1.246 ₺",
+    "badges": [
+      "-13%"
+    ],
+    "category": "rutinler",
+    "name_tr": "Makyaj Temizleme Rutini"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Routinepurete_1381c038-f8ca-4329-868d-43db10d6a8ff.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Routine_purete.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/routine-purete",
+    "slug": "routine-purete",
+    "name": "Purifying routine",
+    "price_eur": "TL47.00",
+    "price": "1.786 ₺",
+    "badges": [
+      "-9%"
+    ],
+    "category": "rutinler",
+    "name_tr": "Arındırıcı Rutin"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Routinenourrissante.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Routine_nourrissante.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/routine-nourrissante",
+    "slug": "routine-nourrissante",
+    "name": "Nourishing routine",
+    "price_eur": "TL52.70",
+    "price": "2.003 ₺",
+    "badges": [
+      "-9%"
+    ],
+    "category": "rutinler",
+    "name_tr": "Besleyici Rutin"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Routine_anti_imperf.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Routine_anti-imperfections_862dd136-5f25-4e7e-86dd-11ad477fe8ea.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/routine-anti-imperfections-complete",
+    "slug": "routine-anti-imperfections-complete",
+    "name": "Anti-Blemish Routine",
+    "price_eur": "TL68.00",
+    "price": "2.584 ₺",
+    "badges": [
+      "New",
+      "-9%"
+    ],
+    "category": "rutinler",
+    "name_tr": "Leke Karşıtı Rutin"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Routine_peaux_mixtes_CBM.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Routine_peaux_mixtes_d308e39d-f2c9-4727-8acb-e880e3a56a71.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/routine-peaux-mixtes-concentre-bonne-mine",
+    "slug": "routine-peaux-mixtes-concentre-bonne-mine",
+    "name": "Routine for combination skin",
+    "price_eur": "TL89.95",
+    "price": "3.418 ₺",
+    "badges": [
+      "-9%"
+    ],
+    "category": "makyaj-bakim",
+    "name_tr": "Karma Ciltler İçin Rutin"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Routine_peaux_seches_CBM_2026.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Routine_peaux_seches_b4bbb6e5-ed73-4c45-b375-bbacc21e8431.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/routine-peaux-seches-concentre-bonne-mine",
+    "slug": "routine-peaux-seches-concentre-bonne-mine",
+    "name": "Routine for dry skin",
+    "price_eur": "TL112.00",
+    "price": "4.256 ₺",
+    "badges": [
+      "-10%"
+    ],
+    "category": "makyaj-bakim",
+    "name_tr": "Kuru Ciltler İçin Rutin"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Routine_peaux_matures.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Routine_peaux_matures_96215eef-4d41-42e8-9970-572155ae1b03.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/routine-peaux-matures-gel-creme",
+    "slug": "routine-peaux-matures-gel-creme",
+    "name": "Routine for mature skin",
+    "price_eur": "TL84.00",
+    "price": "3.192 ₺",
+    "badges": [
+      "-11%"
+    ],
+    "category": "rutinler",
+    "name_tr": "Olgun Ciltler İçin Rutin"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Offrebrosseadent_dentifrice.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Duo_dentifrice_et_BAD.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/duo-de-dentifrices-et-brosse-a-dents",
+    "slug": "duo-de-dentifrices-et-brosse-a-dents",
+    "name": "Duo toothpaste and toothbrush",
+    "price_eur": "TL9.99",
+    "price": "380 ₺",
+    "badges": [
+      "-15%"
+    ],
+    "category": "gunluk-hijyen",
+    "name_tr": "Diş Macunu ve Diş Fırçası İkilisi"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Trio_recharge_stick_levres_84d75c2e-f363-4bce-9a23-546e43e3f08a.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Trio_creme_main_SL_et_recharge_d78d232c-801d-421b-8989-380aa766cf7b.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/trio-creme-mains-stick-levres-recharge",
+    "slug": "trio-creme-mains-stick-levres-recharge",
+    "name": "Trio Hand Cream, Refillable Lip Balm & its refill",
+    "price_eur": "TL18.50",
+    "price": "703 ₺",
+    "badges": [
+      "-6%"
+    ],
+    "category": "vucut-bakimi",
+    "name_tr": "El Kremi, Yenilenebilir Dudak Balm & Yenileme Üçlüsü"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Routine_corps_peau_douce.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Routine_corps_peau_douce_defb878c-fdb3-4f57-a453-71e38e4bcc95.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/routine-corps-peau-douce",
+    "slug": "routine-corps-peau-douce",
+    "name": "Body care routine",
+    "price_eur": "TL49.00",
+    "price": "1.862 ₺",
+    "badges": [
+      "-12%"
+    ],
+    "category": "rutinler",
+    "name_tr": "Vücut Bakım Rutini"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/LinimentMPLR.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Liniment.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/liniment-100-naturel-bebe",
+    "slug": "liniment-100-naturel-bebe",
+    "name": "Liniment",
+    "subtitle": "with extra virgin olive oil",
+    "price_eur": "TL9.90",
+    "price": "376 ₺",
+    "category": "bebek-bakimi",
+    "name_tr": "Liniment"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Duoliniment.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Duoliniments.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/duo-liniments-100-dorigine-naturelle",
+    "slug": "duo-liniments-100-dorigine-naturelle",
+    "name": "Duo Liniments",
+    "subtitle": "with extra virgin olive oil",
+    "price_eur": "TL18.80",
+    "price": "714 ₺",
+    "badges": [
+      "-5%"
+    ],
+    "category": "bebek-bakimi",
+    "name_tr": "İkili Liniment"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Gel_lavant_MPLR.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Gellavant.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/gel-lavant-ultra-doux-rechargeable",
+    "slug": "gel-lavant-ultra-doux-rechargeable",
+    "name": "Baby Ultra-Soft Washing Gel",
+    "subtitle": "with organic vegetable glycerin",
+    "price_eur": "TL12.90",
+    "price": "490 ₺",
+    "badges": [
+      "Rechargeable"
+    ],
+    "category": "bebek-bakimi",
+    "name_tr": "Bebek Ultra Yumuşak Yıkama Jeli"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Ecorecharge_gel_lavant_flux_6a3675fd-9b51-4eb6-90b6-f2039d117d5e.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Doypackgellavant.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/ecorecharge-gel-lavant-ultra-doux-bebe",
+    "slug": "ecorecharge-gel-lavant-ultra-doux-bebe",
+    "name": "Baby Ultra-Soft Washing Gel - Refill",
+    "subtitle": "with organic vegetable glycerin",
+    "price_eur": "TL21.90",
+    "price": "832 ₺",
+    "category": "bebek-bakimi",
+    "name_tr": "Bebek Ultra Yumuşak Yıkama Jeli Yenileme"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/EaunettoyanteMPLR.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/eaunettoyante.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/eau-nettoyante-bebe",
+    "slug": "eau-nettoyante-bebe",
+    "name": "Baby Cleansing Water",
+    "subtitle": "with organic aloe vera",
+    "price_eur": "TL11.90",
+    "price": "452 ₺",
+    "category": "bebek-bakimi",
+    "name_tr": "Bebek Temizleme Suyu"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/LaitdetoiletteMPLR.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Laitdetoilette_f0eb3ee9-ee4e-42f2-901c-53ebbf223e5b.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/lait-de-toilette-nettoyant-bebe",
+    "slug": "lait-de-toilette-nettoyant-bebe",
+    "name": "Baby Cleansing Milk",
+    "subtitle": "with organic sweet almond oil",
+    "price_eur": "TL12.90",
+    "price": "490 ₺",
+    "category": "bebek-bakimi",
+    "name_tr": "Bebek Temizleme Sütü"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Creme_hydratante_MPLR.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/CremehydratanteMPLR_5679c24e-94b1-4efc-ae8e-dda994fca5b1.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/creme-hydratante-bebe",
+    "slug": "creme-hydratante-bebe",
+    "name": "Baby Moisturizing Cream",
+    "subtitle": "with organic shea butter and aloe vera",
+    "price_eur": "TL13.90",
+    "price": "528 ₺",
+    "category": "bebek-bakimi",
+    "name_tr": "Bebek Nemlendirici Krem"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/BaumeSOSMPLR.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Baumesos_f9482a8b-614b-423a-ba4d-d7150611e572.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/baume-sos-reparateur-bebe",
+    "slug": "baume-sos-reparateur-bebe",
+    "name": "Baby SOS Repair Balm",
+    "subtitle": "with waxes and vegetable oils",
+    "price_eur": "TL14.90",
+    "price": "566 ₺",
+    "category": "bebek-bakimi",
+    "name_tr": "Bebek SOS Onarıcı Balm"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/DentifriceMPLR.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Dentibebe.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/dentifrice-enfant-et-bebe",
+    "slug": "dentifrice-enfant-et-bebe",
+    "name": "Children's and baby toothpaste",
+    "subtitle": "with organic strawberry",
+    "price_eur": "TL6.49",
+    "price": "247 ₺",
+    "category": "bebek-bakimi",
+    "name_tr": "Çocuk ve Bebek Diş Macunu"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/SablierMPLR.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Sablier_MPLR.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/sablier-brossage-des-dents-3-min",
+    "slug": "sablier-brossage-des-dents-3-min",
+    "name": "3-Minute Hourglass for Toothbrushing",
+    "price_eur": "TL9.90",
+    "price": "376 ₺",
+    "category": "bebek-bakimi",
+    "name_tr": "Diş Fırçalamak İçin 3 Dakikalık Kum Saati"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Routine_complete_bebe_pochon_jaune_8171dc64-1f06-47e0-9fa1-60554d61887e.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Routinecompletebebe_8e324581-741f-4f1e-ac13-682ad0c0b0e6.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/routine-complete-bebe-lait-de-toilette",
+    "slug": "routine-complete-bebe-lait-de-toilette",
+    "name": "Complete baby care routine",
+    "price_eur": "TL61.95",
+    "price": "2.354 ₺",
+    "badges": [
+      "Best-seller",
+      "-11%"
+    ],
+    "category": "bebek-bakimi",
+    "name_tr": "Eksiksiz Bebek Bakım Rutini"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Trousse_belle_ete_c07d61ee-2664-4757-970f-96a6eda5cc58.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Trousse_belle_ete.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/trousse-soins-ete",
+    "slug": "trousse-soins-ete",
+    "name": "Summer Essentials Pouch",
+    "price_eur": "TL31.40",
+    "price": "1.193 ₺",
+    "category": "gunes-bakimi",
+    "name_tr": "Yaz Esansiyelleri Çantası"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Routine_peau_dore_f125ef24-75e4-4596-b2ef-a57c39887dfc.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Routine_peau_dore.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/routine-peau-doree",
+    "slug": "routine-peau-doree",
+    "name": "Glow Skin Routine",
+    "price_eur": "TL53.90",
+    "price": "2.048 ₺",
+    "badges": [
+      "-10%"
+    ],
+    "category": "gunes-bakimi",
+    "name_tr": "Işıltılı Cilt Rutini"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Stick_solaire_2025_10560c00-a55b-41a2-8187-863f7e507efe.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/WhatsApp_Image_2026-01-12_at_15.37.32.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/stick-solaire-spf-50-visage-et-zones-sensibles",
+    "slug": "stick-solaire-spf-50-visage-et-zones-sensibles",
+    "name": "Sun Stick SPF 50",
+    "subtitle": "with organic apricot oil",
+    "price_eur": "TL13.90",
+    "price": "528 ₺",
+    "badges": [
+      "Best-seller"
+    ],
+    "category": "gunes-bakimi",
+    "name_tr": "Güneş Koruyucu Stick SPF 50"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Lait_solaire_bebe_flux_d40d915d-0d9d-4253-8720-918d07a77a71.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Laitsolairebebesurvol.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/lait-solaire-bebe-spf-50",
+    "slug": "lait-solaire-bebe-spf-50",
+    "name": "Baby SPF 50+ Sun Milk",
+    "subtitle": "with organic apricot oil",
+    "price_eur": "TL21.90",
+    "price": "832 ₺",
+    "category": "bebek-bakimi",
+    "name_tr": "Bebek SPF 50+ Güneş Sütü"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Lait_solaire_50_959ad8cb-ce1c-4004-9bcf-49542050dd81.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Laitsolaire502.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/lait-solaire-spf-50",
+    "slug": "lait-solaire-spf-50",
+    "name": "Sun Milk SPF 50+",
+    "subtitle": "with organic apricot oil",
+    "price_eur": "TL21.90",
+    "price": "832 ₺",
+    "badges": [
+      "Best-seller"
+    ],
+    "category": "gunes-bakimi",
+    "name_tr": "Güneş Sütü SPF 50+"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Lait_solaire_30_c6b11349-3e67-428a-b23c-22f4a696cd32.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Laitsolaire302.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/lait-solaire-spf-30",
+    "slug": "lait-solaire-spf-30",
+    "name": "Sun Milk SPF 30",
+    "subtitle": "with organic apricot oil",
+    "price_eur": "TL19.90",
+    "price": "756 ₺",
+    "category": "gunes-bakimi",
+    "name_tr": "Güneş Sütü SPF 30"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Huile_solaire_30_ef9c1774-d8fa-41a8-ad3f-f2c805109c35.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Huilesolaire302.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/huile-solaire-spf-30",
+    "slug": "huile-solaire-spf-30",
+    "name": "Sun Oil SPF 30",
+    "subtitle": "with organic apricot oil",
+    "price_eur": "TL22.90",
+    "price": "870 ₺",
+    "category": "gunes-bakimi",
+    "name_tr": "Güneş Yağı SPF 30"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Huile_solaire_50_53b98566-b0bb-43a3-b6c2-0cfcf5b290e1.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Huilesolaire502.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/huile-solaire-spf-50",
+    "slug": "huile-solaire-spf-50",
+    "name": "Sun Oil SPF 50",
+    "subtitle": "with organic apricot oil",
+    "price_eur": "TL23.90",
+    "price": "908 ₺",
+    "category": "gunes-bakimi",
+    "name_tr": "Güneş Yağı SPF 50"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Cabas10ans.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Cabas_10_ans.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/cabas-10-ans",
+    "slug": "cabas-10-ans",
+    "name": "Large Tote Bag – 10th Anniversary Edition",
+    "price_eur": "TL39.00",
+    "price": "1.482 ₺",
+    "category": "gunes-bakimi",
+    "name_tr": "Büyük Tote Çanta – 10. Yıl Özel Baskısı"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Troussemaquillage.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Trousse_maquillage.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/trousse-maquillage",
+    "slug": "trousse-maquillage",
+    "name": "Makeup Pouch",
+    "price_eur": "TL19.90",
+    "price": "756 ₺",
+    "badges": [
+      "New"
+    ],
+    "category": "makyaj-bakim",
+    "name_tr": "Makyaj Çantası"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Troussedetoilette_6ce09701-ebc5-4996-b84b-468fe78b8e99.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Trousse_de_toilette_2.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/trousse-de-toilette-en-gaze-de-coton-bio",
+    "slug": "trousse-de-toilette-en-gaze-de-coton-bio",
+    "name": "Toiletry Bag",
+    "price_eur": "TL19.90",
+    "price": "756 ₺",
+    "category": "aksesuar",
+    "name_tr": "Tuvalet Çantası"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Boiteasavonbiscuit_2.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Boiteasavonbiscuit.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/boite-savon-2-en-1-biscuit",
+    "slug": "boite-savon-2-en-1-biscuit",
+    "name": "2 in 1 Soap Box",
+    "price_eur": "TL14.90",
+    "price": "566 ₺",
+    "category": "vucut-bakimi",
+    "name_tr": "2'si 1 Arada Sabunluk (Mavi)"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Boiteasavonbleuazur_1.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Boiteasavonbleu.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/boite-savon-2-en-1-bleu-azur",
+    "slug": "boite-savon-2-en-1-bleu-azur",
+    "name": "2 in 1 Soap Box",
+    "price_eur": "TL14.90",
+    "price": "566 ₺",
+    "category": "vucut-bakimi",
+    "name_tr": "2'si 1 Arada Sabunluk (Mavi)"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Pochonnidd_abeillelilas_1.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Pochonlilas.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/pochon-en-nid-dabeille-lilas",
+    "slug": "pochon-en-nid-dabeille-lilas",
+    "name": "Lilac-colored Honeycomb Pouch",
+    "price_eur": "TL5.00",
+    "price": "190 ₺",
+    "category": "aksesuar",
+    "name_tr": "Leylak Rengi Petek Desen Kese"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Pochonnidd_abeillejaune.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Pochon_nid_dabeille_jaune_38b24da4-5cd3-4cdf-adbb-9efb075550f3.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/pochon-en-nid-d-abeille-jaune",
+    "slug": "pochon-en-nid-d-abeille-jaune",
+    "name": "Yellow Honeycomb Pouch",
+    "price_eur": "TL5.00",
+    "price": "190 ₺",
+    "category": "aksesuar",
+    "name_tr": "Sarı Petek Desen Kese"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Pochonnidd_abeilleecru.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Pochonecrue.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/pochon-en-nid-dabeille-ecru",
+    "slug": "pochon-en-nid-dabeille-ecru",
+    "name": "Ecru-colored Honeycomb Pouch",
+    "price_eur": "TL5.00",
+    "price": "190 ₺",
+    "category": "aksesuar",
+    "name_tr": "Ekru Renkli Petek Desen Kese"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Recharge_shampoing_nourrissant_2026_5253f5f6-5422-4153-9343-f967a5fd758a.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Recharge_shampoing_nourrissant_blanc.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/recharge-shampoing-nourrissant",
+    "slug": "recharge-shampoing-nourrissant",
+    "name": "Nourishing Shampoo Refill",
+    "subtitle": "with vegetable keratin and wheat proteins",
+    "price_eur": "TL17.90",
+    "price": "680 ₺",
+    "category": "sac-bakimi",
+    "name_tr": "Besleyici Şampuan Yenileme Kartuşu"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Apres_shampoing_demelant_d15ade1b-4d5c-40be-a57a-a5e37ca290f5.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Apres-shampoing.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/apres-shampoing-hydratant-demelant-rechargeable",
+    "slug": "apres-shampoing-hydratant-demelant-rechargeable",
+    "name": "Refillable Moisturizing Detangling Hair Conditioner",
+    "subtitle": "with vegetable keratin and sweet almond milk",
+    "price_eur": "TL13.90",
+    "price": "528 ₺",
+    "badges": [
+      "Rechargeable"
+    ],
+    "category": "sac-bakimi",
+    "name_tr": "Yenilenebilir Nemlendirici Açıcı Saç Kremi"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Recharge_apres_shampoing_demelant_d3fda2fd-5b5e-4728-9fda-7545a7a6c47b.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Rechargeapres-shampoing.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/recharge-apres-shampoing-hydratant-demelant",
+    "slug": "recharge-apres-shampoing-hydratant-demelant",
+    "name": "Moisturizing Detangling Hair Conditioner Refill",
+    "subtitle": "with vegetable keratin and sweet almond milk",
+    "price_eur": "TL11.90",
+    "price": "452 ₺",
+    "category": "sac-bakimi",
+    "name_tr": "Nemlendirici Açıcı Saç Kremi Yenileme Kartuşu"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Routine_cheveux_gras.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Routine_shampoing_purifiant_blanc.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/routine-capillaire-cheveux-gras",
+    "slug": "routine-capillaire-cheveux-gras",
+    "name": "Hair care routine for oily hair",
+    "price_eur": "TL51.70",
+    "price": "1.965 ₺",
+    "badges": [
+      "-9%"
+    ],
+    "category": "sac-bakimi",
+    "name_tr": "Yağlı Saçlar İçin Saç Bakım Rutini"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Routinecheveuxnormaux_1.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Routineshampoingultra-doux_8e52de58-02f7-4073-8fce-4a3bfbf2e487.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/routine-capillaire-cheveux-normaux",
+    "slug": "routine-capillaire-cheveux-normaux",
+    "name": "Hair care routine for normal hair",
+    "price_eur": "TL50.70",
+    "price": "1.927 ₺",
+    "badges": [
+      "-9%"
+    ],
+    "category": "sac-bakimi",
+    "name_tr": "Normal Saçlar İçin Saç Bakım Rutini"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Routine_cheveux_secs.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Routine_shampoing_nourrissant_blanc.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/routine-capillaire-cheveux-secs",
+    "slug": "routine-capillaire-cheveux-secs",
+    "name": "Hair care routine for dry hair",
+    "price_eur": "TL51.70",
+    "price": "1.965 ₺",
+    "badges": [
+      "--27%"
+    ],
+    "category": "sac-bakimi",
+    "name_tr": "Kuru Saçlar İçin Saç Bakım Rutini"
+  },
+  {
+    "image": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Calendrierdel_avent.jpg?width=800",
+    "image2": "https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Calendrier_de_l_avent.jpg?width=800",
+    "url": "https://www.larosee-cosmetiques.com/en-ww/products/calendrier-de-l-avent-2025-soins-la-rosee",
+    "slug": "calendrier-de-l-avent-2025-soins-la-rosee",
+    "name": "La Rosée 2025 Advent Calendar – Skincare Edition",
+    "price_eur": "TL30.60",
+    "price": "1.163 ₺",
+    "badges": [
+      "New"
+    ],
+    "category": "yuz-bakimi",
+    "name_tr": "La Rosée 2025 Yılbaşı Takvimi – Cilt Bakım Özel"
+  }
 ]

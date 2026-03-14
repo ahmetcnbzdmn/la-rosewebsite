@@ -1,10 +1,139 @@
 <script setup>
+import { ref } from 'vue'
+
+const openSection = ref(null)
+
+function toggleSection(name) {
+  openSection.value = openSection.value === name ? null : name
+}
 </script>
 
 <template>
-<footer class="Footer-module__root___kgUyt"><div class="Footer-module__accordion___HU6i-" data-orientation="vertical"><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI Footer-module__accordion-item___vbuE4" data-rounded="false"><h2 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_2ml4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_ml4l_" class="AccordionTrigger-module__root___IRk5g" data-size="xl" data-bold="false" data-radix-collection-item="">Customer Care</button></h2><div data-state="closed" id="radix-_R_2ml4l_" hidden="" role="region" aria-labelledby="radix-_R_ml4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN Footer-module__accordion-content___u-B8D" data-size="xl" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI Footer-module__accordion-item___vbuE4" data-rounded="false"><h2 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_36l4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_16l4l_" class="AccordionTrigger-module__root___IRk5g" data-size="xl" data-bold="false" data-radix-collection-item="">La Rosée</button></h2><div data-state="closed" id="radix-_R_36l4l_" hidden="" role="region" aria-labelledby="radix-_R_16l4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN Footer-module__accordion-content___u-B8D" data-size="xl" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI Footer-module__accordion-item___vbuE4" data-rounded="false"><h2 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_3ml4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_1ml4l_" class="AccordionTrigger-module__root___IRk5g" data-size="xl" data-bold="false" data-radix-collection-item="">Our products</button></h2><div data-state="closed" id="radix-_R_3ml4l_" hidden="" role="region" aria-labelledby="radix-_R_1ml4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN Footer-module__accordion-content___u-B8D" data-size="xl" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div></div><div class="Footer-module__columns___b4zlr"><section><h2>Customer Care</h2><ul><li><a data-variant="underline-reverse" class="Link-module__root___YqUoP" href="/en-ww/order-tracking" data-discover="true">Order tracking</a></li><li><a data-variant="underline-reverse" class="Link-module__root___YqUoP" href="/en-ww/policies/politique-de-retour" data-discover="true">Return policy</a></li><li><a data-variant="underline-reverse" class="Link-module__root___YqUoP" href="/en-ww/faq" data-discover="true">FAQ</a></li><li><a data-variant="underline-reverse" class="Link-module__root___YqUoP" href="/en-ww/contact" data-discover="true">Contact</a></li><li><a data-variant="underline-reverse" class="Link-module__root___YqUoP" href="/en-ww/policies/conditions-generales-de-vente" data-discover="true">Terms of Sales</a></li><li><a data-variant="underline-reverse" class="Link-module__root___YqUoP" href="/en-ww/policies/conditions-generales-d-utilisation-du-site" data-discover="true">Terms of Service</a></li></ul></section><section><h2>La Rosée</h2><ul><li><a data-variant="underline-reverse" class="Link-module__root___YqUoP" href="/en-ww/engagements/notre-histoire" data-discover="true">Our story</a></li><li><a data-variant="underline-reverse" class="Link-module__root___YqUoP" href="/en-ww/pharmacy-locator" data-discover="true">Our pharmacies</a></li><li><a data-variant="underline-reverse" class="Link-module__root___YqUoP" href="/en-ww/engagements" data-discover="true">Our Commitments</a></li><li><a data-variant="underline-reverse" class="Link-module__root___YqUoP" href="/en-ww/pages/l-hydratation-notre-expertise" data-discover="true">Expertise</a></li><li><a data-variant="underline-reverse" class="Link-module__root___YqUoP" href="/en-ww/pages/les-solaires-oceans" data-discover="true">Sun care</a></li><li><a data-variant="underline-reverse" rel="noopener noreferrer" class="Link-module__root___YqUoP" href="https://www.welcometothejungle.com/fr/companies/la-rosee/jobs" target="_blank">Join us</a></li></ul></section><section><h2>Our products</h2><ul><li><a data-variant="underline-reverse" class="Link-module__root___YqUoP" href="/en-ww/collections/soin-visage" data-discover="true">Face care</a></li><li><a data-variant="underline-reverse" class="Link-module__root___YqUoP" href="/en-ww/collections/soins-corps" data-discover="true">Body care</a></li><li><a data-variant="underline-reverse" class="Link-module__root___YqUoP" href="/en-ww/collections/soins-cheveux" data-discover="true">Hair care</a></li><li><a data-variant="underline-reverse" class="Link-module__root___YqUoP" href="/en-ww/collections/soins-bebe" data-discover="true">Baby care</a></li><li><a data-variant="underline-reverse" class="Link-module__root___YqUoP" href="/en-ww/collections/solaires" data-discover="true">Sun care</a></li><li><a data-variant="underline-reverse" class="Link-module__root___YqUoP" href="/en-ww/collections/hygiene-du-quotidien" data-discover="true">Daily hygiene</a></li><li><a data-variant="underline-reverse" class="Link-module__root___YqUoP" href="/en-ww/collections/accessoires" data-discover="true">Accessories</a></li></ul></section></div><div class="Footer-module__subfooter___DPO6Z"><section class="Footer-module__payment-methods___eBXx3"><h2 style="position:absolute;border:0;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;word-wrap:normal">Payment methods</h2></section><section class="Footer-module__legal___9wBID"><h2 style="position:absolute;border:0;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;word-wrap:normal">Legal</h2><ul><li><button type="button" class="Link-module__root___YqUoP" data-variant="underline-reverse">Cookie management</button></li><li><a data-variant="underline-reverse" class="Link-module__root___YqUoP" href="/en-ww/policies/politique-de-gestion-des-cookies" data-discover="true">Cookies use</a></li><li><a data-variant="underline-reverse" class="Link-module__root___YqUoP" href="/en-ww/policies/politique-de-confidentialite" data-discover="true">Privacy</a></li><li><a data-variant="underline-reverse" class="Link-module__root___YqUoP" href="/en-ww/policies/mentions-legales" data-discover="true">Legal notice</a></li></ul><small>© 2026 La Rosée cosmétiques – All rights reserved</small><small>Site created by <svg width="28" height="9" viewBox="0 0 28 9" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="_R_19el4l_"><title id="_R_19el4l_">Ultrō</title><path d="M26.7733 0H22.1193V1.61842H26.7733V0Z" fill="currentcolor"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M4.11207 5.9509C4.11207 6.56 3.74092 6.92547 3.17538 6.92547C2.90441 6.92547 2.69229 6.83267 2.53325 6.64122C2.37417 6.45559 2.29173 6.22357 2.29173 5.9509V2.5168H4.33538e-05V6.35698C-0.00585418 7.58675 0.589172 8.98477 2.25634 8.98477C2.93381 8.98477 3.64078 8.68891 4.10617 8.06824H4.12387V8.85717H6.40375V2.5168H4.11211L4.11207 5.9509Z" fill="currentcolor"></path><path d="M9.76435 0H7.44912V8.89563H9.76435V0Z" fill="currentcolor"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M13.9386 0H11.7L11.6934 2.5553H10.4268V4.42316H11.6345V6.60426C11.6345 7.36996 11.8643 7.96167 12.3238 8.37352C12.7774 8.79117 13.3842 9 14.1441 9C14.6213 9 15.0278 8.942 15.3636 8.82017V7.0683C15.0631 7.09149 14.8629 7.1031 14.7627 7.1031C14.2089 7.1031 13.9321 6.85947 13.9321 6.3664V4.42312H15.4225V2.5553H13.9321L13.9386 0Z" fill="currentcolor"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M19.5343 2.65392C19.175 2.77576 18.8156 3.07157 18.5741 3.47185H18.5564V2.55528H16.2824V8.89561H18.58V6.28524C18.58 5.21207 19.1337 4.67262 20.2354 4.67262C20.418 4.67262 20.6065 4.69004 20.795 4.7248L20.8009 2.53789C20.6536 2.5089 20.5122 2.49728 20.3767 2.49728C20.1352 2.49728 19.8878 2.53789 19.5343 2.65392Z" fill="currentcolor"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M26.9455 3.25664C26.3033 2.69397 25.4079 2.34592 24.4712 2.34592C23.5345 2.34592 22.6332 2.69977 21.9792 3.27987C21.3194 3.85997 20.8953 4.73008 20.8953 5.66403C20.8953 6.61536 21.3018 7.4739 21.938 8.04819C22.5742 8.62829 23.4756 8.97633 24.4241 8.97633C25.3843 8.97633 26.2915 8.61087 26.9396 8.025C27.5876 7.4449 28 6.56318 28 5.61184C28 4.67786 27.5876 3.81932 26.9455 3.25664ZM25.3222 6.6159C25.0806 6.87696 24.7861 7.00456 24.4385 7.00456C24.0909 7.00456 23.7905 6.87696 23.549 6.6159C23.3074 6.36066 23.1837 6.05903 23.1837 5.71099C23.1837 5.36294 23.3015 5.06128 23.5431 4.80607C23.7846 4.55664 24.0791 4.42903 24.4326 4.42903C24.7861 4.42903 25.0806 4.55664 25.3222 4.80607C25.5637 5.06132 25.6815 5.36294 25.6815 5.71099C25.6815 6.05903 25.5637 6.36066 25.3222 6.6159Z" fill="currentcolor"></path></svg></small></section></div></footer>
+<footer class="Footer-module__root___kgUyt">
+  <!-- Mobile accordion -->
+  <div class="Footer-module__accordion___HU6i-" data-orientation="vertical">
+    <div :data-state="openSection === 'service' ? 'open' : 'closed'" data-orientation="vertical" class="AccordionItem-module__root___5x7iI Footer-module__accordion-item___vbuE4" data-rounded="false">
+      <h2 data-orientation="vertical" :data-state="openSection === 'service' ? 'open' : 'closed'">
+        <button type="button" :aria-expanded="openSection === 'service'" :data-state="openSection === 'service' ? 'open' : 'closed'" data-orientation="vertical" class="AccordionTrigger-module__root___IRk5g" data-size="xl" data-bold="false" @click="toggleSection('service')">Müşteri Hizmetleri</button>
+      </h2>
+      <div v-show="openSection === 'service'" :data-state="openSection === 'service' ? 'open' : 'closed'" role="region" data-orientation="vertical" class="AccordionContent-module__root___EyqbN Footer-module__accordion-content___u-B8D" data-size="xl">
+        <ul>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/politique-de-retour">İade Politikası</router-link></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/faq">SSS</router-link></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/contact">İletişim</router-link></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/conditions-generales-de-vente">Satış Koşulları</router-link></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/conditions-generales-d-utilisation-du-site">Hizmet Koşulları</router-link></li>
+        </ul>
+      </div>
+    </div>
+    <div :data-state="openSection === 'brand' ? 'open' : 'closed'" data-orientation="vertical" class="AccordionItem-module__root___5x7iI Footer-module__accordion-item___vbuE4" data-rounded="false">
+      <h2 data-orientation="vertical" :data-state="openSection === 'brand' ? 'open' : 'closed'">
+        <button type="button" :aria-expanded="openSection === 'brand'" :data-state="openSection === 'brand' ? 'open' : 'closed'" data-orientation="vertical" class="AccordionTrigger-module__root___IRk5g" data-size="xl" data-bold="false" @click="toggleSection('brand')">La Rosée</button>
+      </h2>
+      <div v-show="openSection === 'brand'" :data-state="openSection === 'brand' ? 'open' : 'closed'" role="region" data-orientation="vertical" class="AccordionContent-module__root___EyqbN Footer-module__accordion-content___u-B8D" data-size="xl">
+        <ul>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/engagements/notre-histoire">Hikayemiz</router-link></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/pharmacy-locator">Eczanelerimiz</router-link></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/engagements">Taahhütlerimiz</router-link></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/pages/l-hydratation-notre-expertise">Uzmanlık</router-link></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/pages/les-solaires-oceans">Güneş Bakımı</router-link></li>
+          <li><a data-variant="underline-reverse" class="Link-module__root___YqUoP" href="https://www.welcometothejungle.com/fr/companies/la-rosee/jobs" target="_blank" rel="noopener noreferrer">Bize Katıl</a></li>
+        </ul>
+      </div>
+    </div>
+    <div :data-state="openSection === 'products' ? 'open' : 'closed'" data-orientation="vertical" class="AccordionItem-module__root___5x7iI Footer-module__accordion-item___vbuE4" data-rounded="false">
+      <h2 data-orientation="vertical" :data-state="openSection === 'products' ? 'open' : 'closed'">
+        <button type="button" :aria-expanded="openSection === 'products'" :data-state="openSection === 'products' ? 'open' : 'closed'" data-orientation="vertical" class="AccordionTrigger-module__root___IRk5g" data-size="xl" data-bold="false" @click="toggleSection('products')">Ürünlerimiz</button>
+      </h2>
+      <div v-show="openSection === 'products'" :data-state="openSection === 'products' ? 'open' : 'closed'" role="region" data-orientation="vertical" class="AccordionContent-module__root___EyqbN Footer-module__accordion-content___u-B8D" data-size="xl">
+        <ul>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/soin-visage">Yüz Bakımı</router-link></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/soins-corps">Vücut Bakımı</router-link></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/soins-cheveux">Saç Bakımı</router-link></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/soins-bebe">Bebek Bakımı</router-link></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/solaires">Güneş Bakımı</router-link></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/hygiene-du-quotidien">Günlük Hijyen</router-link></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/accessoires">Aksesuar</router-link></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Desktop columns -->
+  <div class="Footer-module__columns___b4zlr">
+    <section>
+      <h2>Müşteri Hizmetleri</h2>
+      <ul>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/politique-de-retour">İade Politikası</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/faq">SSS</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/contact">İletişim</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/conditions-generales-de-vente">Satış Koşulları</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/conditions-generales-d-utilisation-du-site">Hizmet Koşulları</router-link></li>
+      </ul>
+    </section>
+    <section>
+      <h2>La Rosée</h2>
+      <ul>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/engagements/notre-histoire">Hikayemiz</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/pharmacy-locator">Eczanelerimiz</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/engagements">Taahhütlerimiz</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/pages/l-hydratation-notre-expertise">Uzmanlık</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/pages/les-solaires-oceans">Güneş Bakımı</router-link></li>
+        <li><a data-variant="underline-reverse" class="Link-module__root___YqUoP" href="https://www.welcometothejungle.com/fr/companies/la-rosee/jobs" target="_blank" rel="noopener noreferrer">Bize Katıl</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>Ürünlerimiz</h2>
+      <ul>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/soin-visage">Yüz Bakımı</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/soins-corps">Vücut Bakımı</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/soins-cheveux">Saç Bakımı</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/soins-bebe">Bebek Bakımı</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/solaires">Güneş Bakımı</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/hygiene-du-quotidien">Günlük Hijyen</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/accessoires">Aksesuar</router-link></li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="Footer-module__subfooter___DPO6Z">
+    <section class="Footer-module__payment-methods___eBXx3">
+      <h2 style="position:absolute;border:0;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;word-wrap:normal">Ödeme Yöntemleri</h2>
+    </section>
+    <section class="Footer-module__legal___9wBID">
+      <h2 style="position:absolute;border:0;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;word-wrap:normal">Legal</h2>
+      <ul>
+        <li><button type="button" class="Link-module__root___YqUoP" data-variant="underline-reverse">Çerez Yönetimi</button></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/politique-de-gestion-des-cookies">Çerez Kullanımı</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/politique-de-confidentialite">Gizlilik</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/mentions-legales">Yasal Uyarı</router-link></li>
+      </ul>
+      <small>© 2026 La Rosée cosmétiques – Tüm hakları saklıdır</small>
+    </section>
+  </div>
+</footer>
 </template>
 
 <style scoped>
-/* styles purged */
+/* Accordion content animation */
+.AccordionContent-module__root___EyqbN[data-state="open"] {
+  display: block !important;
+}
+.AccordionContent-module__root___EyqbN[data-state="closed"] {
+  display: none;
+}
+.AccordionContent-module__root___EyqbN ul {
+  list-style: none;
+  padding: 0.5rem 0 1rem 0;
+  margin: 0;
+}
+.AccordionContent-module__root___EyqbN ul li {
+  padding: 0.4rem 0;
+}
+.AccordionContent-module__root___EyqbN a,
+.AccordionContent-module__root___EyqbN .Link-module__root___YqUoP {
+  font-size: 0.9rem;
+  color: inherit;
+  text-decoration: none;
+}
 </style>

@@ -17,65 +17,75 @@ const router = createRouter({
           component: HomeView
         },
         {
-          path: 'en-ww/collections/les-produits',
+          path: 'collections/les-produits',
           name: 'all-products',
           component: () => import('../views/AllProducts.vue')
         },
         {
-          path: 'en-ww/collections/:id',
+          path: 'collections/:id',
           name: 'collection',
           component: () => import('../views/Collections.vue')
         },
         ...productRoutes,
         {
-          path: 'en-ww/engagements/notre-histoire',
+          path: 'engagements/notre-histoire',
           name: 'our-story',
           component: () => import('../views/OurStory.vue')
         },
         {
-          path: 'en-ww/pharmacy-locator',
+          path: 'engagements/:slug',
+          name: 'engagement-detail',
+          component: () => import('../views/EngagementDetail.vue')
+        },
+        {
+          path: 'pharmacy-locator',
           name: 'pharmacy-locator',
           component: () => import('../views/PharmacyLocator.vue')
         },
         {
-          path: 'en-ww/engagements',
+          path: 'engagements',
           name: 'our-commitments',
           component: () => import('../views/OurCommitments.vue')
         },
         {
-          path: 'en-ww/pages/l-hydratation-notre-expertise',
+          path: 'pages/l-hydratation-notre-expertise',
           name: 'expertise',
           component: () => import('../views/Expertise.vue')
         },
         {
-          path: 'en-ww/pages/les-solaires-oceans',
+          path: 'pages/les-solaires-oceans',
           name: 'sun-care',
           component: () => import('../views/SunCare.vue')
         },
         {
-          path: 'en-ww/policies/politique-de-retour',
+          path: 'policies/politique-de-retour',
           name: 'return-policy',
           component: () => import('../views/ReturnPolicy.vue')
         },
         {
-          path: 'en-ww/faq',
+          path: 'faq',
           name: 'faq',
           component: () => import('../views/Faq.vue')
         },
         {
-          path: 'en-ww/contact',
+          path: 'contact',
           name: 'contact',
           component: () => import('../views/Contact.vue')
         },
         {
-          path: 'en-ww/policies/conditions-generales-de-vente',
+          path: 'policies/conditions-generales-de-vente',
           name: 'terms-of-sales',
           component: () => import('../views/TermsOfSales.vue')
         },
         {
-          path: 'en-ww/policies/conditions-generales-d-utilisation-du-site',
+          path: 'policies/conditions-generales-d-utilisation-du-site',
           name: 'terms-of-service',
           component: () => import('../views/TermsOfService.vue')
+        },
+        {
+          path: 'policies/politique-de-gestion-des-cookies',
+          name: 'cookie-policy',
+          component: () => import('../views/CookiePolicy.vue')
         }
       ]
     }

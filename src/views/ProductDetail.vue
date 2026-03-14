@@ -1,9 +1,9 @@
 <template>
   <div class="product-placeholder">
-    <h1>Product Details Coming Soon</h1>
-    <p>You clicked on product: <strong>{{ $route.params.id }}</strong></p>
-    <p>This page is currently under construction and will be cloned in a future step.</p>
-    <router-link to="/en-ww/collections/les-produits" class="back-link">← Back to All Products</router-link>
+    <h1>Ürün Detayları Yakında</h1>
+    <p>Seçilen ürün: <strong>{{ $route.params.id }}</strong></p>
+    <p>Bu sayfa yapım aşamasındadır.</p>
+    <router-link to="/en-ww/collections/les-produits" class="back-link">← Tüm Ürünlere Dön</router-link>
   </div>
 </template>
 

@@ -1,1 +1,180 @@
 /* Empty to allow imported shopify styles to rule supreme */
+
+/* ===== CommitmentsCarousel ===== */
+.CommitmentsCarousel-module__root___1miVu {
+  background: #0e0e0e;
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.CommitmentsCarousel-module__title___DRWkm {
+  color: #ffffff;
+  font-size: 1.75rem;
+  font-weight: 400;
+  padding: 0 40px;
+  margin-bottom: 40px;
+  letter-spacing: -0.01em;
+}
+
+.CommitmentsCarousel-module__carousel___raCxX {
+  overflow: visible;
+  width: 100%;
+  padding: 0 40px;
+}
+
+.swiper.CommitmentsCarousel-module__carousel___raCxX .swiper-slide {
+  width: calc(248 / 375 * 100vw) !important;
+  flex-shrink: 0;
+}
+
+@media (min-width: 64rem) {
+  .swiper.CommitmentsCarousel-module__carousel___raCxX .swiper-slide {
+    width: calc(360 / 1280 * 100vw) !important;
+  }
+}
+
+.CommitmentsCarousel-module__image___bCaEE {
+  aspect-ratio: 1;
+  overflow: hidden;
+}
+
+.CommitmentsCarousel-module__image___bCaEE img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.CommitmentsCarousel-module__slide___eWSlo:hover .CommitmentsCarousel-module__image___bCaEE img {
+  transform: scale(1.04);
+}
+
+.CommitmentsCarousel-module__link___GogN8 {
+  display: block;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 12px;
+  text-decoration: none;
+}
+
+/* Override Swiper nav button colors for dark background */
+.CommitmentsCarousel-module__root___1miVu .swiper-button-next,
+.CommitmentsCarousel-module__root___1miVu .swiper-button-prev {
+  color: #ffffff;
+}
+
+.CommitmentsCarousel-module__root___1miVu .swiper-button-disabled {
+  opacity: 0.3;
+}
+
+/* Global Heading and Details Adjustments for Engagement Pages */
+.CommitmentsHeader-module__title___rncEH {
+  text-align: center;
+  font-size: 3.5rem !important;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+  color: #0e0e0e;
+}
+
+.CenteredBigText-module__text___0GRRV {
+  text-align: center;
+  font-size: 2.25rem !important;
+  line-height: 1.35;
+  margin: 4rem auto;
+  max-width: 900px;
+  padding: 0 20px;
+  color: #333;
+}
+
+.CenteredBigText-module__text___0GRRV em {
+  font-style: italic;
+  color: #646892;
+  /* Matches PrimeVue preset primary.700 */
+}
+
+.TextContainer-module__root___3x88v {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px 4rem 20px;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.TextContainer-module__root___3x88v h2 {
+  font-size: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  color: #000;
+}
+
+/* Subnav and Eyebrow Fixes for Engagement Pages */
+.Subnav-module__root___b6qK5 {
+  display: flex !important;
+  overflow-x: auto;
+  white-space: nowrap;
+  border-bottom: 1px solid #eaeaea;
+  background: white;
+  padding: 0 1rem;
+}
+
+.Subnav-module__root___b6qK5[data-position="fixed"] {
+  display: none !important;
+  /* Hide duplicate nav in basic setup */
+}
+
+.Subnav-module__root___b6qK5 .swiper {
+  width: 100%;
+}
+
+.Subnav-module__root___b6qK5 .swiper-wrapper {
+  display: flex !important;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.Subnav-module__root___b6qK5 .swiper-slide {
+  padding: 1rem 0;
+  width: auto !important;
+  /* Overrides default swiper 100% width if missing JS */
+}
+
+.Subnav-module__root___b6qK5 a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+  font-size: 0.95rem;
+  padding-bottom: 1rem;
+}
+
+.Subnav-module__root___b6qK5 a[aria-current="page"] {
+  border-bottom: 2px solid #000;
+  color: #000;
+}
+
+.Subnav-module__button___nXH1I {
+  display: none;
+  /* Hide swiper arrow if JS not attached properly */
+}
+
+/* Eyebrow Header (e.g. TAAHHÜTLERİMİZ) */
+.Eyebrow-module__root___gdMQw {
+  text-align: center;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #00B1EB;
+  /* Brand blue color */
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.Eyebrow-module__root___gdMQw a {
+  text-decoration: none;
+  color: inherit;
+}

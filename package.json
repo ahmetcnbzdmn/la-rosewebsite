@@ -10,8 +10,13 @@
   },
   "dependencies": {
     "@primevue/themes": "^4.2.1",
+    "cheerio": "^1.2.0",
+    "leaflet": "^1.9.4",
+    "leaflet.markercluster": "^1.5.3",
     "primeicons": "^7.0.0",
     "primevue": "^4.2.1",
+    "swiper": "^12.1.2",
+    "translate-google": "^1.5.0",
     "vue": "^3.5.13",
     "vue-i18n": "^10.0.4",
     "vue-router": "^4.4.5"

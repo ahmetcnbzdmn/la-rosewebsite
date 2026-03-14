@@ -1,15 +1,44 @@
 <script setup>
 import { useRoute } from 'vue-router'
+import { computed } from 'vue'
 import products from '../assets/products.json'
 
 const route = useRoute()
+
+const collectionNames = {
+  'les-produits': 'Ürünler',
+  'les-indispensables-de-l-hiver': 'Kış Koleksiyonu',
+  'soin-visage': 'Yüz Bakımı',
+  'soins-corps': 'Vücut Bakımı',
+  'soins-cheveux': 'Saç Bakımı',
+  'soins-maquillages': 'Makyaj & Bakım',
+  'soins-bebe': 'Bebek Bakımı',
+  'solaires': 'Güneş Bakımı',
+  'hygiene-du-quotidien': 'Günlük Hijyen',
+  'accessoires': 'Aksesuar',
+  'best-seller': 'Çok Satanlar',
+  'nouveautes': 'Yeni Gelenler'
+}
+
+const displayTitle = computed(() => {
+  const collectionId = route.params.id
+  if (collectionId && collectionNames[collectionId]) {
+    return collectionNames[collectionId]
+  }
+  
+  if (collectionId) {
+    return collectionId.replace(/-/g, ' ')
+  }
+  
+  return 'Koleksiyon'
+})
 </script>
 
 <template>
   <div class="Collections-module__root___38d2z">
     <div class="Collections-module__header___1vJ_B">
-      <h1 class="Collections-module__title___2vB3k">{{ $route.params.id.replace(/-/g, ' ') }}</h1>
-      <p class="Collections-module__count___3u_5l">{{ products.length }} products</p>
+      <h1 class="Collections-module__title___2vB3k">{{ displayTitle }}</h1>
+      <p class="Collections-module__count___3u_5l">{{ products.length }} ürün</p>
     </div>
 
     <div class="Collections-module__grid___1X_36">
@@ -19,11 +48,11 @@ const route = useRoute()
             <img :src="product.image" :alt="product.name" class="ProductCard-module__image___4v_36" loading="lazy" />
           </div>
           <div class="ProductCard-module__info___5v_36">
-            <h3 class="ProductCard-module__name___6v_36">{{ product.name }}</h3>
+            <h3 class="ProductCard-module__name___6v_36">{{ product.name_tr || product.name }}</h3>
             <p class="ProductCard-module__price___7v_36">{{ product.price }}</p>
           </div>
         </router-link>
-        <button class="ProductCard-module__add-to-cart___8v_36">Add to cart</button>
+        <button class="ProductCard-module__add-to-cart___8v_36">Sepete Ekle</button>
       </div>
     </div>
   </div>
