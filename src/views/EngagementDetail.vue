@@ -22,7 +22,7 @@
           <ul class="swiper-wrapper">
             <li v-for="item in commitments" :key="item.slug" class="swiper-slide">
               <router-link
-                :to="'/en-ww/engagements/' + item.slug"
+                :to="['hikayemiz', 'ekolojik-donusum', 'formullerimiz'].includes(item.slug) ? '/' + item.slug : '/engagements/' + item.slug"
                 :aria-current="item.slug === currentSlug ? 'page' : undefined"
               >{{ item.name }}</router-link>
             </li>

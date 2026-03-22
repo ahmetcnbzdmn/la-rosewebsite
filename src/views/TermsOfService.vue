@@ -1,9 +1,239 @@
 <template>
-    <div class="PolicyLayout-module__root___rAVcK"><div class="TextContainer-module__root___3x88v PolicyLayout-module__content___Mhc1w"><h1 class="Heading-module__root___NpBjo" data-font-size="lg">General Terms and Conditions of Use of the Website</h1><h2 class="Heading-module__root___NpBjo" data-font-size="md" id="article-1-purpose"><strong>Article 1. Purpose</strong></h2><p>These General Terms and Conditions of Use (hereinafter "<router-link to="/en-ww/policies/conditions-generales-d-utilisation-du-site" class="Link-module__root___YqUoP" data-variant="underline"><strong>General Terms and Conditions of Use</strong></router-link>") detail the rights and obligations of the company LA ROSÉE COSMÉTIQUES, registered in the Lyon Register of commerce and Trade under the number 800 064 230 whose registered office is located at 16, rue du Plat, 69002 Lyon (hereinafter&nbsp;<strong>"La Rosée", "we",&nbsp; "our"</strong>) and of any user of the website (hereinafter the <strong>"User", "you</strong>") at the following address:&nbsp;<router-link to="/en-ww/" class="Link-module__root___YqUoP" data-variant="underline">https://www.larosee-cosmetiques.com/</router-link>&nbsp;(or any other address replacing or referring to it, hereinafter the&nbsp;<strong>"Website").</strong></p><p>This Website is published by La Rosée.&nbsp;As a User of the Website, you undertake to comply with these General Terms and Conditions of Use.</p><p>The terms used in capital letters in these General Terms and Conditions of Use and not defined below shall have the meaning given in the General Terms and Conditions of Sale.</p><h2 class="Heading-module__root___NpBjo" data-font-size="md" id="article-2-definitions"><strong>Article 2. Definitions</strong></h2><p>The purpose of this clause is to define the essential terms of the General Terms and Conditions of Use:</p><p><strong>“General Terms and Conditions of Use”</strong>: has the meaning defined in Article 1;</p><p><strong>“General Terms and Conditions of Sale</strong>”: means La Rosée's general terms and conditions of sale accessible via the following link:&nbsp;<router-link to="/en-ww/policies/conditions-generales-de-vente" class="Link-module__root___YqUoP" data-variant="underline">General terms and conditions of sale</router-link></p><p><strong>“Content”:</strong>&nbsp;has the meaning defined in Article 6;</p><p><strong>“Personal Space"</strong>: means the personal space opened free of charge on behalf of the User when registering on the Website, allowing the User to access the features described below in Article 7;</p><p><strong>“Website”</strong>: has the meaning given in Article 1;</p><p><strong>“User”</strong>: has the meaning given in Article 1;</p><h2 class="Heading-module__root___NpBjo" data-font-size="md" id="article-3-access-to-the-website"><strong>Article 3. Access to the website</strong></h2><p>Access and use of the Website are reserved for any adult or any person with parental authorization. Access to the Website is free of charge. The Website is accessible to any User with internet access. All costs relating to access to the Website remain the responsibility of the User.</p><h3 class="Heading-module__root___NpBjo" data-font-size="sm" id="article-4-skin-diagnostic-service"><strong>Article 4. Skin diagnostic service</strong></h3><p>The Website allows you to access a free skin diagnostic service. This allows La Rosée, on the basis of the Personal Data communicated to it by you, to analyse your skin and offer you advice and Products adapted to your skin type. The Website also allows La Rosée to offer you a personalized beauty routine.</p><p>This service does not in any way replace a medical diagnosis. Consequently, La Rosée assumes no liability resulting from the use of this service or from any other advice provided on the Website.</p><h3 class="Heading-module__root___NpBjo" data-font-size="sm" id="article-5-partner-pharmacy-locator"><strong>Article 5. Partner pharmacy locator</strong></h3><p>You can locate our partner pharmacies offering our Products for sale in store by clicking on the following link:&nbsp;<router-link to="/en-ww/pages/nos-pharmacies" class="Link-module__root___YqUoP" data-variant="underline">https://www.larosee-cosmetiques.com/pages/nos-pharmacies</router-link></p><h3 class="Heading-module__root___NpBjo" data-font-size="sm" id="article-6-online-review-posting"><strong>Article 6. Online review posting</strong></h3><p>The Website allows any User to publish reviews of La Rosée Products, but also to download photos (hereinafter together the&nbsp;<strong>"Content"</strong>).</p><p>By posting Content on our Website, you represent and warrant that:</p><ul><li>The Content complies with the General Terms and Conditions of Use;</li><li>You are the author of this Content and that you do not act under false pretences or under the identity of a third party,</li><li>Your Content is an original work and does not infringe the intellectual property rights of a third party and the provisions relating to intellectual property described in Article 12 below;</li><li>Your Content is accurate and truthful;</li><li>Your Content does not contravene applicable laws and regulations and that it does not contain any hateful, discriminatory, racist, pornographic, political, or similar language.</li></ul><p>La Rosée reserves the right, in its sole discretion, to modify, refuse, correct or delete any Content that La Rosée considers to be in breach of these General Terms and Conditions of Use, under the conditions provided for in Article 12.</p><h2 class="Heading-module__root___NpBjo" data-font-size="md" id="article-7-applications-for-a-job-offer"><strong>Article 7. Applications for a job offer</strong></h2><p>The Website also allows you to apply for a job offer and takes you to a third party website accessible via the following link:</p><p><a class="Link-module__root___YqUoP" data-variant="underline" href="https://www.welcometothejungle.com/fr/companies/la-rosee/jobs">https://www.welcometothejungle.com/fr/companies/la-rosee/jobs</a>. La Rosée assumes no responsibility for the operation and / or content of the third-party website.</p><h2 class="Heading-module__root___NpBjo" data-font-size="md" id="article-8-personal-space"><strong>Article 8. Personal space</strong></h2><p>If you wish to open a Personal Space, you must register by providing Your Personal Data using the registration form. The Privacy Policy available&nbsp;<router-link to="/en-ww/policies/politique-de-confidentialite" class="Link-module__root___YqUoP" data-variant="underline">here</router-link>&nbsp;describes the collection carried out.</p><p>In case of lost or forgotten password to access your Personal Space, you can reset your login password at any time by clicking on "Forgot your password?"&nbsp;and following the reset instructions communicated by La Rosée.</p><p>Any Personal Space is strictly personal and non-transferable. You undertake to create and/or use only one Personal Space. The creation of a Personal Space under the identity of a third party or under a false identity is formally prohibited and is likely to lead to the immediate suspension or deletion of your Personal Space.</p><p>The use of your Personal Space remains under your sole responsibility.</p><p>Once your Personal Space has been created, you can:</p><ul><li>View the history of your Orders;</li><li>Place an order for Products;</li><li>Manage your Personal Space (if applicable).</li></ul><h2 class="Heading-module__root___NpBjo" data-font-size="md" id="article-9-obligations-of-the-user"><strong>Article 9. Obligations of the User</strong></h2><p>All costs necessary to access the Website (computer hardware, software, Internet connection, etc.) are and remain borne by the User. As a User, you declare that you are fully aware of the characteristics of the Internet and the constraints related to its use, in particular the impossibility for La Rosée to guarantee the integrity and confidentiality of all data transiting through it.</p><p>You agree to comply with all the operating rules of the Website and your Personal Space and more particularly with these General Terms and Conditions of Use.</p><p>Moreover, you undertake:</p><ul><li>Not to disclose or disseminate Content likely to harm the image of La Rosée and / or any third party, and / or not in accordance with the legal and regulatory provisions in force;</li><li>Not to use computer programs likely to disrupt, interrupt, destroy in whole or in part the Website.</li></ul><p>You agree not to infringe our intellectual property rights, those of another User or a third party. You also agree not to disseminate any information of a confidential nature or the dissemination of which would constitute the violation of a contractual commitment vis-à-vis La Rosée, another User or a third party.</p><p>You waive any recourse against us in the context of proceedings brought by a third party, or another User, as a result of the publication of any comment or Content, or as a result of any breach of the obligations arising hereunder.</p><p>You acknowledge that it is prohibited to take any action likely to interrupt the operation of the Website, restrict its availability or prevent its continuity. Any intrusion, or attempted intrusion, within the Website, misappropriation of data, breach of the security and authentication measures of the Website, entitle La Rosée to initiate legal proceedings against you.</p><p>You acknowledge that you use the data generated by the Website under your full responsibility.</p><h2 class="Heading-module__root___NpBjo" data-font-size="md" id="article-10-liability"><strong>Article 10. Liability</strong></h2><p>La Rosée is only bound by an obligation of means for the provision of the Website and the services offered there.</p><p>La Rosée can not be held liable:</p><ul><li>In the event of failure, breakdown, difficulty, unavailability, or interruption of operation, preventing access to the Website or any of its features;</li><li>If you do not comply with the terms and conditions of use of the Website and/or the General Terms and Conditions of Sale of La Rosée;</li><li>If you make abnormal use of your Personal Space.</li></ul><p>You declare that you are aware that the operation of the Website is based in part on information and Personal Data that you provide to La Rosée. Consequently, La Rosée may not be held liable in the event that the information and Personal Data you provide to La Rosée is incomplete, out of date or incorrect.</p><p>La Rosée shall under no circumstances be required to compensate any indirect damage that you may suffer in connection with the use of the Website or your Personal Space. More broadly, any damage that does not result exclusively and directly from a fault or negligence on the part of La Rosée.</p><p>Any serious breach by you of any of its commitments under these General Terms and Conditions of Use, not remedied within fifteen (15) days from receipt of a registered letter with acknowledgement of receipt or an email with acknowledgement of receipt from La Rosée, entitles La Rosée to suspend your Personal Space and / or ban your access to the Website, without prejudice to any other damages to which La Rosée may be entitled. The letter or email will specify the facts complained of. In the event of a manifestly unlawful disturbance or infringement, the time limit for remedying the breach may be shorter.</p><h2 class="Heading-module__root___NpBjo" data-font-size="md" id="article-11-modifications-of-the-terms-of-use"><strong>Article 11. Modifications of the terms of use</strong></h2><p>The present General Terms and Conditions of Use may be modified at any time, in particular according to legislative and/or regulatory changes.</p><p>Unless the modification implies your express acceptance, the fact that you continue to use the Website implies acceptance of the General Terms and Conditions of Use.</p><h2 class="Heading-module__root___NpBjo" data-font-size="md" id="article-12-intellectual-property"><strong>Article 12. Intellectual property</strong></h2><p>The Website and the functionalities offered therein are the full property of La Rosée, including the intellectual property rights relating thereto, subject to the rights of third parties. Unless otherwise stated, La Rosée is the owner, or has the related exploitation rights, of all trademarks and logos as well as all intellectual property rights relating to all elements, texts, graphics, videos, animations, used and / or available on the Website.</p><p>La Rosée indirectly grants any user of the Website a limited, personal, non-transferable and non-exclusive license to use the Website under the conditions set out opposite. Any other use is expressly excluded.</p><p>The content made available on the Website may only be used in this context, without the right of use, reproduction and / or distribution on a commercial basis, and under the sole responsibility of the user of the Website.</p><p>You declare that you are the author of the Content that you publish on the Website or hold the rights allowing you to publish it.</p><p>Consequently, you grant La Rosée a non-exclusive, transferable, sub-licensable right of exploitation, free of charge, on all the Content, as and when it is published on the Website as well as a free licence, without geographical limitation, on all the intellectual property rights relating thereto.</p><p>All the economic rights of the intellectual property on the Content granted to La Rosée include the right for La Rosée to reproduce, represent, disseminate, adapt, modify, use, translate, all or part of the Content in all countries, by all processes and means, both current and future, in any form whatsoever and on all media, including digital, known or unknown, foreseeable or unpredictable on the date hereof, in all languages, in all formats, known or unknown to date, as part of the services offered by the Website or in connection with the activity of La Rosée, for all purposes including commercial purposes.</p><p>This license is granted and accepted for the whole world for a term of fifty (50) years.</p><p>You hold La Rosée harmless against any lawsuit, claim, demand or dispossession of any kind, on the part of a third party or another User, invoking an intellectual or industrial property right which the Content would infringe, or an act of unfair and / or parasitic competition. Consequently, you undertake to be personally responsible for any claim and / or procedure, made against La Rosée and which relates directly or indirectly to the Content, subject to this license. To this end, you undertake to intervene voluntarily, if necessary, in all proceedings brought against La Rosée on this basis.</p><h2 class="Heading-module__root___NpBjo" data-font-size="md" id="article-13-hyperlinks"><strong>Article 13. Hyperlinks</strong></h2><p>The establishment by the User of any hyperlinks to all or part of the Website is strictly prohibited, without the prior written consent of La Rosée, requested by email at the following address: <a class="Link-module__root___YqUoP" data-variant="underline" href="mailto:contact@larosee-cosmetiques.com" data-discover="true">contact@larosee-cosmetiques.com.</a></p><p>La Rosée is free to refuse this authorization without having to justify its decision in any way. In the event that La Rosée grants its authorization, it is in any case only temporary and may be withdrawn at any time, without any obligation or justification on the part of La Rosée.</p><p>La Rosée may insert hyperlinks to third party websites on the Website.</p><p>La Rosée shall not be held liable for the operation and content of these third-party websites, and for any damage that may be suffered by any User during a visit to said websites.</p><p>These third-party websites may also contain hyperlinks to the Website.</p><h2 class="Heading-module__root___NpBjo" data-font-size="md" id="article-14-website-management"><strong>Article 14. Website management</strong></h2><p>For the proper management of the Website, La Rosée reserves the right to:</p><ul><li>Suspend, interrupt or limit access to the Website, or certain parts of the Website;</li><li>Delete any information that may disrupt its operation or contravene national or international laws;</li><li>Suspend the Website in order to make updates;</li><li>Modify, at any time and without prior notice, the content of the Website.</li></ul><h2 class="Heading-module__root___NpBjo" data-font-size="md" id="article-15-personal-data-cookies"><strong>Article 15. Personal data-cookies</strong></h2><p>The processing of Personal Data carried out for the use of the Website is described in the La Rosée Privacy Policy, which you can read by clicking here:&nbsp;<router-link to="/en-ww/policies/politique-de-confidentialite" class="Link-module__root___YqUoP" data-variant="underline">Privacy Policy</router-link>.</p><p>Browsing the Website is likely to lead to the installation of cookies on a User's computer.</p><p>For more information, any User of the Website should consult the Cookie Policy by clicking on the following link:&nbsp;<router-link to="/en-ww/policies/politique-de-gestion-des-cookies" class="Link-module__root___YqUoP" data-variant="underline">Cookie Policy</router-link></p><h2 class="Heading-module__root___NpBjo" data-font-size="md" id="article-16-la-rosee-customer-service---mediation"><strong>Article 16. La Rosée Customer Service - Mediation</strong></h2><p>For any difficulty, you must first contact the La Rosée customer service department, at the following address, and on the following days and times:</p><ul><li>Monday to Friday except public holiday or non-working day</li><li>From 9:30 am to 12:30 pm and from 2:00 pm to 5:30 pm;</li><li>At the following telephone number: 01 76 50 77 07; or</li><li>at the following email address:&nbsp;&nbsp;<a class="Link-module__root___YqUoP" data-variant="underline" href="mailto:contact@larosee-cosmetiques.com" data-discover="true">contact@larosee-cosmetiques.com</a>; or</li><li>At the following postal address: 16 rue du Plat 69002 Lyon</li></ul><p>In the event of failure of the claim sent to the customer service or in the absence of a response from this service within one (1) month, any User may submit the dispute relating to these General Terms and Conditions of Use between the User and La Rosée to the following mediator: CMAP - Paris Mediation and Arbitration Centre: You can contact the Mediator. To submit your dispute to the mediator, you can either:</p><ul><li>fill in the form on the CMAP website: &nbsp;<a class="Link-module__root___YqUoP" data-variant="underline" href="http://www.cmap.fr/">www.cmap.fr</a> (“consumer" tab),</li><li>send your request by simple or registered letter to CMAP Médiation Consommation, 39 avenue Franklin D. Roosevelt, 75008 PARIS, or email&nbsp;<a class="Link-module__root___YqUoP" data-variant="underline" href="mailto:consommation@cmap.fr" data-discover="true">consommation@cmap.fr</a>.</li></ul><p>The mediator will attempt, in complete independence and impartiality, to bring the Parties together with a view to reaching an amicable solution. To submit its request for mediation, any User may make a request by contacting directly the mediator whose details are set out above. The Parties remain free to accept or reject the use of mediation and, if mediation is used, accept or reject the solution proposed by the mediator.</p><p>In addition, the User is informed of the existence at European level of the online dispute resolution platform, accessible at the following URL:&nbsp;<a class="Link-module__root___YqUoP" data-variant="underline" href="https://ec.europa.eu/consumers/odr/main/?event=main.home2.show">https://ec.europa.eu/consumers/odr/main/?event=main.home2.show</a></p><h2 class="Heading-module__root___NpBjo" data-font-size="md" id="article-17-applicable-law-and-jurisdiction"><strong>Article 17. Applicable Law and Jurisdiction</strong></h2><p>The General Terms and Conditions of Use are governed by French law.</p><p>If no amicable agreement is reached in the mediation with you, you may refer the matter to the competent French court for any dispute relating to these General Terms and Conditions of Use.</p></div></div>
+  <div class="policy-container">
+    <main class="Layout-module__content___wEYFD" id="content">
+      <div class="policy-wrapper">
+        <!-- Sidebar Navigation -->
+        <nav class="policy-sidebar">
+          <div class="sidebar-sticky">
+            <h3>Hizmet Koşulları</h3>
+            <ul>
+              <li><a href="#article-1">1. Amaç</a></li>
+              <li><a href="#article-2">2. Tanımlar</a></li>
+              <li><a href="#article-3">3. Web Sitesine Erişim</a></li>
+              <li><a href="#article-4">4. Cilt Analiz Hizmeti</a></li>
+              <li><a href="#article-5">5. Eczane Bulucu</a></li>
+              <li><a href="#article-6">6. Çevrimiçi İncelemeler</a></li>
+              <li><a href="#article-7">7. Kişisel Alan</a></li>
+              <li><a href="#article-8">8. Kullanıcı Yükümlülükleri</a></li>
+              <li><a href="#article-9">9. Sorumluluk</a></li>
+              <li><a href="#article-10">10. Fikri Mülkiyet</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Main Content -->
+        <article class="policy-content">
+          <header class="policy-header">
+            <h1 class="Heading-module__root___NpBjo">Web Sitesi Kullanım Şart ve Koşulları</h1>
+            <p class="last-update">Son güncelleme: 01/07/2023</p>
+            <div class="policy-intro">
+              <p>Bu Kullanım Şartları ("<strong>Kullanım Koşulları</strong>"), LA ROSÉE COSMÉTIQUES web sitesine erişim ve kullanım kurallarını belirler.</p>
+            </div>
+          </header>
+
+          <section id="article-1" class="policy-section">
+            <h2>Madde 1. Amaç</h2>
+            <p>Bu Kullanım Koşulları, LA ROSÉE COSMÉTIQUES (bundan böyle "<strong>La Rosée</strong>" olarak anılacaktır) ile web sitesini kullanan her kullanıcı (bundan böyle "<strong>Kullanıcı</strong>") arasındaki hak ve yükümlülükleri detaylandırır.</p>
+          </section>
+
+          <section id="article-2" class="policy-section">
+            <h2>Madde 2. Tanımlar</h2>
+            <ul>
+              <li><strong>Kullanım Koşulları:</strong> İşbu belgedir.</li>
+              <li><strong>Satış Koşulları:</strong> Web sitesi üzerinden yapılan ürün alımları için geçerli olan <router-link to="/policies/satis-kosullari" class="Link-module__root___YqUoP">Genel Satış Koşulları</router-link>.</li>
+              <li><strong>Kişisel Alan:</strong> Web sitesine kayıt olduğunuzda açılan hesabınızdır.</li>
+            </ul>
+          </section>
+
+          <section id="article-3" class="policy-section">
+            <h2>Madde 3. Web Sitesine Erişim</h2>
+            <p>Web sitesine erişim ücretsizdir. İnternet erişimi olan her Kullanıcı siteye ulaşabilir. Erişimle ilgili tüm masraflar Kullanıcıya aittir.</p>
+          </section>
+
+          <section id="article-4" class="policy-section">
+            <h2>Madde 4. Cilt Analiz Hizmeti</h2>
+            <p>Web sitemiz üzerinden ücretsiz bir cilt analiz hizmetinden faydalanabilirsiniz. Bu hizmet, sağladığınız verilere dayanarak size en uygun bakım rutinini önermeyi amaçlar.</p>
+            <div class="alert-box">
+              <p>Bu hizmet tıbbi bir teşhis yerine geçmez. Cilt sorunlarınız için bir uzmana danışmalısınız.</p>
+            </div>
+          </section>
+
+          <section id="article-5" class="policy-section">
+            <h2>Madde 5. Partner Eczane Bulucu</h2>
+            <p>Size en yakın satış noktalarını eczane bulucu üzerinden bulabilirsiniz:</p>
+            <router-link to="/pharmacy-locator" class="btn-outline">Eczane Bulucuya Git</router-link>
+          </section>
+
+          <section id="article-6" class="policy-section">
+            <h2>Madde 6. Çevrimiçi İncelemeler ve İçerikler</h2>
+            <p>Kullanıcılar ürünlerimiz hakkında yorum yapabilir ve fotoğraf paylaşabilirler. Paylaşılan içeriklerin doğru, hakaret içermeyen ve yasalara uygun olması zorunludur.</p>
+            <div class="highlight-info">
+              <p>La Rosée, Kullanım Koşullarına aykırı olan içerikleri düzenleme veya silme hakkını saklı tutar.</p>
+            </div>
+          </section>
+
+          <section id="article-7" class="policy-section">
+            <h2>Madde 7. Kişisel Alan (Hesabım)</h2>
+            <p>Hesabınız tamamen size özeldir ve devredilemez. Bir Kullanıcı birden fazla hesap oluşturmamalıdır. Yanlış kimlik bilgileriyle hesap açmak yasaktır.</p>
+          </section>
+
+          <section id="article-8" class="policy-section">
+            <h2>Madde 8. Kullanıcı Yükümlülükleri</h2>
+            <p>Kullanıcı, web sitesinin işleyişini bozacak programlar kullanmamayı, başkalarının fikri mülkiyet haklarını ihlal etmemeyi taahhüt eder.</p>
+          </section>
+
+          <section id="article-9" class="policy-section">
+            <h2>Madde 9. Sorumluluk</h2>
+            <p>La Rosée, web sitesinin kesintisiz çalışması için elinden geleni yapar ancak teknik arıza veya erişim sorunlarından dolayı sorumlu tutulamaz.</p>
+          </section>
+
+          <section id="article-10" class="policy-section">
+            <h2>Madde 10. Fikri Mülkiyet</h2>
+            <p>Web sitesindeki tüm içerik, grafikler, videolar ve animasyonlar La Rosée'nin mülkiyetindedir. İzinsiz kopyalanması veya kullanılması yasaktır.</p>
+          </section>
+        </article>
+      </div>
+    </main>
+  </div>
 </template>
 
 <script setup>
 </script>
 
 <style scoped>
+.policy-container {
+  background-color: #fcfcfc;
+  min-height: 100vh;
+  padding-top: 2rem;
+}
+
+.policy-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 3rem;
+  padding: 0 1.5rem;
+}
+
+.policy-sidebar {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .policy-sidebar {
+    display: block;
+  }
+}
+
+.sidebar-sticky {
+  position: sticky;
+  top: 100px;
+}
+
+.sidebar-sticky h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.sidebar-sticky ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-sticky li {
+  margin-bottom: 0.8rem;
+}
+
+.sidebar-sticky a {
+  text-decoration: none;
+  color: #666;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+
+.sidebar-sticky a:hover {
+  color: #34AAFF;
+}
+
+.policy-content {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+  line-height: 1.7;
+  color: #444;
+}
+
+.policy-header {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.policy-header h1 {
+  font-size: 2.2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.last-update {
+  font-size: 0.9rem;
+  color: #999;
+  font-style: italic;
+}
+
+.policy-section {
+  margin-bottom: 3rem;
+}
+
+.policy-section h2 {
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  border-left: 4px solid #34AAFF;
+  padding-left: 1rem;
+}
+
+.alert-box {
+  background: #fff5f5;
+  color: #c53030;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #feb2b2;
+}
+
+.highlight-info {
+  background: #f8fbff;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #34AAFF;
+  margin: 1.5rem 0;
+}
+
+.btn-outline {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  border: 2px solid #34AAFF;
+  color: #34AAFF;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+.btn-outline:hover {
+  background: #34AAFF;
+  color: white;
+}
+
+@media (max-width: 991px) {
+  .policy-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
 </style>

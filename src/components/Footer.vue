@@ -18,11 +18,11 @@ function toggleSection(name) {
       </h2>
       <div v-show="openSection === 'service'" :data-state="openSection === 'service' ? 'open' : 'closed'" role="region" data-orientation="vertical" class="AccordionContent-module__root___EyqbN Footer-module__accordion-content___u-B8D" data-size="xl">
         <ul>
-          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/politique-de-retour">İade Politikası</router-link></li>
-          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/faq">SSS</router-link></li>
-          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/contact">İletişim</router-link></li>
-          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/conditions-generales-de-vente">Satış Koşulları</router-link></li>
-          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/conditions-generales-d-utilisation-du-site">Hizmet Koşulları</router-link></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/iade-politikasi">İade Politikası</router-link></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/sikca-sorulan-sorular">SSS</router-link></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/iletisim">İletişim</router-link></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/satis-kosullari">Satış Koşulları</router-link></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/hizmet-kosullari">Hizmet Koşulları</router-link></li>
         </ul>
       </div>
     </div>
@@ -32,7 +32,7 @@ function toggleSection(name) {
       </h2>
       <div v-show="openSection === 'brand'" :data-state="openSection === 'brand' ? 'open' : 'closed'" role="region" data-orientation="vertical" class="AccordionContent-module__root___EyqbN Footer-module__accordion-content___u-B8D" data-size="xl">
         <ul>
-          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/engagements/notre-histoire">Hikayemiz</router-link></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/hikayemiz">Hikayemiz</router-link></li>
           <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/pharmacy-locator">Eczanelerimiz</router-link></li>
           <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/engagements">Taahhütlerimiz</router-link></li>
           <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/pages/l-hydratation-notre-expertise">Uzmanlık</router-link></li>
@@ -47,13 +47,13 @@ function toggleSection(name) {
       </h2>
       <div v-show="openSection === 'products'" :data-state="openSection === 'products' ? 'open' : 'closed'" role="region" data-orientation="vertical" class="AccordionContent-module__root___EyqbN Footer-module__accordion-content___u-B8D" data-size="xl">
         <ul>
-          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/soin-visage">Yüz Bakımı</router-link></li>
-          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/soins-corps">Vücut Bakımı</router-link></li>
-          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/soins-cheveux">Saç Bakımı</router-link></li>
-          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/soins-bebe">Bebek Bakımı</router-link></li>
-          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/solaires">Güneş Bakımı</router-link></li>
-          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/hygiene-du-quotidien">Günlük Hijyen</router-link></li>
-          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/accessoires">Aksesuar</router-link></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/yuz-bakimi">Yüz Bakımı</router-link></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/vucut-bakimi">Vücut Bakımı</router-link></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/sac-bakimi">Saç Bakımı</router-link></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/bebek-bakimi">Bebek Bakımı</router-link></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/gunes-bakimi">Güneş Bakımı</router-link></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/gunluk-hijyen">Günlük Hijyen</router-link></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/aksesuarlar">Aksesuar</router-link></li>
         </ul>
       </div>
     </div>
@@ -64,17 +64,17 @@ function toggleSection(name) {
     <section>
       <h2>Müşteri Hizmetleri</h2>
       <ul>
-        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/politique-de-retour">İade Politikası</router-link></li>
-        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/faq">SSS</router-link></li>
-        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/contact">İletişim</router-link></li>
-        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/conditions-generales-de-vente">Satış Koşulları</router-link></li>
-        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/conditions-generales-d-utilisation-du-site">Hizmet Koşulları</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/iade-politikasi">İade Politikası</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/sikca-sorulan-sorular">SSS</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/iletisim">İletişim</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/satis-kosullari">Satış Koşulları</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/hizmet-kosullari">Hizmet Koşulları</router-link></li>
       </ul>
     </section>
     <section>
       <h2>La Rosée</h2>
       <ul>
-        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/engagements/notre-histoire">Hikayemiz</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/hikayemiz">Hikayemiz</router-link></li>
         <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/pharmacy-locator">Eczanelerimiz</router-link></li>
         <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/engagements">Taahhütlerimiz</router-link></li>
         <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/pages/l-hydratation-notre-expertise">Uzmanlık</router-link></li>
@@ -85,13 +85,13 @@ function toggleSection(name) {
     <section>
       <h2>Ürünlerimiz</h2>
       <ul>
-        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/soin-visage">Yüz Bakımı</router-link></li>
-        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/soins-corps">Vücut Bakımı</router-link></li>
-        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/soins-cheveux">Saç Bakımı</router-link></li>
-        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/soins-bebe">Bebek Bakımı</router-link></li>
-        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/solaires">Güneş Bakımı</router-link></li>
-        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/hygiene-du-quotidien">Günlük Hijyen</router-link></li>
-        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/accessoires">Aksesuar</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/yuz-bakimi">Yüz Bakımı</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/vucut-bakimi">Vücut Bakımı</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/sac-bakimi">Saç Bakımı</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/bebek-bakimi">Bebek Bakımı</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/gunes-bakimi">Güneş Bakımı</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/gunluk-hijyen">Günlük Hijyen</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/aksesuarlar">Aksesuar</router-link></li>
       </ul>
     </section>
   </div>
@@ -103,10 +103,10 @@ function toggleSection(name) {
     <section class="Footer-module__legal___9wBID">
       <h2 style="position:absolute;border:0;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;word-wrap:normal">Legal</h2>
       <ul>
-        <li><button type="button" class="Link-module__root___YqUoP" data-variant="underline-reverse">Çerez Yönetimi</button></li>
-        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/politique-de-gestion-des-cookies">Çerez Kullanımı</router-link></li>
-        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/politique-de-confidentialite">Gizlilik</router-link></li>
-        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/mentions-legales">Yasal Uyarı</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/cerez-politikasi">Çerez Yönetimi</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/cerez-politikasi">Çerez Kullanımı</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/gizlilik-politikasi">Gizlilik</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/yasal-uyari">Yasal Uyarı</router-link></li>
       </ul>
       <small>© 2026 La Rosée cosmétiques – Tüm hakları saklıdır</small>
     </section>

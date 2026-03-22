@@ -1,88 +1,63 @@
 {
     "products": [
         {
-            "name": "Güneş Koruyucu Stick SPF 50",
-            "slug": "stick-solaire-spf-50-visage-et-zones-sensibles",
-            "image": "https://a.storyblok.com/f/196368/3473x3473/93597b88d8/visuels-sous-menu.jpg"
+            "name": "Organik Shea Yağlı Nemlendirici Yüz Kremi",
+            "slug": "moisturizing-cream-organic-shea-butter",
+            "image": "/src/assets/product_images/product_1.png"
         },
         {
-            "name": "Temizleyici Balm",
-            "slug": "masque-en-stick-nourrissant",
-            "image": "https://a.storyblok.com/f/196368/3473x3473/293fc792e7/visuels-sous-menu-janv-26-04-1.jpg"
+            "name": "Organik Salatalık Özlü  Nemlendirici Jel-Krem",
+            "slug": "moisturizing-cream-gel-organic-cucumber",
+            "image": "/src/assets/product_images/product_2.png"
         },
         {
-            "name": "Nemlendirici Vücut Kremi",
-            "slug": "creme-corps-hydratante",
-            "image": "https://a.storyblok.com/f/196368/1920x2232/28043a346e/creme-corps-200ml.jpg"
+            "name": "5 Organik Bitkisel Yağlı Dolgunlaştırıcı Yüz Serumu",
+            "slug": "plumping-face-serum-5-organic-vegetal-oils",
+            "image": "/src/assets/product_images/product_3.png"
         }
     ],
     "collections": [
         {
             "name": "Yüz Bakımı",
-            "slug": "soin-visage",
+            "slug": "yuz-bakimi",
             "image": "https://a.storyblok.com/f/196368/960x1200/88e7e0b5b0/soins-visage-la-rosee.jpg"
         },
         {
             "name": "Vücut Bakımı",
-            "slug": "soins-corps",
+            "slug": "vucut-bakimi",
             "image": "https://a.storyblok.com/f/196368/960x1200/15bc69ecd0/menu-categorie-soins-corps.jpg"
         },
         {
-            "name": "Saç Bakımı",
-            "slug": "soins-cheveux",
-            "image": "https://a.storyblok.com/f/196368/960x1200/31ac02070b/menu-capillaire-soins-cheveux.jpg"
-        },
-        {
-            "name": "Makyaj & Bakım",
-            "slug": "soins-maquillages",
-            "image": "https://a.storyblok.com/f/196368/960x1200/555b204aaa/packshot-menu-make-up.jpg"
-        },
-        {
-            "name": "Bebek Bakımı",
-            "slug": "soins-bebe",
-            "image": "https://a.storyblok.com/f/196368/960x1200/0a62340c61/soins-bebe-mon-petit-la-rosee.jpg"
-        },
-        {
-            "name": "Güneş Bakımı",
-            "slug": "solaires",
-            "image": "https://a.storyblok.com/f/196368/960x1200/4ff7e1f2cd/solaires-la-rosee.jpg"
-        },
-        {
             "name": "Günlük Hijyen",
-            "slug": "hygiene-du-quotidien",
+            "slug": "gunluk-hijyen",
             "image": "https://a.storyblok.com/f/196368/960x1200/e283ea33ae/menu-categorie-hygiene.jpg"
-        },
-        {
-            "name": "Aksesuar",
-            "slug": "accessoires",
-            "image": "https://a.storyblok.com/f/196368/960x1200/c1b002f30c/accessoires-la-rosee.jpg"
         }
     ],
     "commitments": [
         {
-            "name": "Ekolojik Dönüşüm",
-            "slug": "la-transition-ecologique-au-coeur-de-toutes-nos-decisions",
-            "image": "https://a.storyblok.com/f/196368/3840x2160/a02e18fbf0/deodorant-transition-ecologique.jpg"
-        },
-        {
             "name": "Hikayemiz",
-            "slug": "notre-histoire",
+            "slug": "hikayemiz",
             "image": "https://a.storyblok.com/f/196368/2000x2000/1b44626fae/visuels-categorie-page-impact-1-1.jpg"
         },
         {
+            "name": "Ekolojik Dönüşüm",
+            "slug": "ekolojik-donusum",
+            "image": "https://a.storyblok.com/f/196368/3840x2160/a02e18fbf0/deodorant-transition-ecologique.jpg"
+        },
+        {
             "name": "Formüllerimiz",
-            "slug": "nos-formules",
+            "slug": "formullerimiz",
             "image": "https://a.storyblok.com/f/196368/2000x2000/aab480cdc3/visuels-categorie-page-impact-2-1.jpg"
         },
         {
             "name": "Ambalajlarımız",
-            "slug": "nos-packagings",
+            "slug": "ambalajlarimiz",
             "image": "https://a.storyblok.com/f/196368/2000x2000/00a5f0a3cf/visuels-categorie-page-impact-3-1.jpg"
         },
         {
-            "name": "Gezegen için Somut Adımlar",
-            "slug": "des-actions-concretes-pour-la-planete",
-            "image": "https://a.storyblok.com/f/196368/2000x2000/7e5e096a24/visuels-categorie-page-impact-6.jpg"
+            "name": "Dayanışma",
+            "slug": "dayanisma",
+            "image": "https://a.storyblok.com/f/196368/937x1100/8f663f71fd/la-rosee-a-developpe-un-programme-de-mecenat-autour-de-trois-axes-la-terre-la-mer-et-l-humain.jpg"
         }
     ]
 }

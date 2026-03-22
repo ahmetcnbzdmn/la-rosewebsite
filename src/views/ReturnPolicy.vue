@@ -1,14 +1,260 @@
 <template>
-  <div class="return-policy-page">
+  <div class="policy-container">
     <main class="Layout-module__content___wEYFD" id="content">
-      <div class="PolicyLayout-module__root___rAVcK"><div class="TextContainer-module__root___3x88v PolicyLayout-module__content___Mhc1w"><h1 class="Heading-module__root___NpBjo" data-font-size="lg">İade Politikası</h1><p><em>Son güncelleme 01/06/2025</em></p><p>Bu belgede büyük harflerle kullanılan tüm terimler, <a class="Link-module__root___YqUoP" data-variant="underline" href="/policies/conditions-generales-de-vente">erişilebilir Genel Satış Şart ve Koşulları'nda tanımlanmıştır.</a></p><h2 class="Heading-module__root___NpBjo" data-font-size="md" id="article-1-how-do-i-contact-la-rosee-customer-service"><strong>Madde 1. La Rosée Müşteri Hizmetleri ile nasıl iletişime geçebilirim?</strong></h2><p>Herhangi bir zorluk durumunda, Müşteri öncelikle aşağıdaki iletişim bilgilerinden, belirtilen gün ve saatlerde La Rosée müşteri hizmetleri ile iletişime geçmelidir:</p><ul><li>Resmi tatil veya çalışma dışı günler hariç Pazartesi'den Cuma'ya</li><li>09:30 - 12:30 ve 14:00 - 17:30 saatleri arasında;</li><li>Aşağıdaki telefon numarasından: +33 1 76 50 77 07; veya</li><li>Aşağıdaki e-posta adresinden: <a class="Link-module__root___YqUoP" data-variant="underline" href="mailto:bonjour@larosee-cosmetiques.com" data-discover="true">bonjour@larosee-cosmetiques.com</a>; veya</li><li>Aşağıdaki posta adresinden: 16 rue du Plat 69002 Lyon</li></ul><h2 class="Heading-module__root___NpBjo" data-font-size="md" id="article-2-what-is-the-right-of-withdrawal-and-how-to-exercise-it-for-a-product"><strong>Madde 2. Cayma hakkı nedir ve bir ürün için nasıl kullanılır?</strong></h2><p><strong>2.1. Kozmetik Ürün Siparişi verdikten sonra cayabilir miyim?</strong></p><p>Fransız Tüketici Kanunu'nun L. 221-18 ve devamı maddeleri uyarınca, her Müşteri, Kozmetik Ürünün Müşteri veya taşıyıcı dışında kendileri tarafından belirlenen üçüncü bir tarafça teslim alındığı günden itibaren on dört (14) gün içinde herhangi bir gerekçe göstermeksizin cayma hakkına sahiptir.</p><p>Bu sürenin Cumartesi, Pazar veya resmi tatil ya da iş günü olmayan bir güne denk gelmesi durumunda, süre bir sonraki iş gününe kadar uzatılır.</p><p>Bu vesileyle Kozmetik Ürünün hasar görmesi durumunda, La Rosée Müşterinin cayma hakkını engelleme hakkını saklı tutar.</p><p>Web Sitesinden satın alınan e-Hediye Kartı veya bir Ağaç satın alınması durumunda, Müşteriler ayrıca herhangi bir gerekçe göstermeksizin cayma haklarını kullanmak için Siparişlerini e-posta ile aldıkları tarihten itibaren on dört (14) günlük bir süreye sahiptirler.</p><p>Bu cayma hakkı, bu cayma süresi dolmadan önce tamamen veya kısmen kullanılmamış olması kaydıyla e-Hediye Kartı için kullanılır. Aksi takdirde, Müşteri herhangi bir geri ödeme hakkına sahip olmayacaktır.</p><p><strong>2.2. Cayma hakkımı kullandığımı La Rosée'ye nasıl bildirebilirim?</strong></p><p>Müşteriler, cayma kararlarını açık bir beyanla La Rosée'ye bildireceklerdir:</p><ul><li>Bu İade Politikası'nın Ek 1'inde yer alan imzalı ve doldurulmuş cayma formunu belirtilen posta adresine göndererek.</li><li>Cayma kararını yukarıdaki Madde 1'de belirtilen e-posta adresine/posta adresine net bir şekilde ifade ederek başka herhangi bir yolla La Rosée'ye iade ederek.</li></ul><p>On dört (14) günlük cayma süresine uymak için, Müşteriler haklarının kullanımına ilişkin iletişimlerini bu sürenin bitiminden önce göndermelidir.</p><p>Her durumda, ispat yükü Müşteri'ye aittir.</p><h2 class="Heading-module__root___NpBjo" data-font-size="md" id="article-3-how-to-return-cosmetic-products-in-case-of-exercise-of-the-right-of-withdrawal"><strong>Madde 3. Cayma hakkının kullanılması durumunda kozmetik ürünler nasıl iade edilir?</strong></h2><p><strong>3.1 İzlenecek prosedür</strong></p><p>The Customer must return or send the Cosmetic Product to the address provided by La Rosée's customer service, in its original container, and if possible with its original packaging and the return slip, without undue delay and no later than fourteen (14) days after the Customer has communicated to La Rosée their decision to withdraw from the electronic sales contract.</p><p>The period is deemed to have been complied with if the Customer sends back or returns the Cosmetic Product before the period of fourteen (14) days has expired.</p><p>Otherwise, no refund can be made by La Rosée.</p><p>The return of the Cosmetic Product is under the responsibility and at the expense of the Customer, provided that these costs correspond to the Customer's direct return costs.</p><h2 class="Heading-module__root___NpBjo" data-font-size="md" id="article-4reimbursement-of-products"><strong>Madde 4. Ürünlerin geri ödenmesi</strong></h2><p>La Rosée will reimburse Customers for all payments received from them, via the payment method used in the Order process, with the exception for Cosmetic Products of the additional costs resulting from the fact that the Customer has chosen, where applicable, a delivery method other than the least expensive standard delivery method offered by La Rosée. This reimbursement shall be made no later than fourteen (14) days from the day on which La Rosée is informed of the Customer's decision to withdraw.</p><p>La Rosée may withhold reimbursement of the Cosmetic Product until it has received the Cosmetic Product that is the object of withdrawal, or until the Customer has provided evidence of having sent back the Cosmetic Product in question, whichever is the earliest.</p><p>Any samples given to the Customer may be kept by the latter.</p><h2 class="Heading-module__root___NpBjo" data-font-size="md" id="article-5exclusion-of-the-right-of-withdrawal-for-cosmetic-products"><strong>Madde 5. Kozmetik ürünler için cayma hakkının istisnası</strong></h2><p>In accordance with Article L. 221-28 of the French Consumer Code, the Customer expressly acknowledges that any Cosmetic Product unsealed after delivery and which cannot be returned for reasons of hygiene or health protection cannot benefit from the right of withdrawal, in particular in the event that the seal of a Cosmetic Product is removed (without this list being exhaustive).</p><p>These provisions apply without prejudice to the legal guarantees of conformity and hidden defects provided for in Article 12 of the General Terms and Conditions of Sale, which remain fully applicable.</p><h2 class="Heading-module__root___NpBjo" data-font-size="md" id="article-6-how-to-return-products-if-they-have-non-conformities-or-hidden-defects"><strong>Madde 6. Ürünlerde uygunsuzluk veya gizli kusur varsa nasıl iade edilir?</strong></h2><p><strong>6.1 İzlenecek prosedür</strong></p><p>If the Products delivered by La Rosée are not in conformity with the Products covered by the Customer's Order or if they have hidden defects, the Customer must notify La Rosée by email, by contacting La Rosée's customer service, in order to notify it of the non-conformity or hidden defects.</p><p>La Rosée's customer service undertakes to acknowledge receipt of this notification sent by Customers and provides them with the instructions to follow.</p><p>Upon receipt by the Customer of La Rosée's customer service instructions, the Customer undertakes to send a photo of the Product that is non-compliant or affected by a hidden defect to the email address indicated by La Rosée.</p><p>In the event of an order preparation error, the Customer must return the Product if possible in its original packaging, in its intact original container, accompanied by the return slip, and not used (except in the event that the Product has a hidden defect). Products are returned to La Rosée's expense, and the risks related to the return of Products are borne by La Rosée. Upon receipt of the Products, La Rosée carries out an examination to determine whether the Products are compliant.</p><p><strong>6.2 Yasal uygunluk garantilerinin ve gizli kusurların içeriği</strong></p><p><em>“Consumers have two years from the delivery of the goods to require the implementation of the legal guarantee of conformity if a non-conformity occurs. During this period, consumers are only required to establish the existence of the non-conformity and not its date of occurrence.</em></p><p><em>Where the contract for the sale of the goods provides for the delivery of digital content or a digital service on a continuous basis for a period exceeding two years, the legal guarantee shall apply to such digital content or digital service throughout the planned delivery period. During this period, consumers are only required to establish the existence of the non-conformity affecting the digital content or digital service and not its date of occurrence.</em></p><p><em>The legal guarantee of conformity entails the obligation for the professional, if necessary, to provide all the updates necessary to maintain the conformity of the goods.</em></p><p><em>The legal guarantee of conformity gives consumers the right to have the goods repaired or replaced within thirty days following their request, at no cost and without major inconvenience to them.</em></p><p><em>If the goods are repaired under the legal guarantee of conformity, consumers benefit from a six-month extension of the initial guarantee.</em></p><p><em>If consumers request that the goods be repaired, but the seller requires the replacement, the legal guarantee of conformity is renewed for a period of two years from the date of replacement of the goods.</em></p><p><em>Consumers may obtain a reduction in the purchase price by retaining the goods or terminating the contract and be reimbursed in full for the return of the goods, if:</em></p><p><em>The professional seller refuses to repair or replace the goods;</em></p><p><em>The repair or replacement of the goods occurs after a period of thirty days;</em></p><p><em>The repair or replacement of the goods causes a major inconvenience for the consumer, in particular when the consumer definitively bears the cost of taking back or removing the non-compliant goods, or if they bear the cost of installing the repaired or replacement product;</em></p><p><em>The non-conformity of the goods persists despite the seller's unsuccessful attempt to bring it into conformity.</em></p><p><em>Consumers are also entitled to a price reduction of the goods or the rescission of the contract when the non-conformity is so serious that it justifies the immediate price reduction or rescission of the contract. In this case, Consumers are not required to request in advance that the goods be repaired or replaced.</em></p><p><em>Consumers are not entitled to the cancellation of the sale if the non-conformity is minor.</em></p><p><em>Any period during which the goods are unavailable for repair or replacement shall suspend the remaining guarantee period until delivery of the repaired goods.</em></p><p><em>The rights mentioned above result from the application of articles L. 217-1 to L. 217-32 of the French Consumer Code.</em></p><p><em>The seller who obstructs in bad faith the implementation of the legal guarantee of conformity is liable to a civil fine of up to 300,000 euros, which may be increased to 10% of the average annual turnover (Article L. 241-5 of the French Consumer Code).</em></p><p><em>Consumers also benefit from the legal guarantee of hidden defects pursuant to Articles 1641 to 1649 of the French Civil Code, for a period of two years from the discovery of the defect. This guarantee shall give rise to a price reduction if the goods are maintained or to a full refund against return of the goods.”</em></p><p><strong>Ek 1: Cayma formu</strong></p><p><strong>(Lütfen bu formu yalnızca elektronik satış sözleşmesinden çekilmek istiyorsanız doldurun ve gönderin).</strong></p><p>Kayıtlı ofisi 16 rue du Plat, 69002 Lyon adresinde bulunan ve müşteri hizmetleri e-posta adresi (B2C) aşağıdaki gibi olan **LA ROSÉE COSMÉTIQUES**'in dikkatine:&nbsp;<a class="Link-module__root___YqUoP" data-variant="underline" href="about:blank" data-discover="true"><strong>bonjour@larosee-cosmetiques.com</strong></a>&nbsp;**</p><p>Ben/Biz <strong>(*)</strong>&nbsp;işbu belge ile aşağıdaki <strong>(*)</strong>&nbsp;malların satışına ilişkin sözleşmeden çekildiğimi/çekildiğimizi <strong>(*)</strong>&nbsp;bildiririm/bildiririz: __</p><p>Sipariş tarihi&nbsp;(*)/teslim alma tarihi&nbsp;(*): __</p><p>Müşteri(ler)in adı: __</p><p>Müşteri(ler)in adresi: __</p><p>Müşteri(ler)in imzası (yalnızca bu form kağıt üzerinde bildiriliyorsa): __</p><p>Tarih:__</p><p>(*)&nbsp; Uygun olanı silin.</p></div></div>
+      <div class="policy-wrapper">
+        <!-- Sidebar Navigation -->
+        <nav class="policy-sidebar">
+          <div class="sidebar-sticky">
+            <h3>İade Politikası</h3>
+            <ul>
+              <li><a href="#article-1">1. İletişim</a></li>
+              <li><a href="#article-2">2. Cayma Hakkı</a></li>
+              <li><a href="#article-3">3. İade Süreci</a></li>
+              <li><a href="#article-4">4. Geri Ödeme</a></li>
+              <li><a href="#article-5">5. İstisnalar</a></li>
+              <li><a href="#article-6">6. Kusurlu Ürünler</a></li>
+              <li><a href="#appendix-1">Ek 1: Cayma Formu</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Main Content -->
+        <article class="policy-content">
+          <header class="policy-header">
+            <h1 class="Heading-module__root___NpBjo">İade Politikası</h1>
+            <p class="last-update">Son güncelleme: 01/06/2025</p>
+            <div class="policy-intro">
+              <p>Bu belgede kullanılan tüm terimler, <router-link class="Link-module__root___YqUoP" to="/policies/satis-kosullari">Genel Satış Şart ve Koşulları</router-link>'nda tanımlandığı gibidir.</p>
+            </div>
+          </header>
+
+          <section id="article-1" class="policy-section">
+            <h2>Madde 1. Müşteri Hizmetleri İletişim</h2>
+            <p>Herhangi bir sorun durumunda, öncelikle aşağıdaki kanallardan La Rosée müşteri hizmetleri ile iletişime geçebilirsiniz:</p>
+            <div class="contact-card">
+              <ul>
+                <li><strong>Çalışma Saatleri:</strong> Hafta içi 09:30 - 12:30 ve 14:00 - 17:30</li>
+                <li><strong>Telefon:</strong> <a href="tel:+33176507707">+33 1 76 50 77 07</a></li>
+                <li><strong>E-posta:</strong> <a href="mailto:bonjour@larosee-cosmetiques.com">bonjour@larosee-cosmetiques.com</a></li>
+                <li><strong>Adres:</strong> 16 rue du Plat 69002 Lyon, Fransa</li>
+              </ul>
+            </div>
+          </section>
+
+          <section id="article-2" class="policy-section">
+            <h2>Madde 2. Cayma Hakkı ve Kullanımı</h2>
+            <div class="subsection">
+              <h3>2.1. Cayma Süresi</h3>
+              <p>Tüketici Kanunu uyarınca, ürünü teslim aldığınız tarihten itibaren <strong>on dört (14) gün</strong> içinde herhangi bir gerekçe göstermeksizin cayma hakkına sahipsiniz.</p>
+              <p>Sürenin son günü bir tatil gününe denk gelirse, süre bir sonraki iş gününe kadar uzatılır.</p>
+            </div>
+            <div class="subsection">
+              <h3>2.2. Bildirim Süreci</h3>
+              <p>Cayma kararınızı net bir beyanla (e-posta veya posta yoluyla) bildirmeniz gerekmektedir. Ek 1'deki formu kullanabilir veya kararınızı yazılı olarak iletebilirsiniz.</p>
+            </div>
+          </section>
+
+          <section id="article-3" class="policy-section">
+            <h2>Madde 3. İade Süreci</h2>
+            <p>Kozmetik ürünler, cayma bildiriminden itibaren en geç on dört (14) gün içinde iade edilmelidir. Ürünler orijinal ambalajında ve açılmamış olarak iade edilmelidir.</p>
+            <div class="highlight-info">
+              <p>İade kargo masrafları ve sorumluluğu Müşteri'ye aittir.</p>
+            </div>
+          </section>
+
+          <section id="article-4" class="policy-section">
+            <h2>Madde 4. Geri Ödemeler</h2>
+            <p>La Rosée, cayma bildirimini aldığı tarihten itibaren 14 gün içinde, siparişte kullanılan ödeme yöntemiyle tüm ödemeleri iade eder. Standart teslimat dışındaki ek masraflar iade edilmez.</p>
+          </section>
+
+          <section id="article-5" class="policy-section">
+            <h2>Madde 5. Cayma Hakkı İstisnaları</h2>
+            <div class="alert-box">
+              <p>Hijyen ve sağlık koruma nedenleriyle, <strong>teslimat sonrası mührü veya koruma bandı açılmış kozmetik ürünlerde</strong> cayma hakkı kullanılamaz.</p>
+            </div>
+          </section>
+
+          <section id="article-6" class="policy-section">
+            <h2>Madde 6. Kusurlu veya Uygunsuz Ürünler</h2>
+            <p>Teslim edilen ürünlerin siparişe uygun olmaması veya gizli kusur barındırması durumunda, müşteri hizmetlerimizle iletişime geçerek süreci başlatabilirsiniz. Kusurlu ürünlerin iade kargo masrafları La Rosée tarafından karşılanır.</p>
+          </section>
+
+          <section id="appendix-1" class="policy-appendix">
+            <h2>Ek 1: Cayma Formu</h2>
+            <div class="form-template">
+              <p>(Sadece sözleşmeden caymak istiyorsanız doldurup gönderiniz)</p>
+              <div class="form-content">
+                <p><strong>Alıcı:</strong> LA ROSÉE COSMÉTIQUES <br> bonjour@larosee-cosmetiques.com</p>
+                <p>İşbu form ile aşağıdaki ürünlerin satış sözleşmesinden caydığımı bildiririm:</p>
+                <p>Sipariş Tarihi: ....................</p>
+                <p>Teslim Tarihi: ....................</p>
+                <p>Müşteri Adı Soyadı: ....................</p>
+                <p>Müşteri Adresi: ....................</p>
+                <br>
+                <p>İmza: ....................</p>
+                <p>Tarih: ....................</p>
+              </div>
+            </div>
+          </section>
+        </article>
+      </div>
     </main>
   </div>
 </template>
 
-<script setup>
-</script>
-
 <style scoped>
-/* Add any specific styles here if needed */
+.policy-container {
+  background-color: #fcfcfc;
+  min-height: 100vh;
+  padding-top: 2rem;
+}
+
+.policy-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 3rem;
+  padding: 0 1.5rem;
+}
+
+.policy-sidebar {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .policy-sidebar {
+    display: block;
+  }
+}
+
+.sidebar-sticky {
+  position: sticky;
+  top: 100px;
+}
+
+.sidebar-sticky h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.sidebar-sticky ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-sticky li {
+  margin-bottom: 0.8rem;
+}
+
+.sidebar-sticky a {
+  text-decoration: none;
+  color: #666;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+
+.sidebar-sticky a:hover {
+  color: #34AAFF;
+}
+
+.policy-content {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+  line-height: 1.7;
+  color: #444;
+}
+
+.policy-header {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.policy-header h1 {
+  font-size: 2.2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.last-update {
+  font-size: 0.9rem;
+  color: #999;
+  font-style: italic;
+}
+
+.policy-section {
+  margin-bottom: 3rem;
+}
+
+.policy-section h2 {
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  border-left: 4px solid #34AAFF;
+  padding-left: 1rem;
+}
+
+.subsection {
+  margin-bottom: 1.5rem;
+}
+
+.subsection h3 {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 0.8rem;
+}
+
+.contact-card {
+  background: #f8fbff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #e1f0ff;
+}
+
+.contact-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.highlight-info {
+  background: #fff9f0;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #ffb020;
+  margin: 1.5rem 0;
+}
+
+.alert-box {
+  background: #fff5f5;
+  color: #c53030;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #feb2b2;
+}
+
+.form-template {
+  background: #fafafa;
+  padding: 2rem;
+  border: 2px dashed #ddd;
+  border-radius: 8px;
+}
+
+.form-content {
+  margin-top: 1.5rem;
+  font-family: monospace;
+}
+
+@media (max-width: 991px) {
+  .policy-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .policy-header h1 {
+    font-size: 1.8rem;
+  }
+}
 </style>

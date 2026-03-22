@@ -1,54 +1,664 @@
 <template>
   <div class="expertise-page">
-<main class="Layout-module__content___wEYFD" id="content"><section class="Subnav-module__root___b6qK5" data-position="static" aria-label="Table of contents"><nav class="swiper"><ol class="swiper-wrapper"><li class="swiper-slide"><style>
-        :root {
-          --custom-anchor-color: inherit;
-        }
-      </style><a href="/en-ww/pages/l-hydratation-notre-expertise#section-955ffa98-cbec-41fb-9735-c16cb7638f9b" data-discover="true">How does hydration work?</a></li><li class="swiper-slide"><style>
-        :root {
-          --custom-anchor-color: inherit;
-        }
-      </style><a href="/en-ww/pages/l-hydratation-notre-expertise#section-44f1384e-88ad-47e0-a45e-09ea7720d71d" data-discover="true">Why hydrate your skin?</a></li><li class="swiper-slide"><style>
-        :root {
-          --custom-anchor-color: inherit;
-        }
-      </style><a href="/en-ww/pages/l-hydratation-notre-expertise#section-1e9f626f-3cc2-4431-a0f6-4128a4667f79" data-discover="true">How to hydrate your skin properly?</a></li><li class="swiper-slide"><style>
-        :root {
-          --custom-anchor-color: inherit;
-        }
-      </style><a href="/en-ww/pages/l-hydratation-notre-expertise#section-79dffef0-f0a9-495b-bafb-3b55457a9252" data-discover="true">How to choose the right skincare products?</a></li></ol><button class="Subnav-module__button___nXH1I swiper-button-next" type="button"></button></nav></section><section class="Subnav-module__root___b6qK5" data-position="fixed" aria-hidden="true"><nav class="swiper"><ol class="swiper-wrapper"><li class="swiper-slide"><style>
-        :root {
-          --custom-anchor-color: inherit;
-        }
-      </style><a href="/en-ww/pages/l-hydratation-notre-expertise#section-955ffa98-cbec-41fb-9735-c16cb7638f9b" data-discover="true">How does hydration work?</a></li><li class="swiper-slide"><style>
-        :root {
-          --custom-anchor-color: inherit;
-        }
-      </style><a href="/en-ww/pages/l-hydratation-notre-expertise#section-44f1384e-88ad-47e0-a45e-09ea7720d71d" data-discover="true">Why hydrate your skin?</a></li><li class="swiper-slide"><style>
-        :root {
-          --custom-anchor-color: inherit;
-        }
-      </style><a href="/en-ww/pages/l-hydratation-notre-expertise#section-1e9f626f-3cc2-4431-a0f6-4128a4667f79" data-discover="true">How to hydrate your skin properly?</a></li><li class="swiper-slide"><style>
-        :root {
-          --custom-anchor-color: inherit;
-        }
-      </style><a href="/en-ww/pages/l-hydratation-notre-expertise#section-79dffef0-f0a9-495b-bafb-3b55457a9252" data-discover="true">How to choose the right skincare products?</a></li></ol><button class="Subnav-module__button___nXH1I swiper-button-next" type="button"></button></nav></section><div class="Hero-module__root___x7nJW"><div class="Hero-module__media___h24l9"></div><div class="Hero-module__content___6hUpl"><div class="Hero-module__pause-zone___m9W13"><h2 class="Heading-module__root___NpBjo Hero-module__title___ak74S" data-font-size="lg">Hydration is part of our DNA, because it&#x27;s the secret of beautiful skin.</h2></div></div></div><div id="section-undefined" class="Section-module__root___58S5Y PageIntro-module__root___Gu9N3" data-background="white"><div class="TextContainer-module__root___3x88v"><p>Do you want to understand why? You are in the right place!</p><p>We will explain to you how hydration works, why it is so important, and how to ensure your skin has optimal hydration.</p></div></div><div id="section-955ffa98-cbec-41fb-9735-c16cb7638f9b" class="Section-module__root___58S5Y RichText-module__root___KPAL-" data-background="white" data-text-alignment="left"><div class="TextContainer-module__root___3x88v RichText-module__content___xefl8"><h2 class="Heading-module__root___NpBjo" data-font-size="md" id="how-does-hydratation-work"><strong>How does hydratation work?</strong></h2><h3 class="Heading-module__root___NpBjo" data-font-size="sm" id="in-the-skin-there-is-water">In the skin, there is water</h3><p>The skin is a cutaneous barrier, that above all, protects the body. It contains about 67% water, with variations depending on age:</p><ul><li>Around 74% for a newborn</li><li>Versus 62% for an elderly person</li></ul><p>These differences largely explain the differences in skin appearance.</p><ul><li><strong>Part of this water is called &quot;free&quot;</strong>, it is mobile and can evaporate.</li><li><strong>Another part is &quot;immobile&quot; water</strong>, it can not evaporate because it is fixed to the structures of the dermis.</li></ul><p>A balance between water intake and water loss is necessary to maintain the water content within the body.</p><img srcSet="https://larosee.twic.pics/3993x3152/bf60169b5a/dans-peau-il-y-a-eau-un-equilibre-entre-les-apports-et-les-pertes-en-eau-est-necessaire-pour-avoir-une-belle-peau.jpg/m/3993x3152?twic=v1/resize=3993 1x, https://larosee.twic.pics/3993x3152/bf60169b5a/dans-peau-il-y-a-eau-un-equilibre-entre-les-apports-et-les-pertes-en-eau-est-necessaire-pour-avoir-une-belle-peau.jpg/m/3993x3152?twic=v1/resize=7986 2x, https://larosee.twic.pics/3993x3152/bf60169b5a/dans-peau-il-y-a-eau-un-equilibre-entre-les-apports-et-les-pertes-en-eau-est-necessaire-pour-avoir-une-belle-peau.jpg/m/3993x3152?twic=v1/resize=11979 3x" src="https://larosee.twic.pics/3993x3152/bf60169b5a/dans-peau-il-y-a-eau-un-equilibre-entre-les-apports-et-les-pertes-en-eau-est-necessaire-pour-avoir-une-belle-peau.jpg/m/3993x3152" width="3993" height="3152" alt="Dans peau il y a eau : un équilibre entre les apports et les pertes en eau est nécessaire pour avoir une belle peau - La Rosée" loading="lazy" decoding="async"/><h3 class="Heading-module__root___NpBjo" data-font-size="sm" id="it-is-all-about-the-structure">It is all about the structure!</h3><p>It is the structure of our skin that allows us to retain the water that our body needs and maintain a good level of hydration so that the skin remains supple, soft and toned.</p><p>Our skin is made up of three main overlapping layers: the epidermis, which contains the hydrolipidic film on the surface, the dermis and the hypodermis, which is even deeper.</p></div></div><div id="section-2458478d-ae51-4b6e-93b3-783e191509e8" class="Section-module__root___58S5Y MediaWithAccordion-module__root___ljPfP" data-background="white" data-custom-color="false"><img srcSet="https://larosee.twic.pics/1200x1400/3c0f89aa7e/schema-de-la-structure-de-peau-pour-comprendre-comment-fonctionne-l-hydratation.webp/m/1200x1400?twic=v1/quality=100/resize=200 200w, https://larosee.twic.pics/1200x1400/3c0f89aa7e/schema-de-la-structure-de-peau-pour-comprendre-comment-fonctionne-l-hydratation.webp/m/1200x1400?twic=v1/quality=95/resize=400 400w, https://larosee.twic.pics/1200x1400/3c0f89aa7e/schema-de-la-structure-de-peau-pour-comprendre-comment-fonctionne-l-hydratation.webp/m/1200x1400?twic=v1/quality=90/resize=600 600w, https://larosee.twic.pics/1200x1400/3c0f89aa7e/schema-de-la-structure-de-peau-pour-comprendre-comment-fonctionne-l-hydratation.webp/m/1200x1400?twic=v1/quality=86/resize=800 800w, https://larosee.twic.pics/1200x1400/3c0f89aa7e/schema-de-la-structure-de-peau-pour-comprendre-comment-fonctionne-l-hydratation.webp/m/1200x1400?twic=v1/quality=83/resize=1000 1000w, https://larosee.twic.pics/1200x1400/3c0f89aa7e/schema-de-la-structure-de-peau-pour-comprendre-comment-fonctionne-l-hydratation.webp/m/1200x1400?twic=v1/quality=80/resize=1200 1200w" src="https://larosee.twic.pics/1200x1400/3c0f89aa7e/schema-de-la-structure-de-peau-pour-comprendre-comment-fonctionne-l-hydratation.webp/m/1200x1400" width="1200" height="1400" sizes="(min-width: 64rem) 41.6667vw, 100vw" alt="" loading="lazy" decoding="async" class="MediaWithAccordion-module__media___KcwbW"/><div class="MediaWithAccordion-module__accordion___GNNVY" data-orientation="vertical"><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI MediaWithAccordion-module__accordion-item___Hftne" data-rounded="false"><h3 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_4qall4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_qall4l_" class="AccordionTrigger-module__root___IRk5g" data-size="lg" data-bold="false" data-radix-collection-item="">The hydrolipidic film</button></h3><div data-state="closed" id="radix-_R_4qall4l_" hidden="" role="region" aria-labelledby="radix-_R_qall4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN AccordionItemWithBlocks-module__accordion-content___5lQoD" data-size="md" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI MediaWithAccordion-module__accordion-item___Hftne" data-rounded="false"><h3 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_5aall4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_1aall4l_" class="AccordionTrigger-module__root___IRk5g" data-size="lg" data-bold="false" data-radix-collection-item="">The epidermis</button></h3><div data-state="closed" id="radix-_R_5aall4l_" hidden="" role="region" aria-labelledby="radix-_R_1aall4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN AccordionItemWithBlocks-module__accordion-content___5lQoD" data-size="md" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI MediaWithAccordion-module__accordion-item___Hftne" data-rounded="false"><h3 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_5qall4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_1qall4l_" class="AccordionTrigger-module__root___IRk5g" data-size="lg" data-bold="false" data-radix-collection-item="">The dermis</button></h3><div data-state="closed" id="radix-_R_5qall4l_" hidden="" role="region" aria-labelledby="radix-_R_1qall4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN AccordionItemWithBlocks-module__accordion-content___5lQoD" data-size="md" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI MediaWithAccordion-module__accordion-item___Hftne" data-rounded="false"><h3 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_6aall4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_2aall4l_" class="AccordionTrigger-module__root___IRk5g" data-size="lg" data-bold="false" data-radix-collection-item="">The hypodermis</button></h3><div data-state="closed" id="radix-_R_6aall4l_" hidden="" role="region" aria-labelledby="radix-_R_2aall4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN AccordionItemWithBlocks-module__accordion-content___5lQoD" data-size="md" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div></div></div><div id="section-44f1384e-88ad-47e0-a45e-09ea7720d71d" class="Section-module__root___58S5Y RichText-module__root___KPAL-" data-background="white" data-text-alignment="left"><div class="TextContainer-module__root___3x88v RichText-module__content___xefl8"><h2 class="Heading-module__root___NpBjo" data-font-size="md" id="why-hydrate-your-skin">Why hydrate your skin?</h2><h3 class="Heading-module__root___NpBjo" data-font-size="sm" id="to-compensate-for-permanent-evaporation">To compensate for permanent evaporation</h3><p>The water stored in the dermis is transported to the epidermal cells via blood microcirculation and the proteins called aquaporins maintain the water balance between these layers.</p><p>This water, which is present in gaseous form, constantly evaporates through perspiration and transpiration (respiratory exchange that takes place through the skin). This phenomenon is called transepidermal water loss (TEWL) and represents about a half-liter per day!</p><p>This daily water loss must be compensated, in order to maintain the skin&#x27;s general balance.</p><h3 class="Heading-module__root___NpBjo" data-font-size="sm" id="to-prevent-the-alteration-of-the-hydrolipidic-film">To prevent the alteration of the hydrolipidic film</h3><p>Other factors can disrupt good skin hydration: aggressive cleansing, lifestyle, pollution, hard water, hot showers... The hydrolipidic film is often put to the test!</p><p>When this film is altered, the epidermis is no longer properly protected and water evaporates. The skin becomes dehydrated and more sensitive. It then needs to be rehydrated to repair it..</p><h3 class="Heading-module__root___NpBjo" data-font-size="sm" id="to-maintain-beautiful-healthy-skin">To maintain beautiful, healthy skin</h3><p>Good hydration leaves the skin feeling good and protected.</p><p>In the long term, it also helps:</p><h4 id="slow-down-skin-aging"><strong>Slow down skin aging.</strong></h4><p>Over time, the structure of the dermis weakens and the skin thins. Skin tissue loses volume and elasticity: wrinkles gradually form.</p><p>Regular, suitable hydration helps fight external aggressions and makes skin more resistant to combating skin aging.</p><h4 id="to-ensure-cell-renewal"><strong>To ensure cell renewal.</strong></h4><p>Cell renewal is a natural process that the skin does about every 28 days. It is essential for healthy skin.</p><p>Our skin cells are continuously produced in the deepest layer of the epidermis. They then gradually migrate to the surface. Their journey ends in the outermost layer of the epidermis: the stratum corneum. At this point, our skin sheds its cells because they have died. This is known as desquamation. In this way, the skin renews itself and its appearance becomes brighter.</p><p>When the skin is properly hydrated, the dead cells in the stratum corneum can be removed more easily and the skin can regenerate better.</p><img srcSet="https://larosee.twic.pics/964x792/3f9f005d1c/hydrater-sa-peau-est-essentiel-pour-avoir-une-belle-peau-en-bonne-sante.jpg/m/964x792?twic=v1/resize=964 1x, https://larosee.twic.pics/964x792/3f9f005d1c/hydrater-sa-peau-est-essentiel-pour-avoir-une-belle-peau-en-bonne-sante.jpg/m/964x792?twic=v1/resize=1928 2x, https://larosee.twic.pics/964x792/3f9f005d1c/hydrater-sa-peau-est-essentiel-pour-avoir-une-belle-peau-en-bonne-sante.jpg/m/964x792?twic=v1/resize=2892 3x" src="https://larosee.twic.pics/964x792/3f9f005d1c/hydrater-sa-peau-est-essentiel-pour-avoir-une-belle-peau-en-bonne-sante.jpg/m/964x792" width="964" height="792" alt="Hydrater sa peau est essentiel pour avoir une belle peau en bonne santé - La Rosée" loading="lazy" decoding="async"/></div></div><div id="section-1e9f626f-3cc2-4431-a0f6-4128a4667f79" class="Section-module__root___58S5Y RichText-module__root___KPAL-" data-background="white" data-text-alignment="left"><div class="TextContainer-module__root___3x88v RichText-module__content___xefl8"><h2 class="Heading-module__root___NpBjo" data-font-size="md" id="how-to-hydrate-your-skin-properly">How to hydrate your skin properly?</h2><h3 class="Heading-module__root___NpBjo" data-font-size="sm" id="achieve-in-depth-hydration-through-oral-water-intake">Achieve in-depth hydration through oral water intake</h3><p>This provides deep hydration at the dermal level. You should therefore drink at least 1.5 liters of water throughout the day! This hydration compensates for the insensible water loss.</p><h3 class="Heading-module__root___NpBjo" data-font-size="sm" id="hydrate-the-epidermis-and-stratum-corneum-with-cosmetic-care">Hydrate the epidermis and stratum corneum with cosmetic care.</h3><p>Hydrating care helps to strengthen the stratum corneum and rebalance the hydrolipidic film to prevent dehydration by providing lipids and/or water depending on the skin&#x27;s needs.</p><p>Hydrating care works in two ways:</p><ul><li><strong>By limiting water loss from the epidermis,</strong> thanks to hydrophilic film formers: they deposit a small, moist insulating layer to keep water in the epidermis while allowing the skin to breathe. These are contained in vegetable glycerin and plant waxes, which are particularly interesting due to their hydrating effects.</li><li><strong>By strengthening the skin&#x27;s resistance to dehydration, thanks to emollients:</strong> these active ingredients fill the micro-cracks in the lipid cement through which water evaporates. Only natural emollients such as butter and vegetable oils are effective as they penetrate deep into the skin (shea butter, almond oil, coconut oil, jojoba oil, sunflower oil for example).</li></ul><p><strong>As you can see, choosing the right skincare products is crucial!</strong></p><img srcSet="https://larosee.twic.pics/3747x2955/0963b3283b/bien-hydrater-sa-peau-passe-par-l-hydratation-de-l-epiderme-et-de-la-couche-cornee-grace-aux-soins-cosmetiques.jpg/m/3747x2955?twic=v1/resize=3747 1x, https://larosee.twic.pics/3747x2955/0963b3283b/bien-hydrater-sa-peau-passe-par-l-hydratation-de-l-epiderme-et-de-la-couche-cornee-grace-aux-soins-cosmetiques.jpg/m/3747x2955?twic=v1/resize=7494 2x, https://larosee.twic.pics/3747x2955/0963b3283b/bien-hydrater-sa-peau-passe-par-l-hydratation-de-l-epiderme-et-de-la-couche-cornee-grace-aux-soins-cosmetiques.jpg/m/3747x2955?twic=v1/resize=11241 3x" src="https://larosee.twic.pics/3747x2955/0963b3283b/bien-hydrater-sa-peau-passe-par-l-hydratation-de-l-epiderme-et-de-la-couche-cornee-grace-aux-soins-cosmetiques.jpg/m/3747x2955" width="3747" height="2955" alt="Bien hydrater sa peau passe par l&#x27;hydratation de l&#x27;épiderme et de la couche cornée grâce aux soins cosmétiques - La Rosée" loading="lazy" decoding="async"/></div></div><div id="section-79dffef0-f0a9-495b-bafb-3b55457a9252" class="Section-module__root___58S5Y RichText-module__root___KPAL-" data-background="white" data-text-alignment="left"><div class="TextContainer-module__root___3x88v RichText-module__content___xefl8"><h2 class="Heading-module__root___NpBjo" data-font-size="md" id="how-to-choose-the-right-skincare-products">How to choose the right skincare products?</h2><p>All skin types, even the oiliest, need hydration care because they are all exposed to water loss that must be compensated.</p><p>The drier the skin, the more it will need fatty emollient agents. No matter how nourishing the products are, if the skin is hydrated with poorly chosen care products, it will remain dull.</p><p>To get maximum effectiveness, you need to use the right products suited to your skin type and condition.</p><h3 class="Heading-module__root___NpBjo" data-font-size="sm" id="know-your-skin-type-and-condition-to-provide-an-adapted-response">Know your skin type and condition to provide an adapted response</h3><ul><li><strong>Skin type is genetic.</strong> It corresponds to the physiological nature of the skin. It can evolve over time.</li><li><strong>Skin condition is a transient and punctual state of the skin</strong>. It appears due to external factors like temperature changes, lifestyle, an overly harsh beauty routine, or internal factors like hormones, emotions and skin aging.</li></ul><h3 class="Heading-module__root___NpBjo" data-font-size="sm" id="rely-on-cosmetic-tests">Rely on cosmetic tests</h3><h4 id="clinical-tests">Clinical tests</h4><p>In order to claim hydrating properties, cosmetic products must undergo clinical testing conducted by an independent laboratory.</p><p>These tests are carried out using an instrument called a corneometer which will measure the skin&#x27;s hydration level by sending a weak electric field through the different layers of the skin.</p><p>By comparing the first measurement with the measurement after application of the product, a percentage improvement in the skin&#x27;s hydration content can be calculated.</p><p>The time between two measurements varies and allows a claim like &quot;+65% hydration after 2 hours.&quot;</p><h4 id="the-usage-test">The usage test</h4><p>The usage test provides information about the properties of a skin care product.</p><p>It is an evaluation of the product by a selected group of users.</p><p>These tests make it possible to evaluate the sensory properties (scent, texture, comfort of use...) and the condition of the skin after use (radiance, wellness, hydration, reduction of wrinkles, dark circles...).</p><p>These results are recorded using a questionnaire that the testers fill out. This test allows statements such as: &quot;96% of testers found their skin more radiant.&quot;</p><p><strong>These tests can reassure you and help you in your search for a hydrating product!</strong></p></div></div><div id="section-964df90b-a5ce-42cb-a10b-da373b040647" class="Section-module__root___58S5Y MediaWithText-module__root___6cuDw" data-background="white" data-media-position="left" data-custom-color="false"><div class="MediaWithText-module__content___zf3At"><div class="TextContainer-module__root___3x88v MediaWithText-module__text___1zGUb"><p>Si vous souhaitez connaitre l’hydratation adaptée à votre type de peau, nous vous proposons un diagnostic de peau pour vous guider.</p></div><a class="Button-module__root___Djkf0 MediaWithText-module__button___mWT0y" data-variant="flat" data-size="sm" type="button" href="/en-ww/diagnosis" data-discover="true">DÉBUTER MON DIAGNOSTIC</a></div><img srcSet="https://larosee.twic.pics/1920x1920/21918a7559/diagnostic-personnalise.jpg/m/1920x1920?twic=v1/quality=100/resize=200 200w, https://larosee.twic.pics/1920x1920/21918a7559/diagnostic-personnalise.jpg/m/1920x1920?twic=v1/quality=95/resize=400 400w, https://larosee.twic.pics/1920x1920/21918a7559/diagnostic-personnalise.jpg/m/1920x1920?twic=v1/quality=90/resize=600 600w, https://larosee.twic.pics/1920x1920/21918a7559/diagnostic-personnalise.jpg/m/1920x1920?twic=v1/quality=86/resize=800 800w, https://larosee.twic.pics/1920x1920/21918a7559/diagnostic-personnalise.jpg/m/1920x1920?twic=v1/quality=83/resize=1000 1000w, https://larosee.twic.pics/1920x1920/21918a7559/diagnostic-personnalise.jpg/m/1920x1920?twic=v1/quality=80/resize=1200 1200w, https://larosee.twic.pics/1920x1920/21918a7559/diagnostic-personnalise.jpg/m/1920x1920?twic=v1/quality=76/resize=1400 1400w, https://larosee.twic.pics/1920x1920/21918a7559/diagnostic-personnalise.jpg/m/1920x1920?twic=v1/quality=74/resize=1600 1600w, https://larosee.twic.pics/1920x1920/21918a7559/diagnostic-personnalise.jpg/m/1920x1920?twic=v1/quality=71/resize=1800 1800w" src="https://larosee.twic.pics/1920x1920/21918a7559/diagnostic-personnalise.jpg/m/1920x1920" width="1920" height="1920" sizes="(min-width: 64rem) 50vw, 100vw" alt="" loading="lazy" decoding="async" class="MediaWithText-module__media___IYVJj"/></div><aside class="NewsletterSection-module__root___j9mxB"><img srcSet="https://larosee.twic.pics/687x625/7de8cb25a6/pictogrammes_enveloppe-bleu.png/m/687x625?twic=v1/resize=687 1x, https://larosee.twic.pics/687x625/7de8cb25a6/pictogrammes_enveloppe-bleu.png/m/687x625?twic=v1/resize=1374 2x, https://larosee.twic.pics/687x625/7de8cb25a6/pictogrammes_enveloppe-bleu.png/m/687x625?twic=v1/resize=2061 3x" src="https://larosee.twic.pics/687x625/7de8cb25a6/pictogrammes_enveloppe-bleu.png/m/687x625" width="687" height="625" alt="" loading="lazy" decoding="async" class="NewsletterSection-module__icon___O--LE"/><h2 class="Heading-module__root___NpBjo NewsletterSection-module__heading___PQV1f" data-font-size="md">Bültenimize kaydolun!</h2><div class="TextContainer-module__root___3x88v NewsletterSection-module__text___au1e0"><p>Kaydolduğunuzda %10 indirim kazanın. Özel önizlemeleri, en iyi ipuçlarımızı ve size özel teklifleri kaçırmayın!</p></div><form class="NewsletterSection-module__form___gaiv9" data-discover="true" action="/contact?newsletter=true" method="post"><div><div class="Input-module__root___xpABX"><input title="" class="Input-module__control___V7V8B" placeholder="Email" required="" type="email" autoComplete="email" id="radix-_R_1ipl4l_" name="email"/><label class="Input-module__label___Uin1P" for="radix-_R_1ipl4l_">Email</label></div></div><div hidden=""><fieldset class="NewsletterSection-module__fieldset___pSWVk"><legend class="NewsletterSection-module__legend___a448c">Hangi konular sizi ilgilendiriyor? </legend><div class="Checkbox-module__root___BuAB8 NewsletterSection-module__checkbox___0-UPm"><input title="" class="Checkbox-module__control___UoIEa" type="checkbox" id="radix-_R_2aipl4l_" name="tags" value="La Rosée"/><label class="Checkbox-module__label___LJPVK" data-variant="" for="radix-_R_2aipl4l_">La Rosée</label></div><div class="Checkbox-module__root___BuAB8 NewsletterSection-module__checkbox___0-UPm"><input title="" class="Checkbox-module__control___UoIEa" type="checkbox" id="radix-_R_3aipl4l_" name="tags" value="Mon Petit La Rosée"/><label class="Checkbox-module__label___LJPVK" data-variant="" for="radix-_R_3aipl4l_">Mon Petit La Rosée</label></div></fieldset><fieldset class="NewsletterSection-module__fieldset___pSWVk"><legend class="NewsletterSection-module__legend___a448c">When is your birthday?
+    <main class="story-main" id="content">
+      <!-- Immersive Hero Section -->
+      <section class="story-hero">
+        <div class="hero-bg">
+          <img src="https://larosee.twic.pics/1920x1281/811662d293/page-expertise.jpg/m/1920x1281" alt="Hydration Expertise" class="hero-img">
+        </div>
+        <div class="hero-content">
+          <div class="hero-text-box">
+            <span class="eyebrow fade-in">BİLGİ VE UZMANLIK</span>
+            <h1 class="hero-title fade-in">Nemlendirme DNA'mızın bir parçasıdır, çünkü güzel bir cildin <em>sırrı</em> budur.</h1>
+            <div class="hero-intro fade-in">
+              <p>Nedenini anlamak ister misiniz? Doğru yerdesiniz!</p>
+              <p>Nemlendirmenin nasıl işlediğini, neden bu kadar önemli olduğunu ve cildinizin optimal nem seviyesine sahip olmasını nasıl sağlayacağınızı açıklayacağız.</p>
+            </div>
+            <div class="jump-links fade-in">
+              <a href="#how-it-works" class="jump-link">Nemlendirme nasıl işler?</a>
+              <a href="#why-hydrate" class="jump-link">Neden nemlendirmeli?</a>
+              <a href="#how-to-hydrate" class="jump-link">Nasıl nemlendirmeli?</a>
+              <a href="#how-to-choose" class="jump-link">Nasıl seçmeli?</a>
+            </div>
+          </div>
+        </div>
+      </section>
 
-We’ve got a little surprise planned for you on that day!</legend><div class="Input-module__root___xpABX"><input title="" class="Input-module__control___V7V8B" placeholder="Doğum Günü (GG/AA/YYYY)" type="text" autoComplete="bday" pattern="\d{2}/\d{2}/\d{4}" maxLength="10" id="radix-_R_2iipl4l_" name="birthday" value=""/><label class="Input-module__label___Uin1P" for="radix-_R_2iipl4l_">Doğum Günü (GG/AA/YYYY)</label></div></fieldset></div><button class="Button-module__root___Djkf0 NewsletterSection-module__submit___zI-PU" data-variant="flat" data-size="md" data-loading="false" type="submit">Gönder</button><div class="Checkbox-module__root___BuAB8 NewsletterSection-module__legal-checkbox___KK8NG"><input title="" class="Checkbox-module__control___UoIEa" type="checkbox" required="" id="radix-_R_4ipl4l_" name="legals" value="La Rosée Cosmétiques bültenine abone olmayı kabul ediyorum. Aboneliği istediğim zaman iptal edebileceğimi biliyorum.
+      <!-- Sub-navigation -->
+      <div class="story-subnav">
+        <div class="subnav-inner">
+          <router-link to="/taahhutlerimiz" class="nav-item back-nav">←</router-link>
+          <span class="nav-item active">Nemlendirme Uzmanlığı</span>
+        </div>
+      </div>
 
-[Haklar ve veri yönetimi](/policies/politique-de-gestion-des-cookies)"/><label class="Checkbox-module__label___LJPVK" data-variant="xs" for="radix-_R_4ipl4l_"><div class="TextContainer-module__root___3x88v"><span>La Rosée Cosmétiques bültenine abone olmayı kabul ediyorum. Aboneliği istediğim zaman iptal edebileceğimi biliyorum.</span><span><a class="Link-module__root___YqUoP" data-variant="underline" href="/en-ww/policies/politique-de-gestion-des-cookies" data-discover="true">Haklar ve veri yönetimi</a></span></div></label></div></form><div class="NewsletterSection-module__social-networks___vlyL-"><p>Bizi takip edin</p><ul class="SocialNetworks-module__root___0FcMc"><li><a href="https://instagram.com/laroseecosmetiques" target="_blank" rel="noopener noreferrer" title="Instagram"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 0C8.74 0 8.333 0.015 7.053 0.072C5.775 0.132 4.905 0.333 4.14 0.63C3.351 0.936 2.681 1.347 2.014 2.014C1.347 2.681 0.935 3.35 0.63 4.14C0.333 4.905 0.131 5.775 0.072 7.053C0.012 8.333 0 8.74 0 12C0 15.26 0.015 15.667 0.072 16.947C0.132 18.224 0.333 19.095 0.63 19.86C0.936 20.648 1.347 21.319 2.014 21.986C2.681 22.652 3.35 23.065 4.14 23.37C4.906 23.666 5.776 23.869 7.053 23.928C8.333 23.988 8.74 24 12 24C15.26 24 15.667 23.985 16.947 23.928C18.224 23.868 19.095 23.666 19.86 23.37C20.648 23.064 21.319 22.652 21.986 21.986C22.652 21.319 23.065 20.651 23.37 19.86C23.666 19.095 23.869 18.224 23.928 16.947C23.988 15.667 24 15.26 24 12C24 8.74 23.985 8.333 23.928 7.053C23.868 5.776 23.666 4.904 23.37 4.14C23.064 3.351 22.652 2.681 21.986 2.014C21.319 1.347 20.651 0.935 19.86 0.63C19.095 0.333 18.224 0.131 16.947 0.072C15.667 0.012 15.26 0 12 0ZM12 2.16C15.203 2.16 15.585 2.176 16.85 2.231C18.02 2.286 18.655 2.48 19.077 2.646C19.639 2.863 20.037 3.123 20.459 3.542C20.878 3.962 21.138 4.361 21.355 4.923C21.519 5.345 21.715 5.98 21.768 7.15C21.825 8.416 21.838 8.796 21.838 12C21.838 15.204 21.823 15.585 21.764 16.85C21.703 18.02 21.508 18.655 21.343 19.077C21.119 19.639 20.864 20.037 20.444 20.459C20.025 20.878 19.62 21.138 19.064 21.355C18.644 21.519 17.999 21.715 16.829 21.768C15.555 21.825 15.18 21.838 11.97 21.838C8.759 21.838 8.384 21.823 7.111 21.764C5.94 21.703 5.295 21.508 4.875 21.343C4.306 21.119 3.915 20.864 3.496 20.444C3.075 20.025 2.806 19.62 2.596 19.064C2.431 18.644 2.237 17.999 2.176 16.829C2.131 15.569 2.115 15.18 2.115 11.985C2.115 8.789 2.131 8.399 2.176 7.124C2.237 5.954 2.431 5.31 2.596 4.89C2.806 4.32 3.075 3.93 3.496 3.509C3.915 3.09 4.306 2.82 4.875 2.611C5.295 2.445 5.926 2.25 7.096 2.19C8.371 2.145 8.746 2.13 11.955 2.13L12 2.16V2.16ZM12 5.838C8.595 5.838 5.838 8.598 5.838 12C5.838 15.405 8.598 18.162 12 18.162C15.405 18.162 18.162 15.402 18.162 12C18.162 8.595 15.402 5.838 12 5.838ZM12 16C9.79 16 8 14.21 8 12C8 9.79 9.79 8 12 8C14.21 8 16 9.79 16 12C16 14.21 14.21 16 12 16ZM19.846 5.595C19.846 6.39 19.2 7.035 18.406 7.035C17.611 7.035 16.966 6.389 16.966 5.595C16.966 4.801 17.612 4.156 18.406 4.156C19.199 4.155 19.846 4.801 19.846 5.595Z" fill="currentcolor"></path></svg></a></li><li><a href="https://www.facebook.com/laroseecosmetiques" target="_blank" rel="noopener noreferrer" title="Facebook"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M24 12.073C24 5.446 18.627 0.072998 12 0.072998C5.373 0.072998 0 5.446 0 12.073C0 18.063 4.388 23.027 10.125 23.927V15.542H7.078V12.072H10.125V9.43C10.125 6.423 11.917 4.761 14.658 4.761C15.97 4.761 17.344 4.996 17.344 4.996V7.949H15.83C14.339 7.949 13.874 8.874 13.874 9.823V12.073H17.202L16.67 15.543H13.874V23.928C19.612 23.027 24 18.062 24 12.073Z" fill="currentcolor"></path></svg></a></li><li><a href="https://www.tiktok.com/@laroseecosmetiques" target="_blank" rel="noopener noreferrer" title="TikTok"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12.5251 0.02C13.8351 0 15.1351 0.01 16.4351 0C16.5151 1.53 17.0651 3.09 18.1851 4.17C19.3051 5.28 20.8851 5.79 22.4251 5.96V9.99C20.9851 9.94 19.5351 9.64 18.2251 9.02C17.6551 8.76 17.1251 8.43 16.6051 8.09C16.5951 11.01 16.6151 13.93 16.5851 16.84C16.5051 18.24 16.0451 19.63 15.2351 20.78C13.9251 22.7 11.6551 23.95 9.32512 23.99C7.89512 24.07 6.46512 23.68 5.24512 22.96C3.22512 21.77 1.80512 19.59 1.59512 17.25C1.57512 16.75 1.56512 16.25 1.58512 15.76C1.76512 13.86 2.70512 12.04 4.16512 10.8C5.82512 9.36 8.14512 8.67 10.3151 9.08C10.3351 10.56 10.2751 12.04 10.2751 13.52C9.28512 13.2 8.12512 13.29 7.25512 13.89C6.62512 14.3 6.14512 14.93 5.89512 15.64C5.68512 16.15 5.74512 16.71 5.75512 17.25C5.99512 18.89 7.57512 20.27 9.25512 20.12C10.3751 20.11 11.4451 19.46 12.0251 18.51C12.2151 18.18 12.4251 17.84 12.4351 17.45C12.5351 15.66 12.4951 13.88 12.5051 12.09C12.5151 8.06 12.4951 4.04 12.5251 0.02V0.02Z" fill="currentcolor"></path></svg></a></li><li><a href="https://www.linkedin.com/company/la-ros%C3%A9e" target="_blank" rel="noopener noreferrer" title="LinkedIn"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" fill="currentcolor"></path></svg></a></li><li><a href="https://www.pinterest.fr/laroseecosmetiques/" target="_blank" rel="noopener noreferrer" title="Pinterest"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.0173 0C5.3963 0 0.0292969 5.367 0.0292969 11.987C0.0292969 17.066 3.1873 21.404 7.6473 23.149C7.5423 22.2 7.4483 20.746 7.6883 19.71C7.9073 18.773 9.0943 13.753 9.0943 13.753C9.0943 13.753 8.7353 13.033 8.7353 11.972C8.7353 10.309 9.7023 9.061 10.9033 9.061C11.9273 9.061 12.4213 9.83 12.4213 10.749C12.4213 11.778 11.7683 13.316 11.4293 14.741C11.1443 15.934 12.0293 16.906 13.2043 16.906C15.3323 16.906 16.9723 14.661 16.9723 11.419C16.9723 8.558 14.9093 6.55 11.9643 6.55C8.5543 6.55 6.5553 9.112 6.5553 11.749C6.5553 12.782 6.9493 13.892 7.4443 14.49C7.5433 14.61 7.5563 14.715 7.5293 14.835C7.4393 15.21 7.2363 16.034 7.1953 16.198C7.1423 16.423 7.0233 16.469 6.7943 16.363C5.2993 15.673 4.3613 13.485 4.3613 11.717C4.3613 7.941 7.1093 4.465 12.2813 4.465C16.4393 4.465 19.6733 7.432 19.6733 11.388C19.6733 15.523 17.0663 18.85 13.4403 18.85C12.2263 18.85 11.0863 18.221 10.6823 17.471L9.9333 20.319C9.6643 21.364 8.9293 22.671 8.4353 23.465C9.5583 23.81 10.7413 24 11.9853 24C18.5923 24 23.9703 18.635 23.9703 12.013C23.9703 5.39 18.5923 0.026 11.9853 0.026L12.0173 0Z" fill="currentcolor"></path></svg></a></li><li><a href="https://www.youtube.com/channel/UCRJ2jVxUd61ZcmhjgnbNL0g" target="_blank" rel="noopener noreferrer" title="YouTube"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M23.498 6.18604C23.3624 5.67532 23.095 5.20918 22.7226 4.83431C22.3502 4.45943 21.8858 4.18899 21.376 4.05004C19.505 3.54504 12 3.54504 12 3.54504C12 3.54504 4.495 3.54504 2.623 4.05004C2.11341 4.18923 1.64929 4.45978 1.27708 4.83463C0.904861 5.20947 0.637591 5.67548 0.502 6.18604C0 8.07004 0 12 0 12C0 12 0 15.93 0.502 17.814C0.637586 18.3248 0.904975 18.7909 1.27739 19.1658C1.64981 19.5407 2.11418 19.8111 2.624 19.95C4.495 20.455 12 20.455 12 20.455C12 20.455 19.505 20.455 21.377 19.95C21.8869 19.8112 22.3513 19.5408 22.7237 19.1659C23.0961 18.791 23.3635 18.3248 23.499 17.814C24 15.93 24 12 24 12C24 12 24 8.07004 23.498 6.18604ZM9.545 15.568V8.43204L15.818 12L9.545 15.568Z" fill="currentcolor"></path></svg></a></li></ul></div></aside><aside class="Reassurances-module__root___evF-d"><h2 style="position:absolute;border:0;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;word-wrap:normal">Güvenceler</h2><ul class="Reassurances-module__list___xTpiW"><li class="Reassurances-module__item___diEAt"><article class="IconWithText-module__root___o-KFW" data-size="lg" data-align="center" data-border="true"><img src="https://larosee.twic.pics/101x100/496ca65e00/livraison.svg" width="101" height="100" alt="" loading="lazy" decoding="async" class="IconWithText-module__icon___ST6u4"/><div class="IconWithText-module__text___C0gVA"><p class="IconWithText-module__title___BAcgw">Ücretsiz Kargo</p><p>25TL üzeri siparişlerde</p></div></article></li><li class="Reassurances-module__item___diEAt"><article class="IconWithText-module__root___o-KFW" data-size="lg" data-align="center" data-border="true"><img src="https://larosee.twic.pics/152x150/110e69b8d2/echantillon.svg" width="152" height="150" alt="" loading="lazy" decoding="async" class="IconWithText-module__icon___ST6u4"/><div class="IconWithText-module__text___C0gVA"><p class="IconWithText-module__title___BAcgw">1 ücretsiz numune</p><p>her siparişte talep üzerine</p></div></article></li><li class="Reassurances-module__item___diEAt"><article class="IconWithText-module__root___o-KFW" data-size="lg" data-align="center" data-border="true"><img src="https://larosee.twic.pics/101x100/50787b3336/pharmacies.svg" width="101" height="100" alt="" loading="lazy" decoding="async" class="IconWithText-module__icon___ST6u4"/><div class="IconWithText-module__text___C0gVA"><p class="IconWithText-module__title___BAcgw">Partner pharmacies</p><p><a class="Link-module__root___YqUoP" data-variant="underline" href="/en-ww/pharmacy-locator" data-discover="true">yakınınızdaki eczaneyi bulun</a></p></div></article></li><li class="Reassurances-module__item___diEAt"><article class="IconWithText-module__root___o-KFW" data-size="lg" data-align="center" data-border="true"><img src="https://larosee.twic.pics/101x100/efbb8a48d8/sav.svg" width="101" height="100" alt="" loading="lazy" decoding="async" class="IconWithText-module__icon___ST6u4"/><div class="IconWithText-module__text___C0gVA"><p class="IconWithText-module__title___BAcgw">Sorunuz mu var?</p><p><a class="Link-module__root___YqUoP" data-variant="underline" href="/en-ww/contact" data-discover="true">bize ulaşın</a></p></div></article></li></ul></aside></main>
-<aside class="NewsletterSection-module__root___j9mxB"><img srcSet="https://larosee.twic.pics/687x625/7de8cb25a6/pictogrammes_enveloppe-bleu.png/m/687x625?twic=v1/resize=687 1x, https://larosee.twic.pics/687x625/7de8cb25a6/pictogrammes_enveloppe-bleu.png/m/687x625?twic=v1/resize=1374 2x, https://larosee.twic.pics/687x625/7de8cb25a6/pictogrammes_enveloppe-bleu.png/m/687x625?twic=v1/resize=2061 3x" src="https://larosee.twic.pics/687x625/7de8cb25a6/pictogrammes_enveloppe-bleu.png/m/687x625" width="687" height="625" alt="" loading="lazy" decoding="async" class="NewsletterSection-module__icon___O--LE"/><h2 class="Heading-module__root___NpBjo NewsletterSection-module__heading___PQV1f" data-font-size="md">Bültenimize kaydolun!</h2><div class="TextContainer-module__root___3x88v NewsletterSection-module__text___au1e0"><p>Kaydolduğunuzda %10 indirim kazanın. Özel önizlemeleri, en iyi ipuçlarımızı ve size özel teklifleri kaçırmayın!</p></div><form class="NewsletterSection-module__form___gaiv9" data-discover="true" action="/contact?newsletter=true" method="post"><div><div class="Input-module__root___xpABX"><input title="" class="Input-module__control___V7V8B" placeholder="Email" required="" type="email" autoComplete="email" id="radix-_R_1ipl4l_" name="email"/><label class="Input-module__label___Uin1P" for="radix-_R_1ipl4l_">Email</label></div></div><div hidden=""><fieldset class="NewsletterSection-module__fieldset___pSWVk"><legend class="NewsletterSection-module__legend___a448c">Hangi konular sizi ilgilendiriyor? </legend><div class="Checkbox-module__root___BuAB8 NewsletterSection-module__checkbox___0-UPm"><input title="" class="Checkbox-module__control___UoIEa" type="checkbox" id="radix-_R_2aipl4l_" name="tags" value="La Rosée"/><label class="Checkbox-module__label___LJPVK" data-variant="" for="radix-_R_2aipl4l_">La Rosée</label></div><div class="Checkbox-module__root___BuAB8 NewsletterSection-module__checkbox___0-UPm"><input title="" class="Checkbox-module__control___UoIEa" type="checkbox" id="radix-_R_3aipl4l_" name="tags" value="Mon Petit La Rosée"/><label class="Checkbox-module__label___LJPVK" data-variant="" for="radix-_R_3aipl4l_">Mon Petit La Rosée</label></div></fieldset><fieldset class="NewsletterSection-module__fieldset___pSWVk"><legend class="NewsletterSection-module__legend___a448c">When is your birthday?
+      <div class="story-container">
+        <!-- Section 1: How it works -->
+        <section id="how-it-works" class="content-section animate-on-scroll">
+          <div class="text-block centered">
+            <h2 class="section-title">Nemlendirme nasıl işler?</h2>
+            <div class="highlight-box">
+              <h3>Ciltte su vardır</h3>
+              <p>Cilt, her şeyden önce vücudu koruyan bir savunma bariyeridir. Yaklaşık <strong>%67</strong> oranında su içerir ve bu oran yaşa bağlı olarak değişir:</p>
+              <ul class="stats-list">
+                <li><strong>%74</strong> — Yeni doğan</li>
+                <li><strong>%62</strong> — Yaşlı bir birey</li>
+              </ul>
+              <p>Bu farklar, cilt görünümündeki farklılıkları büyük ölçüde açıklar.</p>
+            </div>
+          </div>
 
-We’ve got a little surprise planned for you on that day!</legend><div class="Input-module__root___xpABX"><input title="" class="Input-module__control___V7V8B" placeholder="Doğum Günü (GG/AA/YYYY)" type="text" autoComplete="bday" pattern="\d{2}/\d{2}/\d{4}" maxLength="10" id="radix-_R_2iipl4l_" name="birthday" value=""/><label class="Input-module__label___Uin1P" for="radix-_R_2iipl4l_">Doğum Günü (GG/AA/YYYY)</label></div></fieldset></div><button class="Button-module__root___Djkf0 NewsletterSection-module__submit___zI-PU" data-variant="flat" data-size="md" data-loading="false" type="submit">Gönder</button><div class="Checkbox-module__root___BuAB8 NewsletterSection-module__legal-checkbox___KK8NG"><input title="" class="Checkbox-module__control___UoIEa" type="checkbox" required="" id="radix-_R_4ipl4l_" name="legals" value="La Rosée Cosmétiques bültenine abone olmayı kabul ediyorum. Aboneliği istediğim zaman iptal edebileceğimi biliyorum.
+          <div class="image-text-split mt-8">
+            <div class="split-text">
+              <p>Bu suyun bir kısmına <strong>"serbest"</strong> su denir; hareketlidir ve buharlaşabilir. Diğer kısmı ise <strong>"hareketsiz"</strong> sudur; dermisin yapılarına sabitlendiği için buharlaşamaz.</p>
+              <p>Vücut içindeki su içeriğini korumak için su alımı ile su kaybı arasında bir denge gereklidir.</p>
+            </div>
+            <div class="split-image">
+              <img src="https://larosee.twic.pics/3993x3152/bf60169b5a/dans-peau-il-y-a-eau-un-equilibre-entre-les-apports-et-les-pertes-en-eau-est-necessaire-pour-avoir-une-belle-peau.jpg/m/3993x3152" alt="Water Balance in Skin">
+            </div>
+          </div>
+        </section>
 
-[Haklar ve veri yönetimi](/policies/politique-de-gestion-des-cookies)"/><label class="Checkbox-module__label___LJPVK" data-variant="xs" for="radix-_R_4ipl4l_"><div class="TextContainer-module__root___3x88v"><span>La Rosée Cosmétiques bültenine abone olmayı kabul ediyorum. Aboneliği istediğim zaman iptal edebileceğimi biliyorum.</span><span><a class="Link-module__root___YqUoP" data-variant="underline" href="/en-ww/policies/politique-de-gestion-des-cookies" data-discover="true">Haklar ve veri yönetimi</a></span></div></label></div></form><div class="NewsletterSection-module__social-networks___vlyL-"><p>Bizi takip edin</p><ul class="SocialNetworks-module__root___0FcMc"><li><a href="https://instagram.com/laroseecosmetiques" target="_blank" rel="noopener noreferrer" title="Instagram"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 0C8.74 0 8.333 0.015 7.053 0.072C5.775 0.132 4.905 0.333 4.14 0.63C3.351 0.936 2.681 1.347 2.014 2.014C1.347 2.681 0.935 3.35 0.63 4.14C0.333 4.905 0.131 5.775 0.072 7.053C0.012 8.333 0 8.74 0 12C0 15.26 0.015 15.667 0.072 16.947C0.132 18.224 0.333 19.095 0.63 19.86C0.936 20.648 1.347 21.319 2.014 21.986C2.681 22.652 3.35 23.065 4.14 23.37C4.906 23.666 5.776 23.869 7.053 23.928C8.333 23.988 8.74 24 12 24C15.26 24 15.667 23.985 16.947 23.928C18.224 23.868 19.095 23.666 19.86 23.37C20.648 23.064 21.319 22.652 21.986 21.986C22.652 21.319 23.065 20.651 23.37 19.86C23.666 19.095 23.869 18.224 23.928 16.947C23.988 15.667 24 15.26 24 12C24 8.74 23.985 8.333 23.928 7.053C23.868 5.776 23.666 4.904 23.37 4.14C23.064 3.351 22.652 2.681 21.986 2.014C21.319 1.347 20.651 0.935 19.86 0.63C19.095 0.333 18.224 0.131 16.947 0.072C15.667 0.012 15.26 0 12 0ZM12 2.16C15.203 2.16 15.585 2.176 16.85 2.231C18.02 2.286 18.655 2.48 19.077 2.646C19.639 2.863 20.037 3.123 20.459 3.542C20.878 3.962 21.138 4.361 21.355 4.923C21.519 5.345 21.715 5.98 21.768 7.15C21.825 8.416 21.838 8.796 21.838 12C21.838 15.204 21.823 15.585 21.764 16.85C21.703 18.02 21.508 18.655 21.343 19.077C21.119 19.639 20.864 20.037 20.444 20.459C20.025 20.878 19.62 21.138 19.064 21.355C18.644 21.519 17.999 21.715 16.829 21.768C15.555 21.825 15.18 21.838 11.97 21.838C8.759 21.838 8.384 21.823 7.111 21.764C5.94 21.703 5.295 21.508 4.875 21.343C4.306 21.119 3.915 20.864 3.496 20.444C3.075 20.025 2.806 19.62 2.596 19.064C2.431 18.644 2.237 17.999 2.176 16.829C2.131 15.569 2.115 15.18 2.115 11.985C2.115 8.789 2.131 8.399 2.176 7.124C2.237 5.954 2.431 5.31 2.596 4.89C2.806 4.32 3.075 3.93 3.496 3.509C3.915 3.09 4.306 2.82 4.875 2.611C5.295 2.445 5.926 2.25 7.096 2.19C8.371 2.145 8.746 2.13 11.955 2.13L12 2.16V2.16ZM12 5.838C8.595 5.838 5.838 8.598 5.838 12C5.838 15.405 8.598 18.162 12 18.162C15.405 18.162 18.162 15.402 18.162 12C18.162 8.595 15.402 5.838 12 5.838ZM12 16C9.79 16 8 14.21 8 12C8 9.79 9.79 8 12 8C14.21 8 16 9.79 16 12C16 14.21 14.21 16 12 16ZM19.846 5.595C19.846 6.39 19.2 7.035 18.406 7.035C17.611 7.035 16.966 6.389 16.966 5.595C16.966 4.801 17.612 4.156 18.406 4.156C19.199 4.155 19.846 4.801 19.846 5.595Z" fill="currentcolor"></path></svg></a></li><li><a href="https://www.facebook.com/laroseecosmetiques" target="_blank" rel="noopener noreferrer" title="Facebook"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M24 12.073C24 5.446 18.627 0.072998 12 0.072998C5.373 0.072998 0 5.446 0 12.073C0 18.063 4.388 23.027 10.125 23.927V15.542H7.078V12.072H10.125V9.43C10.125 6.423 11.917 4.761 14.658 4.761C15.97 4.761 17.344 4.996 17.344 4.996V7.949H15.83C14.339 7.949 13.874 8.874 13.874 9.823V12.073H17.202L16.67 15.543H13.874V23.928C19.612 23.027 24 18.062 24 12.073Z" fill="currentcolor"></path></svg></a></li><li><a href="https://www.tiktok.com/@laroseecosmetiques" target="_blank" rel="noopener noreferrer" title="TikTok"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12.5251 0.02C13.8351 0 15.1351 0.01 16.4351 0C16.5151 1.53 17.0651 3.09 18.1851 4.17C19.3051 5.28 20.8851 5.79 22.4251 5.96V9.99C20.9851 9.94 19.5351 9.64 18.2251 9.02C17.6551 8.76 17.1251 8.43 16.6051 8.09C16.5951 11.01 16.6151 13.93 16.5851 16.84C16.5051 18.24 16.0451 19.63 15.2351 20.78C13.9251 22.7 11.6551 23.95 9.32512 23.99C7.89512 24.07 6.46512 23.68 5.24512 22.96C3.22512 21.77 1.80512 19.59 1.59512 17.25C1.57512 16.75 1.56512 16.25 1.58512 15.76C1.76512 13.86 2.70512 12.04 4.16512 10.8C5.82512 9.36 8.14512 8.67 10.3151 9.08C10.3351 10.56 10.2751 12.04 10.2751 13.52C9.28512 13.2 8.12512 13.29 7.25512 13.89C6.62512 14.3 6.14512 14.93 5.89512 15.64C5.68512 16.15 5.74512 16.71 5.75512 17.25C5.99512 18.89 7.57512 20.27 9.25512 20.12C10.3751 20.11 11.4451 19.46 12.0251 18.51C12.2151 18.18 12.4251 17.84 12.4351 17.45C12.5351 15.66 12.4951 13.88 12.5051 12.09C12.5151 8.06 12.4951 4.04 12.5251 0.02V0.02Z" fill="currentcolor"></path></svg></a></li><li><a href="https://www.linkedin.com/company/la-ros%C3%A9e" target="_blank" rel="noopener noreferrer" title="LinkedIn"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" fill="currentcolor"></path></svg></a></li><li><a href="https://www.pinterest.fr/laroseecosmetiques/" target="_blank" rel="noopener noreferrer" title="Pinterest"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.0173 0C5.3963 0 0.0292969 5.367 0.0292969 11.987C0.0292969 17.066 3.1873 21.404 7.6473 23.149C7.5423 22.2 7.4483 20.746 7.6883 19.71C7.9073 18.773 9.0943 13.753 9.0943 13.753C9.0943 13.753 8.7353 13.033 8.7353 11.972C8.7353 10.309 9.7023 9.061 10.9033 9.061C11.9273 9.061 12.4213 9.83 12.4213 10.749C12.4213 11.778 11.7683 13.316 11.4293 14.741C11.1443 15.934 12.0293 16.906 13.2043 16.906C15.3323 16.906 16.9723 14.661 16.9723 11.419C16.9723 8.558 14.9093 6.55 11.9643 6.55C8.5543 6.55 6.5553 9.112 6.5553 11.749C6.5553 12.782 6.9493 13.892 7.4443 14.49C7.5433 14.61 7.5563 14.715 7.5293 14.835C7.4393 15.21 7.2363 16.034 7.1953 16.198C7.1423 16.423 7.0233 16.469 6.7943 16.363C5.2993 15.673 4.3613 13.485 4.3613 11.717C4.3613 7.941 7.1093 4.465 12.2813 4.465C16.4393 4.465 19.6733 7.432 19.6733 11.388C19.6733 15.523 17.0663 18.85 13.4403 18.85C12.2263 18.85 11.0863 18.221 10.6823 17.471L9.9333 20.319C9.6643 21.364 8.9293 22.671 8.4353 23.465C9.5583 23.81 10.7413 24 11.9853 24C18.5923 24 23.9703 18.635 23.9703 12.013C23.9703 5.39 18.5923 0.026 11.9853 0.026L12.0173 0Z" fill="currentcolor"></path></svg></a></li><li><a href="https://www.youtube.com/channel/UCRJ2jVxUd61ZcmhjgnbNL0g" target="_blank" rel="noopener noreferrer" title="YouTube"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M23.498 6.18604C23.3624 5.67532 23.095 5.20918 22.7226 4.83431C22.3502 4.45943 21.8858 4.18899 21.376 4.05004C19.505 3.54504 12 3.54504 12 3.54504C12 3.54504 4.495 3.54504 2.623 4.05004C2.11341 4.18923 1.64929 4.45978 1.27708 4.83463C0.904861 5.20947 0.637591 5.67548 0.502 6.18604C0 8.07004 0 12 0 12C0 12 0 15.93 0.502 17.814C0.637586 18.3248 0.904975 18.7909 1.27739 19.1658C1.64981 19.5407 2.11418 19.8111 2.624 19.95C4.495 20.455 12 20.455 12 20.455C12 20.455 19.505 20.455 21.377 19.95C21.8869 19.8112 22.3513 19.5408 22.7237 19.1659C23.0961 18.791 23.3635 18.3248 23.499 17.814C24 15.93 24 12 24 12C24 12 24 8.07004 23.498 6.18604ZM9.545 15.568V8.43204L15.818 12L9.545 15.568Z" fill="currentcolor"></path></svg></a></li></ul></div></aside>
-<aside class="Reassurances-module__root___evF-d"><h2 style="position:absolute;border:0;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;word-wrap:normal">Güvenceler</h2><ul class="Reassurances-module__list___xTpiW"><li class="Reassurances-module__item___diEAt"><article class="IconWithText-module__root___o-KFW" data-size="lg" data-align="center" data-border="true"><img src="https://larosee.twic.pics/101x100/496ca65e00/livraison.svg" width="101" height="100" alt="" loading="lazy" decoding="async" class="IconWithText-module__icon___ST6u4"/><div class="IconWithText-module__text___C0gVA"><p class="IconWithText-module__title___BAcgw">Ücretsiz Kargo</p><p>25TL üzeri siparişlerde</p></div></article></li><li class="Reassurances-module__item___diEAt"><article class="IconWithText-module__root___o-KFW" data-size="lg" data-align="center" data-border="true"><img src="https://larosee.twic.pics/152x150/110e69b8d2/echantillon.svg" width="152" height="150" alt="" loading="lazy" decoding="async" class="IconWithText-module__icon___ST6u4"/><div class="IconWithText-module__text___C0gVA"><p class="IconWithText-module__title___BAcgw">1 ücretsiz numune</p><p>her siparişte talep üzerine</p></div></article></li><li class="Reassurances-module__item___diEAt"><article class="IconWithText-module__root___o-KFW" data-size="lg" data-align="center" data-border="true"><img src="https://larosee.twic.pics/101x100/50787b3336/pharmacies.svg" width="101" height="100" alt="" loading="lazy" decoding="async" class="IconWithText-module__icon___ST6u4"/><div class="IconWithText-module__text___C0gVA"><p class="IconWithText-module__title___BAcgw">Partner pharmacies</p><p><a class="Link-module__root___YqUoP" data-variant="underline" href="/en-ww/pharmacy-locator" data-discover="true">yakınınızdaki eczaneyi bulun</a></p></div></article></li><li class="Reassurances-module__item___diEAt"><article class="IconWithText-module__root___o-KFW" data-size="lg" data-align="center" data-border="true"><img src="https://larosee.twic.pics/101x100/efbb8a48d8/sav.svg" width="101" height="100" alt="" loading="lazy" decoding="async" class="IconWithText-module__icon___ST6u4"/><div class="IconWithText-module__text___C0gVA"><p class="IconWithText-module__title___BAcgw">Sorunuz mu var?</p><p><a class="Link-module__root___YqUoP" data-variant="underline" href="/en-ww/contact" data-discover="true">bize ulaşın</a></p></div></article></li></ul></aside>
-<aside class="BCorp-module__root___8-Roy"><div class="BCorp-module__content___ISZXE"><h2 class="BCorp-module__logo___4DmT9"><img src="https://larosee.twic.pics/81x118/1786c2c8d6/certified_b_corporation_b_corp_logo_2022_black_rgb-1.svg" width="81" height="118" alt="Certified B Corporation" loading="lazy" decoding="async"/></h2><div><div class="Heading-module__root___NpBjo BCorp-module__heading___eiN8k" data-font-size="sm"><p>La Rosée B Corp sertifikalıdır.<br/>Bu sertifika, sorumlu ve katılımcı bir şirket olmaya olan derin ve samimi bağlılığımızı göstermektedir.</p></div><a data-variant="underline" class="Link-module__root___YqUoP" href="/en-ww/certification-b-corp" data-discover="true">Taahhütlerimizi keşfedin</a></div></div></aside>
+        <!-- Section 2: Structure -->
+        <section class="structure-section animate-on-scroll">
+          <div class="text-block centered mb-8">
+            <h2 class="section-title">Her şey yapıyla ilgili!</h2>
+            <p class="large-p">Vücudumuzun ihtiyaç duyduğu suyu tutmamızı ve cildin esnek, yumuşak ve tonlu kalması için iyi bir nem seviyesini korumamızı sağlayan şey cildimizin yapısıdır.</p>
+            <p>Cildimiz üst üste binen üç ana katmandan oluşur: yüzeyde hidrolipidik film içeren epidermis, dermis ve daha derindeki hipodermis.</p>
+          </div>
+
+          <div class="structure-grid">
+            <div class="diagram-side">
+              <img src="https://larosee.twic.pics/1200x1400/3c0f89aa7e/schema-de-la-structure-de-peau-pour-comprendre-comment-fonctionne-l-hydratation.webp/m/1200x1400" alt="Skin Structure Diagram">
+            </div>
+            <div class="accordion-side">
+              <div class="accordion">
+                <details v-for="(item, index) in accordions" :key="index" :open="index === 0">
+                  <summary>{{ item.title }}</summary>
+                  <div class="accordion-content">
+                    <p v-html="item.content"></p>
+                  </div>
+                </details>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section 3: Why hydrate -->
+        <section id="why-hydrate" class="content-section darker animate-on-scroll">
+          <div class="text-block centered">
+            <h2 class="section-title">Cildinizi neden nemlendirmelisiniz?</h2>
+          </div>
+
+          <div class="pillars-flow">
+            <div class="pillar-item">
+              <div class="pillar-header">
+                <span class="pillar-num">01</span>
+                <h3>Kalıcı buharlaşmayı telafi etmek için</h3>
+              </div>
+              <p>Dermiste depolanan su, kan mikrosirkülasyonu yoluyla epidermal hücrelere taşınır ve akuaporin adı verilen proteinler bu katmanlar arasındaki su dengesini korur.</p>
+              <p>Gaz formunda bulunan bu su, terleme ve transpirasyon yoluyla sürekli buharlaşır. Bu fenomene transepidermal su kaybı (TEWL) denir ve günde yaklaşık yarım litreyi temsil eder!</p>
+            </div>
+
+            <div class="pillar-item">
+              <div class="pillar-header">
+                <span class="pillar-num">02</span>
+                <h3>Hidrolipidik filmin bozulmasını önlemek için</h3>
+              </div>
+              <p>Diğer faktörler de iyi cilt nemini bozabilir: sert temizleme, yaşam tarzı, kirlilik, kireçli su, sıcak duşlar... Hidrolipidik film sık sık teste tabi tutulur!</p>
+              <p>Bu film bozulduğunda, epidermis artık düzgün korunmaz ve su buharlaşır. Cilt nemsizleşir ve daha hassas hale gelir. Onarılması için yeniden nemlendirilmesi gerekir.</p>
+            </div>
+
+            <div class="pillar-item">
+              <div class="pillar-header">
+                <span class="pillar-num">03</span>
+                <h3>Güzel ve sağlıklı bir cildini korumak için</h3>
+              </div>
+              <p>İyi bir nemlendirme cildin iyi hissetmesini ve korunmasını sağlar. Uzun vadede yaşlanmayı yavaşlatmaya ve hücre yenilenmesini sağlamaya yardımcı olur.</p>
+              <div class="nested-info">
+                <h4>Hücre Yenilenmesi</h4>
+                <p>Cilt kendini yaklaşık her 28 günde bir yeniler. Sağlıklı nemlenme, bu sürecin optimize edilmesini sağlayarak cildin daha parlak görünmesine olanak tanır.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="full-width-image mt-8">
+            <img src="https://larosee.twic.pics/964x792/3f9f005d1c/hydrater-sa-peau-est-essentiel-pour-avoir-une-belle-peau-en-bonne-sante.jpg/m/964x792" alt="Healthy Skin Hydration">
+          </div>
+        </section>
+
+        <!-- Section 4: How to hydrate properly -->
+        <section id="how-to-hydrate" class="content-section animate-on-scroll">
+          <div class="text-block centered">
+            <h2 class="section-title">Cildinizi nasıl düzgünce nemlendirirsiniz?</h2>
+          </div>
+
+          <div class="dual-method mt-6">
+            <div class="method-card">
+              <div class="method-icon">🚰</div>
+              <h3>Oral su alımı ile derinlemesine nemlendirme</h3>
+              <p>Bu, dermal düzeyde derin nemlendirme sağlar. Bu nedenle gün boyunca en az 1,5 litre su içmelisiniz! Bu nemlendirme, fark edilemeyen su kaybını telafi eder.</p>
+            </div>
+            <div class="method-card primary">
+              <div class="method-icon">✨</div>
+              <h3>Kozmetik bakım ile epidermis nemlendirme</h3>
+              <p>Nemlendirici bakım, cildin ihtiyacına göre lipid ve/veya su sağlayarak stratum corneum'u güçlendirmeye yardımcı olur.</p>
+            </div>
+          </div>
+
+          <div class="expert-pills mt-8">
+            <div class="pill">
+              <strong>Su kaybını sınırlayarak:</strong> Bitkisel gliserin ve bitki mumları ile yalıtım tabakası oluşturur.
+            </div>
+            <div class="pill">
+              <strong>Direnci güçlendirerek:</strong> Shea yağı, badem yağı gibi doğal emolyanlar ile lipid çimentosunu doldurur.
+            </div>
+          </div>
+
+          <div class="full-width-image mt-8">
+            <img src="https://larosee.twic.pics/3747x2955/0963b3283b/bien-hydrater-sa-peau-passe-par-l-hydratation-de-l-epiderme-et-de-la-couche-cornee-grace-aux-soins-cosmetiques.jpg/m/3747x2955" alt="Skincare and Hydration">
+          </div>
+        </section>
+
+        <!-- Section 5: Choosing products -->
+        <section id="how-to-choose" class="content-section animate-on-scroll">
+          <div class="text-block centered">
+            <h2 class="section-title">Doğru cilt bakım ürünleri nasıl seçilir?</h2>
+            <p>Tüm cilt tipleri, en yağlı olanlar bile, nemlendirici bakıma ihtiyaç duyar çünkü hepsi telafi edilmesi gereken su kaybına maruz kalır.</p>
+          </div>
+
+          <div class="test-section mt-8">
+            <div class="test-tabs">
+              <div class="test-tab">
+                <h4>Klinik Testler</h4>
+                <p>Korneometre ile yapılan teknik ölçümlerdir. Örneğin: "2 saat sonra +%65 nemlendirme" gibi iddiaları kanıtlar.</p>
+              </div>
+              <div class="test-tab">
+                <h4>Kullanım Testleri</h4>
+                <p>Kullanıcıların koku, doku ve konfor hakkındaki anket cevaplarıdır. "Kullanıcıların %96'sı cildini daha parlak buldu." gibi sonuçlar verir.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Final CTA -->
+          <div class="final-cta">
+            <div class="cta-image">
+              <img src="https://larosee.twic.pics/1920x1920/21918a7559/diagnostic-personnalise.jpg/m/1920x1920" alt="Skin Diagnosis">
+            </div>
+            <div class="cta-content">
+              <h3>Kişiselleştirilmiş Tanı</h3>
+              <p>Cilt tipinize uygun nemlendirmeyi öğrenmek isterseniz, size rehberlik etmesi için bir cilt tanısı öneriyoruz.</p>
+              <router-link to="/diagnosis" class="cta-button">TANIMA BAŞLA</router-link>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
   </div>
 </template>
 
 <script setup>
+import { onMounted } from 'vue'
+
+const accordions = [
+  {
+    title: 'Hidrolipidik film',
+    content: 'Cilt yüzeyinde su, ter ve sebumdan oluşan ince tabakadır. Su buharlaşmasını sınırlayarak bariyer görevi görür ve dış etkenlere (rüzgar, soğuk, kirlilik) karşı korur.'
+  },
+  {
+    title: 'Epidermis',
+    content: 'Tuğla duvar gibidir: <strong>Keratinositler</strong> tuğlaları, <strong>lipid çimentosu</strong> ise harcı temsil eder. Sağlıklı cilt, bu ikisi arasındaki dengenin sonucudur.'
+  },
+  {
+    title: 'Dermis',
+    content: 'Cildin en kalın ve kolajen, elastin, hyaluronik asit bakımından en zengin katmanıdır. Gerçek bir <strong>su deposudur</strong>.'
+  },
+  {
+    title: 'Hipodermis',
+    content: 'En derin katmandır. Yağların depolandığı enerji rezervidir ve vücut sıcaklığını 37°C\'de tutan ısı düzenleyicidir.'
+  }
+]
+
+onMounted(() => {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible')
+      }
+    })
+  }, { threshold: 0.1 })
+
+  document.querySelectorAll('.animate-on-scroll').forEach(el => {
+    observer.observe(el)
+  })
+})
 </script>
 
 <style scoped>
+.expertise-page {
+  background-color: #fff;
+  color: #333;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Hero Section */
+.story-hero {
+  position: relative;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 4rem;
+}
+
+.hero-text-box {
+  max-width: 650px;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  padding: 4rem;
+  border-radius: 2px;
+}
+
+.eyebrow {
+  display: block;
+  font-size: 0.85rem;
+  letter-spacing: 4px;
+  color: #888;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.hero-title {
+  font-size: 3rem;
+  line-height: 1.2;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.hero-title em {
+  font-family: serif;
+  font-style: italic;
+  font-weight: 400;
+  color: #00B18B;
+}
+
+.hero-intro {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 3rem;
+}
+
+.jump-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.jump-link {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+
+.jump-link:hover {
+  color: #00B18B;
+  border-color: #00B18B;
+}
+
+/* Sub-nav */
+.story-subnav {
+  position: sticky;
+  top: 80px;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #eee;
+}
+
+.subnav-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.nav-item.active {
+  color: #333;
+  font-weight: 600;
+}
+
+.back-nav {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Sections */
+.story-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.content-section {
+  padding: 8rem 0;
+}
+
+.centered { text-align: center; }
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 3rem;
+}
+
+.large-p {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.highlight-box {
+  background: #fdfdfd;
+  border: 1px solid #f0f0f0;
+  padding: 3rem;
+  border-radius: 12px;
+}
+
+.stats-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin: 2rem 0;
+}
+
+.stats-list li {
+  font-size: 1.1rem;
+}
+
+.stats-list li strong {
+  display: block;
+  font-size: 2.5rem;
+  color: #00B18B;
+  font-weight: 300;
+}
+
+/* Split Layout */
+.image-text-split {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.split-text { flex: 1; font-size: 1.1rem; line-height: 1.8; }
+.split-image { flex: 1.2; }
+.split-image img { width: 100%; border-radius: 8px; }
+
+/* Structure Layout */
+.structure-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.diagram-side img { width: 100%; border-radius: 12px; }
+
+.accordion details {
+  border-bottom: 1px solid #eee;
+  padding: 1.5rem 0;
+}
+
+.accordion summary {
+  padding: 0.5rem 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordion summary::after {
+  content: '+';
+  color: #00B18B;
+  font-size: 1.5rem;
+}
+
+.accordion details[open] summary::after {
+  content: '−';
+}
+
+.accordion-content {
+  padding-top: 1rem;
+  line-height: 1.7;
+  color: #666;
+}
+
+/* Pillars Flow */
+.pillars-flow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  margin-top: 4rem;
+}
+
+.pillar-item {
+  background: #fff;
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+}
+
+.pillar-header {
+  margin-bottom: 2rem;
+}
+
+.pillar-num {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #00B18B;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.pillar-item h3 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.nested-info {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px dashed #eee;
+}
+
+.nested-info h4 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #1a1a1a;
+}
+
+/* Method Cards */
+.dual-method {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.method-card {
+  padding: 3rem;
+  border-radius: 20px;
+  background: #f9f9f9;
+}
+
+.method-card.primary {
+  background: #E8F5F1;
+}
+
+.method-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Expert Pills / Tabs */
+.expert-pills {
+  display: flex;
+  gap: 2rem;
+}
+
+.pill {
+  flex: 1;
+  padding: 2rem;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.test-tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.test-tab {
+  padding: 3rem;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+
+.test-tab h4 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: #00B18B;
+}
+
+/* Final CTA */
+.final-cta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #1a1a1a;
+  color: #fff;
+  border-radius: 24px;
+  overflow: hidden;
+  margin: 6rem 0;
+}
+
+.cta-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cta-content {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.cta-content h3 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 300;
+}
+
+.cta-content p {
+  font-size: 1.1rem;
+  color: #aaa;
+  margin-bottom: 2.5rem;
+  line-height: 1.7;
+}
+
+.cta-button {
+  background: #00B18B;
+  color: #fff;
+  text-decoration: none;
+  padding: 1.2rem 2.5rem;
+  border-radius: 100px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.3s;
+}
+
+.cta-button:hover {
+  background: #fff;
+  color: #1a1a1a;
+}
+
+/* Animations */
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease-out;
+}
+
+.animate-on-scroll.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-in {
+  animation: fadeIn 1.2s forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.mt-8 { margin-top: 8rem; }
+.mt-6 { margin-top: 6rem; }
+.mb-8 { margin-bottom: 8rem; }
+
+@media (max-width: 991px) {
+  .hero-content { padding: 0 2rem; }
+  .hero-text-box { padding: 2rem; }
+  .hero-title { font-size: 2.22rem; }
+  .structure-grid, .image-text-split, .pillars-flow, .dual-method, .test-tabs, .final-cta {
+    grid-template-columns: 1fr;
+  }
+  .image-text-split { flex-direction: column; }
+  .expert-pills { flex-direction: column; }
+}
 </style>

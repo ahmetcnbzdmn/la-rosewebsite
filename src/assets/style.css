@@ -178,3 +178,25 @@
   text-decoration: none;
   color: inherit;
 }
+
+/* ===== Interactivity & Visibility Fixes ===== */
+
+/* Fix footer being hidden behind background/layout (blocking clicks) */
+.Footer-module__root___kgUyt {
+  position: relative !important;
+  z-index: 1 !important;
+  pointer-events: auto !important;
+}
+
+/* Fix product detail content being pushed out of viewport */
+.ProductMain-module__root___pDXw- {
+  top: 0 !important;
+  position: relative !important;
+  margin-top: 2rem !important;
+  /* Give some space below header */
+}
+
+/* Ensure mobile accordion buttons look like buttons */
+.AccordionTrigger-module__root___IRk5g {
+  cursor: pointer !important;
+}

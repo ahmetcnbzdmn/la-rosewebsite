@@ -9,13 +9,20 @@ const collectionNames = {
   'les-produits': 'Ürünler',
   'les-indispensables-de-l-hiver': 'Kış Koleksiyonu',
   'soin-visage': 'Yüz Bakımı',
+  'yuz-bakimi': 'Yüz Bakımı',
   'soins-corps': 'Vücut Bakımı',
+  'vucut-bakimi': 'Vücut Bakımı',
   'soins-cheveux': 'Saç Bakımı',
+  'sac-bakimi': 'Saç Bakımı',
   'soins-maquillages': 'Makyaj & Bakım',
   'soins-bebe': 'Bebek Bakımı',
+  'bebek-bakimi': 'Bebek Bakımı',
   'solaires': 'Güneş Bakımı',
+  'gunes-bakimi': 'Güneş Bakımı',
   'hygiene-du-quotidien': 'Günlük Hijyen',
+  'gunluk-hijyen': 'Günlük Hijyen',
   'accessoires': 'Aksesuar',
+  'aksesuarlar': 'Aksesuar',
   'best-seller': 'Çok Satanlar',
   'nouveautes': 'Yeni Gelenler'
 }
@@ -32,17 +39,25 @@ const displayTitle = computed(() => {
   
   return 'Koleksiyon'
 })
+
+const filteredProducts = computed(() => {
+  const collectionId = route.params.id
+  if (!collectionId || collectionId === 'les-produits') {
+    return products
+  }
+  return products.filter(p => p.category === collectionId)
+})
 </script>
 
 <template>
   <div class="Collections-module__root___38d2z">
     <div class="Collections-module__header___1vJ_B">
       <h1 class="Collections-module__title___2vB3k">{{ displayTitle }}</h1>
-      <p class="Collections-module__count___3u_5l">{{ products.length }} ürün</p>
+      <p class="Collections-module__count___3u_5l">{{ filteredProducts.length }} ürün</p>
     </div>
 
     <div class="Collections-module__grid___1X_36">
-      <div v-for="product in products" :key="product.slug" class="ProductCard-module__root___1v_36">
+      <div v-for="product in filteredProducts" :key="product.slug" class="ProductCard-module__root___1v_36">
         <router-link :to="'/en-ww/products/' + product.slug" class="ProductCard-module__link___2v_36">
           <div class="ProductCard-module__image-wrapper___3v_36">
             <img :src="product.image" :alt="product.name" class="ProductCard-module__image___4v_36" loading="lazy" />

@@ -1,14 +1,364 @@
 <template>
-  <div class="faq-page">
+  <div class="faq-container">
     <main class="Layout-module__content___wEYFD" id="content">
-      <div class="FaqLayout-module__root___mB5nu"><h1 class="Heading-module__root___NpBjo FaqLayout-module__title___AKtl5" data-font-size="lg">SSS</h1><section class="Subnav-module__root___b6qK5 FaqLayout-module__static-nav___EK-kK" data-position="static" aria-label="Table of contents"><nav class="swiper"><ul class="swiper-wrapper"><li class="swiper-slide"><a href="https://www.larosee-cosmetiques.com/en-ww/faq#section-b49e9e31-d171-4711-a5c0-c0a7b070567a" data-discover="true">Siparişim</a></li><li class="swiper-slide"><a href="https://www.larosee-cosmetiques.com/en-ww/faq#section-4fc0a83d-106e-455e-a286-d0942b59e6eb" data-discover="true">Promosyon kodları ve teklifler</a></li><li class="swiper-slide"><a href="https://www.larosee-cosmetiques.com/en-ww/faq#section-27e4fa6a-0085-4a10-be1a-3ab9969443b7" data-discover="true">Kargo bilgileri</a></li><li class="swiper-slide"><a href="https://www.larosee-cosmetiques.com/en-ww/faq#section-2de93e01-ea83-4564-8f2e-0a8db8c6642b" data-discover="true">İade ve Geri Ödeme</a></li><li class="swiper-slide"><a href="https://www.larosee-cosmetiques.com/en-ww/faq#section-c7e7dc94-bf3c-4778-9afa-c0b1cee4c7f0" data-discover="true">Hesabım</a></li><li class="swiper-slide"><a href="https://www.larosee-cosmetiques.com/en-ww/faq#section-b987d17e-02da-48c4-8a6b-36b3fad244a8" data-discover="true">Ödeme ve fatura</a></li><li class="swiper-slide"><a href="https://www.larosee-cosmetiques.com/en-ww/faq#section-5d2bd0bd-d065-4636-87ca-b16568e7e9f3" data-discover="true">Ürünler</a></li></ul><button class="Subnav-module__button___nXH1I swiper-button-next" type="button"></button></nav></section><section class="Subnav-module__root___b6qK5 FaqLayout-module__fixed-nav___qiwU-" data-position="fixed" aria-hidden="true"><nav class="swiper"><ul class="swiper-wrapper"><li class="swiper-slide"><a href="https://www.larosee-cosmetiques.com/en-ww/faq#section-b49e9e31-d171-4711-a5c0-c0a7b070567a" data-discover="true">Siparişim</a></li><li class="swiper-slide"><a href="https://www.larosee-cosmetiques.com/en-ww/faq#section-4fc0a83d-106e-455e-a286-d0942b59e6eb" data-discover="true">Promosyon kodları ve teklifler</a></li><li class="swiper-slide"><a href="https://www.larosee-cosmetiques.com/en-ww/faq#section-27e4fa6a-0085-4a10-be1a-3ab9969443b7" data-discover="true">Kargo bilgileri</a></li><li class="swiper-slide"><a href="https://www.larosee-cosmetiques.com/en-ww/faq#section-2de93e01-ea83-4564-8f2e-0a8db8c6642b" data-discover="true">İade ve Geri Ödeme</a></li><li class="swiper-slide"><a href="https://www.larosee-cosmetiques.com/en-ww/faq#section-c7e7dc94-bf3c-4778-9afa-c0b1cee4c7f0" data-discover="true">Hesabım</a></li><li class="swiper-slide"><a href="https://www.larosee-cosmetiques.com/en-ww/faq#section-b987d17e-02da-48c4-8a6b-36b3fad244a8" data-discover="true">Ödeme ve fatura</a></li><li class="swiper-slide"><a href="https://www.larosee-cosmetiques.com/en-ww/faq#section-5d2bd0bd-d065-4636-87ca-b16568e7e9f3" data-discover="true">Ürünler</a></li></ul><button class="Subnav-module__button___nXH1I swiper-button-next" type="button"></button></nav></section><div class="FaqLayout-module__content___Qp3jY"><section class="FaqLayout-module__section___K4XEi" id="section-b49e9e31-d171-4711-a5c0-c0a7b070567a"><h2 class="Eyebrow-module__root___gdMQw">Siparişim</h2><div data-orientation="vertical"><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI" data-rounded="false"><h3 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_1665l4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_665l4l_" class="AccordionTrigger-module__root___IRk5g" data-size="md" data-bold="false" data-radix-collection-item="">Siparişimi takip et</button></h3><div data-state="closed" id="radix-_R_1665l4l_" hidden="" role="region" aria-labelledby="radix-_R_665l4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN FaqLayout-module__item-content___eGUW1" data-size="md" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI" data-rounded="false"><h3 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_1a65l4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_a65l4l_" class="AccordionTrigger-module__root___IRk5g" data-size="md" data-bold="false" data-radix-collection-item="">Siparişimde sorun bildir</button></h3><div data-state="closed" id="radix-_R_1a65l4l_" hidden="" role="region" aria-labelledby="radix-_R_a65l4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN FaqLayout-module__item-content___eGUW1" data-size="md" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI" data-rounded="false"><h3 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_1e65l4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_e65l4l_" class="AccordionTrigger-module__root___IRk5g" data-size="md" data-bold="false" data-radix-collection-item="">Siparişi değiştir veya iptal et</button></h3><div data-state="closed" id="radix-_R_1e65l4l_" hidden="" role="region" aria-labelledby="radix-_R_e65l4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN FaqLayout-module__item-content___eGUW1" data-size="md" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI" data-rounded="false"><h3 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_1i65l4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_i65l4l_" class="AccordionTrigger-module__root___IRk5g" data-size="md" data-bold="false" data-radix-collection-item="">Teslimat adresimi değiştir</button></h3><div data-state="closed" id="radix-_R_1i65l4l_" hidden="" role="region" aria-labelledby="radix-_R_i65l4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN FaqLayout-module__item-content___eGUW1" data-size="md" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI" data-rounded="false"><h3 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_1m65l4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_m65l4l_" class="AccordionTrigger-module__root___IRk5g" data-size="md" data-bold="false" data-radix-collection-item="">Ürünümde sorun bildir (alerji, kırık ürün, üretim hatası vb.)</button></h3><div data-state="closed" id="radix-_R_1m65l4l_" hidden="" role="region" aria-labelledby="radix-_R_m65l4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN FaqLayout-module__item-content___eGUW1" data-size="md" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div></div></section><section class="FaqLayout-module__section___K4XEi" id="section-4fc0a83d-106e-455e-a286-d0942b59e6eb"><h2 class="Eyebrow-module__root___gdMQw">Promosyon kodları ve teklifler</h2><div data-orientation="vertical"><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI" data-rounded="false"><h3 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_ma5l4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_6a5l4l_" class="AccordionTrigger-module__root___IRk5g" data-size="md" data-bold="false" data-radix-collection-item="">Siparişi vermeden önce promosyon kodumu girmeyi unuttum</button></h3><div data-state="closed" id="radix-_R_ma5l4l_" hidden="" role="region" aria-labelledby="radix-_R_6a5l4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN FaqLayout-module__item-content___eGUW1" data-size="md" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI" data-rounded="false"><h3 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_qa5l4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_aa5l4l_" class="AccordionTrigger-module__root___IRk5g" data-size="md" data-bold="false" data-radix-collection-item="">Yeni gelenler ve/veya mevcut teklifler nerede?</button></h3><div data-state="closed" id="radix-_R_qa5l4l_" hidden="" role="region" aria-labelledby="radix-_R_aa5l4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN FaqLayout-module__item-content___eGUW1" data-size="md" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI" data-rounded="false"><h3 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_ua5l4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_ea5l4l_" class="AccordionTrigger-module__root___IRk5g" data-size="md" data-bold="false" data-radix-collection-item="">Mevcut tekliflerin koşulları nelerdir?</button></h3><div data-state="closed" id="radix-_R_ua5l4l_" hidden="" role="region" aria-labelledby="radix-_R_ea5l4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN FaqLayout-module__item-content___eGUW1" data-size="md" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div></div></section><section class="FaqLayout-module__section___K4XEi" id="section-27e4fa6a-0085-4a10-be1a-3ab9969443b7"><h2 class="Eyebrow-module__root___gdMQw">Kargo bilgileri</h2><div data-orientation="vertical"><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI" data-rounded="false"><h3 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_me5l4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_6e5l4l_" class="AccordionTrigger-module__root___IRk5g" data-size="md" data-bold="false" data-radix-collection-item="">Teslimat süreleri</button></h3><div data-state="closed" id="radix-_R_me5l4l_" hidden="" role="region" aria-labelledby="radix-_R_6e5l4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN FaqLayout-module__item-content___eGUW1" data-size="md" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI" data-rounded="false"><h3 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_qe5l4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_ae5l4l_" class="AccordionTrigger-module__root___IRk5g" data-size="md" data-bold="false" data-radix-collection-item="">Fransa içinde teslimat</button></h3><div data-state="closed" id="radix-_R_qe5l4l_" hidden="" role="region" aria-labelledby="radix-_R_ae5l4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN FaqLayout-module__item-content___eGUW1" data-size="md" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI" data-rounded="false"><h3 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_ue5l4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_ee5l4l_" class="AccordionTrigger-module__root___IRk5g" data-size="md" data-bold="false" data-radix-collection-item="">Uluslararası teslimat</button></h3><div data-state="closed" id="radix-_R_ue5l4l_" hidden="" role="region" aria-labelledby="radix-_R_ee5l4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN FaqLayout-module__item-content___eGUW1" data-size="md" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div></div></section><section class="FaqLayout-module__section___K4XEi" id="section-2de93e01-ea83-4564-8f2e-0a8db8c6642b"><h2 class="Eyebrow-module__root___gdMQw">İade ve Geri Ödeme</h2><div data-orientation="vertical"><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI" data-rounded="false"><h3 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_ei5l4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_6i5l4l_" class="AccordionTrigger-module__root___IRk5g" data-size="md" data-bold="false" data-radix-collection-item="">İade talebi oluştur</button></h3><div data-state="closed" id="radix-_R_ei5l4l_" hidden="" role="region" aria-labelledby="radix-_R_6i5l4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN FaqLayout-module__item-content___eGUW1" data-size="md" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div></div></section><section class="FaqLayout-module__section___K4XEi" id="section-c7e7dc94-bf3c-4778-9afa-c0b1cee4c7f0"><h2 class="Eyebrow-module__root___gdMQw">Hesabım</h2><div data-orientation="vertical"><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI" data-rounded="false"><h3 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_16m5l4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_6m5l4l_" class="AccordionTrigger-module__root___IRk5g" data-size="md" data-bold="false" data-radix-collection-item="">Hesap oluştur</button></h3><div data-state="closed" id="radix-_R_16m5l4l_" hidden="" role="region" aria-labelledby="radix-_R_6m5l4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN FaqLayout-module__item-content___eGUW1" data-size="md" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI" data-rounded="false"><h3 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_1am5l4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_am5l4l_" class="AccordionTrigger-module__root___IRk5g" data-size="md" data-bold="false" data-radix-collection-item="">Şifremi unuttum</button></h3><div data-state="closed" id="radix-_R_1am5l4l_" hidden="" role="region" aria-labelledby="radix-_R_am5l4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN FaqLayout-module__item-content___eGUW1" data-size="md" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI" data-rounded="false"><h3 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_1em5l4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_em5l4l_" class="AccordionTrigger-module__root___IRk5g" data-size="md" data-bold="false" data-radix-collection-item="">Hesabımı sil</button></h3><div data-state="closed" id="radix-_R_1em5l4l_" hidden="" role="region" aria-labelledby="radix-_R_em5l4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN FaqLayout-module__item-content___eGUW1" data-size="md" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI" data-rounded="false"><h3 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_1im5l4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_im5l4l_" class="AccordionTrigger-module__root___IRk5g" data-size="md" data-bold="false" data-radix-collection-item="">Bültene abone ol</button></h3><div data-state="closed" id="radix-_R_1im5l4l_" hidden="" role="region" aria-labelledby="radix-_R_im5l4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN FaqLayout-module__item-content___eGUW1" data-size="md" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div></div></section><section class="FaqLayout-module__section___K4XEi" id="section-b987d17e-02da-48c4-8a6b-36b3fad244a8"><h2 class="Eyebrow-module__root___gdMQw">Ödeme ve fatura</h2><div data-orientation="vertical"><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI" data-rounded="false"><h3 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_16q5l4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_6q5l4l_" class="AccordionTrigger-module__root___IRk5g" data-size="md" data-bold="false" data-radix-collection-item="">Ödeme yöntemleri ve güvenlik</button></h3><div data-state="closed" id="radix-_R_16q5l4l_" hidden="" role="region" aria-labelledby="radix-_R_6q5l4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN FaqLayout-module__item-content___eGUW1" data-size="md" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI" data-rounded="false"><h3 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_1aq5l4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_aq5l4l_" class="AccordionTrigger-module__root___IRk5g" data-size="md" data-bold="false" data-radix-collection-item="">Hediye kartı veya alacak notu</button></h3><div data-state="closed" id="radix-_R_1aq5l4l_" hidden="" role="region" aria-labelledby="radix-_R_aq5l4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN FaqLayout-module__item-content___eGUW1" data-size="md" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI" data-rounded="false"><h3 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_1eq5l4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_eq5l4l_" class="AccordionTrigger-module__root___IRk5g" data-size="md" data-bold="false" data-radix-collection-item="">Ödeme reddedildi</button></h3><div data-state="closed" id="radix-_R_1eq5l4l_" hidden="" role="region" aria-labelledby="radix-_R_eq5l4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN FaqLayout-module__item-content___eGUW1" data-size="md" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI" data-rounded="false"><h3 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_1iq5l4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_iq5l4l_" class="AccordionTrigger-module__root___IRk5g" data-size="md" data-bold="false" data-radix-collection-item="">Faturamı</button></h3><div data-state="closed" id="radix-_R_1iq5l4l_" hidden="" role="region" aria-labelledby="radix-_R_iq5l4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN FaqLayout-module__item-content___eGUW1" data-size="md" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div></div></section><section class="FaqLayout-module__section___K4XEi" id="section-5d2bd0bd-d065-4636-87ca-b16568e7e9f3"><h2 class="Eyebrow-module__root___gdMQw">Ürünler</h2><div data-orientation="vertical"><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI" data-rounded="false"><h3 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_16u5l4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_6u5l4l_" class="AccordionTrigger-module__root___IRk5g" data-size="md" data-bold="false" data-radix-collection-item="">Kimler için?</button></h3><div data-state="closed" id="radix-_R_16u5l4l_" hidden="" role="region" aria-labelledby="radix-_R_6u5l4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN FaqLayout-module__item-content___eGUW1" data-size="md" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI" data-rounded="false"><h3 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_1au5l4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_au5l4l_" class="AccordionTrigger-module__root___IRk5g" data-size="md" data-bold="false" data-radix-collection-item="">İpuçları için</button></h3><div data-state="closed" id="radix-_R_1au5l4l_" hidden="" role="region" aria-labelledby="radix-_R_au5l4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN FaqLayout-module__item-content___eGUW1" data-size="md" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI" data-rounded="false"><h3 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_1eu5l4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_eu5l4l_" class="AccordionTrigger-module__root___IRk5g" data-size="md" data-bold="false" data-radix-collection-item="">Formüllerimiz</button></h3><div data-state="closed" id="radix-_R_1eu5l4l_" hidden="" role="region" aria-labelledby="radix-_R_eu5l4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN FaqLayout-module__item-content___eGUW1" data-size="md" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI" data-rounded="false"><h3 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_1iu5l4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_iu5l4l_" class="AccordionTrigger-module__root___IRk5g" data-size="md" data-bold="false" data-radix-collection-item="">Ambalajlarımız</button></h3><div data-state="closed" id="radix-_R_1iu5l4l_" hidden="" role="region" aria-labelledby="radix-_R_iu5l4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN FaqLayout-module__item-content___eGUW1" data-size="md" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI" data-rounded="false"><h3 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_1mu5l4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_mu5l4l_" class="AccordionTrigger-module__root___IRk5g" data-size="md" data-bold="false" data-radix-collection-item="">Son kullanma ve kullanım tarihi</button></h3><div data-state="closed" id="radix-_R_1mu5l4l_" hidden="" role="region" aria-labelledby="radix-_R_mu5l4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN FaqLayout-module__item-content___eGUW1" data-size="md" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div><div data-state="closed" data-orientation="vertical" class="AccordionItem-module__root___5x7iI" data-rounded="false"><h3 data-orientation="vertical" data-state="closed"><button type="button" aria-controls="radix-_R_1qu5l4l_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_qu5l4l_" class="AccordionTrigger-module__root___IRk5g" data-size="md" data-bold="false" data-radix-collection-item="">Ürünler nasıl test edilir? </button></h3><div data-state="closed" id="radix-_R_1qu5l4l_" hidden="" role="region" aria-labelledby="radix-_R_qu5l4l_" data-orientation="vertical" class="AccordionContent-module__root___EyqbN FaqLayout-module__item-content___eGUW1" data-size="md" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div></div></section></div></div>
+      <div class="faq-wrapper">
+        <!-- Sidebar Navigation -->
+        <nav class="faq-sidebar">
+          <div class="sidebar-sticky">
+            <h3>Yardım Merkezi</h3>
+            <ul>
+              <li><a href="#siparis" @click.prevent="scrollTo('siparis')">Siparişim</a></li>
+              <li><a href="#teslimat" @click.prevent="scrollTo('teslimat')">Kargo ve Teslimat</a></li>
+              <li><a href="#iade" @click.prevent="scrollTo('iade')">İade ve Geri Ödeme</a></li>
+              <li><a href="#urunler" @click.prevent="scrollTo('urunler')">Ürünler</a></li>
+              <li><a href="#odeme" @click.prevent="scrollTo('odeme')">Ödeme ve Güvenlik</a></li>
+              <li><a href="#hesap" @click.prevent="scrollTo('hesap')">Hesabım</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Main Content -->
+        <article class="faq-content">
+          <header class="faq-header">
+            <h1 class="Heading-module__root___NpBjo">Sıkça Sorulan Sorular</h1>
+            <p class="subtitle">Size nasıl yardımcı olabiliriz?</p>
+          </header>
+
+          <!-- Category: Order -->
+          <section id="siparis" class="faq-category">
+            <div class="category-header">
+              <span class="icon">📦</span>
+              <h2>Siparişim</h2>
+            </div>
+            <div class="accordion-list">
+              <div v-for="(item, index) in faqData.siparis" :key="'siparis-'+index" class="accordion-item" :class="{ active: activeItems['siparis-'+index] }">
+                <button @click="toggleItem('siparis-'+index)" class="accordion-trigger">
+                  {{ item.q }}
+                  <span class="arrow"></span>
+                </button>
+                <div v-show="activeItems['siparis-'+index]" class="accordion-body">
+                  <p v-html="item.a"></p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Category: Delivery -->
+          <section id="teslimat" class="faq-category">
+            <div class="category-header">
+              <span class="icon">🚚</span>
+              <h2>Kargo ve Teslimat</h2>
+            </div>
+            <div class="accordion-list">
+              <div v-for="(item, index) in faqData.teslimat" :key="'teslimat-'+index" class="accordion-item" :class="{ active: activeItems['teslimat-'+index] }">
+                <button @click="toggleItem('teslimat-'+index)" class="accordion-trigger">
+                  {{ item.q }}
+                  <span class="arrow"></span>
+                </button>
+                <div v-show="activeItems['teslimat-'+index]" class="accordion-body">
+                  <p v-html="item.a"></p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Category: Return -->
+          <section id="iade" class="faq-category">
+            <div class="category-header">
+              <span class="icon">🔄</span>
+              <h2>İade ve Geri Ödeme</h2>
+            </div>
+            <div class="accordion-list">
+              <div v-for="(item, index) in faqData.iade" :key="'iade-'+index" class="accordion-item" :class="{ active: activeItems['iade-'+index] }">
+                <button @click="toggleItem('iade-'+index)" class="accordion-trigger">
+                  {{ item.q }}
+                  <span class="arrow"></span>
+                </button>
+                <div v-show="activeItems['iade-'+index]" class="accordion-body">
+                  <p v-html="item.a"></p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Category: Products -->
+          <section id="urunler" class="faq-category">
+            <div class="category-header">
+              <span class="icon">✨</span>
+              <h2>Ürünler</h2>
+            </div>
+            <div class="accordion-list">
+              <div v-for="(item, index) in faqData.urunler" :key="'urunler-'+index" class="accordion-item" :class="{ active: activeItems['urunler-'+index] }">
+                <button @click="toggleItem('urunler-'+index)" class="accordion-trigger">
+                  {{ item.q }}
+                  <span class="arrow"></span>
+                </button>
+                <div v-show="activeItems['urunler-'+index]" class="accordion-body">
+                  <p v-html="item.a"></p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div class="contact-support">
+            <h3>Aradığınız cevabı bulamadınız mı?</h3>
+            <p>Müşteri hizmetleri ekibimiz size yardımcı olmaktan mutluluk duyacaktır.</p>
+            <router-link to="/contact" class="btn-primary">Bizimle İletişime Geçin</router-link>
+          </div>
+        </article>
+      </div>
     </main>
   </div>
 </template>
 
 <script setup>
+import { ref, reactive } from 'vue'
+
+const activeItems = reactive({})
+
+const toggleItem = (id) => {
+  activeItems[id] = !activeItems[id]
+}
+
+const scrollTo = (id) => {
+  const el = document.getElementById(id)
+  if (el) {
+    window.scrollTo({
+      top: el.offsetTop - 80,
+      behavior: 'smooth'
+    })
+  }
+}
+
+const faqData = {
+  siparis: [
+    { q: 'Siparişimi nasıl takip edebilirim?', a: 'Siparişiniz kargoya verildiğinde size bir takip numarası içeren e-posta gönderilecektir. Hesabım sayfasından da "Siparişlerim" bölümüne girerek durumunu görebilirsiniz.' },
+    { q: 'Siparişimde nasıl değişiklik yapabilirim?', a: 'Siparişiniz hazırlanma aşamasına geçmeden önce değişiklik yapabilirsiniz. Lütfen en kısa sürede müşteri hizmetlerimizle iletişime geçin.' },
+    { q: 'Promosyon kodumu girmeyi unuttum, ne yapmalıyım?', a: 'Sipariş verildikten sonra manuel olarak kod ekleyemiyoruz. Ancak bir sonraki alışverişinizde kullanabilir veya siparişi iptal edip yeniden kod ile verebilirsiniz (stok durumuna bağlıdır).' }
+  ],
+  teslimat: [
+    { q: 'Teslimat süreleri nedir?', a: 'Siparişleriniz genellikle 1-3 iş günü içerisinde kargoya verilir. Teslimat süresi bulunduğunuz bölgeye göre kargo firması tarafından belirlenir.' },
+    { q: 'Ücretsiz kargo avantajı var mı?', a: 'Belirli bir tutarın üzerindeki tüm siparişlerde kargo ücretsizdir. Güncel kampanya detaylarını sepet sayfasında görebilirsiniz.' }
+  ],
+  iade: [
+    { q: 'Ürün iadesini nasıl yaparım?', a: 'Ürünü teslim aldığınız tarihten itibaren 14 gün içinde orijinal ambalajı bozulmamış ve ürün açılmamış ise iade edebilirsiniz. <router-link to="/policies/iade-politikasi">İade Politikamızı</router-link> detaylıca inceleyebilirsiniz.' },
+    { q: 'Geri ödeme ne zaman yapılır?', a: 'İade edilen ürün depomuza ulaşıp onaylandıktan sonra 7-10 iş günü içinde ödeme yaptığınız kanala geri iade edilir.' }
+  ],
+  urunler: [
+    { q: 'Ürünleriniz doğal mı?', a: 'Ürünlerimiz yüksek oranda doğal kökenli içeriklerden oluşmaktadır. Her ürün sayfasında doğallık oranını görebilirsiniz.' },
+    { q: 'Hangi cilt tipleri için uygundur?', a: 'Geniş ürün yelpazemiz hassas ciltler dahil tüm cilt tiplerine uygun seçenekler sunar. Ürün filtrelerini kullanarak cildinize en uygun olanı seçebilirsiniz.' }
+  ]
+}
 </script>
 
 <style scoped>
-/* Add any specific styles here if needed */
+.faq-container {
+  background-color: #fcfcfc;
+  min-height: 100vh;
+  padding-top: 2rem;
+}
+
+.faq-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 3rem;
+  padding: 0 1.5rem;
+}
+
+.faq-sidebar {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .faq-sidebar {
+    display: block;
+  }
+}
+
+.sidebar-sticky {
+  position: sticky;
+  top: 100px;
+}
+
+.sidebar-sticky h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.sidebar-sticky ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-sticky li {
+  margin-bottom: 0.8rem;
+}
+
+.sidebar-sticky a {
+  text-decoration: none;
+  color: #666;
+  font-size: 0.95rem;
+  transition: all 0.2s;
+  display: block;
+}
+
+.sidebar-sticky a:hover {
+  color: #34AAFF;
+  transform: translateX(5px);
+}
+
+.faq-content {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+  color: #444;
+}
+
+.faq-header {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.faq-header h1 {
+  font-size: 2.2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: #888;
+  font-size: 1.1rem;
+}
+
+.faq-category {
+  margin-bottom: 3.5rem;
+}
+
+.category-header {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.category-header .icon {
+  font-size: 1.5rem;
+}
+
+.category-header h2 {
+  font-size: 1.4rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.accordion-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.accordion-item {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.accordion-item.active {
+  border-color: #34AAFF;
+  box-shadow: 0 4px 12px rgba(52, 170, 255, 0.08);
+}
+
+.accordion-trigger {
+  width: 100%;
+  padding: 1.2rem 1.5rem;
+  background: none;
+  border: none;
+  text-align: left;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #444;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-item.active .accordion-trigger {
+  color: #34AAFF;
+}
+
+.arrow {
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  transform: rotate(45deg);
+  transition: transform 0.3s;
+}
+
+.active .arrow {
+  transform: rotate(-135deg);
+  border-color: #34AAFF;
+}
+
+.accordion-body {
+  padding: 0 1.5rem 1.2rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+.contact-support {
+  margin-top: 4rem;
+  text-align: center;
+  padding: 3rem;
+  background: #f8fbff;
+  border-radius: 12px;
+  border: 1px solid #e1f0ff;
+}
+
+.contact-support h3 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.contact-support p {
+  margin-bottom: 2rem;
+  color: #666;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  background: #34AAFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.btn-primary:hover {
+  background: #288ee0;
+}
+
+@media (max-width: 991px) {
+  .faq-wrapper {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
+  }
+  .faq-header h1 {
+    font-size: 1.8rem;
+  }
+  .faq-content {
+    padding: 1.5rem;
+  }
+}
 </style>
