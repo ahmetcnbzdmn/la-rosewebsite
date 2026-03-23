@@ -55,10 +55,10 @@ onUnmounted(() => {
           <div style="position:relative">
             <ul data-orientation="horizontal" class="Nav-module__nav-menu-list___J1xZQ" dir="ltr">
               <li>
-                <router-link to="/collections/tum-urunler" id="radix-_R_4p54l_-trigger-radix-_R_2sp54l_" :data-state="hoveredMenu === 'products' ? 'open' : 'closed'" class="Nav-module__link___I1Rij" data-radix-collection-item="" @mouseenter="setHoveredMenu('products')" @mouseleave="setHoveredMenu(null)">Ürünler</router-link>
+                <button id="radix-_R_4p54l_-trigger-radix-_R_2sp54l_" :data-state="hoveredMenu === 'products' ? 'open' : 'closed'" :aria-expanded="hoveredMenu === 'products'" aria-controls="radix-_R_4p54l_-content-radix-_R_2sp54l_" class="Nav-module__link___I1Rij" data-radix-collection-item="" @click="toggleHoveredMenu('products')">ÜRÜNLER <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-left: 6px; display: inline-block; transition: transform 0.2s ease-in-out;" :style="{ transform: hoveredMenu === 'products' ? 'rotate(180deg)' : 'rotate(0)' }"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
               </li>
             </ul>
-            <div v-show="hoveredMenu === 'products'" id="radix-_R_4p54l_-content-radix-_R_2sp54l_" aria-labelledby="radix-_R_4p54l_-trigger-radix-_R_2sp54l_" data-orientation="horizontal" class="Nav-module__nav-menu-content___Kunf1" :data-state="hoveredMenu === 'products' ? 'open' : 'closed'" dir="ltr" @mouseenter="setHoveredMenu('products')" @mouseleave="setHoveredMenu(null)">
+            <div v-show="hoveredMenu === 'products'" id="radix-_R_4p54l_-content-radix-_R_2sp54l_" aria-labelledby="radix-_R_4p54l_-trigger-radix-_R_2sp54l_" data-orientation="horizontal" class="Nav-module__nav-menu-content___Kunf1" :data-state="hoveredMenu === 'products' ? 'open' : 'closed'" dir="ltr">
               <ul class="Nav-module__cards___k8KO8">
                 <li v-for="col in megaMenuData.collections" :key="col.slug">
                   <router-link :to="'/collections/' + col.slug" class="CardNavItem-module__root___oOCBj">
@@ -108,7 +108,7 @@ onUnmounted(() => {
           <div style="position:relative">
             <ul data-orientation="horizontal" class="Nav-module__nav-menu-list___J1xZQ" dir="ltr">
               <li>
-                <button id="radix-_R_3p54l_-trigger-radix-_R_2rp54l_" :data-state="hoveredMenu === 'commitments' ? 'open' : 'closed'" :aria-expanded="hoveredMenu === 'commitments'" aria-controls="radix-_R_3p54l_-content-radix-_R_2rp54l_" class="Nav-module__link___I1Rij" data-radix-collection-item="" @click="toggleHoveredMenu('commitments')">Taahhütlerimiz</button>
+                <button id="radix-_R_3p54l_-trigger-radix-_R_2rp54l_" :data-state="hoveredMenu === 'commitments' ? 'open' : 'closed'" :aria-expanded="hoveredMenu === 'commitments'" aria-controls="radix-_R_3p54l_-content-radix-_R_2rp54l_" class="Nav-module__link___I1Rij" data-radix-collection-item="" @click="toggleHoveredMenu('commitments')">TAAHHÜTLERİMİZ <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-left: 6px; display: inline-block; transition: transform 0.2s ease-in-out;" :style="{ transform: hoveredMenu === 'commitments' ? 'rotate(180deg)' : 'rotate(0)' }"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
               </li>
               <li>
                 <router-link data-radix-collection-item="" class="Nav-module__link___I1Rij" to="/pharmacy-locator">Partner Eczaneler</router-link>
