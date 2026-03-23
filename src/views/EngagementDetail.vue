@@ -180,7 +180,7 @@
           <div class="Heading-module__root___NpBjo BCorp-module__heading___eiN8k" data-font-size="sm">
             <p>La Rosée B Corp sertifikalidir.<br/>Bu sertifika, sorumlu ve katilimci bir sirket olmaya olan derin ve samimi bagliligimizi gostermektedir.</p>
           </div>
-          <a data-variant="underline" class="Link-module__root___YqUoP" href="/en-ww/engagements">Taahhutlerimizi kesfedin</a>
+          <router-link data-variant="underline" class="Link-module__root___YqUoP" to="/taahhutlerimiz">Taahhutlerimizi kesfedin</router-link>
         </div>
       </div>
     </aside>

@@ -280,37 +280,37 @@ const closeModal = () => {
   </div>
   <ul class="Commitments-module__cards___A9ypP">
     <li class="Commitments-module__card___zd--b">
-      <a href="/ekolojik-donusum" data-discover="true">
+      <router-link to="/ekolojik-donusum">
         <video muted autoplay loop playsinline aria-label="ekolojik dönüşüm">
           <source src="https://a.storyblok.com/f/196368/x/c96e0a6aa7/transition-en.mp4" type="video/mp4">
         </video>
-      </a>
+      </router-link>
     </li>
     <li class="Commitments-module__card___zd--b">
-      <a href="/formullerimiz" data-discover="true">
+      <router-link to="/formullerimiz">
         <video muted autoplay loop playsinline aria-label="formüllerimiz">
           <source src="https://a.storyblok.com/f/196368/x/bf85df7d8c/formules-en.mp4" type="video/mp4">
         </video>
-      </a>
+      </router-link>
     </li>
     <li class="Commitments-module__card___zd--b">
-      <a href="/ambalajlarimiz" data-discover="true">
+      <router-link to="/ambalajlarimiz">
         <img src="https://larosee.twic.pics/1080x1080/e288677e61/packaging-en.jpg/m/1080x1080" width="1080" height="1080" alt="ambalajlarımız" loading="lazy" decoding="async"/>
-      </a>
+      </router-link>
     </li>
     <li class="Commitments-module__card___zd--b">
-      <a href="/dayanisma" data-discover="true">
+      <router-link to="/dayanisma">
         <img src="https://larosee.twic.pics/1080x1080/c8aa83973d/actions-en.jpg/m/1080x1080" width="1080" height="1080" alt="dayanışma" loading="lazy" decoding="async"/>
-      </a>
+      </router-link>
     </li>
     <li class="Commitments-module__card___zd--b">
-      <a href="/certification-b-corp" data-discover="true">
+      <router-link to="/certification-b-corp">
         <img src="https://larosee.twic.pics/1080x1080/9aefc6a937/bcorp-en.jpg/m/1080x1080" width="1080" height="1080" alt="bcorp" loading="lazy" decoding="async"/>
-      </a>
+      </router-link>
     </li>
   </ul>
-  <a class="Link-module__root___YqUoP Commitments-module__link___4Itbu" data-variant="underline" href="/taahhutlerimiz" data-discover="true">Tüm taahhütlerimizi keşfedin</a>
-</section></main><aside class="BCorp-module__root___8-Roy"><div class="BCorp-module__content___ISZXE"><h2 class="BCorp-module__logo___4DmT9"><img src="https://larosee.twic.pics/81x118/1786c2c8d6/certified_b_corporation_b_corp_logo_2022_black_rgb-1.svg" width="81" height="118" alt="Certified B Corporation" loading="lazy" decoding="async"/></h2><div><div class="Heading-module__root___NpBjo BCorp-module__heading___eiN8k" data-font-size="sm"><p>La Rosée B Corp sertifikalıdır.<br/>Bu sertifika, sorumlu ve katılımcı bir şirket olmaya olan derin ve samimi bağlılığımızı göstermektedir.</p></div><a data-variant="underline" class="Link-module__root___YqUoP" href="/certification-b-corp" data-discover="true">Taahhütlerimizi keşfedin</a></div></div></aside>
+  <router-link class="Link-module__root___YqUoP Commitments-module__link___4Itbu" data-variant="underline" to="/taahhutlerimiz">Tüm taahhütlerimizi keşfedin</router-link>
+</section></main><aside class="BCorp-module__root___8-Roy"><div class="BCorp-module__content___ISZXE"><h2 class="BCorp-module__logo___4DmT9"><img src="https://larosee.twic.pics/81x118/1786c2c8d6/certified_b_corporation_b_corp_logo_2022_black_rgb-1.svg" width="81" height="118" alt="Certified B Corporation" loading="lazy" decoding="async"/></h2><div><div class="Heading-module__root___NpBjo BCorp-module__heading___eiN8k" data-font-size="sm"><p>La Rosée B Corp sertifikalıdır.<br/>Bu sertifika, sorumlu ve katılımcı bir şirket olmaya olan derin ve samimi bağlılığımızı göstermektedir.</p></div><router-link data-variant="underline" class="Link-module__root___YqUoP" to="/certification-b-corp">Taahhütlerimizi keşfedin</router-link></div></div></aside>
 </template>
 
 <style scoped>
