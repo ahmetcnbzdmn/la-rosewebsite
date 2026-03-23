@@ -1,68 +1,67 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 import Button from 'primevue/button'
+import Swiper from 'swiper'
+import { Navigation, Pagination, Autoplay } from 'swiper/modules'
+import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
 
 const { t } = useI18n()
 
+onMounted(() => {
+  new Swiper('.HomeHeader-module__root___NRDQF', {
+    modules: [Navigation, Pagination, Autoplay],
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  })
+
+  new Swiper('.HomeShoppables-module__carousel', {
+    modules: [Navigation],
+    slidesPerView: 1.5,
+    spaceBetween: 16,
+    breakpoints: {
+      640: { slidesPerView: 2.5 },
+      1024: { slidesPerView: 4.5 },
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  })
+})
+
 const newArrivalsList = [
-  { 
-      id: 'recharge-baume-demaquillant-fondant', 
-      name: 'Yeniden Doldurulabilir Eriyen Temizleme Balmı', 
-      desc: 'geri dönüştürülmüş organik kiraz çekirdeği yağı ile',
-      price: 'TL18.90', 
-      image: 'https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Baume_demaquillant.jpg?v=1759308282', 
-      tags: [] 
-  },
-  { 
-      id: 'recharge-gelee-nettoyante-purifiante', 
-      name: 'Arındırıcı Temizleme Jeli Yedeği', 
-      desc: 'çinko ve organik meyve asitleri ile',
-      price: 'TL14.90', 
-      image: 'https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Gel_nettoyant_anti-imperf_meilleur_produit_pharma_2026.jpg?v=1761140577', 
-      tags: ['NOUVEAUTÉ', 'RECHARGEABLE'] 
-  }
-]
+  { id: 'baume-demaquillant', name: 'Yeniden Doldurulabilir Eriyen Temizleme Balmı', desc: 'Süper nazik temizleyici', price: '249 TL', image: 'https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Baume_demaquillant.jpg?v=1759308282', tags: ['NOUVEAUTÉ'] },
+  { id: 'huile-soin-visage', name: 'Besleyici Yüz Bakım Yağı', desc: 'Yüz için besleyici yağ', price: '329 TL', image: 'https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Huile_de_soin_visage.jpg?v=1759308301', tags: ['NOUVEAUTÉ'] },
+  { id: 'mon-petit-creme', name: 'Nemlendirici Krem', desc: 'Yüz ve vücut nemlendirici', price: '189 TL', image: 'https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Creme_hydratante_visage_corps.jpg?v=1759308315', tags: ['NOUVEAUTÉ'] },
+  { id: 'stick-levres', name: 'Renkli Dudak Balmı', desc: 'Renkli dudak balmı', price: '129 TL', image: 'https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Stick_levres.jpg?v=1759308332', tags: ['NOUVEAUTÉ'] }
+];
 
 const bestsellersList = [
-  { 
-      id: 'contour-des-yeux-defatigant', 
-      name: 'Yorgunluk Karşıtı Göz Çevresi Bakımı', 
-      desc: 'organik aloe vera ile',
-      price: 'TL21.90', 
-      image: 'https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Contourdesyeux.jpg', 
-      tags: [] 
-  },
-  { 
-      id: 'concentre-bonne-mine', 
-      name: 'Işıltı Konsantresi', 
-      desc: 'organik havuç ve kayısı ile',
-      price: 'TL29.90', 
-      image: 'https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Concentre_bonne_mine_37929f69-8f65-4f53-a64f-924f856d1fa2.jpg', 
-      tags: ['BEST-SELLER'] 
-  }
-]
+  { id: 'anti-fatigue-eye', name: 'Cilt Sıkılaştırıcı Göz Kremi', desc: 'Organik aloe vera ile', price: '349 TL', image: 'https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Baume_regard.jpg?v=1759308345', tags: ['BEST-SELLER'] },
+  { id: 'radiance-concentrate', name: 'Işıltı Konsantresi', desc: 'Organik havuç ve kayısı ile', price: '429 TL', image: 'https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Concentre_Bonne_Mine.jpg?v=1759308358', tags: ['BEST-SELLER'] },
+  { id: 'fresh-deodorant', name: 'Tazeleyici Deodorant', desc: 'Probiyotikler ile', price: '199 TL', image: 'https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Deodorant.jpg?v=1759308371', tags: ['BEST-SELLER', 'RECHARGEABLE'] },
+  { id: 'sun-stick-spf50', name: 'Güneş Koruyucu Stick SPF 50', desc: 'Organik kayısı yağı ile', price: '279 TL', image: 'https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Stick_Solaire.jpg?v=1759308384', tags: ['BEST-SELLER'], award: true }
+];
 
-const shoppableVideos = [
-  {
-    id: 1,
-    title: 'Eczanelerde en çok satan maske stick',
-    src: 'https://checkout.larosee-cosmetiques.com/cdn/shop/videos/c/vp/f0bac188830a4cd1a48fc8f0c37e6f28/f0bac188830a4cd1a48fc8f0c37e6f28.HD-1080p-2.5Mbps-76487125.mp4',
-    poster: 'https://larosee.twic.pics/5464x8192/e295409abb/le_masque_en_stick_le_plus_vendu_en_pharmacie.jpeg/m/4000x4000'
-  },
-  {
-    id: 2,
-    title: 'Hangi makyaj temizleyiciyi seçmeli?',
-    src: 'https://checkout.larosee-cosmetiques.com/cdn/shop/videos/c/vp/b2d7d8aebe924c67b6e1f7129c6254e6/b2d7d8aebe924c67b6e1f7129c6254e6.HD-1080p-2.5Mbps-76487125.mp4', // Adjusted fallback
-    poster: 'https://larosee.twic.pics/1920x2232/03afa382bf/quel_demaquillant_choisir.jpeg/m/1920x2232'
-  },
-  {
-    id: 3,
-    title: 'Göz çevresi bakımını doğru uygulamak',
-    src: 'https://checkout.larosee-cosmetiques.com/cdn/shop/videos/c/vp/4f65d8e3698049c5abb8bae36d59e566/4f65d8e3698049c5abb8bae36d59e566.HD-1080p-2.5Mbps-76477583.mp4',
-    poster: 'https://larosee.twic.pics/5282x7923/e6aa131e24/bien_appliquer_son_conteur_des_yeux.jpeg/m/4000x4000'
-  }
-]
+const shoppableVideos = Array.from({ length: 18 }, (_, i) => ({
+  id: i + 1,
+  title: 'La Rosée',
+  src: `/videos/v${i + 1}.mp4`
+}))
 
 const activeVideo = ref(null)
 const isModalOpen = ref(false)
@@ -81,269 +80,744 @@ const closeModal = () => {
 </script>
 
 <template>
-<main class="Layout-module__content___wEYFD" id="content"><header class="swiper HomeHeader-module__root___NRDQF" style="--progress-duration:8s" data-paused="false"><div class="swiper-wrapper"><div class="swiper-slide"><div class="Hero-module__root___x7nJW"><div class="Hero-module__media___h24l9"><video muted autoplay loop playsinline controls poster="https://larosee.twic.pics/video/x/570dfd475b/la-rosee_new-header_mobile.mov?twic=v1/output=image"><source src="https://a.storyblok.com/f/196368/x/a50d8b59ee/la-rosee_new-header_desktop.mov" type="video/quicktime"></video></div><div class="Hero-module__content___6hUpl"><div class="Hero-module__pause-zone___m9W13"><h1 class="Heading-module__root___NpBjo Hero-module__title___ak74S" data-font-size="lg">Cilt sorunlarınız için özel serumlar</h1><a class="Button-module__root___Djkf0 Hero-module__link___QJaJI" data-variant="light" data-size="md" href="/collections/serums-visage" data-discover="true">Keşfet</a></div></div></div></div></div><div class="swiper-pagination"></div></header><section class="SpotlightCollections-module__root___M0bxv"><div class="Heading-module__root___NpBjo SpotlightCollections-module__text___7wN5Z SpotlightCollections-module__text___7wN5Z" data-font-size="lg"><p>10 yılı aşkın süredir geleceğin güzelliğini şekillendiriyoruz: <em>sürdürülebilir</em>, <em>bilinçli</em> ve <em>kararlı</em>.</p></div><div class="SpotlightCollections-module__collections___MjzFO"><div class="SpotlightCollection-module__root___7Fn1i"><h2 class="Heading-module__root___NpBjo SpotlightCollection-module__heading___vekmT" data-font-size="md">Yeni Gelenler</h2>
+<main class="Layout-module__content___wEYFD" id="content"><header class="swiper HomeHeader-module__root___NRDQF" style="--progress-duration:8s" data-paused="false"><div class="swiper-wrapper">
+    <!-- Slide 1: Image 1 -->
+    <div class="swiper-slide">
+      <div class="Hero-module__root___x7nJW">
+        <div class="Hero-module__media___h24l9">
+          <img src="../assets/hero-1.jpg" alt="La Rosée Hero 1" style="width:100%; height:100%; object-fit:cover;">
+        </div>
+        <div class="Hero-module__content___6hUpl">
+          <div class="Hero-module__pause-zone___m9W13">
+            <h1 class="Heading-module__root___NpBjo Hero-module__title___ak74S" data-font-size="lg">Doğal ve Etkili Cilt Bakımı</h1>
+            <a class="Button-module__root___Djkf0 Hero-module__link___QJaJI" data-variant="light" data-size="md" href="/collections/yuz-bakimi" data-discover="true">Hemen Al</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-<div class="SpotlightCollection-module__products___7-AGs products-grid-fix">
-  <div v-for="product in newArrivalsList" :key="product.id" class="ProductCard-module__root___j9mxB">
-    <a :href="'/products/' + product.id" class="ProductCard-module__link___O--LE">
-      <div class="ProductCard-module__image-container___PQV1f">
-        <img :src="product.image" :alt="product.name" class="ProductCard-module__image___au1e0" loading="lazy">
-        <div v-if="product.tags.length" class="ProductCard-module__tags___gaiv9">
-          <span v-for="tag in product.tags" :key="tag" class="Badge-module__root___xpABX">{{ tag === 'NOUVEAUTÉ' ? 'YENI' : (tag === 'RECHARGEABLE' ? 'YENIDEN DOLDURULABİLİR' : (tag === 'BEST-SELLER' ? 'ÇOK SATAN' : tag)) }}</span>
+    <!-- Slide 2: Image 3 (renamed to hero-2) -->
+    <div class="swiper-slide">
+      <div class="Hero-module__root___x7nJW">
+        <div class="Hero-module__media___h24l9">
+          <img src="../assets/hero-2.jpg" alt="La Rosée Hero 2" style="width:100%; height:100%; object-fit:cover;">
+        </div>
+        <div class="Hero-module__content___6hUpl">
+          <div class="Hero-module__pause-zone___m9W13">
+            <h1 class="Heading-module__root___NpBjo Hero-module__title___ak74S" data-font-size="lg">Vücudunuz İçin En İyisi</h1>
+            <a class="Button-module__root___Djkf0 Hero-module__link___QJaJI" data-variant="light" data-size="md" href="/collections/vucut-bakimi" data-discover="true">Keşfet</a>
+          </div>
         </div>
       </div>
-      <div class="ProductCard-module__info___V7V8B">
-        <h3 class="ProductCard-module__title___Uin1P">{{ product.name }}</h3>
-        <p class="ProductCard-module__desc___pSWVk">{{ product.desc }}</p>
-        <div class="ProductCard-module__price-container___a448c">
-          <span class="ProductCard-module__price___BuAB8">{{ product.price }}</span>
-          <button class="Button-module__root___Djkf0 ProductCard-module__add-btn___0-UPm" data-variant="flat" data-size="sm" @click.prevent="">Ekle</button>
-        </div>
-      </div>
-    </a>
-  </div>
-</div>
-<div class="SpotlightCollection-module__products___7-AGs products-grid-fix">
-  <div v-for="product in bestsellersList" :key="product.id" class="ProductCard-module__root___j9mxB">
-    <a :href="'/products/' + product.id" class="ProductCard-module__link___O--LE">
-      <div class="ProductCard-module__image-container___PQV1f">
-        <img :src="product.image" :alt="product.name" class="ProductCard-module__image___au1e0" loading="lazy">
-        <div v-if="product.tags.length" class="ProductCard-module__tags___gaiv9">
-          <span v-for="tag in product.tags" :key="tag" class="Badge-module__root___xpABX">{{ tag === 'NOUVEAUTÉ' ? 'YENI' : (tag === 'RECHARGEABLE' ? 'YENIDEN DOLDURULABİLİR' : (tag === 'BEST-SELLER' ? 'ÇOK SATAN' : tag)) }}</span>
-        </div>
-      </div>
-      <div class="ProductCard-module__info___V7V8B">
-        <h3 class="ProductCard-module__title___Uin1P">{{ product.name }}</h3>
-        <p class="ProductCard-module__desc___pSWVk">{{ product.desc }}</p>
-        <div class="ProductCard-module__price-container___a448c">
-          <span class="ProductCard-module__price___BuAB8">{{ product.price }}</span>
-          <button class="Button-module__root___Djkf0 ProductCard-module__add-btn___0-UPm" data-variant="flat" data-size="sm" @click.prevent="">Ekle</button>
-        </div>
-      </div>
-    </a>
-  </div>
-</div>
-<div class="SpotlightCollection-module__collection___WTOdw"><div class="SpotlightCollection-module__media___2cXCU"><video muted autoplay loop playsinline controls><source src="https://a.storyblok.com/f/196368/x/a7ecf6cc70/cy_home_bestsellers.mov" type="video/quicktime"></video></div><div class="SpotlightCollection-module__collection-infos___V2DQV"><h2 class="Heading-module__root___NpBjo" data-font-size="md">Çok Satanlar</h2><a class="Link-module__root___YqUoP" data-variant="underline" href="/collections/best-seller" data-discover="true">Tüm ürünleri gör</a></div></div><span class="SpotlightCollection-module__link___fnyWl"><a class="Link-module__root___YqUoP" data-variant="underline" href="/collections/best-seller" data-discover="true">Tüm ürünleri gör</a></span></div></div></section><section class="HomeShoppables-module__root___dJfqo"><div class="swiper HomeShoppables-module__carousel___KSYoF"><div class="swiper-wrapper">
-  <div v-for="video in shoppableVideos" :key="video.id" class="swiper-slide HomeShoppables-module__slide___DUv4U">
-    <button class="ShoppableCard-module__root___fpQmq" type="button" @click="openVideo(video)">
-      <span class="ShoppableCard-module__title___9q2LK">{{ video.title }}</span>
-      <div class="ShoppableCard-module__image___zmdQ8">
-        <img :src="video.poster" width="4000" height="4000" alt="" loading="lazy" decoding="async"/>
-        <div class="play-button-overlay">
-          <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="30" cy="30" r="30" fill="white" fill-opacity="0.8"/><path d="M40 30L25 38.6603V21.3397L40 30Z" fill="#333"/></svg>
-        </div>
-      </div>
-    </button>
-  </div>
-</div><div class="swiper-button-prev"></div><div class="swiper-button-next"></div></div>
+    </div>
 
-<!-- Video Modal -->
-<div v-if="isModalOpen" class="video-modal-overlay" @click.self="closeModal">
-  <div class="video-modal-content">
-    <button class="close-modal-btn" @click="closeModal">✕</button>
-    <video v-if="activeVideo" controls autoplay playsinline class="modal-video">
-      <source :src="activeVideo.src" type="video/mp4">
-    </video>
-    <div class="modal-info">
-      <h3 v-if="activeVideo">{{ activeVideo.title }}</h3>
+    <!-- Slide 3: Image 4 (renamed to hero-3) -->
+    <div class="swiper-slide">
+      <div class="Hero-module__root___x7nJW">
+        <div class="Hero-module__media___h24l9">
+          <img src="../assets/hero-3.jpg" alt="La Rosée Hero 3" style="width:100%; height:100%; object-fit:cover;">
+        </div>
+        <div class="Hero-module__content___6hUpl">
+          <div class="Hero-module__pause-zone___m9W13">
+            <h1 class="Heading-module__root___NpBjo Hero-module__title___ak74S" data-font-size="lg">Bebekler İçin Saf Dokunuş</h1>
+            <a class="Button-module__root___Djkf0 Hero-module__link___QJaJI" data-variant="light" data-size="md" href="/collections/bebek-bakimi" data-discover="true">İncele</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 4: Alt Başlık (renamed to hero-4) -->
+    <div class="swiper-slide">
+      <div class="Hero-module__root___x7nJW">
+        <div class="Hero-module__media___h24l9">
+          <img src="../assets/hero-4.png" alt="La Rosée Hero 4" style="width:100%; height:100%; object-fit:cover;">
+        </div>
+        <div class="Hero-module__content___6hUpl">
+          <div class="Hero-module__pause-zone___m9W13">
+            <h1 class="Heading-module__root___NpBjo Hero-module__title___ak74S" data-font-size="lg">La Rosée Uzmanlığı</h1>
+            <a class="Button-module__root___Djkf0 Hero-module__link___QJaJI" data-variant="light" data-size="md" href="/nemlendirme-uzmanligimiz" data-discover="true">Öğren</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-</section><section class="Commitments-module__root___Croa3"><div class="Heading-module__root___NpBjo Commitments-module__text___ycjqQ" data-font-size="lg"><p>En hassas ciltler dahil tüm cilt tiplerinin ihtiyaçlarını karşılamak için <em>doğal ve etkili kozmetikler</em> formüle ediyoruz.</p></div><ul class="Commitments-module__cards___A9ypP"><li class="Commitments-module__card___zd--b"><a href="/engagements/la-transition-ecologique-au-coeur-de-toutes-nos-decisions" data-discover="true"><video muted autoplay loop playsinline controls aria-label="transition EN"><source src="https://a.storyblok.com/f/196368/x/c96e0a6aa7/transition-en.mp4" type="video/mp4"></video></a></li><li class="Commitments-module__card___zd--b"><a href="/engagements/nos-formules" data-discover="true"><video muted autoplay loop playsinline controls aria-label="formules EN"><source src="https://a.storyblok.com/f/196368/x/bf85df7d8c/formules-en.mp4" type="video/mp4"></video></a></li><li class="Commitments-module__card___zd--b"><a href="/engagements/nos-packagings" data-discover="true"><img srcSet="https://larosee.twic.pics/1080x1080/e288677e61/packaging-en.jpg/m/1080x1080?twic=v1/quality=100/resize=200 200w, https://larosee.twic.pics/1080x1080/e288677e61/packaging-en.jpg/m/1080x1080?twic=v1/quality=95/resize=400 400w, https://larosee.twic.pics/1080x1080/e288677e61/packaging-en.jpg/m/1080x1080?twic=v1/quality=90/resize=600 600w, https://larosee.twic.pics/1080x1080/e288677e61/packaging-en.jpg/m/1080x1080?twic=v1/quality=86/resize=800 800w, https://larosee.twic.pics/1080x1080/e288677e61/packaging-en.jpg/m/1080x1080?twic=v1/quality=83/resize=1000 1000w" src="https://larosee.twic.pics/1080x1080/e288677e61/packaging-en.jpg/m/1080x1080" width="1080" height="1080" sizes="(min-width: 64rem) 25vw, 50vw" alt="packaging EN" loading="lazy" decoding="async"/></a></li><li class="Commitments-module__card___zd--b"><a href="/engagements/des-actions-concretes-pour-la-planete" data-discover="true"><img srcSet="https://larosee.twic.pics/1080x1080/c8aa83973d/actions-en.jpg/m/1080x1080?twic=v1/quality=100/resize=200 200w, https://larosee.twic.pics/1080x1080/c8aa83973d/actions-en.jpg/m/1080x1080?twic=v1/quality=95/resize=400 400w, https://larosee.twic.pics/1080x1080/c8aa83973d/actions-en.jpg/m/1080x1080?twic=v1/quality=90/resize=600 600w, https://larosee.twic.pics/1080x1080/c8aa83973d/actions-en.jpg/m/1080x1080?twic=v1/quality=86/resize=800 800w, https://larosee.twic.pics/1080x1080/c8aa83973d/actions-en.jpg/m/1080x1080?twic=v1/quality=83/resize=1000 1000w" src="https://larosee.twic.pics/1080x1080/c8aa83973d/actions-en.jpg/m/1080x1080" width="1080" height="1080" sizes="(min-width: 64rem) 25vw, 50vw" alt="actions EN" loading="lazy" decoding="async"/></a></li><li class="Commitments-module__card___zd--b"><a href="/certification-b-corp" data-discover="true"><img srcSet="https://larosee.twic.pics/1080x1080/9aefc6a937/bcorp-en.jpg/m/1080x1080?twic=v1/quality=100/resize=200 200w, https://larosee.twic.pics/1080x1080/9aefc6a937/bcorp-en.jpg/m/1080x1080?twic=v1/quality=95/resize=400 400w, https://larosee.twic.pics/1080x1080/9aefc6a937/bcorp-en.jpg/m/1080x1080?twic=v1/quality=90/resize=600 600w, https://larosee.twic.pics/1080x1080/9aefc6a937/bcorp-en.jpg/m/1080x1080?twic=v1/quality=86/resize=800 800w, https://larosee.twic.pics/1080x1080/9aefc6a937/bcorp-en.jpg/m/1080x1080?twic=v1/quality=83/resize=1000 1000w" src="https://larosee.twic.pics/1080x1080/9aefc6a937/bcorp-en.jpg/m/1080x1080" width="1080" height="1080" sizes="(min-width: 64rem) 25vw, 50vw" alt="bcorp EN" loading="lazy" decoding="async"/></a></li></ul><a class="Link-module__root___YqUoP Commitments-module__link___4Itbu" data-variant="underline" href="/engagements" data-discover="true">Tüm taahhütlerimizi keşfedin</a></section><aside class="NewsletterSection-module__root___j9mxB"><img srcSet="https://larosee.twic.pics/687x625/7de8cb25a6/pictogrammes_enveloppe-bleu.png/m/687x625?twic=v1/resize=687 1x, https://larosee.twic.pics/687x625/7de8cb25a6/pictogrammes_enveloppe-bleu.png/m/687x625?twic=v1/resize=1374 2x, https://larosee.twic.pics/687x625/7de8cb25a6/pictogrammes_enveloppe-bleu.png/m/687x625?twic=v1/resize=2061 3x" src="https://larosee.twic.pics/687x625/7de8cb25a6/pictogrammes_enveloppe-bleu.png/m/687x625" width="687" height="625" alt="" loading="lazy" decoding="async" class="NewsletterSection-module__icon___O--LE"/><h2 class="Heading-module__root___NpBjo NewsletterSection-module__heading___PQV1f" data-font-size="md">Bültenimize kaydolun!</h2><div class="TextContainer-module__root___3x88v NewsletterSection-module__text___au1e0"><p>Kaydolduğunuzda %10 indirim kazanın. Özel önizlemeleri, en iyi ipuçlarımızı ve size özel teklifleri kaçırmayın!</p></div><form class="NewsletterSection-module__form___gaiv9" data-discover="true" action="/contact?newsletter=true" method="post"><div><div class="Input-module__root___xpABX"><input title="" class="Input-module__control___V7V8B" placeholder="Email" required="" type="email" autoComplete="email" id="radix-_R_1ipl4l_" name="email"/><label class="Input-module__label___Uin1P" for="radix-_R_1ipl4l_">Email</label></div></div><div hidden=""><fieldset class="NewsletterSection-module__fieldset___pSWVk"><legend class="NewsletterSection-module__legend___a448c">Hangi konular sizi ilgilendiriyor? </legend><div class="Checkbox-module__root___BuAB8 NewsletterSection-module__checkbox___0-UPm"><input title="" class="Checkbox-module__control___UoIEa" type="checkbox" id="radix-_R_2aipl4l_" name="tags" value="La Rosée"/><label class="Checkbox-module__label___LJPVK" data-variant="" for="radix-_R_2aipl4l_">La Rosée</label></div><div class="Checkbox-module__root___BuAB8 NewsletterSection-module__checkbox___0-UPm"><input title="" class="Checkbox-module__control___UoIEa" type="checkbox" id="radix-_R_3aipl4l_" name="tags" value="Mon Petit La Rosée"/><label class="Checkbox-module__label___LJPVK" data-variant="" for="radix-_R_3aipl4l_">Mon Petit La Rosée</label></div></fieldset><fieldset class="NewsletterSection-module__fieldset___pSWVk"><legend class="NewsletterSection-module__legend___a448c">When is your birthday?
+  <div class="swiper-pagination"></div>
+</header>
+ <section class="SpotlightCollections-module__root___M0bxv">
+  <div class="SpotlightCollections-module__intro">
+    <h2 class="SpotlightCollections-module__text">
+      10 yılı aşkın süredir geleceğin güzelliğini şekillendiriyoruz: <em>sürdürülebilir</em>, <em>bilinçli</em> ve <em>kararlı</em>.
+    </h2>
+  </div>
 
-We’ve got a little surprise planned for you on that day!</legend><div class="Input-module__root___xpABX"><input title="" class="Input-module__control___V7V8B" placeholder="Doğum Günü (GG/AA/YYYY)" type="text" autoComplete="bday" pattern="\d{2}/\d{2}/\d{4}" maxLength="10" id="radix-_R_2iipl4l_" name="birthday" value=""/><label class="Input-module__label___Uin1P" for="radix-_R_2iipl4l_">Doğum Günü (GG/AA/YYYY)</label></div></fieldset></div><button class="Button-module__root___Djkf0 NewsletterSection-module__submit___zI-PU" data-variant="flat" data-size="md" data-loading="false" type="submit">Gönder</button><div class="Checkbox-module__root___BuAB8 NewsletterSection-module__legal-checkbox___KK8NG"><input title="" class="Checkbox-module__control___UoIEa" type="checkbox" required="" id="radix-_R_4ipl4l_" name="legals" value="La Rosée Cosmétiques bültenine abone olmayı kabul ediyorum. Aboneliği istediğim zaman iptal edebileceğimi biliyorum.
+  <div class="SpotlightCollections-module__collections">
+    <!-- Collection 1: New Arrivals (Grid on Left, Large on Right) -->
+    <div class="SpotlightCollection-module__root">
+      <div class="SpotlightCollection-module__left">
+        <h3 class="Eyebrow-module__root">Yeni Gelenler</h3>
+        <div class="SpotlightCollection-module__products">
+          <div v-for="product in newArrivalsList" :key="product.id" class="ProductCard-module__root">
+            <a :href="'/products/' + product.id" class="ProductCard-module__link">
+              <div class="ProductCard-module__image-container">
+                <img :src="product.image" :alt="product.name" class="ProductCard-module__image" loading="lazy">
+                <div v-if="product.tags && product.tags.length" class="ProductCard-module__tags">
+                  <span v-for="tag in product.tags" :key="tag" class="Badge-module__root">{{ tag === 'NOUVEAUTÉ' ? 'YENI' : (tag === 'RECHARGEABLE' ? 'YENIDEN DOLDURULABİLİR' : (tag === 'BEST-SELLER' ? 'ÇOK SATAN' : tag)) }}</span>
+                </div>
+                <div v-if="product.award" class="ProductCard-module__award">
+                  <img src="https://cdn.shopify.com/s/files/1/0489/5283/6259/files/victoire_de_la_beaute.png?v=1684507000" alt="Victoire de la Beauté" class="award-icon">
+                </div>
+              </div>
+              <div class="ProductCard-module__info">
+                <h4 class="ProductCard-module__title">{{ product.name }}</h4>
+                <p class="ProductCard-module__desc">{{ product.desc }}</p>
+                <p class="ProductCard-module__price">{{ product.price }}</p>
+              </div>
+            </a>
+            <button class="ProductCard-module__add-btn">Ekle</button>
+          </div>
+        </div>
+      </div>
+      <div class="SpotlightCollection-module__right">
+        <div class="SpotlightCollection-module__collection large-card">
+          <div class="SpotlightCollection-module__media">
+            <video muted autoplay loop playsinline>
+              <source src="../assets/new-arrivals-video.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="SpotlightCollection-module__collection-infos">
+            <h2 class="SpotlightCollection-module__collection-title">Yeni Gelenler</h2>
+            <router-link class="SpotlightCollection-module__see-all" to="/collections/yeni-gelenler">Tüm ürünleri gör</router-link>
+          </div>
+        </div>
+      </div>
+    </div>
 
-[Haklar ve veri yönetimi](/policies/politique-de-gestion-des-cookies)"/><label class="Checkbox-module__label___LJPVK" data-variant="xs" for="radix-_R_4ipl4l_"><div class="TextContainer-module__root___3x88v"><span>La Rosée Cosmétiques bültenine abone olmayı kabul ediyorum. Aboneliği istediğim zaman iptal edebileceğimi biliyorum.</span><span><a class="Link-module__root___YqUoP" data-variant="underline" href="/policies/politique-de-gestion-des-cookies" data-discover="true">Haklar ve veri yönetimi</a></span></div></label></div></form><div class="NewsletterSection-module__social-networks___vlyL-"><p>Bizi takip edin</p><ul class="SocialNetworks-module__root___0FcMc"><li><a href="https://instagram.com/laroseecosmetiques" target="_blank" rel="noopener noreferrer" title="Instagram"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 0C8.74 0 8.333 0.015 7.053 0.072C5.775 0.132 4.905 0.333 4.14 0.63C3.351 0.936 2.681 1.347 2.014 2.014C1.347 2.681 0.935 3.35 0.63 4.14C0.333 4.905 0.131 5.775 0.072 7.053C0.012 8.333 0 8.74 0 12C0 15.26 0.015 15.667 0.072 16.947C0.132 18.224 0.333 19.095 0.63 19.86C0.936 20.648 1.347 21.319 2.014 21.986C2.681 22.652 3.35 23.065 4.14 23.37C4.906 23.666 5.776 23.869 7.053 23.928C8.333 23.988 8.74 24 12 24C15.26 24 15.667 23.985 16.947 23.928C18.224 23.868 19.095 23.666 19.86 23.37C20.648 23.064 21.319 22.652 21.986 21.986C22.652 21.319 23.065 20.651 23.37 19.86C23.666 19.095 23.869 18.224 23.928 16.947C23.988 15.667 24 15.26 24 12C24 8.74 23.985 8.333 23.928 7.053C23.868 5.776 23.666 4.904 23.37 4.14C23.064 3.351 22.652 2.681 21.986 2.014C21.319 1.347 20.651 0.935 19.86 0.63C19.095 0.333 18.224 0.131 16.947 0.072C15.667 0.012 15.26 0 12 0ZM12 2.16C15.203 2.16 15.585 2.176 16.85 2.231C18.02 2.286 18.655 2.48 19.077 2.646C19.639 2.863 20.037 3.123 20.459 3.542C20.878 3.962 21.138 4.361 21.355 4.923C21.519 5.345 21.715 5.98 21.768 7.15C21.825 8.416 21.838 8.796 21.838 12C21.838 15.204 21.823 15.585 21.764 16.85C21.703 18.02 21.508 18.655 21.343 19.077C21.119 19.639 20.864 20.037 20.444 20.459C20.025 20.878 19.62 21.138 19.064 21.355C18.644 21.519 17.999 21.715 16.829 21.768C15.555 21.825 15.18 21.838 11.97 21.838C8.759 21.838 8.384 21.823 7.111 21.764C5.94 21.703 5.295 21.508 4.875 21.343C4.306 21.119 3.915 20.864 3.496 20.444C3.075 20.025 2.806 19.62 2.596 19.064C2.431 18.644 2.237 17.999 2.176 16.829C2.131 15.569 2.115 15.18 2.115 11.985C2.115 8.789 2.131 8.399 2.176 7.124C2.237 5.954 2.431 5.31 2.596 4.89C2.806 4.32 3.075 3.93 3.496 3.509C3.915 3.09 4.306 2.82 4.875 2.611C5.295 2.445 5.926 2.25 7.096 2.19C8.371 2.145 8.746 2.13 11.955 2.13L12 2.16V2.16ZM12 5.838C8.595 5.838 5.838 8.598 5.838 12C5.838 15.405 8.598 18.162 12 18.162C15.405 18.162 18.162 15.402 18.162 12C18.162 8.595 15.402 5.838 12 5.838ZM12 16C9.79 16 8 14.21 8 12C8 9.79 9.79 8 12 8C14.21 8 16 9.79 16 12C16 14.21 14.21 16 12 16ZM19.846 5.595C19.846 6.39 19.2 7.035 18.406 7.035C17.611 7.035 16.966 6.389 16.966 5.595C16.966 4.801 17.612 4.156 18.406 4.156C19.199 4.155 19.846 4.801 19.846 5.595Z" fill="currentcolor"></path></svg></a></li><li><a href="https://www.facebook.com/laroseecosmetiques" target="_blank" rel="noopener noreferrer" title="Facebook"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M24 12.073C24 5.446 18.627 0.072998 12 0.072998C5.373 0.072998 0 5.446 0 12.073C0 18.063 4.388 23.027 10.125 23.927V15.542H7.078V12.072H10.125V9.43C10.125 6.423 11.917 4.761 14.658 4.761C15.97 4.761 17.344 4.996 17.344 4.996V7.949H15.83C14.339 7.949 13.874 8.874 13.874 9.823V12.073H17.202L16.67 15.543H13.874V23.928C19.612 23.027 24 18.062 24 12.073Z" fill="currentcolor"></path></svg></a></li><li><a href="https://www.tiktok.com/@laroseecosmetiques" target="_blank" rel="noopener noreferrer" title="TikTok"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12.5251 0.02C13.8351 0 15.1351 0.01 16.4351 0C16.5151 1.53 17.0651 3.09 18.1851 4.17C19.3051 5.28 20.8851 5.79 22.4251 5.96V9.99C20.9851 9.94 19.5351 9.64 18.2251 9.02C17.6551 8.76 17.1251 8.43 16.6051 8.09C16.5951 11.01 16.6151 13.93 16.5851 16.84C16.5051 18.24 16.0451 19.63 15.2351 20.78C13.9251 22.7 11.6551 23.95 9.32512 23.99C7.89512 24.07 6.46512 23.68 5.24512 22.96C3.22512 21.77 1.80512 19.59 1.59512 17.25C1.57512 16.75 1.56512 16.25 1.58512 15.76C1.76512 13.86 2.70512 12.04 4.16512 10.8C5.82512 9.36 8.14512 8.67 10.3151 9.08C10.3351 10.56 10.2751 12.04 10.2751 13.52C9.28512 13.2 8.12512 13.29 7.25512 13.89C6.62512 14.3 6.14512 14.93 5.89512 15.64C5.68512 16.15 5.74512 16.71 5.75512 17.25C5.99512 18.89 7.57512 20.27 9.25512 20.12C10.3751 20.11 11.4451 19.46 12.0251 18.51C12.2151 18.18 12.4251 17.84 12.4351 17.45C12.5351 15.66 12.4951 13.88 12.5051 12.09C12.5151 8.06 12.4951 4.04 12.5251 0.02V0.02Z" fill="currentcolor"></path></svg></a></li><li><a href="https://www.linkedin.com/company/la-ros%C3%A9e" target="_blank" rel="noopener noreferrer" title="LinkedIn"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" fill="currentcolor"></path></svg></a></li><li><a href="https://www.pinterest.fr/laroseecosmetiques/" target="_blank" rel="noopener noreferrer" title="Pinterest"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.0173 0C5.3963 0 0.0292969 5.367 0.0292969 11.987C0.0292969 17.066 3.1873 21.404 7.6473 23.149C7.5423 22.2 7.4483 20.746 7.6883 19.71C7.9073 18.773 9.0943 13.753 9.0943 13.753C9.0943 13.753 8.7353 13.033 8.7353 11.972C8.7353 10.309 9.7023 9.061 10.9033 9.061C11.9273 9.061 12.4213 9.83 12.4213 10.749C12.4213 11.778 11.7683 13.316 11.4293 14.741C11.1443 15.934 12.0293 16.906 13.2043 16.906C15.3323 16.906 16.9723 14.661 16.9723 11.419C16.9723 8.558 14.9093 6.55 11.9643 6.55C8.5543 6.55 6.5553 9.112 6.5553 11.749C6.5553 12.782 6.9493 13.892 7.4443 14.49C7.5433 14.61 7.5563 14.715 7.5293 14.835C7.4393 15.21 7.2363 16.034 7.1953 16.198C7.1423 16.423 7.0233 16.469 6.7943 16.363C5.2993 15.673 4.3613 13.485 4.3613 11.717C4.3613 7.941 7.1093 4.465 12.2813 4.465C16.4393 4.465 19.6733 7.432 19.6733 11.388C19.6733 15.523 17.0663 18.85 13.4403 18.85C12.2263 18.85 11.0863 18.221 10.6823 17.471L9.9333 20.319C9.6643 21.364 8.9293 22.671 8.4353 23.465C9.5583 23.81 10.7413 24 11.9853 24C18.5923 24 23.9703 18.635 23.9703 12.013C23.9703 5.39 18.5923 0.026 11.9853 0.026L12.0173 0Z" fill="currentcolor"></path></svg></a></li><li><a href="https://www.youtube.com/channel/UCRJ2jVxUd61ZcmhjgnbNL0g" target="_blank" rel="noopener noreferrer" title="YouTube"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M23.498 6.18604C23.3624 5.67532 23.095 5.20918 22.7226 4.83431C22.3502 4.45943 21.8858 4.18899 21.376 4.05004C19.505 3.54504 12 3.54504 12 3.54504C12 3.54504 4.495 3.54504 2.623 4.05004C2.11341 4.18923 1.64929 4.45978 1.27708 4.83463C0.904861 5.20947 0.637591 5.67548 0.502 6.18604C0 8.07004 0 12 0 12C0 12 0 15.93 0.502 17.814C0.637586 18.3248 0.904975 18.7909 1.27739 19.1658C1.64981 19.5407 2.11418 19.8111 2.624 19.95C4.495 20.455 12 20.455 12 20.455C12 20.455 19.505 20.455 21.377 19.95C21.8869 19.8112 22.3513 19.5408 22.7237 19.1659C23.0961 18.791 23.3635 18.3248 23.499 17.814C24 15.93 24 12 24 12C24 12 24 8.07004 23.498 6.18604ZM9.545 15.568V8.43204L15.818 12L9.545 15.568Z" fill="currentcolor"></path></svg></a></li></ul></div></aside><aside class="Reassurances-module__root___evF-d"><h2 style="position:absolute;border:0;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;word-wrap:normal">Güvenceler</h2><ul class="Reassurances-module__list___xTpiW"><li class="Reassurances-module__item___diEAt"><article class="IconWithText-module__root___o-KFW" data-size="lg" data-align="center" data-border="true"><img src="https://larosee.twic.pics/101x100/496ca65e00/livraison.svg" width="101" height="100" alt="" loading="lazy" decoding="async" class="IconWithText-module__icon___ST6u4"/><div class="IconWithText-module__text___C0gVA"><p class="IconWithText-module__title___BAcgw">Ücretsiz Kargo</p><p>25TL üzeri siparişlerde</p></div></article></li><li class="Reassurances-module__item___diEAt"><article class="IconWithText-module__root___o-KFW" data-size="lg" data-align="center" data-border="true"><img src="https://larosee.twic.pics/152x150/110e69b8d2/echantillon.svg" width="152" height="150" alt="" loading="lazy" decoding="async" class="IconWithText-module__icon___ST6u4"/><div class="IconWithText-module__text___C0gVA"><p class="IconWithText-module__title___BAcgw">1 ücretsiz numune</p><p>her siparişte talep üzerine</p></div></article></li><li class="Reassurances-module__item___diEAt"><article class="IconWithText-module__root___o-KFW" data-size="lg" data-align="center" data-border="true"><img src="https://larosee.twic.pics/101x100/50787b3336/pharmacies.svg" width="101" height="100" alt="" loading="lazy" decoding="async" class="IconWithText-module__icon___ST6u4"/><div class="IconWithText-module__text___C0gVA"><p class="IconWithText-module__title___BAcgw">Partner Eczaneler</p><p><a class="Link-module__root___YqUoP" data-variant="underline" href="/pharmacy-locator" data-discover="true">yakınınızdaki eczaneyi bulun</a></p></div></article></li><li class="Reassurances-module__item___diEAt"><article class="IconWithText-module__root___o-KFW" data-size="lg" data-align="center" data-border="true"><img src="https://larosee.twic.pics/101x100/efbb8a48d8/sav.svg" width="101" height="100" alt="" loading="lazy" decoding="async" class="IconWithText-module__icon___ST6u4"/><div class="IconWithText-module__text___C0gVA"><p class="IconWithText-module__title___BAcgw">Sorunuz mu var?</p><p><a class="Link-module__root___YqUoP" data-variant="underline" href="/contact" data-discover="true">bize ulaşın</a></p></div></article></li></ul></aside></main><aside class="BCorp-module__root___8-Roy"><div class="BCorp-module__content___ISZXE"><h2 class="BCorp-module__logo___4DmT9"><img src="https://larosee.twic.pics/81x118/1786c2c8d6/certified_b_corporation_b_corp_logo_2022_black_rgb-1.svg" width="81" height="118" alt="Certified B Corporation" loading="lazy" decoding="async"/></h2><div><div class="Heading-module__root___NpBjo BCorp-module__heading___eiN8k" data-font-size="sm"><p>La Rosée B Corp sertifikalıdır.<br/>Bu sertifika, sorumlu ve katılımcı bir şirket olmaya olan derin ve samimi bağlılığımızı göstermektedir.</p></div><a data-variant="underline" class="Link-module__root___YqUoP" href="/certification-b-corp" data-discover="true">Taahhütlerimizi keşfedin</a></div></div></aside>
+    <!-- Collection 2: Best Sellers (Large on Left, Grid on Right) -->
+    <div class="SpotlightCollection-module__root alternate">
+      <div class="SpotlightCollection-module__left">
+        <div class="SpotlightCollection-module__collection large-card">
+          <div class="SpotlightCollection-module__media">
+            <video muted autoplay loop playsinline>
+              <source src="../assets/best-sellers-video.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="SpotlightCollection-module__collection-infos">
+            <h2 class="SpotlightCollection-module__collection-title">Çok Satanlar</h2>
+            <router-link class="SpotlightCollection-module__see-all" to="/collections/best-seller">Tüm ürünleri gör</router-link>
+          </div>
+        </div>
+      </div>
+      <div class="SpotlightCollection-module__right">
+        <h3 class="Eyebrow-module__root">Çok Satanlar</h3>
+        <div class="SpotlightCollection-module__products">
+          <div v-for="product in bestsellersList" :key="product.id" class="ProductCard-module__root">
+            <a :href="'/products/' + product.id" class="ProductCard-module__link">
+              <div class="ProductCard-module__image-container">
+                <img :src="product.image" :alt="product.name" class="ProductCard-module__image" loading="lazy">
+                <div v-if="product.tags && product.tags.length" class="ProductCard-module__tags">
+                  <span v-for="tag in product.tags" :key="tag" class="Badge-module__root">{{ tag === 'NOUVEAUTÉ' ? 'YENI' : (tag === 'RECHARGEABLE' ? 'YENIDEN DOLDURULABİLİR' : (tag === 'BEST-SELLER' ? 'ÇOK SATAN' : tag)) }}</span>
+                </div>
+                <div v-if="product.award" class="ProductCard-module__award">
+                  <img src="https://cdn.shopify.com/s/files/1/0489/5283/6259/files/victoire_de_la_beaute.png?v=1684507000" alt="Victoire de la Beauté" class="award-icon">
+                </div>
+              </div>
+              <div class="ProductCard-module__info">
+                <h4 class="ProductCard-module__title">{{ product.name }}</h4>
+                <p class="ProductCard-module__desc">{{ product.desc }}</p>
+                <p class="ProductCard-module__price">{{ product.price }}</p>
+              </div>
+            </a>
+            <button class="ProductCard-module__add-btn">Ekle</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="HomeShoppables-module__root">
+  <div class="HomeShoppables-module__intro">
+    <h2 class="HomeShoppables-module__heading">
+      Etkinlik veya duyusallıktan <em>ödün vermeden</em>, <em>%100</em>'e kadar doğal kökenli bileşenlerle formüle edilmiştir
+    </h2>
+  </div>
+  <div class="swiper HomeShoppables-module__carousel">
+    <div class="swiper-wrapper">
+      <div v-for="video in shoppableVideos" :key="video.id" class="swiper-slide HomeShoppables-module__slide">
+        <button class="ShoppableCard-module__root" type="button" @click="openVideo(video)">
+          <div class="ShoppableCard-module__media">
+            <video :src="video.src" muted autoplay loop playsinline></video>
+          </div>
+          <span class="ShoppableCard-module__title">{{ video.title }}</span>
+          <div class="ShoppableCard-module__play-button">
+            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="30" cy="30" r="30" fill="white" />
+              <path d="M40 30L25 38.6603V21.3397L40 30Z" fill="#3AA0FF" />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+
+  <!-- Video Modal -->
+  <div v-if="isModalOpen" class="video-modal-overlay" @click.self="closeModal">
+    <div class="video-modal-content">
+      <button class="close-modal-btn" @click="closeModal">✕</button>
+      <video v-if="activeVideo" controls autoplay playsinline class="modal-video">
+        <source :src="activeVideo.src" type="video/mp4">
+      </video>
+      <div class="modal-info">
+        <h3 v-if="activeVideo">{{ activeVideo.title }}</h3>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="Commitments-module__root___Croa3">
+  <div class="HomeShoppables-module__heading Commitments-module__text___ycjqQ">
+    <p>En hassas ciltler dahil tüm cilt tiplerinin ihtiyaçlarını karşılamak için <em>doğal ve etkili kozmetikler</em> formüle ediyoruz.</p>
+  </div>
+  <ul class="Commitments-module__cards___A9ypP">
+    <li class="Commitments-module__card___zd--b">
+      <a href="/ekolojik-donusum" data-discover="true">
+        <video muted autoplay loop playsinline aria-label="ekolojik dönüşüm">
+          <source src="https://a.storyblok.com/f/196368/x/c96e0a6aa7/transition-en.mp4" type="video/mp4">
+        </video>
+      </a>
+    </li>
+    <li class="Commitments-module__card___zd--b">
+      <a href="/formullerimiz" data-discover="true">
+        <video muted autoplay loop playsinline aria-label="formüllerimiz">
+          <source src="https://a.storyblok.com/f/196368/x/bf85df7d8c/formules-en.mp4" type="video/mp4">
+        </video>
+      </a>
+    </li>
+    <li class="Commitments-module__card___zd--b">
+      <a href="/ambalajlarimiz" data-discover="true">
+        <img src="https://larosee.twic.pics/1080x1080/e288677e61/packaging-en.jpg/m/1080x1080" width="1080" height="1080" alt="ambalajlarımız" loading="lazy" decoding="async"/>
+      </a>
+    </li>
+    <li class="Commitments-module__card___zd--b">
+      <a href="/dayanisma" data-discover="true">
+        <img src="https://larosee.twic.pics/1080x1080/c8aa83973d/actions-en.jpg/m/1080x1080" width="1080" height="1080" alt="dayanışma" loading="lazy" decoding="async"/>
+      </a>
+    </li>
+    <li class="Commitments-module__card___zd--b">
+      <a href="/certification-b-corp" data-discover="true">
+        <img src="https://larosee.twic.pics/1080x1080/9aefc6a937/bcorp-en.jpg/m/1080x1080" width="1080" height="1080" alt="bcorp" loading="lazy" decoding="async"/>
+      </a>
+    </li>
+  </ul>
+  <a class="Link-module__root___YqUoP Commitments-module__link___4Itbu" data-variant="underline" href="/taahhutlerimiz" data-discover="true">Tüm taahhütlerimizi keşfedin</a>
+</section></main><aside class="BCorp-module__root___8-Roy"><div class="BCorp-module__content___ISZXE"><h2 class="BCorp-module__logo___4DmT9"><img src="https://larosee.twic.pics/81x118/1786c2c8d6/certified_b_corporation_b_corp_logo_2022_black_rgb-1.svg" width="81" height="118" alt="Certified B Corporation" loading="lazy" decoding="async"/></h2><div><div class="Heading-module__root___NpBjo BCorp-module__heading___eiN8k" data-font-size="sm"><p>La Rosée B Corp sertifikalıdır.<br/>Bu sertifika, sorumlu ve katılımcı bir şirket olmaya olan derin ve samimi bağlılığımızı göstermektedir.</p></div><a data-variant="underline" class="Link-module__root___YqUoP" href="/certification-b-corp" data-discover="true">Taahhütlerimizi keşfedin</a></div></div></aside>
 </template>
 
 <style scoped>
-/* Custom ProductCard Styles */
-.ProductCard-module__root___j9mxB {
-  background: white;
-  border-radius: 8px;
-  overflow: hidden;
-  transition: transform 0.2s;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-.ProductCard-module__root___j9mxB:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-}
-.ProductCard-module__link___O--LE {
-  text-decoration: none;
-  color: inherit;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-.ProductCard-module__image-container___PQV1f {
-  position: relative;
-  aspect-ratio: 1;
-  background: #f5f5f5;
-  overflow: hidden;
-}
-.ProductCard-module__image___au1e0 {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.ProductCard-module__tags___gaiv9 {
-  position: absolute;
-  top: 8px;
-  left: 8px;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-.Badge-module__root___xpABX {
-  background: white;
-  padding: 4px 8px;
-  border-radius: 4px;
-  font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-.ProductCard-module__info___V7V8B {
-  padding: 16px;
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-}
-.ProductCard-module__title___Uin1P {
-  font-size: 1rem;
-  font-weight: 600;
-  margin: 0 0 4px 0;
-  line-height: 1.2;
-}
-.ProductCard-module__desc___pSWVk {
-  font-size: 0.85rem;
-  color: #666;
-  margin: 0 0 16px 0;
-  flex-grow: 1;
-}
-.ProductCard-module__price-container___a448c {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: auto;
-}
-.ProductCard-module__price___BuAB8 {
-  font-weight: 600;
-  font-size: 1.1rem;
-}
-.ProductCard-module__add-btn___0-UPm {
-  background-color: #f1f5ff;
-  color: var(--color-primary, #3b82f6);
-  border: none;
-  padding: 8px 16px;
-  border-radius: 20px;
-  font-weight: 600;
-  cursor: pointer;
+/* Modernized 1:1 Match Styles */
+.SpotlightCollections-module__root___M0bxv {
+    --rgb-dodger-blue: 52 170 255;
+    --rgb-azure-radiance: 3 149 254;
+    --rgb-mine-shaft: 63 63 63;
+    --rgb-geyser: 216 223 231;
+    --rgb-hawkes-blue: 235 243 252;
+    --rgb-silver-chalice: 159 159 159;
+    --background-blue: rgb(var(--rgb-hawkes-blue));
+    --color-muted: rgb(var(--rgb-silver-chalice));
+    --font-family-sans: "Basis Grotesque Pro", system-ui, sans-serif;
+    --font-family-serif: "Chaparral Pro", ui-serif, serif;
+    --font-family-cursive: "Fabio Handwriting", ui-cursive, cursive;
+
+    padding: 80px 0 0 0;
+    background-image: linear-gradient(white 0%, var(--background-blue) 10%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
-.products-grid-fix {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
-  padding: 0 1rem;
-  margin-top: 1.5rem;
-  margin-bottom: 2rem;
+.SpotlightCollections-module__intro {
+    max-width: 1856px;
+    width: 100%;
+    padding: 0 16px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
 }
 
-@media (min-width: 48rem) {
-  .products-grid-fix {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1.5rem;
+.SpotlightCollections-module__text {
+    max-width: 800px;
+    font-family: var(--font-family-serif);
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: rgb(63, 63, 63);
+    text-align: center;
+    margin: 0;
+}
+
+.SpotlightCollections-module__text em {
+    font-family: var(--font-family-cursive, cursive);
+    font-style: normal;
+}
+
+.SpotlightCollections-module__collections {
+    max-width: 1856px;
+    width: 100%;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.SpotlightCollection-module__root {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    width: 100%;
+}
+
+.SpotlightCollection-module__left,
+.SpotlightCollection-module__right {
+    display: flex;
+    flex-direction: column;
+}
+
+.SpotlightCollection-module__root.alternate .SpotlightCollection-module__left {
+    order: 1;
+}
+.SpotlightCollection-module__root.alternate .SpotlightCollection-module__right {
+    order: 2;
+}
+
+.Eyebrow-module__root {
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-size: 14px;
+    color: var(--color-muted);
+    margin-bottom: 32px;
+    font-weight: 600;
+    text-align: left;
+    width: 100%;
+}
+
+.SpotlightCollection-module__products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    height: 100%;
+}
+
+.ProductCard-module__root {
+    background: white;
+    border-radius: 6px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 452px;
+    transition: box-shadow 0.3s ease;
+}
+
+.ProductCard-module__root:hover {
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.ProductCard-module__link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.ProductCard-module__image-container {
+    aspect-ratio: 292 / 340;
+    background: #f9f9f9;
+    position: relative;
+}
+
+.ProductCard-module__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ProductCard-module__info {
+    padding: 24px 20px 0 20px;
+    text-align: center;
+}
+
+.ProductCard-module__title {
+    font-family: var(--font-family-serif);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0 8px 0;
+    color: #3f3f3f;
+}
+
+.ProductCard-module__desc {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+
+.ProductCard-module__price {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.ProductCard-module__add-btn {
+    width: 100%;
+    height: 50px;
+    background: white;
+    border: none;
+    border-top: 1px solid rgb(229, 231, 235);
+    border-radius: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    color: rgb(63, 63, 63);
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+
+.ProductCard-module__add-btn:hover {
+    background: rgb(247, 249, 251);
+}
+
+.ProductCard-module__award {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+}
+
+.award-icon {
+    width: 46px;
+    height: auto;
+}
+
+.ProductCard-module__tags {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    z-index: 2;
+}
+
+.Badge-module__root {
+    background: white;
+    color: rgb(63, 63, 63);
+    font-size: 10px;
+    font-weight: 700;
+    padding: 4px 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.large-card {
+    height: 100%;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    min-height: 600px;
+}
+
+.SpotlightCollection-module__media {
+    width: 100%;
+    height: 100%;
+}
+
+.SpotlightCollection-module__media video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.SpotlightCollection-module__collection-infos {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    text-align: left;
+    color: white;
+    z-index: 2;
+}
+
+.SpotlightCollection-module__collection-title {
+    font-family: var(--font-family-serif);
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0 0 12px 0;
+}
+
+.SpotlightCollection-module__see-all {
+    color: white;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+    .SpotlightCollection-module__root {
+        grid-template-columns: 1fr;
+    }
+    .SpotlightCollection-module__root.alternate .SpotlightCollection-module__left,
+    .SpotlightCollection-module__root.alternate .SpotlightCollection-module__right {
+        order: unset;
+    }
+    .large-card {
+        min-height: 400px;
+        order: -1;
+    }
+}
+
+/* HomeShoppables Styles */
+.HomeShoppables-module__root {
+    padding: 80px 0;
+    max-width: 1856px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.HomeShoppables-module__intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px;
+    padding: 0 16px;
+}
+
+.HomeShoppables-module__heading {
+    font-family: var(--font-family-serif, serif);
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: rgb(63, 63, 63);
+    margin: 0;
+}
+
+.HomeShoppables-module__heading em {
+    font-family: var(--font-family-cursive, cursive);
+    font-style: normal;
+}
+
+.HomeShoppables-module__carousel {
+    padding: 0 16px;
+}
+
+.HomeShoppables-module__slide {
+    height: auto;
+}
+
+.ShoppableCard-module__root {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 9 / 12;
+    border-radius: 6px;
+    overflow: hidden;
+    border: none;
     padding: 0;
-  }
+    cursor: pointer;
+    background: #f0f0f0;
+    display: block;
 }
 
-.modal-info {
-  padding: 1rem;
-  background: white;
-  text-align: center;
+.ShoppableCard-module__media {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
-.modal-info h3 {
-  margin: 0;
-  font-size: 1.25rem;
-  color: #333;
+.ShoppableCard-module__media video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.ShoppableCard-module__image___zmdQ8 {
-  position: relative;
+.ShoppableCard-module__title {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    right: 24px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    z-index: 2;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
 
-.play-button-overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  pointer-events: none;
-  transition: transform 0.2s ease-in-out;
+.ShoppableCard-module__play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    transition: transform 0.2s;
 }
 
-.ShoppableCard-module__root___fpQmq:hover .play-button-overlay {
-  transform: translate(-50%, -50%) scale(1.1);
+.ShoppableCard-module__root:hover .ShoppableCard-module__play-button {
+    transform: translate(-50%, -50%) scale(1.1);
 }
 
+/* Video Modal */
 .video-modal-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.85);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 9999;
-  padding: 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
 }
 
 .video-modal-content {
-  position: relative;
-  background: white;
-  width: 100%;
-  max-width: 500px;
-  max-height: 90vh;
-  border-radius: 12px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .close-modal-btn {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  background: white;
-  border: none;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  cursor: pointer;
-  z-index: 10;
-  font-size: 1.2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
 }
 
 .modal-video {
-  width: 100%;
-  height: auto;
-  max-height: 70vh;
-  background: black;
+    width: 100%;
+    height: auto;
+    max-height: 80vh;
+    border-radius: 8px;
+    object-fit: contain;
+    background: black;
 }
-</style>
 
+.modal-info {
+    margin-top: 16px;
+    color: white;
+    text-align: center;
+}
 
-<style scoped>
-/* styles purged */
+.modal-info h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Responsiveness Fixes */
+@media (max-width: 768px) {
+    .Hero-module__title___ak74S {
+        font-size: 32px !important;
+    }
+    
+    .SpotlightCollections-module__text,
+    .HomeShoppables-module__heading {
+        font-size: 28px !important;
+        margin-bottom: 30px;
+    }
+
+    .SpotlightCollection-module__root {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .SpotlightCollection-module__products {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .Commitments-module__cards___A9ypP {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 16px;
+        padding: 0 16px;
+    }
+
+    .Commitments-module__card___zd--b {
+        width: 100%;
+        margin: 0;
+    }
+
+    .BCorp-module__content___ISZXE {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .BCorp-module__logo___4DmT9 {
+        margin: 0 auto;
+    }
+}
+
+.Commitments-module__text___ycjqQ {
+    text-align: center;
+    margin: 0 auto 60px;
+    max-width: 800px;
+}
+
+.Commitments-module__cards___A9ypP {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 60px;
+}
+
+.Commitments-module__card___zd--b {
+    flex: 0 0 calc(20% - 16px);
+    max-width: 250px;
+}
+
+.Commitments-module__card___zd--b video,
+.Commitments-module__card___zd--b img {
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+}
+
+@media (max-width: 1024px) {
+    .Commitments-module__card___zd--b {
+        flex: 0 0 calc(33.33% - 16px);
+    }
+}
+
+@media (max-width: 480px) {
+    .Commitments-module__card___zd--b {
+        flex: 0 0 100%;
+        max-width: none;
+    }
+}
 </style>

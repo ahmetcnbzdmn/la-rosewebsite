@@ -17,8 +17,8 @@ const router = createRouter({
           component: HomeView
         },
         {
-          path: 'collections/les-produits',
-          alias: ['en-ww/collections/les-produits'],
+          path: 'collections/tum-urunler',
+          alias: ['en-ww/collections/tum-urunler', 'collections/les-produits', 'en-ww/collections/les-produits'],
           name: 'all-products',
           component: () => import('../views/AllProducts.vue')
         },
@@ -55,9 +55,15 @@ const router = createRouter({
         },
         {
           path: 'dayanisma',
-          alias: ['en-ww/dayanisma', 'engagements/des-actions-concretes-pour-la-planete', 'en-ww/engagements/des-actions-concretes-pour-la-planete', 'en-ww/certification-b-corp'],
+          alias: ['en-ww/dayanisma', 'engagements/des-actions-concretes-pour-la-planete', 'en-ww/engagements/des-actions-concretes-pour-la-planete'],
           name: 'solidarity',
           component: () => import('../views/Solidarity.vue')
+        },
+        {
+          path: 'certification-b-corp',
+          alias: ['en-ww/certification-b-corp'],
+          name: 'certification-b-corp',
+          component: () => import('../views/BCorp.vue')
         },
         {
           path: 'taahhutlerimiz/:slug',
@@ -84,22 +90,28 @@ const router = createRouter({
           component: () => import('../views/Expertise.vue')
         },
         {
-          path: 'gunes-bakimimiz-ve-okyanuslar',
-          alias: ['pages/les-solaires-oceans', 'en-ww/pages/les-solaires-oceans'],
+          path: 'gunes-bakimi',
+          alias: ['pages/les-solaires-oceans', 'en-ww/pages/les-solaires-oceans', 'gunes-bakimimiz-ve-okyanuslar'],
           name: 'sun-care',
           component: () => import('../views/SunCare.vue')
         },
         {
-          path: 'policies/satis-kosullari',
-          alias: ['en-ww/policies/satis-kosullari', 'policies/conditions-generales-de-vente', 'en-ww/policies/conditions-generales-de-vente'],
+          path: 'iptal-ve-iade-sartlari',
+          alias: ['en-ww/iptal-ve-iade-sartlari', 'policies/iade-politikasi', 'policies/politique-de-retour'],
+          name: 'return-policy',
+          component: () => import('../views/ReturnPolicy.vue')
+        },
+        {
+          path: 'mesafeli-satis-sozlesmesi',
+          alias: ['en-ww/mesafeli-satis-sozlesmesi', 'policies/satis-kosullari', 'policies/conditions-generales-de-vente'],
           name: 'terms-of-sales',
           component: () => import('../views/TermsOfSales.vue')
         },
         {
-          path: 'policies/iade-politikasi',
-          alias: ['en-ww/policies/iade-politikasi', 'policies/politique-de-retour', 'en-ww/policies/politique-de-retour'],
-          name: 'return-policy',
-          component: () => import('../views/ReturnPolicy.vue')
+          path: 'gizlilik-ve-guvenlik-sozlesmesi',
+          alias: ['en-ww/gizlilik-ve-guvenlik-sozlesmesi', 'policies/hizmet-kosullari', 'policies/conditions-generales-d-utilisation-du-site'],
+          name: 'terms-of-service',
+          component: () => import('../views/TermsOfService.vue')
         },
         {
           path: 'sikca-sorulan-sorular',
@@ -112,18 +124,6 @@ const router = createRouter({
           alias: ['en-ww/iletisim', 'contact', 'en-ww/contact'],
           name: 'contact',
           component: () => import('../views/Contact.vue')
-        },
-        {
-          path: 'policies/satis-kosullari',
-          alias: ['en-ww/policies/satis-kosullari', 'policies/conditions-generales-de-vente', 'en-ww/policies/conditions-generales-de-vente'],
-          name: 'terms-of-sales',
-          component: () => import('../views/TermsOfSales.vue')
-        },
-        {
-          path: 'policies/hizmet-kosullari',
-          alias: ['en-ww/policies/hizmet-kosullari', 'policies/conditions-generales-d-utilisation-du-site', 'en-ww/policies/conditions-generales-d-utilisation-du-site'],
-          name: 'terms-of-service',
-          component: () => import('../views/TermsOfService.vue')
         },
         {
           path: 'policies/cerez-politikasi',

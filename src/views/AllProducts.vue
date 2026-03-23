@@ -26,24 +26,27 @@ const filteredProducts = computed(() => {
 
 function setCategory(filter) {
   activeCategory.value = filter
+  window.scrollTo({ top: 300, behavior: 'smooth' })
 }
 </script>
 
 <template>
-  <main class="allproducts-layout" id="content">
-    <header class="collection-header">
-      <h1 class="collection-title">Tüm Ürünler</h1>
-      <div class="collection-desc">
-        <p>Tüm ürünlerimiz doğal ve etkilidir. En hassas ciltler dahil her cilt tipine özel bakım sunar.</p>
+  <main class="AllProducts-module__root" id="content">
+    <header class="CollectionHeader-module__root">
+      <div class="CollectionHeader-module__content">
+        <h1 class="Heading-module__root CollectionHeader-module__title">Tüm Ürünler</h1>
+        <div class="CollectionHeader-module__description">
+          <p>La Rosée dünyasının tüm <em>doğal</em>, <em>etkili</em> ve <em>duyusal</em> ürünlerini keşfedin. En hassas ciltler dahil her cilt tipine özel bir bakım mutlaka var.</p>
+        </div>
       </div>
     </header>
 
-    <section class="subnav" aria-label="Kategoriler">
-      <nav class="subnav-scroll">
-        <ul class="subnav-list">
-          <li v-for="cat in categories" :key="cat.label" class="subnav-item">
+    <div class="CollectionGrid-module__container">
+      <nav class="CollectionSubnav-module__root">
+        <ul class="CollectionSubnav-module__list">
+          <li v-for="cat in categories" :key="cat.label">
             <button
-              :class="['subnav-btn', { active: activeCategory === cat.filter }]"
+              :class="['CollectionSubnav-module__button', { active: activeCategory === cat.filter }]"
               @click="setCategory(cat.filter)"
             >
               {{ cat.label }}
@@ -51,296 +54,259 @@ function setCategory(filter) {
           </li>
         </ul>
       </nav>
-    </section>
 
-    <ul class="product-grid">
-      <li v-for="product in filteredProducts" :key="product.slug">
-        <div
-          class="product-card"
-          @mouseenter="hoveredSlug = product.slug"
-          @mouseleave="hoveredSlug = null"
-        >
-          <div class="card-content">
-            <div class="img-wrapper">
-              <router-link :to="'/en-ww/products/' + product.slug" class="img-link" tabindex="-1" aria-hidden="true">
-                <img
-                  v-if="product.image"
-                  :src="product.image"
-                  :alt="product.name"
-                  class="img-primary"
-                  loading="lazy"
-                />
-                <img
-                  v-if="product.image2"
-                  :src="product.image2"
-                  :alt="product.name"
-                  class="img-secondary"
-                  :class="{ visible: hoveredSlug === product.slug }"
-                  loading="lazy"
-                />
-              </router-link>
-
-              <ul v-if="product.badges && product.badges.length" class="badges">
-                <li v-for="badge in product.badges" :key="badge" class="badge">
-                  {{ { 'New': 'Yeni', 'Rechargeable': 'Yenilenebilir', 'New collection': 'Yeni Koleksiyon', 'Bundle': 'Set', 'Limited edition': 'Sınırlı Baskı' }[badge] || badge }}
-                </li>
-              </ul>
+      <div class="CollectionGrid-module__products">
+        <div v-for="product in filteredProducts" :key="product.slug" class="ProductCard-module__root">
+          <router-link :to="'/products/' + product.slug" class="ProductCard-module__link">
+            <div class="ProductCard-module__image-container">
+              <img :src="product.image" :alt="product.name" class="ProductCard-module__image" loading="lazy">
+              <div v-if="product.badges && product.badges.length" class="ProductCard-module__tags">
+                <span v-for="tag in product.badges" :key="tag" class="Badge-module__root">
+                    {{ { 'New': 'Yeni', 'Rechargeable': 'Yenilenebilir', 'New collection': 'Yeni Koleksiyon', 'Bundle': 'Set', 'Limited edition': 'Sınırlı Baskı' }[tag] || tag }}
+                </span>
+              </div>
             </div>
-
-            <router-link :to="'/en-ww/products/' + product.slug" class="product-name">
-              {{ product.name_tr || product.name }}
-            </router-link>
-
-            <p v-if="product.subtitle" class="product-subtitle">{{ product.subtitle }}</p>
-
-            <p v-if="product.price" class="product-price">
-              <span>{{ product.price }}</span>
-            </p>
-          </div>
-
-          <div class="card-action">
-            <router-link :to="'/en-ww/products/' + product.slug" class="btn-view">
-              Ürünü İncele
-            </router-link>
-          </div>
+            <div class="ProductCard-module__info">
+              <h4 class="ProductCard-module__title">{{ product.name_tr || product.name }}</h4>
+              <p class="ProductCard-module__desc">{{ product.subtitle }}</p>
+              <p class="ProductCard-module__price">{{ product.price }}</p>
+            </div>
+          </router-link>
+          <button class="ProductCard-module__add-btn">Ekle</button>
         </div>
-      </li>
-    </ul>
+      </div>
+    </div>
   </main>
 </template>
 
 <style scoped>
-.allproducts-layout {
-  padding-top: 56px;
+.AllProducts-module__root {
+    --rgb-hawkes-blue: 235 243 252;
+    --background-blue: rgb(var(--rgb-hawkes-blue));
+    --font-family-serif: "Chaparral Pro", ui-serif, serif;
+    --font-family-sans: "Basis Grotesque Pro", system-ui, sans-serif;
+    --font-family-cursive: "Fabio Handwriting", ui-cursive, cursive;
+    
+    background-color: white;
 }
 
-.collection-header {
-  padding: 40px 4% 24px;
-  text-align: center;
+.CollectionHeader-module__root {
+    padding: 120px 0 60px;
+    background-image: linear-gradient(white 0%, var(--background-blue) 100%);
+    text-align: center;
 }
 
-.collection-title {
-  font-family: 'Libre Baskerville', Georgia, serif;
-  font-size: clamp(28px, 5vw, 48px);
-  font-weight: 400;
-  line-height: 1.1;
-  margin-bottom: 12px;
+.CollectionHeader-module__content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 16px;
 }
 
-.collection-desc {
-  max-width: 600px;
-  margin: 0 auto;
-  font-size: 14px;
-  color: #505050;
-  line-height: 1.6;
+.CollectionHeader-module__title {
+    font-family: var(--font-family-serif);
+    font-size: clamp(32px, 8vw, 64px);
+    font-weight: 400;
+    margin-bottom: 24px;
+    color: #3f3f3f;
 }
 
-.subnav {
-  position: sticky;
-  top: 56px;
-  z-index: 10;
-  background: #fff;
-  border-bottom: 1px solid #e8e8e8;
+.CollectionHeader-module__description {
+    font-family: var(--font-family-sans);
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
 }
 
-.subnav-scroll {
-  overflow-x: auto;
-  scrollbar-width: none;
-  padding: 0 4%;
+.CollectionHeader-module__description em {
+    font-family: var(--font-family-cursive);
+    font-style: normal;
+    color: #3f3f3f;
 }
 
-.subnav-scroll::-webkit-scrollbar { display: none; }
-
-.subnav-list {
-  display: flex;
-  white-space: nowrap;
-  margin: 0;
-  padding: 0;
+.CollectionGrid-module__container {
+    max-width: 1856px;
+    margin: 0 auto;
+    padding: 40px 16px 120px;
 }
 
-.subnav-item { flex-shrink: 0; }
-
-.subnav-btn {
-  display: block;
-  padding: 14px 16px;
-  font-size: 13px;
-  font-weight: 500;
-  color: #505050;
-  background: none;
-  border: none;
-  border-bottom: 2px solid transparent;
-  cursor: pointer;
-  transition: color 0.2s, border-color 0.2s;
-  letter-spacing: 0.01em;
+.CollectionSubnav-module__root {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 60px;
+    position: sticky;
+    top: 70px;
+    background: white;
+    z-index: 10;
 }
 
-.subnav-btn:hover,
-.subnav-btn.active {
-  color: #1a1a1a;
-  border-bottom-color: #1a1a1a;
+.CollectionSubnav-module__list {
+    display: flex;
+    overflow-x: auto;
+    gap: 32px;
+    padding: 8px 0;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  padding: 24px 4% 80px;
-  margin: 0;
+.CollectionSubnav-module__list::-webkit-scrollbar {
+    display: none;
 }
 
-@media (max-width: 1024px) {
-  .product-grid { grid-template-columns: repeat(3, 1fr); }
+.CollectionSubnav-module__button {
+    background: none;
+    border: none;
+    padding: 12px 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #999;
+    cursor: pointer;
+    white-space: nowrap;
+    position: relative;
+    transition: color 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
 
-@media (max-width: 640px) {
-  .product-grid {
-    grid-template-columns: repeat(2, 1fr);
-    padding: 16px 2% 60px;
-  }
+.CollectionSubnav-module__button:hover,
+.CollectionSubnav-module__button.active {
+    color: #3f3f3f;
 }
 
-.product-card {
-  display: flex;
-  flex-direction: column;
-  padding: 12px 8px 20px;
+.CollectionSubnav-module__button.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #34AAFF;
 }
 
-.card-content {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
+.CollectionGrid-module__products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px 16px;
 }
 
-.img-wrapper {
-  position: relative;
-  overflow: hidden;
-  background: #f5f5f5;
-  margin-bottom: 12px;
-  aspect-ratio: 292 / 340;
+@media (max-width: 1200px) {
+    .CollectionGrid-module__products {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
-.img-link {
-  display: block;
-  width: 100%;
-  height: 100%;
-  position: relative;
+@media (max-width: 768px) {
+    .CollectionGrid-module__products {
+        grid-template-columns: 1fr;
+    }
+    
+    .CollectionHeader-module__root {
+        padding: 80px 0 40px;
+    }
 }
 
-.img-primary {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: opacity 0.4s ease;
+/* Product Card - Matching Home.vue precisely */
+.ProductCard-module__root {
+    background: white;
+    border-radius: 6px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    transition: box-shadow 0.3s ease;
+    border: 1px solid #f0f0f0;
 }
 
-.img-secondary {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0;
-  transition: opacity 0.4s ease;
+.ProductCard-module__root:hover {
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
 }
 
-.img-secondary.visible { opacity: 1; }
-
-.badges {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  z-index: 2;
+.ProductCard-module__link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
 }
 
-.badge {
-  display: inline-block;
-  background: #fff;
-  color: #1a1a1a;
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  padding: 3px 7px;
-  border-radius: 2px;
-  line-height: 1.4;
+.ProductCard-module__image-container {
+    aspect-ratio: 292 / 340;
+    background: #f9f9f9;
+    position: relative;
 }
 
-.product-name {
-  font-size: 13px;
-  font-weight: 500;
-  color: #1a1a1a;
-  text-decoration: none;
-  line-height: 1.3;
-  margin-bottom: 4px;
-  display: block;
+.ProductCard-module__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.product-name:hover { text-decoration: underline; }
-
-.product-subtitle {
-  font-size: 12px;
-  color: #505050;
-  font-style: italic;
-  margin-bottom: 6px;
-  line-height: 1.3;
+.ProductCard-module__info {
+    padding: 24px 20px 0 20px;
+    text-align: center;
 }
 
-.product-price {
-  font-size: 14px;
-  font-weight: 600;
-  color: #1a1a1a;
-  margin-top: auto;
-  padding-top: 6px;
-  display: flex;
-  align-items: baseline;
-  gap: 6px;
+.ProductCard-module__title {
+    font-family: var(--font-family-serif);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0 8px 0;
+    color: #3f3f3f;
 }
 
-.price-eur {
-  font-size: 11px;
-  font-weight: 400;
-  color: #888;
+.ProductCard-module__desc {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 12px;
+    line-height: 1.4;
+    min-height: 40px;
 }
 
-.card-action {
-  overflow: hidden;
-  max-height: 0;
-  margin-top: 0;
-  transition: max-height 0.3s ease, margin-top 0.3s ease;
+.ProductCard-module__price {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 20px;
 }
 
-.product-card:hover .card-action {
-  max-height: 60px;
-  margin-top: 10px;
+.ProductCard-module__add-btn {
+    width: 100%;
+    height: 50px;
+    background: white;
+    border: none;
+    border-top: 1px solid rgb(229, 231, 235);
+    border-radius: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    color: rgb(63, 63, 63);
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
 }
 
-.btn-view {
-  display: block;
-  width: 100%;
-  padding: 10px 16px;
-  background: #1a1a1a;
-  color: #fff;
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 2px;
-  transition: background 0.2s;
+.ProductCard-module__add-btn:hover {
+    background: rgb(247, 249, 251);
 }
 
-.btn-view:hover { background: #333; }
+.ProductCard-module__tags {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    z-index: 2;
+}
 
-@media (max-width: 640px) {
-  .product-card { padding: 8px 4px 14px; }
-  .card-action { max-height: 50px; }
-  .product-card:hover .card-action {
-    max-height: 50px;
-    margin-top: 8px;
-  }
+.Badge-module__root {
+    background: white;
+    color: rgb(63, 63, 63);
+    font-size: 10px;
+    font-weight: 700;
+    padding: 4px 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 </style>

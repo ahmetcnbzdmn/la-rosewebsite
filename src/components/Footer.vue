@@ -18,11 +18,11 @@ function toggleSection(name) {
       </h2>
       <div v-show="openSection === 'service'" :data-state="openSection === 'service' ? 'open' : 'closed'" role="region" data-orientation="vertical" class="AccordionContent-module__root___EyqbN Footer-module__accordion-content___u-B8D" data-size="xl">
         <ul>
-          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/iade-politikasi">İade Politikası</router-link></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/iptal-ve-iade-sartlari">İptal ve İade Şartları</router-link></li>
           <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/sikca-sorulan-sorular">SSS</router-link></li>
           <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/iletisim">İletişim</router-link></li>
-          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/satis-kosullari">Satış Koşulları</router-link></li>
-          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/hizmet-kosullari">Hizmet Koşulları</router-link></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/mesafeli-satis-sozlesmesi">Mesafeli Satış Sözleşmesi</router-link></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/gizlilik-ve-guvenlik-sozlesmesi">Gizlilik ve Güvenlik Sözleşmesi</router-link></li>
         </ul>
       </div>
     </div>
@@ -35,9 +35,8 @@ function toggleSection(name) {
           <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/hikayemiz">Hikayemiz</router-link></li>
           <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/pharmacy-locator">Eczanelerimiz</router-link></li>
           <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/engagements">Taahhütlerimiz</router-link></li>
-          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/pages/l-hydratation-notre-expertise">Uzmanlık</router-link></li>
-          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/pages/les-solaires-oceans">Güneş Bakımı</router-link></li>
-          <li><a data-variant="underline-reverse" class="Link-module__root___YqUoP" href="https://www.welcometothejungle.com/fr/companies/la-rosee/jobs" target="_blank" rel="noopener noreferrer">Bize Katıl</a></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/nemlendirme-uzmanligimiz">Uzmanlık</router-link></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/gunes-bakimi">Güneş Bakımı</router-link></li>
         </ul>
       </div>
     </div>
@@ -64,11 +63,11 @@ function toggleSection(name) {
     <section>
       <h2>Müşteri Hizmetleri</h2>
       <ul>
-        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/iade-politikasi">İade Politikası</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/iptal-ve-iade-sartlari">İptal ve İade Şartları</router-link></li>
         <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/sikca-sorulan-sorular">SSS</router-link></li>
         <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/iletisim">İletişim</router-link></li>
-        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/satis-kosullari">Satış Koşulları</router-link></li>
-        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/hizmet-kosullari">Hizmet Koşulları</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/mesafeli-satis-sozlesmesi">Mesafeli Satış Sözleşmesi</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/gizlilik-ve-guvenlik-sozlesmesi">Gizlilik ve Güvenlik Sözleşmesi</router-link></li>
       </ul>
     </section>
     <section>
@@ -77,9 +76,8 @@ function toggleSection(name) {
         <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/hikayemiz">Hikayemiz</router-link></li>
         <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/pharmacy-locator">Eczanelerimiz</router-link></li>
         <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/engagements">Taahhütlerimiz</router-link></li>
-        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/pages/l-hydratation-notre-expertise">Uzmanlık</router-link></li>
-        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/pages/les-solaires-oceans">Güneş Bakımı</router-link></li>
-        <li><a data-variant="underline-reverse" class="Link-module__root___YqUoP" href="https://www.welcometothejungle.com/fr/companies/la-rosee/jobs" target="_blank" rel="noopener noreferrer">Bize Katıl</a></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/nemlendirme-uzmanligimiz">Uzmanlık</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/gunes-bakimi">Güneş Bakımı</router-link></li>
       </ul>
     </section>
     <section>
@@ -100,9 +98,15 @@ function toggleSection(name) {
     <section class="Footer-module__payment-methods___eBXx3">
       <h2 style="position:absolute;border:0;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;word-wrap:normal">Ödeme Yöntemleri</h2>
     </section>
-    <section class="Footer-module__legal___9wBID">
+    <section class="Footer-module__legal___9wBID" style="display: flex; flex-direction: column; align-items: center; text-align: center; width: 100%;">
       <h2 style="position:absolute;border:0;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;word-wrap:normal">Legal</h2>
-      <ul>
+      
+      <!-- Payment Logo Band -->
+      <div class="footer-payment-logos" style="margin-bottom: 2rem;">
+        <img src="../assets/logo_band_colored.png" alt="Payment Methods" style="max-width: 400px; height: auto;">
+      </div>
+
+      <ul style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; list-style: none; padding: 0; margin-bottom: 1rem;">
         <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/cerez-politikasi">Çerez Yönetimi</router-link></li>
         <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/cerez-politikasi">Çerez Kullanımı</router-link></li>
         <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/policies/gizlilik-politikasi">Gizlilik</router-link></li>
@@ -116,6 +120,31 @@ function toggleSection(name) {
 
 <style scoped>
 /* Accordion content animation */
+.Footer-module__columns___b4zlr {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.Footer-module__columns___b4zlr section {
+  flex: 1;
+  max-width: 300px;
+}
+
+@media (max-width: 64rem) {
+  .Footer-module__columns___b4zlr {
+    display: block;
+    padding: 20px;
+  }
+  .Footer-module__columns___b4zlr section {
+    max-width: none;
+    margin-bottom: 2rem;
+  }
+}
+
 .AccordionContent-module__root___EyqbN[data-state="open"] {
   display: block !important;
 }

@@ -5,18 +5,15 @@
         <!-- Sidebar Navigation -->
         <nav class="policy-sidebar">
           <div class="sidebar-sticky">
-            <h3>Hizmet Koşulları</h3>
+            <h3>Gizlilik ve Güvenlik</h3>
             <ul>
-              <li><a href="#article-1">1. Amaç</a></li>
-              <li><a href="#article-2">2. Tanımlar</a></li>
-              <li><a href="#article-3">3. Web Sitesine Erişim</a></li>
-              <li><a href="#article-4">4. Cilt Analiz Hizmeti</a></li>
-              <li><a href="#article-5">5. Eczane Bulucu</a></li>
-              <li><a href="#article-6">6. Çevrimiçi İncelemeler</a></li>
-              <li><a href="#article-7">7. Kişisel Alan</a></li>
-              <li><a href="#article-8">8. Kullanıcı Yükümlülükleri</a></li>
-              <li><a href="#article-9">9. Sorumluluk</a></li>
-              <li><a href="#article-10">10. Fikri Mülkiyet</a></li>
+              <li><a href="#article-genel">Genel Politika</a></li>
+              <li><a href="#article-kart">Kredi Kartı Güvenliği</a></li>
+              <li><a href="#article-mail-order">Mail Order Güvenliği</a></li>
+              <li><a href="#article-ucuncu-taraf">Üçüncü Taraf Siteler</a></li>
+              <li><a href="#article-istisna">İstisnai Haller</a></li>
+              <li><a href="#article-eposta">E-posta Güvenliği</a></li>
+              <li><a href="#article-cerez">Çerezler (Cookies)</a></li>
             </ul>
           </div>
         </nav>
@@ -24,72 +21,58 @@
         <!-- Main Content -->
         <article class="policy-content">
           <header class="policy-header">
-            <h1 class="Heading-module__root___NpBjo">Web Sitesi Kullanım Şart ve Koşulları</h1>
-            <p class="last-update">Son güncelleme: 01/07/2023</p>
-            <div class="policy-intro">
-              <p>Bu Kullanım Şartları ("<strong>Kullanım Koşulları</strong>"), LA ROSÉE COSMÉTIQUES web sitesine erişim ve kullanım kurallarını belirler.</p>
-            </div>
+            <h1 class="Heading-module__root___NpBjo">Gizlilik ve Güvenlik Sözleşmesi</h1>
+            <p class="last-update">Son güncelleme: 22/03/2026</p>
           </header>
 
-          <section id="article-1" class="policy-section">
-            <h2>Madde 1. Amaç</h2>
-            <p>Bu Kullanım Koşulları, LA ROSÉE COSMÉTIQUES (bundan böyle "<strong>La Rosée</strong>" olarak anılacaktır) ile web sitesini kullanan her kullanıcı (bundan böyle "<strong>Kullanıcı</strong>") arasındaki hak ve yükümlülükleri detaylandırır.</p>
+          <section id="article-giris" class="policy-section">
+            <h2>GİZLİLİK VE GÜVENLİK POLİTİKASI</h2>
+            <p>Mağazamızda verilen tüm servisler Marmara Mah. Ulusum Cad. KV-42/4 KV-42/2 NO:10/52B İç Kapı No:2 Beylikdüzü / İstanbul adresinde kayıtlı MARLA KOZMETİK LİMİTED ŞİRKETİ firmamıza aittir ve firmamız tarafından işletilir.</p>
+            <p>Firmamız, çeşitli amaçlarla kişisel veriler toplayabilir. Aşağıda, toplanan kişisel verilerin nasıl ve ne şekilde toplandığı, bu verilerin nasıl ve ne şekilde korunduğu belirtilmiştir.</p>
+            <p>Üyelik veya Mağazamız üzerindeki çeşitli form ve anketlerin doldurulması suretiyle üyelerin kendileriyle ilgili bir takım kişisel bilgileri (isim-soy isim, firma bilgileri, telefon, adres veya e-posta adresleri gibi) Mağazamız tarafından işin doğası gereği toplanmaktadır.</p>
+            <p>Firmamız bazı dönemlerde müşterilerine ve üyelerine kampanya bilgileri, yeni ürünler hakkında bilgiler, promosyon teklifleri gönderebilir. Üyelerimiz bu gibi bilgileri alıp almama konusunda her türlü seçimi üye olurken yapabilir, sonrasında üye girişi yaptıktan sonra hesap bilgileri bölümünden bu seçimi değiştirilebilir ya da kendisine gelen bilgilendirme iletisindeki linkle bildirim yapabilir.</p>
+            <p>Mağazamız üzerinden veya eposta ile gerçekleştirilen onay sürecinde, üyelerimiz tarafından mağazamıza elektronik ortamdan iletilen kişisel bilgiler, Üyelerimiz ile yaptığımız "Kullanıcı Sözleşmesi" ile belirlenen amaçlar ve kapsam dışında üçüncü kişilere açıklanmayacaktır.</p>
+            <p>Sistemle ilgili sorunların tanımlanması ve verilen hizmet ile ilgili çıkabilecek sorunların veya uyuşmazlıkların hızla çözülmesi için, Firmamız, üyelerinin IP adresini kaydetmekte ve bunu kullanmaktadır. IP adresleri, kullanıcıları genel bir şekilde tanımlamak ve kapsamlı demografik bilgi toplamak amacıyla da kullanılabilir.</p>
+            <p>Firmamız, Üyelik Sözleşmesi ile belirlenen amaçlar ve kapsam dışında da talep edilen bilgileri kendisi veya iş birliği içinde olduğu kişiler tarafından doğrudan pazarlama yapmak amacıyla kullanabilir. Kişisel bilgiler, gerektiğinde kullanıcıyla temas kurmak için de kullanılabilir. Firmamız tarafından talep edilen bilgiler veya kullanıcı tarafından sağlanan bilgiler veya Mağazamız üzerinden yapılan işlemlerle ilgili bilgiler; Firmamız ve iş birliği içinde olduğu kişiler tarafından, "Üyelik Sözleşmesi" ile belirlenen amaçlar ve kapsam dışında da üyelerimizin kimliği ifşa edilmeden çeşitli istatistiksel değerlendirmeler, veri tabanı oluşturma ve pazar araştırmalarında kullanılabilir.</p>
+            <p>Firmamız, gizli bilgileri kesinlikle özel ve gizli tutmayı, bunu bir sır saklama yükümü olarak addetmeyi ve gizliliğin sağlanması ve sürdürülmesi, gizli bilginin tamamının veya herhangi bir kısmının kamu alanına girmesini veya yetkisiz kullanımını veya üçüncü bir kişiye ifşasını önlemek için gerekli tüm tedbirleri almayı ve gerekli özeni göstermeyi taahhüt etmektedir.</p>
           </section>
 
-          <section id="article-2" class="policy-section">
-            <h2>Madde 2. Tanımlar</h2>
-            <ul>
-              <li><strong>Kullanım Koşulları:</strong> İşbu belgedir.</li>
-              <li><strong>Satış Koşulları:</strong> Web sitesi üzerinden yapılan ürün alımları için geçerli olan <router-link to="/policies/satis-kosullari" class="Link-module__root___YqUoP">Genel Satış Koşulları</router-link>.</li>
-              <li><strong>Kişisel Alan:</strong> Web sitesine kayıt olduğunuzda açılan hesabınızdır.</li>
+            <h2>Kredi Kartı Güvenliği</h2>
+            <p>Firmamız, alışveriş sitelerimizden alışveriş yapan kredi kartı sahiplerinin güvenliğini ilk planda tutmaktadır. Kredi kartı bilgileriniz hiçbir şekilde sistemimizde saklanmamaktadır.</p>
+            <p>İşlemler sürecine girdiğinizde güvenli bir sitede olduğunuzu anlamak için dikkat etmeniz gereken iki şey vardır. Bunlardan biri tarayıcınızın en alt satırında bulunan bir anahtar ya da kilit simgesidir. Bu güvenli bir internet sayfasında olduğunuzu gösterir ve her türlü bilgileriniz şifrelenerek korunur. Alışveriş sırasında kullanılan kredi kartı ile ilgili bilgiler alışveriş sitelerimizden bağımsız olarak 128 bit SSL (Secure Sockets Layer) protokolü ile şifrelenip sorgulanmak üzere ilgili bankaya ulaştırılır.</p>
+            <p>Online olarak kredi kartı ile verilen siparişlerin ödeme/fatura/teslimat adresi bilgilerinin güvenilirliği firmamız tarafından Kredi Kartları Dolandırıcılığına karşı denetlenmektedir. Bu yüzden, alışveriş sitelerimizden ilk defa sipariş veren müşterilerin siparişlerinin tedarik ve teslimat aşamasına gelebilmesi için öncelikle finansal ve adres/telefon bilgilerinin doğruluğunun onaylanması gereklidir.</p>
+            <p>Üye olurken verdiğiniz tüm bilgilere sadece siz ulaşabilir ve siz değiştirebilirsiniz. Üye giriş bilgilerinizi güvenli koruduğunuz takdirde başkalarının sizinle ilgili bilgilere ulaşması ve bunları değiştirmesi mümkün değildir. Bu amaçla, üyelik işlemleri sırasında 128 bit SSL güvenlik alanı içinde hareket edilir.</p>
+          </section>
+
+          <section id="article-mail-order" class="policy-section">
+            <h2>Mail Order Kredi Kartı Bilgileri Güvenliği</h2>
+            <p>Kredi kartı mail-order yöntemi ile bize göndereceğiniz kimlik ve kredi kart bilgileriniz firmamız tarafından gizlilik prensibine göre saklanacaktır. Bu bilgiler olası banka ile oluşabilecek kredi kartından para çekim itirazlarına karşı 60 gün süre ile bekletilip daha sonrasında imha edilmektedir. Sipariş ettiğiniz ürünlerin bedeli karşılığında bize göndereceğiniz tarafınızdan onaylı mail-order formu bedeli dışında herhangi bir bedelin kartınızdan çekilmesi halinde doğal olarak bankaya itiraz edebilir ve bu tutarın ödenmesini engelleyebileceğiniz için bir risk oluşturmamaktadır.</p>
+          </section>
+
+          <section id="article-ucuncu-taraf" class="policy-section">
+            <h2>Üçüncü Taraf Web Siteleri ve Uygulamalar</h2>
+            <p>Mağazamız, web sitesi dâhilinde başka sitelere link verebilir. Firmamız, bu linkler vasıtasıyla erişilen sitelerin gizlilik uygulamaları ve içeriklerine yönelik herhangi bir sorumluluk taşımamaktadır. Firmamıza ait sitede yayınlanan reklamlar, reklamcılık yapan iş ortaklarımız aracılığı ile kullanıcılarımıza dağıtılır. İş bu sözleşmedeki Gizlilik Politikası Prensipleri, sadece Mağazamızın kullanımına ilişkindir, üçüncü taraf web sitelerini kapsamaz.</p>
+          </section>
+
+          <section id="article-istisna" class="policy-section">
+            <h2>İstisnai Haller</h2>
+            <p>Aşağıda belirtilen sınırlı hallerde Firmamız, işbu "Gizlilik Politikası" hükümleri dışında kullanıcılara ait bilgileri üçüncü kişilere açıklayabilir:</p>
+            <ul class="policy-list">
+              <li>Kanun, Kanun Hükmünde Kararname, Yönetmelik v.b. yetkili hukuki otorite tarafından çıkarılan ve yürürlükte olan hukuk kurallarının getirdiği zorunluluklara uymak;</li>
+              <li>Mağazamızın kullanıcılarla akdettiği "Üyelik Sözleşmesi"'nin ve diğer sözleşmelerin gereklerini yerine getirmek ve bunları uygulamaya koymak amacıyla;</li>
+              <li>Yetkili idari ve adli otorite tarafından usulüne göre yürütülen bir araştırma veya soruşturmanın yürütümü amacıyla kullanıcılarla ilgili bilgi talep edilmesi;</li>
+              <li>Kullanıcıların hakları veya güvenliklerini korumak için bilgi vermenin gerekli olduğu hallerdir.</li>
             </ul>
           </section>
 
-          <section id="article-3" class="policy-section">
-            <h2>Madde 3. Web Sitesine Erişim</h2>
-            <p>Web sitesine erişim ücretsizdir. İnternet erişimi olan her Kullanıcı siteye ulaşabilir. Erişimle ilgili tüm masraflar Kullanıcıya aittir.</p>
+          <section id="article-eposta" class="policy-section">
+            <h2>Madde 5. E-Posta Güvenliği</h2>
+            <p>Müşteri Hizmetleri'ne göndereceğiniz e-postalarda asla kredi kartı numaranızı veya şifrelerinizi yazmayınız. E-postalarda yer alan bilgiler üçüncü şahıslar tarafından görülebilir.</p>
           </section>
 
-          <section id="article-4" class="policy-section">
-            <h2>Madde 4. Cilt Analiz Hizmeti</h2>
-            <p>Web sitemiz üzerinden ücretsiz bir cilt analiz hizmetinden faydalanabilirsiniz. Bu hizmet, sağladığınız verilere dayanarak size en uygun bakım rutinini önermeyi amaçlar.</p>
-            <div class="alert-box">
-              <p>Bu hizmet tıbbi bir teşhis yerine geçmez. Cilt sorunlarınız için bir uzmana danışmalısınız.</p>
-            </div>
-          </section>
-
-          <section id="article-5" class="policy-section">
-            <h2>Madde 5. Partner Eczane Bulucu</h2>
-            <p>Size en yakın satış noktalarını eczane bulucu üzerinden bulabilirsiniz:</p>
-            <router-link to="/pharmacy-locator" class="btn-outline">Eczane Bulucuya Git</router-link>
-          </section>
-
-          <section id="article-6" class="policy-section">
-            <h2>Madde 6. Çevrimiçi İncelemeler ve İçerikler</h2>
-            <p>Kullanıcılar ürünlerimiz hakkında yorum yapabilir ve fotoğraf paylaşabilirler. Paylaşılan içeriklerin doğru, hakaret içermeyen ve yasalara uygun olması zorunludur.</p>
-            <div class="highlight-info">
-              <p>La Rosée, Kullanım Koşullarına aykırı olan içerikleri düzenleme veya silme hakkını saklı tutar.</p>
-            </div>
-          </section>
-
-          <section id="article-7" class="policy-section">
-            <h2>Madde 7. Kişisel Alan (Hesabım)</h2>
-            <p>Hesabınız tamamen size özeldir ve devredilemez. Bir Kullanıcı birden fazla hesap oluşturmamalıdır. Yanlış kimlik bilgileriyle hesap açmak yasaktır.</p>
-          </section>
-
-          <section id="article-8" class="policy-section">
-            <h2>Madde 8. Kullanıcı Yükümlülükleri</h2>
-            <p>Kullanıcı, web sitesinin işleyişini bozacak programlar kullanmamayı, başkalarının fikri mülkiyet haklarını ihlal etmemeyi taahhüt eder.</p>
-          </section>
-
-          <section id="article-9" class="policy-section">
-            <h2>Madde 9. Sorumluluk</h2>
-            <p>La Rosée, web sitesinin kesintisiz çalışması için elinden geleni yapar ancak teknik arıza veya erişim sorunlarından dolayı sorumlu tutulamaz.</p>
-          </section>
-
-          <section id="article-10" class="policy-section">
-            <h2>Madde 10. Fikri Mülkiyet</h2>
-            <p>Web sitesindeki tüm içerik, grafikler, videolar ve animasyonlar La Rosée'nin mülkiyetindedir. İzinsiz kopyalanması veya kullanılması yasaktır.</p>
+          <section id="article-cerez" class="policy-section">
+            <h2>Madde 6. Tarayıcı Çerezleri</h2>
+            <p>Firmamız, mağazamızı ziyaret eden kullanıcılar ve web sitesinin kullanımı hakkındaki bilgileri teknik bir iletişim dosyası (Çerez-Cookie) kullanarak elde edebilir.</p>
           </section>
         </article>
       </div>
