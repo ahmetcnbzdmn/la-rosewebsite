@@ -801,6 +801,95 @@ const closeModal = () => {
     max-width: 250px;
 }
 
+/* Hero Section Refinements */
+.Hero-module__content___6hUpl {
+    justify-content: flex-start !important;
+    align-items: flex-end !important;
+    padding-left: 80px !important;
+    padding-bottom: 120px !important;
+    text-align: left !important;
+}
+
+.Hero-module__pause-zone___m9W13 {
+    max-width: 600px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+}
+
+.Hero-module__title___ak74S {
+    text-shadow: 0 4px 20px rgba(0,0,0,0.25);
+    font-weight: 700 !important;
+    line-height: 1.1 !important;
+    margin-bottom: 30px !important;
+    font-size: 56px !important;
+    color: white !important;
+}
+
+.Hero-module__link___QJaJI {
+    background: white !important;
+    color: black !important;
+    padding: 18px 48px !important;
+    border-radius: 4px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.1em !important;
+    border: none !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15) !important;
+}
+
+.Hero-module__link___QJaJI:hover {
+    transform: translateY(-4px) scale(1.02) !important;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2) !important;
+    background: #f8f8f8 !important;
+}
+
+/* Thicker Progress Indicator */
+:deep(.swiper-pagination) {
+    bottom: 40px !important;
+    padding: 0 80px !important;
+    text-align: left !important;
+}
+
+:deep(.swiper-pagination-bullet) {
+    width: 60px !important;
+    height: 4px !important;
+    border-radius: 2px !important;
+    background: rgba(255, 255, 255, 0.4) !important;
+    opacity: 1 !important;
+    transition: all 0.3s ease !important;
+}
+
+:deep(.swiper-pagination-bullet-active) {
+    background: white !important;
+    width: 100px !important;
+}
+
+@media (max-width: 768px) {
+    .Hero-module__content___6hUpl {
+        padding-left: 24px !important;
+        padding-bottom: 60px !important;
+    }
+    
+    .Hero-module__title___ak74S {
+        font-size: 36px !important;
+    }
+
+    .Hero-module__link___QJaJI {
+        padding: 14px 32px !important;
+    }
+
+    :deep(.swiper-pagination) {
+        padding: 0 24px !important;
+        bottom: 20px !important;
+    }
+
+    :deep(.swiper-pagination-bullet) {
+        width: 30px !important;
+    }
+}
+
 .Commitments-module__card___zd--b video,
 .Commitments-module__card___zd--b img {
     width: 100%;

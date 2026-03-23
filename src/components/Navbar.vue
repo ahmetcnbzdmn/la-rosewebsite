@@ -51,40 +51,6 @@ onUnmounted(() => {
             <path d="M6 9H26" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </button>
-        <nav aria-label="primary" data-orientation="horizontal" dir="ltr">
-          <div style="position:relative">
-            <ul data-orientation="horizontal" class="Nav-module__nav-menu-list___J1xZQ" dir="ltr">
-              <li>
-                <button id="radix-_R_4p54l_-trigger-radix-_R_2sp54l_" :data-state="hoveredMenu === 'products' ? 'open' : 'closed'" :aria-expanded="hoveredMenu === 'products'" aria-controls="radix-_R_4p54l_-content-radix-_R_2sp54l_" class="Nav-module__link___I1Rij" data-radix-collection-item="" @click="toggleHoveredMenu('products')">ÜRÜNLER</button>
-              </li>
-            </ul>
-            <div v-show="hoveredMenu === 'products'" id="radix-_R_4p54l_-content-radix-_R_2sp54l_" aria-labelledby="radix-_R_4p54l_-trigger-radix-_R_2sp54l_" data-orientation="horizontal" class="Nav-module__nav-menu-content___Kunf1" :data-state="hoveredMenu === 'products' ? 'open' : 'closed'" dir="ltr">
-              <ul class="Nav-module__cards___k8KO8">
-                <li v-for="col in megaMenuData.collections" :key="col.slug">
-                  <router-link :to="'/collections/' + col.slug" class="CardNavItem-module__root___oOCBj">
-                    <img :src="col.image" width="960" height="1200" loading="lazy">{{ col.name }}
-                  </router-link>
-                </li>
-                <li v-for="prod in megaMenuData.products" :key="prod.slug">
-                  <router-link :to="'/products/' + prod.slug" class="CardNavItem-module__root___oOCBj">
-                    <img :src="prod.image" width="3473" height="3473" loading="lazy">{{ prod.name }}
-                  </router-link>
-                </li>
-                <li>
-                  <router-link to="/collections/tum-urunler" class="CardNavItem-module__root___oOCBj">
-                    <div class="ProductNavCard-module__button-placeholder">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="rgb(63, 63, 63)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                      </svg>
-                    </div>
-                    Tüm Ürünler
-                  </router-link>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="Nav-module__overlay___VXo0U"></div>
-        </nav>
       </div>
       <router-link class="Nav-module__logo___P-xBR" to="/">
         <svg width="125" height="34" viewBox="0 0 125 34" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="_R_1954l_">
@@ -108,17 +74,48 @@ onUnmounted(() => {
           <div style="position:relative">
             <ul data-orientation="horizontal" class="Nav-module__nav-menu-list___J1xZQ" dir="ltr">
               <li>
-                <button id="radix-_R_3p54l_-trigger-radix-_R_2rp54l_" :data-state="hoveredMenu === 'commitments' ? 'open' : 'closed'" :aria-expanded="hoveredMenu === 'commitments'" aria-controls="radix-_R_3p54l_-content-radix-_R_2rp54l_" class="Nav-module__link___I1Rij" data-radix-collection-item="" @click="toggleHoveredMenu('commitments')">TAAHHÜTLERİMİZ</button>
+                <button id="radix-_R_4p54l_-trigger-radix-_R_2sp54l_" :data-state="hoveredMenu === 'products' ? 'open' : 'closed'" :aria-expanded="hoveredMenu === 'products'" aria-controls="radix-_R_4p54l_-content-radix-_R_2sp54l_" class="Nav-module__link___I1Rij" data-radix-collection-item="" @click="toggleHoveredMenu('products')">ÜRÜNLER</button>
               </li>
               <li>
-                <router-link data-radix-collection-item="" class="Nav-module__link___I1Rij" to="/pharmacy-locator">Partner Eczaneler</router-link>
+                <button id="radix-_R_3p54l_-trigger-radix-_R_2rp54l_" :data-state="hoveredMenu === 'commitments' ? 'open' : 'closed'" :aria-expanded="hoveredMenu === 'commitments'" aria-controls="radix-_R_3p54l_-content-radix-_R_2rp54l_" class="Nav-module__link___I1Rij" data-radix-collection-item="" @click="toggleHoveredMenu('commitments')">HAKKIMIZDA</button>
               </li>
             </ul>
+            
+            <!-- Products Mega Menu -->
+            <div v-show="hoveredMenu === 'products'" id="radix-_R_4p54l_-content-radix-_R_2sp54l_" aria-labelledby="radix-_R_4p54l_-trigger-radix-_R_2sp54l_" data-orientation="horizontal" class="Nav-module__nav-menu-content___Kunf1" :data-state="hoveredMenu === 'products' ? 'open' : 'closed'" dir="ltr">
+              <ul class="Nav-module__cards___k8KO8">
+                <li v-for="col in megaMenuData.collections" :key="col.slug">
+                  <router-link :to="'/collections/' + col.slug" class="CardNavItem-module__root___oOCBj">
+                    <img :src="col.image" width="960" height="1200" loading="lazy">
+                    <span class="mega-menu-text">{{ col.name }}</span>
+                  </router-link>
+                </li>
+                <li v-for="prod in megaMenuData.products" :key="prod.slug">
+                  <router-link :to="'/products/' + prod.slug" class="CardNavItem-module__root___oOCBj">
+                    <img :src="prod.image" width="3473" height="3473" loading="lazy">
+                    <span class="mega-menu-text">{{ prod.name }}</span>
+                  </router-link>
+                </li>
+                <li>
+                  <router-link to="/collections/tum-urunler" class="CardNavItem-module__root___oOCBj">
+                    <div class="ProductNavCard-module__button-placeholder">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="rgb(63, 63, 63)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </div>
+                    <span class="mega-menu-text">Tüm Ürünler</span>
+                  </router-link>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Hakkımızda Mega Menu -->
             <div v-show="hoveredMenu === 'commitments'" id="radix-_R_3p54l_-content-radix-_R_2rp54l_" aria-labelledby="radix-_R_3p54l_-trigger-radix-_R_2rp54l_" data-orientation="horizontal" class="Nav-module__nav-menu-content___Kunf1" :data-state="hoveredMenu === 'commitments'" dir="ltr">
               <ul class="Nav-module__cards___k8KO8">
                 <li v-for="item in megaMenuData.commitments" :key="item.slug">
                   <router-link :to="'/' + item.slug" class="CardNavItem-module__root___oOCBj">
-                    <img :src="item.image" width="2000" height="2000" loading="lazy">{{ item.name }}
+                    <img :src="item.image" width="2000" height="2000" loading="lazy">
+                    <span class="mega-menu-text h-bold">{{ item.name }}</span>
                   </router-link>
                 </li>
               </ul>
@@ -128,18 +125,19 @@ onUnmounted(() => {
         </nav>
         <ul class="Nav-module__menu___RCGJH">
           <li class="Nav-module__account___J5MN1">
-            <router-link title="Hesabım" to="/account/login">
-              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <circle cx="16" cy="13" r="6" stroke="currentcolor" stroke-width="1.5" stroke-linejoin="round"></circle>
-                <path d="M25 24C22.9477 20.9639 19.6803 19 16 19C12.3197 19 9.05228 20.9639 7 24" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <router-link title="Hesabım" to="/account/login" class="nav-icon-link">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
               </svg>
             </router-link>
           </li>
           <li class="Nav-module__cart___U9yFl">
-            <button type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-_R_2lp54l_" data-state="closed" title="Sepet">
-              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <path d="M8 10.0369C8 9.48458 8.44772 9.03687 9 9.03687H23C23.5523 9.03687 24 9.48458 24 10.0369V22.0493C24 23.1538 23.1046 24.0493 22 24.0493H10C8.89543 24.0493 8 23.1538 8 22.0493V10.0369Z" stroke="currentcolor" stroke-width="1.5"></path>
-                <path d="M12.4445 8.03686C12.4445 8.58915 12.8922 9.03687 13.4445 9.03687H18.5556C19.1079 9.03687 19.5556 8.58915 19.5556 8.03687V6.28377C19.5556 5.73148 19.1079 5.28377 18.5556 5.28377H13.4445C12.8922 5.28377 12.4445 5.73148 12.4445 6.28377V8.03686Z" stroke="currentcolor" stroke-width="1.5"></path>
+            <button type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-_R_2lp54l_" data-state="closed" title="Sepet" class="nav-icon-link cart-highlight">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path>
+                <path d="M3 6h18"></path>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
               </svg>
             </button>
           </li>
@@ -333,6 +331,49 @@ onUnmounted(() => {
 
 .CardNavItem-module__root___oOCBj:hover img {
   transform: scale(1.05);
+}
+
+.mega-menu-text {
+  position: relative;
+  z-index: 2;
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  letter-spacing: 0.02em;
+}
+
+.h-bold {
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.nav-icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  color: inherit;
+}
+
+.nav-icon-link:hover {
+  opacity: 0.7;
+  transform: translateY(-1px);
+}
+
+.cart-highlight {
+  background: rgba(58, 160, 255, 0.1);
+  padding: 6px;
+  border-radius: 50%;
+  color: #3AA0FF !important;
+  border: 1.5px solid #3AA0FF;
+  box-shadow: 0 0 10px rgba(58, 160, 255, 0.2);
+}
+
+.cart-highlight:hover {
+  background: #3AA0FF;
+  color: white !important;
+  opacity: 1;
 }
 </style>
 
