@@ -7,7 +7,7 @@
           <ul class="swiper-wrapper">
             <li v-for="item in commitments" :key="item.slug" class="swiper-slide">
               <router-link
-                :to="'/en-ww/engagements/' + item.slug"
+                :to="'/taahhutlerimiz/' + item.slug"
                 :aria-current="item.slug === currentSlug ? 'page' : undefined"
               >{{ item.name }}</router-link>
             </li>
@@ -35,7 +35,7 @@
         <!-- Header -->
         <header class="CommitmentsHeader-module__root___Cdvuv" data-variant="page">
           <p class="Eyebrow-module__root___gdMQw">
-            <router-link to="/en-ww/engagements">Taahhütlerimiz</router-link>
+            <router-link to="/taahhutlerimiz">Taahhütlerimiz</router-link>
           </p>
           <h1 class="Heading-module__root___NpBjo CommitmentsHeader-module__title___rncEH" data-font-size="lg">
             {{ current.name }}
@@ -159,15 +159,15 @@
           <ul class="Reassurances-module__list___xTpiW">
             <li class="Reassurances-module__item___diEAt"><article class="IconWithText-module__root___o-KFW" data-size="lg" data-align="center" data-border="true"><img src="https://larosee.twic.pics/101x100/496ca65e00/livraison.svg" width="101" height="100" alt="" loading="lazy"/><div class="IconWithText-module__text___C0gVA"><p class="IconWithText-module__title___BAcgw">Ücretsiz Kargo</p><p>25TL üzeri siparislerde</p></div></article></li>
             <li class="Reassurances-module__item___diEAt"><article class="IconWithText-module__root___o-KFW" data-size="lg" data-align="center" data-border="true"><img src="https://larosee.twic.pics/152x150/110e69b8d2/echantillon.svg" width="152" height="150" alt="" loading="lazy"/><div class="IconWithText-module__text___C0gVA"><p class="IconWithText-module__title___BAcgw">1 ucretsiz numune</p><p>her siparişte talep üzerine</p></div></article></li>
-            <li class="Reassurances-module__item___diEAt"><article class="IconWithText-module__root___o-KFW" data-size="lg" data-align="center" data-border="true"><img src="https://larosee.twic.pics/101x100/50787b3336/pharmacies.svg" width="101" height="100" alt="" loading="lazy"/><div class="IconWithText-module__text___C0gVA"><p class="IconWithText-module__title___BAcgw">Partner Eczaneler</p><p><router-link to="/en-ww/pharmacy-locator">Yakininizdaki eczaneyi bulun</router-link></p></div></article></li>
-            <li class="Reassurances-module__item___diEAt"><article class="IconWithText-module__root___o-KFW" data-size="lg" data-align="center" data-border="true"><img src="https://larosee.twic.pics/101x100/efbb8a48d8/sav.svg" width="101" height="100" alt="" loading="lazy"/><div class="IconWithText-module__text___C0gVA"><p class="IconWithText-module__title___BAcgw">Sorunuz mu var?</p><p><router-link to="/en-ww/contact">Bize ulaşın</router-link></p></div></article></li>
+            <li class="Reassurances-module__item___diEAt"><article class="IconWithText-module__root___o-KFW" data-size="lg" data-align="center" data-border="true"><img src="https://larosee.twic.pics/101x100/50787b3336/pharmacies.svg" width="101" height="100" alt="" loading="lazy"/><div class="IconWithText-module__text___C0gVA"><p class="IconWithText-module__title___BAcgw">Partner Eczaneler</p><p><router-link to="/pharmacy-locator">Yakininizdaki eczaneyi bulun</router-link></p></div></article></li>
+            <li class="Reassurances-module__item___diEAt"><article class="IconWithText-module__root___o-KFW" data-size="lg" data-align="center" data-border="true"><img src="https://larosee.twic.pics/101x100/efbb8a48d8/sav.svg" width="101" height="100" alt="" loading="lazy"/><div class="IconWithText-module__text___C0gVA"><p class="IconWithText-module__title___BAcgw">Sorunuz mu var?</p><p><router-link to="/contact">Bize ulaşın</router-link></p></div></article></li>
           </ul>
         </aside>
       </article>
 
       <div v-else class="not-found" style="padding: 4rem 2rem; text-align: center;">
         <p>Sayfa bulunamadı.</p>
-        <router-link to="/en-ww/engagements">Taahhütlerimize dön</router-link>
+        <router-link to="/taahhutlerimiz">Taahhütlerimize dön</router-link>
       </div>
     </main>
 

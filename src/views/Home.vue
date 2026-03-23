@@ -90,7 +90,7 @@ const closeModal = () => {
         <div class="Hero-module__content___6hUpl">
           <div class="Hero-module__pause-zone___m9W13">
             <h1 class="Heading-module__root___NpBjo Hero-module__title___ak74S" data-font-size="lg">Doğal ve Etkili Cilt Bakımı</h1>
-            <a class="Button-module__root___Djkf0 Hero-module__link___QJaJI" data-variant="light" data-size="md" href="/collections/yuz-bakimi" data-discover="true">Hemen Al</a>
+            <router-link class="Button-module__root___Djkf0 Hero-module__link___QJaJI" data-variant="light" data-size="md" to="/collections/yuz-bakimi">Hemen Al</router-link>
           </div>
         </div>
       </div>
@@ -105,7 +105,7 @@ const closeModal = () => {
         <div class="Hero-module__content___6hUpl">
           <div class="Hero-module__pause-zone___m9W13">
             <h1 class="Heading-module__root___NpBjo Hero-module__title___ak74S" data-font-size="lg">Vücudunuz İçin En İyisi</h1>
-            <a class="Button-module__root___Djkf0 Hero-module__link___QJaJI" data-variant="light" data-size="md" href="/collections/vucut-bakimi" data-discover="true">Keşfet</a>
+            <router-link class="Button-module__root___Djkf0 Hero-module__link___QJaJI" data-variant="light" data-size="md" to="/collections/vucut-bakimi">Keşfet</router-link>
           </div>
         </div>
       </div>
@@ -120,7 +120,7 @@ const closeModal = () => {
         <div class="Hero-module__content___6hUpl">
           <div class="Hero-module__pause-zone___m9W13">
             <h1 class="Heading-module__root___NpBjo Hero-module__title___ak74S" data-font-size="lg">Bebekler İçin Saf Dokunuş</h1>
-            <a class="Button-module__root___Djkf0 Hero-module__link___QJaJI" data-variant="light" data-size="md" href="/collections/bebek-bakimi" data-discover="true">İncele</a>
+            <router-link class="Button-module__root___Djkf0 Hero-module__link___QJaJI" data-variant="light" data-size="md" to="/collections/bebek-bakimi">İncele</router-link>
           </div>
         </div>
       </div>
@@ -135,7 +135,7 @@ const closeModal = () => {
         <div class="Hero-module__content___6hUpl">
           <div class="Hero-module__pause-zone___m9W13">
             <h1 class="Heading-module__root___NpBjo Hero-module__title___ak74S" data-font-size="lg">La Rosée Uzmanlığı</h1>
-            <a class="Button-module__root___Djkf0 Hero-module__link___QJaJI" data-variant="light" data-size="md" href="/nemlendirme-uzmanligimiz" data-discover="true">Öğren</a>
+            <router-link class="Button-module__root___Djkf0 Hero-module__link___QJaJI" data-variant="light" data-size="md" to="/nemlendirme-uzmanligimiz">Öğren</router-link>
           </div>
         </div>
       </div>
@@ -157,7 +157,7 @@ const closeModal = () => {
         <h3 class="Eyebrow-module__root">Yeni Gelenler</h3>
         <div class="SpotlightCollection-module__products">
           <div v-for="product in newArrivalsList" :key="product.id" class="ProductCard-module__root">
-            <a :href="'/products/' + product.id" class="ProductCard-module__link">
+            <router-link :to="'/products/' + product.id" class="ProductCard-module__link">
               <div class="ProductCard-module__image-container">
                 <img :src="product.image" :alt="product.name" class="ProductCard-module__image" loading="lazy">
                 <div v-if="product.tags && product.tags.length" class="ProductCard-module__tags">
@@ -172,7 +172,7 @@ const closeModal = () => {
                 <p class="ProductCard-module__desc">{{ product.desc }}</p>
                 <p class="ProductCard-module__price">{{ product.price }}</p>
               </div>
-            </a>
+            </router-link>
             <button class="ProductCard-module__add-btn">Ekle</button>
           </div>
         </div>
@@ -211,7 +211,7 @@ const closeModal = () => {
         <h3 class="Eyebrow-module__root">Çok Satanlar</h3>
         <div class="SpotlightCollection-module__products">
           <div v-for="product in bestsellersList" :key="product.id" class="ProductCard-module__root">
-            <a :href="'/products/' + product.id" class="ProductCard-module__link">
+            <router-link :to="'/products/' + product.id" class="ProductCard-module__link">
               <div class="ProductCard-module__image-container">
                 <img :src="product.image" :alt="product.name" class="ProductCard-module__image" loading="lazy">
                 <div v-if="product.tags && product.tags.length" class="ProductCard-module__tags">
@@ -226,7 +226,7 @@ const closeModal = () => {
                 <p class="ProductCard-module__desc">{{ product.desc }}</p>
                 <p class="ProductCard-module__price">{{ product.price }}</p>
               </div>
-            </a>
+            </router-link>
             <button class="ProductCard-module__add-btn">Ekle</button>
           </div>
         </div>
