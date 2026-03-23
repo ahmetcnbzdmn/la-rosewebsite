@@ -59,22 +59,25 @@ onUnmounted(() => {
               </li>
             </ul>
             <div v-show="hoveredMenu === 'products'" id="radix-_R_4p54l_-content-radix-_R_2sp54l_" aria-labelledby="radix-_R_4p54l_-trigger-radix-_R_2sp54l_" data-orientation="horizontal" class="Nav-module__nav-menu-content___Kunf1" :data-state="hoveredMenu === 'products' ? 'open' : 'closed'" dir="ltr" @mouseenter="setHoveredMenu('products')" @mouseleave="setHoveredMenu(null)">
-              <ul class="Nav-module__collection-cards___t79nO">
+              <ul class="Nav-module__cards___k8KO8">
                 <li v-for="col in megaMenuData.collections" :key="col.slug">
-                  <router-link :to="'/collections/' + col.slug" class="ProductNavCard-module__root___3qpoM">
+                  <router-link :to="'/collections/' + col.slug" class="CardNavItem-module__root___oOCBj">
                     <img :src="col.image" width="960" height="1200" loading="lazy">{{ col.name }}
                   </router-link>
                 </li>
-                <li>
-                  <router-link to="/collections/tum-urunler" class="ProductNavCard-module__root___3qpoM">
-                    <span class="ProductNavCard-module__button___0d8V6"></span>Tüm Ürünler
-                  </router-link>
-                </li>
-              </ul>
-              <ul class="Nav-module__cards___k8KO8">
                 <li v-for="prod in megaMenuData.products" :key="prod.slug">
                   <router-link :to="'/products/' + prod.slug" class="CardNavItem-module__root___oOCBj">
                     <img :src="prod.image" width="3473" height="3473" loading="lazy">{{ prod.name }}
+                  </router-link>
+                </li>
+                <li>
+                  <router-link to="/collections/tum-urunler" class="CardNavItem-module__root___oOCBj">
+                    <div class="ProductNavCard-module__button-placeholder">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="rgb(63, 63, 63)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </div>
+                    Tüm Ürünler
                   </router-link>
                 </li>
               </ul>
@@ -157,6 +160,17 @@ onUnmounted(() => {
   border-bottom: 1px solid #eee;
   z-index: 100;
   position: relative;
+}
+
+.ProductNavCard-module__button-placeholder {
+  aspect-ratio: 1 / 1;
+  background: #f7f9fb;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+  width: 100%;
 }
 
 .language-switcher {
