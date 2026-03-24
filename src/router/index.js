@@ -142,6 +142,24 @@ const router = createRouter({
           alias: ['en-ww/policies/yasal-uyari', 'policies/mentions-legales', 'en-ww/policies/mentions-legales'],
           name: 'legal-notice',
           component: () => import('../views/LegalNotice.vue')
+        },
+        {
+          path: 'account/login',
+          alias: ['en-ww/account/login'],
+          name: 'auth-login',
+          component: () => import('../views/AuthLogin.vue')
+        },
+        {
+          path: 'account',
+          alias: ['en-ww/account'],
+          name: 'account-profile',
+          component: () => import('../views/AccountProfile.vue')
+        },
+        {
+          path: 'reset-password/:token',
+          alias: ['en-ww/reset-password/:token'],
+          name: 'reset-password',
+          component: () => import('../views/ResetPassword.vue')
         }
       ]
     }

@@ -2,11 +2,13 @@
 import { ref, computed, onMounted, onUnmounted, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import megaMenuData from '../assets/mega_menu_data.json'
+import { useAuth } from '../composables/useAuth.js'
 
 const route = useRoute()
 const router = useRouter()
 const scrolledDown = ref(false)
 const hoveredMenu = ref(null)
+const { state: authState } = useAuth()
 
 watch(route, () => {
   hoveredMenu.value = null
@@ -18,6 +20,9 @@ const isTransparent = computed(() => {
   const onHero = route.name === 'home' || route.path === '/' || route.path === ''
   return (onHero && !scrolledDown.value) ? 'true' : 'false'
 })
+
+const accountLink = computed(() => authState.isLoggedIn ? '/account' : '/account/login')
+const accountTitle = computed(() => authState.isLoggedIn ? 'Hesabım' : 'Giriş Yap')
 
 const handleScroll = () => {
   scrolledDown.value = window.scrollY > 10
@@ -125,11 +130,12 @@ onUnmounted(() => {
         </nav>
         <ul class="Nav-module__menu___RCGJH">
           <li class="Nav-module__account___J5MN1">
-            <router-link title="Hesabım" to="/account/login" class="nav-icon-link">
+            <router-link :title="accountTitle" :to="accountLink" class="nav-icon-link">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
                 <circle cx="12" cy="7" r="4"></circle>
               </svg>
+              <span v-if="authState.isLoggedIn" class="user-dot"></span>
             </router-link>
           </li>
           <li class="Nav-module__cart___U9yFl">
@@ -374,6 +380,21 @@ onUnmounted(() => {
   background: #3AA0FF;
   color: white !important;
   opacity: 1;
+}
+
+.Nav-module__account___J5MN1 {
+  position: relative;
+}
+
+.user-dot {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  width: 8px;
+  height: 8px;
+  background: #4ade80;
+  border-radius: 50%;
+  border: 1.5px solid white;
 }
 </style>
 
