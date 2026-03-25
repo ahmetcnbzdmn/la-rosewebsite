@@ -3,10 +3,19 @@ import { ref, reactive, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { useAuth } from '../composables/useAuth.js'
 import authService from '../services/authService.js'
+import orderService from '../services/orderService.js'
+import { useFavorites } from '../composables/useFavorites.js'
 
 const router = useRouter()
 const { state, logout, fetchUser } = useAuth()
 const loading = ref(true)
+
+// Siparişler
+const orders = ref([])
+const ordersLoading = ref(false)
+
+// Favoriler
+const { favorites, removeFavorite } = useFavorites()
 
 // Şifre değiştirme
 const showPasswordForm = ref(false)
@@ -26,6 +35,16 @@ onMounted(async () => {
   }
   try {
     await fetchUser()
+    // Siparişleri çek
+    ordersLoading.value = true
+    try {
+      const res = await orderService.getMyOrders()
+      orders.value = res.data || []
+    } catch {
+      orders.value = []
+    } finally {
+      ordersLoading.value = false
+    }
   } catch {
     router.push('/account/login')
   } finally {
@@ -130,7 +149,7 @@ const formatDate = (dateStr) => {
           </div>
         </div>
 
-        <div class="info-card">
+        <div class="info-card orders-card">
           <div class="card-icon">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
               <rect x="1" y="4" width="22" height="16" rx="2" ry="2"/>
@@ -138,9 +157,34 @@ const formatDate = (dateStr) => {
             </svg>
           </div>
           <h3>Siparişlerim</h3>
-          <div class="empty-state">
+
+          <div v-if="ordersLoading" class="empty-state">
+            <div class="loader" style="width:24px;height:24px;border-width:2px;margin:0 auto 8px;"></div>
+            <p>Yükleniyor...</p>
+          </div>
+
+          <div v-else-if="orders.length === 0" class="empty-state">
             <p>Henüz siparişiniz bulunmuyor.</p>
             <router-link to="/collections/tum-urunler" class="browse-link">Ürünleri Keşfet →</router-link>
+          </div>
+
+          <div v-else class="orders-list">
+            <div v-for="order in orders" :key="order._id" class="order-item">
+              <div class="order-item__header">
+                <span class="order-num">{{ order.orderNumber }}</span>
+                <span :class="['order-status', `order-status--${order.status}`]">
+                  {{ order.status === 'pending' ? 'Beklemede' : order.status === 'confirmed' ? 'Onaylandı' : order.status === 'shipped' ? 'Kargoda' : order.status === 'delivered' ? 'Teslim Edildi' : order.status === 'cancelled' ? 'İptal' : order.status }}
+                </span>
+              </div>
+              <div class="order-item__meta">
+                <span>{{ formatDate(order.createdAt) }}</span>
+                <span>· {{ order.totalItems }} ürün</span>
+                <span>· {{ order.paymentMethod === 'card' ? 'Kredi Kartı' : 'Havale / EFT' }}</span>
+              </div>
+              <div class="order-item__products">
+                {{ order.items.map(i => i.name).join(', ') }}
+              </div>
+            </div>
           </div>
         </div>
 
@@ -150,10 +194,30 @@ const formatDate = (dateStr) => {
               <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
             </svg>
           </div>
-          <h3>Favorilerim</h3>
-          <div class="empty-state">
+          <h3>Favorilerim <span v-if="favorites.length" class="fav-count">{{ favorites.length }}</span></h3>
+
+          <div v-if="favorites.length === 0" class="empty-state">
             <p>Henüz favori ürününüz yok.</p>
             <router-link to="/collections/tum-urunler" class="browse-link">Ürünlere Göz At →</router-link>
+          </div>
+
+          <div v-else class="fav-list">
+            <div v-for="item in favorites" :key="item.id" class="fav-item">
+              <router-link :to="`/urunler/${item.slug}`" class="fav-item__img-wrap">
+                <img v-if="item.image" :src="item.image" :alt="item.name" />
+                <div v-else class="fav-no-img" />
+              </router-link>
+              <div class="fav-item__info">
+                <router-link :to="`/urunler/${item.slug}`" class="fav-item__name">{{ item.name }}</router-link>
+                <span v-if="item.subtitle" class="fav-item__sub">{{ item.subtitle }}</span>
+              </div>
+              <button class="fav-item__remove" @click="removeFavorite(item.id)" title="Favorilerden çıkar">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+              </button>
+            </div>
+            <router-link to="/favoriler" class="browse-link" style="margin-top:8px;display:inline-block;">Tüm Favoriler →</router-link>
           </div>
         </div>
       </div>
@@ -372,6 +436,144 @@ const formatDate = (dateStr) => {
 
 .browse-link:hover {
   color: #474861;
+}
+
+/* Favorites */
+.fav-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #646892;
+  color: white;
+  font-size: 11px;
+  font-weight: 700;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+.fav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.fav-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid #f0f3f8;
+}
+.fav-item:last-of-type { border-bottom: none; }
+.fav-item__img-wrap {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fav-item__img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.fav-no-img {
+  width: 48px;
+  height: 48px;
+  background: #f0f3f8;
+  border-radius: 8px;
+}
+.fav-item__info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+.fav-item__name {
+  font-size: 13px;
+  font-weight: 600;
+  color: #2f2f40;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.fav-item__name:hover { color: #646892; }
+.fav-item__sub {
+  font-size: 12px;
+  color: #aebbd2;
+}
+.fav-item__remove {
+  background: none;
+  border: none;
+  color: #c0c0d0;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  transition: color 0.15s, background 0.15s;
+  flex-shrink: 0;
+}
+.fav-item__remove:hover { color: #c44; background: #fff0f0; }
+
+/* Orders */
+.orders-card {
+  grid-column: 1 / -1;
+}
+.orders-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.order-item {
+  border: 1px solid #eef1f6;
+  border-radius: 10px;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: background 0.15s;
+}
+.order-item:hover { background: #f8f9fb; }
+.order-item__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.order-num {
+  font-size: 14px;
+  font-weight: 700;
+  color: #474861;
+  letter-spacing: 0.03em;
+}
+.order-status {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+.order-status--pending    { background: #fff8e1; color: #f59e0b; }
+.order-status--confirmed  { background: #e8f5e9; color: #2e7d32; }
+.order-status--shipped    { background: #e3f2fd; color: #1565c0; }
+.order-status--delivered  { background: #e8f5e9; color: #2e7d32; }
+.order-status--cancelled  { background: #fce4ec; color: #c62828; }
+.order-item__meta {
+  font-size: 12px;
+  color: #aebbd2;
+  display: flex;
+  gap: 4px;
+}
+.order-item__products {
+  font-size: 13px;
+  color: #7a82ab;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* Logout */

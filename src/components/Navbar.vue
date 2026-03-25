@@ -3,12 +3,16 @@ import { ref, computed, onMounted, onUnmounted, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import megaMenuData from '../assets/mega_menu_data.json'
 import { useAuth } from '../composables/useAuth.js'
+import { useCart } from '../composables/useCart.js'
+import { useFavorites } from '../composables/useFavorites.js'
 
 const route = useRoute()
 const router = useRouter()
 const scrolledDown = ref(false)
 const hoveredMenu = ref(null)
 const { state: authState } = useAuth()
+const { totalCount: cartCount, openCart } = useCart()
+const { totalCount: favCount } = useFavorites()
 
 watch(route, () => {
   hoveredMenu.value = null
@@ -136,12 +140,21 @@ onUnmounted(() => {
               <span v-if="authState.isLoggedIn" class="user-dot"></span>
             </router-link>
           </li>
+          <li>
+            <router-link to="/favoriler" title="Favorilerim" class="nav-icon-btn nav-icon-btn--relative">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span v-if="favCount > 0" class="nav-badge">{{ favCount }}</span>
+            </router-link>
+          </li>
           <li class="Nav-module__cart___U9yFl">
-            <button type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-_R_2lp54l_" data-state="closed" title="Sepet" class="nav-icon-btn cart-btn">
+            <button type="button" title="Sepet" class="nav-icon-btn nav-icon-btn--relative cart-btn" @click="openCart">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7.5 7.5C7.5 5.01472 9.51472 3 12 3C14.4853 3 16.5 5.01472 16.5 7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
                 <path d="M2.75 9.75H21.25L19.75 20.25H4.25L2.75 9.75Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
               </svg>
+              <span v-if="cartCount > 0" class="nav-badge">{{ cartCount }}</span>
             </button>
           </li>
         </ul>
@@ -182,7 +195,7 @@ onUnmounted(() => {
   gap: 0.5rem;
   height: 100%;
   padding: 1rem;
-  color: #333;
+  color: currentColor;
   text-decoration: none;
   font-size: 0.875rem;
   font-weight: 600;
@@ -193,8 +206,8 @@ onUnmounted(() => {
 }
 
 .all-products-nav-link:hover {
-  border-color: #333;
-  color: #000;
+  border-color: currentColor;
+  opacity: 0.8;
 }
 
 .language-switcher {
@@ -222,6 +235,27 @@ onUnmounted(() => {
 /* Make nav root a containing block for fixed dropdowns */
 .Nav-module__root___hd7MQ {
   transform: translate(0, 0);
+}
+
+.nav-icon-btn--relative {
+  position: relative;
+}
+.nav-badge {
+  position: absolute;
+  top: -6px;
+  right: -8px;
+  background: #00B1EB;
+  color: white;
+  font-size: 10px;
+  font-weight: 700;
+  min-width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 3px;
+  pointer-events: none;
 }
 
 

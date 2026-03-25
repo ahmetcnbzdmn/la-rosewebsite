@@ -1,6 +1,8 @@
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, nextTick } from 'vue'
 import { useI18n } from 'vue-i18n'
+import { useCart } from '../composables/useCart.js'
+import { fetchProducts } from '../services/productService.js'
 import Button from 'primevue/button'
 import Swiper from 'swiper'
 import { Navigation, Pagination, Autoplay } from 'swiper/modules'
@@ -9,8 +11,13 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 
 const { t } = useI18n()
+const { addToCart } = useCart()
 
-onMounted(() => {
+const newArrivalsList = ref([])
+const bestsellersList = ref([])
+
+onMounted(async () => {
+  // Swiper'ları başlat
   new Swiper('.HomeHeader-module__root___NRDQF', {
     modules: [Navigation, Pagination, Autoplay],
     loop: true,
@@ -41,21 +48,18 @@ onMounted(() => {
       prevEl: '.swiper-button-prev',
     },
   })
+
+  // Öne çıkarılan ürünleri yükle (max 8: sol grid 4 + sağ grid 4)
+  try {
+    const all = await fetchProducts()
+    const featured = all.filter(p => p.featured_web).slice(0, 8)
+    // İlk 4 → Yeni Gelenler (sol grid), sonraki 4 → Çok Satanlar (sağ grid)
+    newArrivalsList.value = featured.slice(0, 4)
+    bestsellersList.value = featured.slice(4, 8)
+  } catch (e) {
+    console.error('Öne çıkan ürünler yüklenemedi:', e)
+  }
 })
-
-const newArrivalsList = [
-  { id: 'baume-demaquillant', name: 'Yeniden Doldurulabilir Eriyen Temizleme Balmı', desc: 'Süper nazik temizleyici', price: '249 TL', image: 'https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Baume_demaquillant.jpg?v=1759308282', tags: ['NOUVEAUTÉ'] },
-  { id: 'huile-soin-visage', name: 'Besleyici Yüz Bakım Yağı', desc: 'Yüz için besleyici yağ', price: '329 TL', image: 'https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Huile_de_soin_visage.jpg?v=1759308301', tags: ['NOUVEAUTÉ'] },
-  { id: 'mon-petit-creme', name: 'Nemlendirici Krem', desc: 'Yüz ve vücut nemlendirici', price: '189 TL', image: 'https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Creme_hydratante_visage_corps.jpg?v=1759308315', tags: ['NOUVEAUTÉ'] },
-  { id: 'stick-levres', name: 'Renkli Dudak Balmı', desc: 'Renkli dudak balmı', price: '129 TL', image: 'https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Stick_levres.jpg?v=1759308332', tags: ['NOUVEAUTÉ'] }
-];
-
-const bestsellersList = [
-  { id: 'anti-fatigue-eye', name: 'Cilt Sıkılaştırıcı Göz Kremi', desc: 'Organik aloe vera ile', price: '349 TL', image: 'https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Baume_regard.jpg?v=1759308345', tags: ['BEST-SELLER'] },
-  { id: 'radiance-concentrate', name: 'Işıltı Konsantresi', desc: 'Organik havuç ve kayısı ile', price: '429 TL', image: 'https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Concentre_Bonne_Mine.jpg?v=1759308358', tags: ['BEST-SELLER'] },
-  { id: 'fresh-deodorant', name: 'Tazeleyici Deodorant', desc: 'Probiyotikler ile', price: '199 TL', image: 'https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Deodorant.jpg?v=1759308371', tags: ['BEST-SELLER', 'RECHARGEABLE'] },
-  { id: 'sun-stick-spf50', name: 'Güneş Koruyucu Stick SPF 50', desc: 'Organik kayısı yağı ile', price: '279 TL', image: 'https://cdn.shopify.com/s/files/1/0489/5283/6259/files/Stick_Solaire.jpg?v=1759308384', tags: ['BEST-SELLER'], award: true }
-];
 
 const shoppableVideos = Array.from({ length: 18 }, (_, i) => ({
   id: i + 1,
@@ -151,29 +155,27 @@ const closeModal = () => {
   </div>
 
   <div class="SpotlightCollections-module__collections">
-    <!-- Collection 1: New Arrivals (Grid on Left, Large on Right) -->
+    <!-- Collection 1: Yeni Gelenler (Grid on Left, Large on Right) -->
     <div class="SpotlightCollection-module__root">
       <div class="SpotlightCollection-module__left">
         <h3 class="Eyebrow-module__root">Yeni Gelenler</h3>
         <div class="SpotlightCollection-module__products">
           <div v-for="product in newArrivalsList" :key="product.id" class="ProductCard-module__root">
-            <router-link :to="'/products/' + product.id" class="ProductCard-module__link">
+            <router-link :to="'/urunler/' + product.slug" class="ProductCard-module__link">
               <div class="ProductCard-module__image-container">
-                <img :src="product.image" :alt="product.name" class="ProductCard-module__image" loading="lazy">
-                <div v-if="product.tags && product.tags.length" class="ProductCard-module__tags">
-                  <span v-for="tag in product.tags" :key="tag" class="Badge-module__root">{{ tag === 'NOUVEAUTÉ' ? 'YENI' : (tag === 'RECHARGEABLE' ? 'YENIDEN DOLDURULABİLİR' : (tag === 'BEST-SELLER' ? 'ÇOK SATAN' : tag)) }}</span>
-                </div>
-                <div v-if="product.award" class="ProductCard-module__award">
-                  <img src="https://cdn.shopify.com/s/files/1/0489/5283/6259/files/victoire_de_la_beaute.png?v=1684507000" alt="Victoire de la Beauté" class="award-icon">
+                <img v-if="product.image" :src="product.image" :alt="product.name_tr" class="ProductCard-module__image" loading="lazy">
+                <div v-else class="ProductCard-module__placeholder"></div>
+                <div class="ProductCard-module__tags">
+                  <span class="Badge-module__root">YENI</span>
                 </div>
               </div>
               <div class="ProductCard-module__info">
-                <h4 class="ProductCard-module__title">{{ product.name }}</h4>
-                <p class="ProductCard-module__desc">{{ product.desc }}</p>
-                <p class="ProductCard-module__price">{{ product.price }}</p>
+                <h4 class="ProductCard-module__title">{{ product.name_tr || product.name }}</h4>
+                <p class="ProductCard-module__desc">{{ product.subtitle || '' }}</p>
+                <p v-if="product.price" class="ProductCard-module__price">₺{{ Number(product.price).toLocaleString('tr-TR', { minimumFractionDigits: 2 }) }}</p>
               </div>
             </router-link>
-            <button class="ProductCard-module__add-btn">Ekle</button>
+            <button class="ProductCard-module__add-btn" @click.prevent="addToCart(product)">Ekle</button>
           </div>
         </div>
       </div>
@@ -192,7 +194,7 @@ const closeModal = () => {
       </div>
     </div>
 
-    <!-- Collection 2: Best Sellers (Large on Left, Grid on Right) -->
+    <!-- Collection 2: Çok Satanlar (Large on Left, Grid on Right) -->
     <div class="SpotlightCollection-module__root alternate">
       <div class="SpotlightCollection-module__left">
         <div class="SpotlightCollection-module__collection large-card">
@@ -211,23 +213,21 @@ const closeModal = () => {
         <h3 class="Eyebrow-module__root">Çok Satanlar</h3>
         <div class="SpotlightCollection-module__products">
           <div v-for="product in bestsellersList" :key="product.id" class="ProductCard-module__root">
-            <router-link :to="'/products/' + product.id" class="ProductCard-module__link">
+            <router-link :to="'/urunler/' + product.slug" class="ProductCard-module__link">
               <div class="ProductCard-module__image-container">
-                <img :src="product.image" :alt="product.name" class="ProductCard-module__image" loading="lazy">
-                <div v-if="product.tags && product.tags.length" class="ProductCard-module__tags">
-                  <span v-for="tag in product.tags" :key="tag" class="Badge-module__root">{{ tag === 'NOUVEAUTÉ' ? 'YENI' : (tag === 'RECHARGEABLE' ? 'YENIDEN DOLDURULABİLİR' : (tag === 'BEST-SELLER' ? 'ÇOK SATAN' : tag)) }}</span>
-                </div>
-                <div v-if="product.award" class="ProductCard-module__award">
-                  <img src="https://cdn.shopify.com/s/files/1/0489/5283/6259/files/victoire_de_la_beaute.png?v=1684507000" alt="Victoire de la Beauté" class="award-icon">
+                <img v-if="product.image" :src="product.image" :alt="product.name_tr" class="ProductCard-module__image" loading="lazy">
+                <div v-else class="ProductCard-module__placeholder"></div>
+                <div class="ProductCard-module__tags">
+                  <span class="Badge-module__root">ÇOK SATAN</span>
                 </div>
               </div>
               <div class="ProductCard-module__info">
-                <h4 class="ProductCard-module__title">{{ product.name }}</h4>
-                <p class="ProductCard-module__desc">{{ product.desc }}</p>
-                <p class="ProductCard-module__price">{{ product.price }}</p>
+                <h4 class="ProductCard-module__title">{{ product.name_tr || product.name }}</h4>
+                <p class="ProductCard-module__desc">{{ product.subtitle || '' }}</p>
+                <p v-if="product.price" class="ProductCard-module__price">₺{{ Number(product.price).toLocaleString('tr-TR', { minimumFractionDigits: 2 }) }}</p>
               </div>
             </router-link>
-            <button class="ProductCard-module__add-btn">Ekle</button>
+            <button class="ProductCard-module__add-btn" @click.prevent="addToCart(product)">Ekle</button>
           </div>
         </div>
       </div>

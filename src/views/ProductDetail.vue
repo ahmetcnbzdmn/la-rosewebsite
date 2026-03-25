@@ -1,17 +1,20 @@
 <script setup>
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, watch } from 'vue'
 import { useRoute } from 'vue-router'
-import products from '../assets/products.json'
+import { fetchProductBySlug } from '../services/productService.js'
+import { useCart } from '../composables/useCart.js'
+import { useFavorites } from '../composables/useFavorites.js'
 
 const route = useRoute()
-const product = computed(() => {
-  const slug = route.params.slug || route.path.split('/').pop()
-  return products.find(p => p.slug === slug)
-})
+const product = ref(null)
+const loading = ref(true)
 
 const quantity = ref(1)
 const isAdding = ref(false)
 const showSuccess = ref(false)
+
+const { addToCart } = useCart()
+const { toggleFavorite, isFavorited } = useFavorites()
 
 const categoryLabel = computed(() => {
   const labels = {
@@ -27,27 +30,37 @@ const categoryLabel = computed(() => {
   return labels[product.value?.category] || 'Ürünler'
 })
 
-const addToCart = () => {
-  if (isAdding.value) return
+async function loadProduct() {
+  loading.value = true
+  const slug = route.params.slug || route.path.split('/').pop()
+  product.value = await fetchProductBySlug(slug)
+  loading.value = false
+}
+
+watch(() => route.params.slug, loadProduct)
+
+function handleAddToCart() {
+  if (isAdding.value || !product.value) return
   isAdding.value = true
-  
-  // Simulate API call/animation
+  addToCart(product.value, quantity.value)
   setTimeout(() => {
     isAdding.value = false
     showSuccess.value = true
-    setTimeout(() => {
-      showSuccess.value = false
-    }, 2000)
-  }, 800)
+    setTimeout(() => { showSuccess.value = false }, 2000)
+  }, 400)
 }
 
-onMounted(() => {
+onMounted(async () => {
   window.scrollTo(0, 0)
+  await loadProduct()
 })
 </script>
 
 <template>
-  <main v-if="product" class="ProductPage-module__root">
+  <div v-if="loading" class="ProductPage-module__loading">
+    <p>Ürün yükleniyor...</p>
+  </div>
+  <main v-else-if="product" class="ProductPage-module__root">
     <div class="ProductPage-module__container">
       <!-- Breadcrumb -->
       <nav class="Breadcrumb-module__root" aria-label="Breadcrumb">
@@ -83,15 +96,27 @@ onMounted(() => {
             </p>
             
             <div class="ProductPrice-module__root">
-              <span class="ProductPrice-module__price">{{ product.price || 'Fiyat bilgisi için iletişime geçin' }}</span>
+              <span class="ProductPrice-module__price">{{ product.price ? '₺' + Number(product.price).toLocaleString('tr-TR', { minimumFractionDigits: 2 }) : 'Fiyat bilgisi için iletişime geçin' }}</span>
               <span class="ProductPrice-module__meta">{{ product.subtitle }}</span>
             </div>
 
             <div class="ProductDescription-module__root">
-              <p v-for="(line, index) in product.details.split('\n')" :key="index">
+              <p v-for="(line, index) in (product.details || '').split('\n')" :key="index">
                 {{ line }}
               </p>
             </div>
+
+            <button
+              class="FavoriteBtn-module__root"
+              :class="{ 'is-favorited': product && isFavorited(product.id) }"
+              @click="product && toggleFavorite(product)"
+              :title="product && isFavorited(product.id) ? 'Favorilerden Çıkar' : 'Favorilere Ekle'"
+            >
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span>{{ product && isFavorited(product.id) ? 'Favorilerden Çıkar' : 'Favorilere Ekle' }}</span>
+            </button>
 
             <div class="ProductActions-module__root">
               <div class="ProductActions-module__quantity">
@@ -99,8 +124,8 @@ onMounted(() => {
                 <span class="qty-value">{{ quantity }}</span>
                 <button @click="quantity++" class="qty-btn" aria-label="Artır">+</button>
               </div>
-              <button 
-                @click="addToCart" 
+              <button
+                @click="handleAddToCart"
                 class="ProductActions-module__add-btn"
                 :class="{ 'is-adding': isAdding, 'is-success': showSuccess }"
               >
@@ -130,7 +155,7 @@ onMounted(() => {
     </div>
   </main>
   <div v-else class="ProductPage-module__loading">
-    <p>Ürün yükleniyor...</p>
+    <p>Ürün bulunamadı.</p>
     <router-link to="/collections/tum-urunler">Tüm Ürünlere Dön</router-link>
   </div>
 </template>
@@ -251,6 +276,35 @@ onMounted(() => {
   color: var(--color-text-muted);
   margin-bottom: 40px;
   white-space: pre-line;
+}
+
+.FavoriteBtn-module__root {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #999;
+  cursor: pointer;
+  margin-bottom: 16px;
+  transition: all 0.2s;
+  width: fit-content;
+}
+.FavoriteBtn-module__root:hover {
+  border-color: #e53935;
+  color: #e53935;
+}
+.FavoriteBtn-module__root.is-favorited {
+  border-color: #e53935;
+  color: #e53935;
+  background: #fff5f5;
+}
+.FavoriteBtn-module__root.is-favorited svg {
+  fill: #e53935;
 }
 
 .ProductActions-module__root {

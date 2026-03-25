@@ -160,6 +160,31 @@ const router = createRouter({
           alias: ['en-ww/reset-password/:token'],
           name: 'reset-password',
           component: () => import('../views/ResetPassword.vue')
+        },
+        {
+          path: 'favoriler',
+          name: 'favorites',
+          component: () => import('../views/FavoritesPage.vue')
+        },
+        {
+          path: 'sepet',
+          name: 'cart',
+          component: () => import('../views/checkout/CartPage.vue')
+        },
+        {
+          path: 'odeme/bilgiler',
+          name: 'checkout-info',
+          component: () => import('../views/checkout/CheckoutInfo.vue')
+        },
+        {
+          path: 'odeme/odeme',
+          name: 'checkout-payment',
+          component: () => import('../views/checkout/CheckoutPayment.vue')
+        },
+        {
+          path: 'odeme/tamamlandi',
+          name: 'order-success',
+          component: () => import('../views/checkout/OrderSuccess.vue')
         }
       ]
     }

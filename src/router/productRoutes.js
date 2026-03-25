@@ -1,6 +1,7 @@
 export const productRoutes = [
   {
-    path: 'products/:slug',
+    path: 'urunler/:slug',
+    alias: ['products/:slug'],
     name: 'product-detail',
     component: () => import('../views/ProductDetail.vue')
   },

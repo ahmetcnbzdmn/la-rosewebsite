@@ -1,8 +1,16 @@
 <script setup>
-import { ref, computed } from 'vue'
-import products from '../assets/products.json'
+import { ref, computed, onMounted } from 'vue'
+import { fetchProducts } from '../services/productService.js'
+import { useFavorites } from '../composables/useFavorites.js'
+import { useCart } from '../composables/useCart.js'
+
+const { toggleFavorite, isFavorited } = useFavorites()
+const { addToCart } = useCart()
 
 const hoveredSlug = ref(null)
+const products = ref([])
+const loading = ref(true)
+const error = ref(null)
 
 const categories = [
   { label: 'Tüm Ürünler', filter: null },
@@ -19,14 +27,24 @@ const categories = [
 const activeCategory = ref(null)
 
 const filteredProducts = computed(() => {
-  if (!activeCategory.value) return products
-  return products.filter(p => p.category === activeCategory.value)
+  if (!activeCategory.value) return products.value
+  return products.value.filter(p => p.category === activeCategory.value)
 })
 
 function setCategory(filter) {
   activeCategory.value = filter
   window.scrollTo({ top: 300, behavior: 'smooth' })
 }
+
+onMounted(async () => {
+  try {
+    products.value = await fetchProducts()
+  } catch (e) {
+    error.value = 'Ürünler yüklenirken bir hata oluştu.'
+  } finally {
+    loading.value = false
+  }
+})
 </script>
 
 <template>
@@ -54,11 +72,16 @@ function setCategory(filter) {
         </ul>
       </nav>
 
-      <div class="CollectionGrid-module__products">
+      <div v-if="loading" class="CollectionGrid-module__loading">
+        <p>Ürünler yükleniyor...</p>
+      </div>
+      <p v-else-if="error" class="CollectionGrid-module__error">{{ error }}</p>
+
+      <div v-else class="CollectionGrid-module__products">
         <div v-for="product in filteredProducts" :key="product.slug" class="ProductCard-module__root">
-          <router-link :to="'/products/' + product.slug" class="ProductCard-module__link">
+          <router-link :to="'/urunler/' + product.slug" class="ProductCard-module__link">
             <div class="ProductCard-module__image-container">
-              <img :src="product.image" :alt="product.name" class="ProductCard-module__image" loading="lazy">
+              <img :src="product.image" :alt="product.name_tr || product.name" class="ProductCard-module__image" loading="lazy">
               <div v-if="product.badges && product.badges.length" class="ProductCard-module__tags">
                 <span v-for="tag in product.badges" :key="tag" class="Badge-module__root">
                     {{ { 'New': 'Yeni', 'Rechargeable': 'Yenilenebilir', 'New collection': 'Yeni Koleksiyon', 'Bundle': 'Set', 'Limited edition': 'Sınırlı Baskı' }[tag] || tag }}
@@ -68,10 +91,22 @@ function setCategory(filter) {
             <div class="ProductCard-module__info">
               <h4 class="ProductCard-module__title">{{ product.name_tr || product.name }}</h4>
               <p class="ProductCard-module__desc">{{ product.subtitle }}</p>
-              <p class="ProductCard-module__price">{{ product.price }}</p>
+              <p v-if="product.price" class="ProductCard-module__price">₺{{ Number(product.price).toLocaleString('tr-TR', { minimumFractionDigits: 2 }) }}</p>
             </div>
           </router-link>
-          <button class="ProductCard-module__add-btn">Ekle</button>
+          <div class="ProductCard-module__actions">
+            <button class="ProductCard-module__add-btn" @click="addToCart(product)">Ekle</button>
+            <button
+              class="ProductCard-module__fav-btn"
+              :class="{ 'is-favorited': isFavorited(product.id) }"
+              @click="toggleFavorite(product)"
+              :title="isFavorited(product.id) ? 'Favorilerden Çıkar' : 'Favorilere Ekle'"
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -265,12 +300,16 @@ function setCategory(filter) {
     margin-bottom: 20px;
 }
 
+.ProductCard-module__actions {
+    display: flex;
+    border-top: 1px solid rgb(229, 231, 235);
+    margin-top: auto;
+}
 .ProductCard-module__add-btn {
-    width: 100%;
+    flex: 1;
     height: 50px;
     background: white;
     border: none;
-    border-top: 1px solid rgb(229, 231, 235);
     border-radius: 0;
     font-weight: 700;
     text-transform: uppercase;
@@ -282,11 +321,39 @@ function setCategory(filter) {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: auto;
 }
-
 .ProductCard-module__add-btn:hover {
     background: rgb(247, 249, 251);
+}
+.ProductCard-module__fav-btn {
+    width: 48px;
+    height: 50px;
+    background: white;
+    border: none;
+    border-left: 1px solid rgb(229, 231, 235);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ccc;
+    transition: all 0.2s;
+    flex-shrink: 0;
+}
+.ProductCard-module__fav-btn:hover { color: #e53935; background: #fff5f5; }
+.ProductCard-module__fav-btn.is-favorited { color: #e53935; }
+.ProductCard-module__fav-btn.is-favorited svg { fill: #e53935; }
+
+.CollectionGrid-module__loading {
+    text-align: center;
+    padding: 80px 0;
+    color: #999;
+    font-size: 16px;
+}
+
+.CollectionGrid-module__error {
+    text-align: center;
+    padding: 40px 0;
+    color: #e53935;
 }
 
 .ProductCard-module__tags {
