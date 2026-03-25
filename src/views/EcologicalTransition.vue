@@ -45,7 +45,7 @@
         <!-- Section 2: The Big Goal (Quote) -->
         <section class="story-quote">
           <div class="quote-content animate-on-scroll">
-            <p>"Hedefimiz net: 2035 yılına kadar tüm ürünlerimiz <em>katı formda</em>, yeniden doldurulabilir veya depozitolu olacak."</p>
+            <p>"Hedefimiz net: 2035 yılına kadar tüm ürünlerimiz <em>katı formda</em> veya yeniden doldurulabilir olacak."</p>
           </div>
         </section>
 
@@ -53,7 +53,7 @@
         <section class="story-values">
           <div class="values-header animate-on-scroll">
             <h2>Somut Adımlarımız</h2>
-            <p>Sadece konuşmuyoruz, eyleme geçiyoruz.</p>
+            <p>Taahhütlerimizi adım adım hayata geçiriyoruz.</p>
           </div>
           <div class="values-grid">
             <div class="value-card animate-on-scroll">
@@ -69,7 +69,7 @@
             <div class="value-card animate-on-scroll">
               <img src="https://a.storyblok.com/f/196368/2000x2000/00a5f0a3cf/visuels-categorie-page-impact-3-1.jpg" alt="Karbon">
               <h3>Karbon Ayak İzi</h3>
-              <p>Tedarik zincirimizi optimize ediyor ve karbon salınımımızı telafi etmek için projeler destekliyoruz.</p>
+              <p>Tedarik zincirimizi optimize ediyor ve karbon salınımımızı telafi etmek için projeleri destekliyoruz.</p>
             </div>
           </div>
         </section>
@@ -297,7 +297,7 @@ onMounted(() => {
   font-family: serif;
   font-style: italic;
   line-height: 1.4;
-  color: #333;
+  color: #000;
 }
 
 .quote-content em {
@@ -317,10 +317,11 @@ onMounted(() => {
 .values-header h2 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
+  color: #000;
 }
 
 .values-header p {
-  color: #777;
+  color: #555;
   font-size: 1.1rem;
 }
 

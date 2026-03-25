@@ -85,7 +85,7 @@ const closeModal = () => {
     <div class="swiper-slide">
       <div class="Hero-module__root___x7nJW">
         <div class="Hero-module__media___h24l9">
-          <img src="../assets/hero-1.jpg" alt="La Rosée Hero 1" style="width:100%; height:100%; object-fit:cover;">
+          <img src="../assets/hero-1.jpg" alt="La Rosée Hero 1" class="hero-slide-img">
         </div>
         <div class="Hero-module__content___6hUpl">
           <div class="Hero-module__pause-zone___m9W13">
@@ -100,7 +100,7 @@ const closeModal = () => {
     <div class="swiper-slide">
       <div class="Hero-module__root___x7nJW">
         <div class="Hero-module__media___h24l9">
-          <img src="../assets/hero-2.jpg" alt="La Rosée Hero 2" style="width:100%; height:100%; object-fit:cover;">
+          <img src="../assets/hero-2.jpg" alt="La Rosée Hero 2" class="hero-slide-img">
         </div>
         <div class="Hero-module__content___6hUpl">
           <div class="Hero-module__pause-zone___m9W13">
@@ -115,7 +115,7 @@ const closeModal = () => {
     <div class="swiper-slide">
       <div class="Hero-module__root___x7nJW">
         <div class="Hero-module__media___h24l9">
-          <img src="../assets/hero-3.jpg" alt="La Rosée Hero 3" style="width:100%; height:100%; object-fit:cover;">
+          <img src="../assets/hero-3.jpg" alt="La Rosée Hero 3" class="hero-slide-img">
         </div>
         <div class="Hero-module__content___6hUpl">
           <div class="Hero-module__pause-zone___m9W13">
@@ -130,7 +130,7 @@ const closeModal = () => {
     <div class="swiper-slide">
       <div class="Hero-module__root___x7nJW">
         <div class="Hero-module__media___h24l9">
-          <img src="../assets/hero-4.png" alt="La Rosée Hero 4" style="width:100%; height:100%; object-fit:cover;">
+          <img src="../assets/hero-4.jpg" alt="La Rosée Hero 4" class="hero-slide-img">
         </div>
         <div class="Hero-module__content___6hUpl">
           <div class="Hero-module__pause-zone___m9W13">
@@ -274,43 +274,7 @@ const closeModal = () => {
     </div>
   </div>
 </section>
-<section class="Commitments-module__root___Croa3">
-  <div class="HomeShoppables-module__heading Commitments-module__text___ycjqQ">
-    <p>En hassas ciltler dahil tüm cilt tiplerinin ihtiyaçlarını karşılamak için <em>doğal ve etkili kozmetikler</em> formüle ediyoruz.</p>
-  </div>
-  <ul class="Commitments-module__cards___A9ypP">
-    <li class="Commitments-module__card___zd--b">
-      <router-link to="/ekolojik-donusum">
-        <video muted autoplay loop playsinline aria-label="ekolojik dönüşüm">
-          <source src="https://a.storyblok.com/f/196368/x/c96e0a6aa7/transition-en.mp4" type="video/mp4">
-        </video>
-      </router-link>
-    </li>
-    <li class="Commitments-module__card___zd--b">
-      <router-link to="/formullerimiz">
-        <video muted autoplay loop playsinline aria-label="formüllerimiz">
-          <source src="https://a.storyblok.com/f/196368/x/bf85df7d8c/formules-en.mp4" type="video/mp4">
-        </video>
-      </router-link>
-    </li>
-    <li class="Commitments-module__card___zd--b">
-      <router-link to="/ambalajlarimiz">
-        <img src="https://larosee.twic.pics/1080x1080/e288677e61/packaging-en.jpg/m/1080x1080" width="1080" height="1080" alt="ambalajlarımız" loading="lazy" decoding="async"/>
-      </router-link>
-    </li>
-    <li class="Commitments-module__card___zd--b">
-      <router-link to="/dayanisma">
-        <img src="https://larosee.twic.pics/1080x1080/c8aa83973d/actions-en.jpg/m/1080x1080" width="1080" height="1080" alt="dayanışma" loading="lazy" decoding="async"/>
-      </router-link>
-    </li>
-    <li class="Commitments-module__card___zd--b">
-      <router-link to="/certification-b-corp">
-        <img src="https://larosee.twic.pics/1080x1080/9aefc6a937/bcorp-en.jpg/m/1080x1080" width="1080" height="1080" alt="bcorp" loading="lazy" decoding="async"/>
-      </router-link>
-    </li>
-  </ul>
-  <router-link class="Link-module__root___YqUoP Commitments-module__link___4Itbu" data-variant="underline" to="/taahhutlerimiz">Tüm taahhütlerimizi keşfedin</router-link>
-</section></main><aside class="BCorp-module__root___8-Roy"><div class="BCorp-module__content___ISZXE"><h2 class="BCorp-module__logo___4DmT9"><img src="https://larosee.twic.pics/81x118/1786c2c8d6/certified_b_corporation_b_corp_logo_2022_black_rgb-1.svg" width="81" height="118" alt="Certified B Corporation" loading="lazy" decoding="async"/></h2><div><div class="Heading-module__root___NpBjo BCorp-module__heading___eiN8k" data-font-size="sm"><p>La Rosée B Corp sertifikalıdır.<br/>Bu sertifika, sorumlu ve katılımcı bir şirket olmaya olan derin ve samimi bağlılığımızı göstermektedir.</p></div><router-link data-variant="underline" class="Link-module__root___YqUoP" to="/certification-b-corp">Taahhütlerimizi keşfedin</router-link></div></div></aside>
+</main><aside class="BCorp-module__root___8-Roy"><div class="BCorp-module__content___ISZXE"><h2 class="BCorp-module__logo___4DmT9"><img src="https://larosee.twic.pics/81x118/1786c2c8d6/certified_b_corporation_b_corp_logo_2022_black_rgb-1.svg" width="81" height="118" alt="Certified B Corporation" loading="lazy" decoding="async"/></h2><div><div class="Heading-module__root___NpBjo BCorp-module__heading___eiN8k" data-font-size="sm"><p>La Rosée B Corp sertifikalıdır.<br/>Bu sertifika, sorumlu ve katılımcı bir şirket olmaya olan derin ve samimi bağlılığımızı göstermektedir.</p></div><router-link data-variant="underline" class="Link-module__root___YqUoP" to="/certification-b-corp">Taahhütlerimizi keşfedin</router-link></div></div></aside>
 </template>
 
 <style scoped>
@@ -326,7 +290,7 @@ const closeModal = () => {
     --color-muted: rgb(var(--rgb-silver-chalice));
     --font-family-sans: "Basis Grotesque Pro", system-ui, sans-serif;
     --font-family-serif: "Chaparral Pro", ui-serif, serif;
-    --font-family-cursive: "Fabio Handwriting", ui-cursive, cursive;
+    --font-family-cursive: "Dancing Script", cursive;
 
     padding: 80px 0 0 0;
     background-image: linear-gradient(white 0%, var(--background-blue) 10%);
@@ -357,8 +321,9 @@ const closeModal = () => {
 }
 
 .SpotlightCollections-module__text em {
-    font-family: var(--font-family-cursive, cursive);
+    font-family: var(--font-family-cursive);
     font-style: normal;
+    font-weight: 600;
 }
 
 .SpotlightCollections-module__collections {
@@ -606,8 +571,9 @@ const closeModal = () => {
 }
 
 .HomeShoppables-module__heading em {
-    font-family: var(--font-family-cursive, cursive);
+    font-family: var(--font-family-cursive);
     font-style: normal;
+    font-weight: 600;
 }
 
 .HomeShoppables-module__carousel {
@@ -757,18 +723,6 @@ const closeModal = () => {
         gap: 20px;
     }
 
-    .Commitments-module__cards___A9ypP {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 16px;
-        padding: 0 16px;
-    }
-
-    .Commitments-module__card___zd--b {
-        width: 100%;
-        margin: 0;
-    }
-
     .BCorp-module__content___ISZXE {
         flex-direction: column;
         text-align: center;
@@ -780,25 +734,40 @@ const closeModal = () => {
     }
 }
 
-.Commitments-module__text___ycjqQ {
-    text-align: center;
-    margin: 0 auto 60px;
-    max-width: 800px;
+
+/* Hero slide image */
+.hero-slide-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
 }
 
-.Commitments-module__cards___A9ypP {
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0;
-    margin-bottom: 60px;
+/* Left gradient on each slide */
+.Hero-module__media___h24l9::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 65%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0,0,0,0.27) 0%, rgba(0,0,0,0.1) 60%, transparent 100%);
+    pointer-events: none;
 }
 
-.Commitments-module__card___zd--b {
-    flex: 0 0 calc(20% - 16px);
-    max-width: 250px;
+.Hero-module__media___h24l9 {
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .hero-slide-img {
+        object-position: center top;
+    }
+
+    .Hero-module__media___h24l9::after {
+        width: 100%;
+        background: linear-gradient(to top, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.1) 60%, transparent 100%);
+    }
 }
 
 /* Hero Section Refinements */
@@ -806,7 +775,7 @@ const closeModal = () => {
     justify-content: flex-start !important;
     align-items: flex-end !important;
     padding-left: 80px !important;
-    padding-bottom: 120px !important;
+    padding-bottom: 70px !important;
     text-align: left !important;
 }
 
@@ -818,95 +787,99 @@ const closeModal = () => {
 }
 
 .Hero-module__title___ak74S {
-    text-shadow: 0 4px 20px rgba(0,0,0,0.25);
     font-weight: 700 !important;
     line-height: 1.1 !important;
-    margin-bottom: 30px !important;
-    font-size: 56px !important;
+    margin-bottom: 16px !important;
+    font-size: 52px !important;
     color: white !important;
+    text-shadow: 0 2px 20px rgba(0,0,0,0.5), 0 4px 40px rgba(0,0,0,0.3) !important;
 }
 
 .Hero-module__link___QJaJI {
     background: white !important;
     color: black !important;
-    padding: 18px 48px !important;
+    padding: 15px 40px !important;
     border-radius: 4px !important;
     font-weight: 700 !important;
     text-transform: uppercase !important;
     letter-spacing: 0.1em !important;
     border: none !important;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.15) !important;
+    font-size: 13px !important;
 }
 
 .Hero-module__link___QJaJI:hover {
-    transform: translateY(-4px) scale(1.02) !important;
-    box-shadow: 0 15px 40px rgba(0,0,0,0.2) !important;
-    background: #f8f8f8 !important;
+    background: rgba(255,255,255,0.85) !important;
 }
 
-/* Thicker Progress Indicator */
+/* Slide indicators — thin lines bottom left */
 :deep(.swiper-pagination) {
-    bottom: 40px !important;
-    padding: 0 80px !important;
-    text-align: left !important;
+    bottom: 24px !important;
+    left: 80px !important;
+    right: auto !important;
+    width: auto !important;
+    display: flex !important;
+    gap: 6px !important;
+    align-items: center !important;
+    --swiper-pagination-bullet-height: 2px;
+    --height-pagination-bullet: 2px;
 }
 
 :deep(.swiper-pagination-bullet) {
-    width: 60px !important;
-    height: 4px !important;
-    border-radius: 2px !important;
+    width: 36px !important;
+    height: 2px !important;
+    min-height: 2px !important;
+    max-height: 2px !important;
+    border-radius: 1px !important;
     background: rgba(255, 255, 255, 0.4) !important;
     opacity: 1 !important;
-    transition: all 0.3s ease !important;
+    transition: all 0.4s ease !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: content-box !important;
+    line-height: 2px !important;
+    font-size: 0 !important;
+    overflow: hidden !important;
 }
 
 :deep(.swiper-pagination-bullet-active) {
     background: white !important;
-    width: 100px !important;
+    width: 54px !important;
 }
 
 @media (max-width: 768px) {
     .Hero-module__content___6hUpl {
-        padding-left: 24px !important;
-        padding-bottom: 60px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        padding-bottom: 55px !important;
+        align-items: flex-end !important;
     }
-    
+
+    .Hero-module__pause-zone___m9W13 {
+        max-width: 100% !important;
+    }
+
     .Hero-module__title___ak74S {
-        font-size: 36px !important;
+        font-size: 30px !important;
     }
 
     .Hero-module__link___QJaJI {
-        padding: 14px 32px !important;
+        padding: 12px 28px !important;
+        font-size: 12px !important;
     }
 
     :deep(.swiper-pagination) {
-        padding: 0 24px !important;
-        bottom: 20px !important;
+        left: 20px !important;
+        bottom: 16px !important;
     }
 
     :deep(.swiper-pagination-bullet) {
-        width: 30px !important;
+        width: 24px !important;
+    }
+
+    :deep(.swiper-pagination-bullet-active) {
+        width: 40px !important;
     }
 }
 
-.Commitments-module__card___zd--b video,
-.Commitments-module__card___zd--b img {
-    width: 100%;
-    border-radius: 8px;
-    display: block;
-}
-
-@media (max-width: 1024px) {
-    .Commitments-module__card___zd--b {
-        flex: 0 0 calc(33.33% - 16px);
-    }
-}
-
-@media (max-width: 480px) {
-    .Commitments-module__card___zd--b {
-        flex: 0 0 100%;
-        max-width: none;
-    }
-}
 </style>

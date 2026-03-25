@@ -223,11 +223,13 @@ onMounted(() => {
 
 .founders-signature {
   margin-top: 4rem;
+  text-align: center;
 }
 
 .signature-img {
   max-width: 300px;
   height: auto;
+  display: inline-block;
 }
 
 /* Pillars Section */

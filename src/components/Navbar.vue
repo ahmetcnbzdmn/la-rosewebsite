@@ -102,13 +102,11 @@ onUnmounted(() => {
                   </router-link>
                 </li>
                 <li>
-                  <router-link to="/collections/tum-urunler" class="CardNavItem-module__root___oOCBj">
-                    <div class="ProductNavCard-module__button-placeholder">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="rgb(63, 63, 63)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                      </svg>
-                    </div>
-                    <span class="mega-menu-text">Tüm Ürünler</span>
+                  <router-link to="/collections/tum-urunler" class="all-products-nav-link">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span>Tüm Ürünler</span>
                   </router-link>
                 </li>
               </ul>
@@ -130,20 +128,19 @@ onUnmounted(() => {
         </nav>
         <ul class="Nav-module__menu___RCGJH">
           <li class="Nav-module__account___J5MN1">
-            <router-link :title="accountTitle" :to="accountLink" class="nav-icon-link">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                <circle cx="12" cy="7" r="4"></circle>
+            <router-link :title="accountTitle" :to="accountLink" class="nav-icon-btn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
               </svg>
               <span v-if="authState.isLoggedIn" class="user-dot"></span>
             </router-link>
           </li>
           <li class="Nav-module__cart___U9yFl">
-            <button type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-_R_2lp54l_" data-state="closed" title="Sepet" class="nav-icon-link cart-highlight">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path>
-                <path d="M3 6h18"></path>
-                <path d="M16 10a4 4 0 0 1-8 0"></path>
+            <button type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-_R_2lp54l_" data-state="closed" title="Sepet" class="nav-icon-btn cart-btn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.5 7.5C7.5 5.01472 9.51472 3 12 3C14.4853 3 16.5 5.01472 16.5 7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M2.75 9.75H21.25L19.75 20.25H4.25L2.75 9.75Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
               </svg>
             </button>
           </li>
@@ -175,6 +172,29 @@ onUnmounted(() => {
   justify-content: center;
   margin-bottom: 12px;
   width: 100%;
+}
+
+.all-products-nav-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  height: 100%;
+  padding: 1rem;
+  color: #333;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 0.25rem;
+  transition: border-color 0.2s, color 0.2s;
+  aspect-ratio: 1;
+}
+
+.all-products-nav-link:hover {
+  border-color: #333;
+  color: #000;
 }
 
 .language-switcher {
@@ -354,32 +374,32 @@ onUnmounted(() => {
   text-transform: uppercase;
 }
 
-.nav-icon-link {
+.nav-icon-btn {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all 0.2s ease;
-  color: inherit;
-}
-
-.nav-icon-link:hover {
-  opacity: 0.7;
-  transform: translateY(-1px);
-}
-
-.cart-highlight {
-  background: rgba(58, 160, 255, 0.1);
-  padding: 6px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  color: #3AA0FF !important;
-  border: 1.5px solid #3AA0FF;
-  box-shadow: 0 0 10px rgba(58, 160, 255, 0.2);
+  border: none;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+  text-decoration: none;
+  position: relative;
 }
 
-.cart-highlight:hover {
-  background: #3AA0FF;
-  color: white !important;
-  opacity: 1;
+.nav-icon-btn:hover {
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.cart-btn {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.cart-btn:hover {
+  background: rgba(0, 0, 0, 0.12);
 }
 
 .Nav-module__account___J5MN1 {
@@ -388,10 +408,10 @@ onUnmounted(() => {
 
 .user-dot {
   position: absolute;
-  top: -2px;
-  right: -2px;
-  width: 8px;
-  height: 8px;
+  top: 6px;
+  right: 6px;
+  width: 7px;
+  height: 7px;
   background: #4ade80;
   border-radius: 50%;
   border: 1.5px solid white;

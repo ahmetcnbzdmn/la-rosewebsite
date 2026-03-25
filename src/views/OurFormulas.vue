@@ -36,14 +36,14 @@
           </div>
           <div class="section-text animate-on-scroll right">
             <h2 class="section-title">En <em>saf</em> haliyle doğa.</h2>
-            <p>Geliştirdiğimiz formüller, etkinlik veya duyusal deneyimden ödün vermeden en doğal olmayı hedefler. 2025 yılı itibarıyla ürün yelpazemizin ortalama doğal kaynaklı içerik oranı **%98**'dir. Ürünlerimizin üçte birinden fazlası %100 doğal kaynaklı içeriklerle üretilmektedir.</p>
+            <p>Geliştirdiğimiz formüller, etkinlik veya duyusal deneyimden ödün vermeden en doğal olmayı hedefler. 2025 itibarıyla ürün yelpazemizin ortalama doğal kaynaklı içerik oranı %98'dir. Ürünlerimizin üçte birinden fazlası %100 doğal kaynaklı içeriklerle üretilmektedir.</p>
           </div>
         </section>
 
         <!-- Section 2: Strict Charter (Drastic Charter) -->
         <section class="story-quote blue">
           <div class="quote-content animate-on-scroll">
-            <p>"2015'ten beri Fransız kozmetik dünyasında <em>'en temiz'</em> güzellik yaklaşımına öncülük ediyoruz. Drastik tüzüğümüzle yüzlerce tartışmalı içeriği formüllerimizden sonsuza dek çıkardık."</p>
+            <p>"2015'ten beri Fransız kozmetik dünyasında <em>'en temiz'</em> güzellik yaklaşımına öncülük ediyoruz. Radikal bir kararla yüzlerce tartışmalı içeriği formüllerimizden sonsuza dek çıkardık."</p>
           </div>
         </section>
 

@@ -50,7 +50,7 @@
             <div class="phone-section">
               <div class="icon-wrapper">📞</div>
               <div class="phone-info">
-                <h3>Doğrudan Konuşalım</h3>
+                <h3>Bize Ulaşın</h3>
                 <p class="phone-number">+90 212 123 45 67</p>
                 <p class="working-hours">
                   Pzt - Per: 09:30 - 17:30 <br />
@@ -71,19 +71,6 @@
         </section>
       </div>
 
-      <!-- Newsletter Section Re-styled -->
-      <section class="newsletter-highlight">
-        <div class="newsletter-content">
-          <img src="https://larosee.twic.pics/687x625/7de8cb25a6/pictogrammes_enveloppe-bleu.png/m/687x625" alt="Newsletter" class="newsletter-icon">
-          <h2>Güzellik İpuçlarını Kaçırmayın!</h2>
-          <p>Bültenimize kaydolun ve ilk siparişinizde %10 indirim kazanın.</p>
-          <div class="newsletter-form-modern">
-            <input type="email" placeholder="E-posta adresiniz" class="modern-input">
-            <button class="btn-primary">Kayıt Ol</button>
-          </div>
-          <p class="legal-small">Kaydolarak gizlilik politikamızı kabul etmiş olursunuz.</p>
-        </div>
-      </section>
     </main>
   </div>
 </template>
@@ -299,73 +286,6 @@
   color: #34AAFF;
 }
 
-/* Newsletter Highlight */
-.newsletter-highlight {
-  background: #fdfdfd;
-  padding: 6rem 1.5rem;
-  text-align: center;
-  border-top: 1px solid #eee;
-}
-
-.newsletter-content {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-.newsletter-icon {
-  width: 80px;
-  margin-bottom: 2rem;
-}
-
-.newsletter-content h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-.newsletter-content p {
-  color: #666;
-  margin-bottom: 2.5rem;
-}
-
-.newsletter-form-modern {
-  display: flex;
-  gap: 0.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.modern-input {
-  flex-grow: 1;
-  padding: 1rem 1.5rem;
-  border: 1px solid #ddd;
-  border-radius: 50px;
-  font-size: 1rem;
-  outline: none;
-  transition: border-color 0.2s;
-}
-
-.modern-input:focus {
-  border-color: #34AAFF;
-}
-
-.btn-primary {
-  padding: 1rem 2.5rem;
-  background: #34AAFF;
-  color: white;
-  border: none;
-  border-radius: 50px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background 0.2s;
-}
-
-.btn-primary:hover {
-  background: #288ee0;
-}
-
-.legal-small {
-  font-size: 0.8rem !important;
-  opacity: 0.7;
-}
 
 /* Animations */
 .fade-in {
@@ -402,11 +322,6 @@
   }
 }
 
-@media (max-width: 600px) {
-  .newsletter-form-modern {
-    flex-direction: column;
-  }
-}
 </style>
 
 <script setup>

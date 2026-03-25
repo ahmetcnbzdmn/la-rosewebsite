@@ -12,8 +12,6 @@ const collectionNames = {
   'yuz-bakimi': 'Yüz Bakımı',
   'soins-corps': 'Vücut Bakımı',
   'vucut-bakimi': 'Vücut Bakımı',
-  'soins-cheveux': 'Saç Bakımı',
-  'sac-bakimi': 'Saç Bakımı',
   'soins-maquillages': 'Makyaj & Bakım',
   'soins-bebe': 'Bebek Bakımı',
   'bebek-bakimi': 'Bebek Bakımı',
@@ -153,6 +151,7 @@ const filteredProducts = computed(() => {
 
 .ProductCard-module__add-to-cart___8v_36 {
   margin-top: 16px;
+  width: 100%;
   height: 48px;
   background: white;
   color: #000;
@@ -161,6 +160,10 @@ const filteredProducts = computed(() => {
   cursor: pointer;
   transition: all 0.2s ease;
   border-radius: 4px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .ProductCard-module__add-to-cart___8v_36:hover {

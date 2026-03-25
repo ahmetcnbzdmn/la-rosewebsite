@@ -8,7 +8,6 @@ const categories = [
   { label: 'Tüm Ürünler', filter: null },
   { label: 'Yüz Bakımı', filter: 'yuz-bakimi' },
   { label: 'Vücut Bakımı', filter: 'vucut-bakimi' },
-  { label: 'Saç Bakımı', filter: 'sac-bakimi' },
   { label: 'Makyaj & Bakım', filter: 'makyaj-bakim' },
   { label: 'Bebek Bakımı', filter: 'bebek-bakimi' },
   { label: 'Güneş Bakımı', filter: 'gunes-bakimi' },
@@ -85,7 +84,7 @@ function setCategory(filter) {
     --background-blue: rgb(var(--rgb-hawkes-blue));
     --font-family-serif: "Chaparral Pro", ui-serif, serif;
     --font-family-sans: "Basis Grotesque Pro", system-ui, sans-serif;
-    --font-family-cursive: "Fabio Handwriting", ui-cursive, cursive;
+    --font-family-cursive: "Dancing Script", cursive;
     
     background-color: white;
 }
@@ -120,6 +119,7 @@ function setCategory(filter) {
 .CollectionHeader-module__description em {
     font-family: var(--font-family-cursive);
     font-style: normal;
+    font-weight: 600;
     color: #3f3f3f;
 }
 

@@ -63,7 +63,7 @@
           <div class="Section-module__root___58S5Y RichText-module__root___KPAL-" data-background="white" data-text-alignment="left">
             <div class="TextContainer-module__root___3x88v RichText-module__content___xefl8">
               <p>2015'ten bu yana La Rosée, çevresel etkiyi azaltmayı her ürün kararının merkezine koymuştur. Biyobozunur formüller, geri dönüştürülmüş ambalajlar ve karbon ayak izini azaltma hedefleriyle çalışıyoruz.</p>
-              <p>2035 yılına kadar tüm ürünlerimizin katı, dolum yapılabilir veya depozitolu olmasını hedefliyoruz.</p>
+              <p>2035 yılına kadar tüm ürünlerimizin katı veya yeniden doldurulabilir olmasını hedefliyoruz.</p>
               <h2 class="Heading-module__root___NpBjo" data-font-size="md">Somut Taahhütlerimiz</h2>
               <ul>
                 <li>Formüllerimizde %95'e kadar doğal kaynaklı bileşenler</li>
@@ -109,7 +109,7 @@
                 <li>Geri dönüştürülmüş plastik ve karton kullanımı</li>
                 <li>Katı kozmetiklerde ambalajsız ürün geliştirme</li>
                 <li>Seyahat boy ve numune çoğaltmayı reddetme</li>
-                <li>2035'e kadar %100 katı/dolum yapılabilir ürün hedefi</li>
+                <li>2035'e kadar %100 katı veya yeniden doldurulabilir ürün hedefi</li>
               </ul>
             </div>
           </div>
@@ -140,7 +140,7 @@
           <img src="https://larosee.twic.pics/687x625/7de8cb25a6/pictogrammes_enveloppe-bleu.png" width="687" height="625" alt="" loading="lazy" decoding="async" class="NewsletterSection-module__icon___O--LE"/>
           <h2 class="Heading-module__root___NpBjo NewsletterSection-module__heading___PQV1f" data-font-size="md">Bültenimize kaydolun!</h2>
           <div class="TextContainer-module__root___3x88v NewsletterSection-module__text___au1e0">
-            <p>Kaydoldugunuzda %10 indirim kazanin. Özel önizlemeleri, en iyi ipuçlarımızı ve size ozel teklifleri kaçırmayın!</p>
+            <p>Kaydolduğunuzda %10 indirim kazanın. Özel önizlemeleri, en iyi ipuçlarımızı ve size özel teklifleri kaçırmayın!</p>
           </div>
           <form class="NewsletterSection-module__form___gaiv9" action="/contact?newsletter=true" method="post">
             <div>
@@ -157,9 +157,9 @@
         <aside class="Reassurances-module__root___evF-d">
           <h2 style="position:absolute;border:0;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap">Güvenceler</h2>
           <ul class="Reassurances-module__list___xTpiW">
-            <li class="Reassurances-module__item___diEAt"><article class="IconWithText-module__root___o-KFW" data-size="lg" data-align="center" data-border="true"><img src="https://larosee.twic.pics/101x100/496ca65e00/livraison.svg" width="101" height="100" alt="" loading="lazy"/><div class="IconWithText-module__text___C0gVA"><p class="IconWithText-module__title___BAcgw">Ücretsiz Kargo</p><p>25TL üzeri siparislerde</p></div></article></li>
-            <li class="Reassurances-module__item___diEAt"><article class="IconWithText-module__root___o-KFW" data-size="lg" data-align="center" data-border="true"><img src="https://larosee.twic.pics/152x150/110e69b8d2/echantillon.svg" width="152" height="150" alt="" loading="lazy"/><div class="IconWithText-module__text___C0gVA"><p class="IconWithText-module__title___BAcgw">1 ucretsiz numune</p><p>her siparişte talep üzerine</p></div></article></li>
-            <li class="Reassurances-module__item___diEAt"><article class="IconWithText-module__root___o-KFW" data-size="lg" data-align="center" data-border="true"><img src="https://larosee.twic.pics/101x100/50787b3336/pharmacies.svg" width="101" height="100" alt="" loading="lazy"/><div class="IconWithText-module__text___C0gVA"><p class="IconWithText-module__title___BAcgw">Partner Eczaneler</p><p><router-link to="/pharmacy-locator">Yakininizdaki eczaneyi bulun</router-link></p></div></article></li>
+            <li class="Reassurances-module__item___diEAt"><article class="IconWithText-module__root___o-KFW" data-size="lg" data-align="center" data-border="true"><img src="https://larosee.twic.pics/101x100/496ca65e00/livraison.svg" width="101" height="100" alt="" loading="lazy"/><div class="IconWithText-module__text___C0gVA"><p class="IconWithText-module__title___BAcgw">Ücretsiz Kargo</p><p>25TL üzeri siparişlerde</p></div></article></li>
+            <li class="Reassurances-module__item___diEAt"><article class="IconWithText-module__root___o-KFW" data-size="lg" data-align="center" data-border="true"><img src="https://larosee.twic.pics/152x150/110e69b8d2/echantillon.svg" width="152" height="150" alt="" loading="lazy"/><div class="IconWithText-module__text___C0gVA"><p class="IconWithText-module__title___BAcgw">1 ücretsiz numune</p><p>her siparişte talep üzerine</p></div></article></li>
+            <li class="Reassurances-module__item___diEAt"><article class="IconWithText-module__root___o-KFW" data-size="lg" data-align="center" data-border="true"><img src="https://larosee.twic.pics/101x100/50787b3336/pharmacies.svg" width="101" height="100" alt="" loading="lazy"/><div class="IconWithText-module__text___C0gVA"><p class="IconWithText-module__title___BAcgw">Partner Eczaneler</p><p><router-link to="/pharmacy-locator">Yakınınızdaki eczaneyi bulun</router-link></p></div></article></li>
             <li class="Reassurances-module__item___diEAt"><article class="IconWithText-module__root___o-KFW" data-size="lg" data-align="center" data-border="true"><img src="https://larosee.twic.pics/101x100/efbb8a48d8/sav.svg" width="101" height="100" alt="" loading="lazy"/><div class="IconWithText-module__text___C0gVA"><p class="IconWithText-module__title___BAcgw">Sorunuz mu var?</p><p><router-link to="/contact">Bize ulaşın</router-link></p></div></article></li>
           </ul>
         </aside>
@@ -178,9 +178,9 @@
         </h2>
         <div>
           <div class="Heading-module__root___NpBjo BCorp-module__heading___eiN8k" data-font-size="sm">
-            <p>La Rosée B Corp sertifikalidir.<br/>Bu sertifika, sorumlu ve katilimci bir sirket olmaya olan derin ve samimi bagliligimizi gostermektedir.</p>
+            <p>La Rosée B Corp sertifikalıdır.<br/>Bu sertifika, sorumlu ve katılımcı bir şirket olmaya olan derin ve samimi bağlılığımızı göstermektedir.</p>
           </div>
-          <router-link data-variant="underline" class="Link-module__root___YqUoP" to="/taahhutlerimiz">Taahhutlerimizi kesfedin</router-link>
+          <router-link data-variant="underline" class="Link-module__root___YqUoP" to="/taahhutlerimiz">Taahhütlerimizi keşfedin</router-link>
         </div>
       </div>
     </aside>

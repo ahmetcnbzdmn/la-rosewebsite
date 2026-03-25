@@ -48,7 +48,6 @@ function toggleSection(name) {
         <ul>
           <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/yuz-bakimi">Yüz Bakımı</router-link></li>
           <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/vucut-bakimi">Vücut Bakımı</router-link></li>
-          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/sac-bakimi">Saç Bakımı</router-link></li>
           <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/bebek-bakimi">Bebek Bakımı</router-link></li>
           <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/gunes-bakimi">Güneş Bakımı</router-link></li>
           <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/gunluk-hijyen">Günlük Hijyen</router-link></li>
@@ -85,7 +84,6 @@ function toggleSection(name) {
       <ul>
         <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/yuz-bakimi">Yüz Bakımı</router-link></li>
         <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/vucut-bakimi">Vücut Bakımı</router-link></li>
-        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/sac-bakimi">Saç Bakımı</router-link></li>
         <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/bebek-bakimi">Bebek Bakımı</router-link></li>
         <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/gunes-bakimi">Güneş Bakımı</router-link></li>
         <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/collections/gunluk-hijyen">Günlük Hijyen</router-link></li>
