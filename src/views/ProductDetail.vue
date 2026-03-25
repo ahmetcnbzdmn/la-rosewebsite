@@ -17,7 +17,6 @@ const categoryLabel = computed(() => {
   const labels = {
     'yuz-bakimi': 'Yüz Bakımı',
     'vucut-bakimi': 'Vücut Bakımı',
-    'sac-bakimi': 'Saç Bakımı',
     'makyaj-bakim': 'Makyaj & Bakım',
     'bebek-bakimi': 'Bebek Bakımı',
     'gunes-bakimi': 'Güneş Bakımı',

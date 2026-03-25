@@ -38,12 +38,11 @@
           <div class="text-block centered">
             <h2 class="section-title">Nemlendirme nasıl işler?</h2>
             <div class="highlight-box">
-              <h3>Ciltte su vardır</h3>
               <p>Cilt, her şeyden önce vücudu koruyan bir savunma bariyeridir. Yaklaşık <strong>%67</strong> oranında su içerir ve bu oran yaşa bağlı olarak değişir:</p>
-              <ul class="stats-list">
-                <li><strong>%74</strong> — Yeni doğan</li>
-                <li><strong>%62</strong> — Yaşlı bir birey</li>
-              </ul>
+              <div class="stats-inline">
+                <span><strong>%74</strong> Yeni Doğan</span>
+                <span><strong>%62</strong> Yağlı Birey</span>
+              </div>
               <p>Bu farklar, cilt görünümündeki farklılıkları büyük ölçüde açıklar.</p>
             </div>
           </div>
@@ -112,7 +111,7 @@
             <div class="pillar-item">
               <div class="pillar-header">
                 <span class="pillar-num">03</span>
-                <h3>Güzel ve sağlıklı bir cildini korumak için</h3>
+                <h3>Güzel ve sağlıklı bir cildi korumak için</h3>
               </div>
               <p>İyi bir nemlendirme cildin iyi hissetmesini ve korunmasını sağlar. Uzun vadede yaşlanmayı yavaşlatmaya ve hücre yenilenmesini sağlamaya yardımcı olur.</p>
               <div class="nested-info">
@@ -136,7 +135,7 @@
           <div class="dual-method mt-6">
             <div class="method-card">
               <div class="method-icon">🚰</div>
-              <h3>Oral su alımı ile derinlemesine nemlendirme</h3>
+              <h3>Su içerek derin nemlendirme</h3>
               <p>Bu, dermal düzeyde derin nemlendirme sağlar. Bu nedenle gün boyunca en az 1,5 litre su içmelisiniz! Bu nemlendirme, fark edilemeyen su kaybını telafi eder.</p>
             </div>
             <div class="method-card primary">
@@ -148,10 +147,10 @@
 
           <div class="expert-pills mt-8">
             <div class="pill">
-              <strong>Su kaybını sınırlayarak:</strong> Bitkisel gliserin ve bitki mumları ile yalıtım tabakası oluşturur.
+              <strong>Su kaybını sınırlayarak:</strong> Bitkisel gliserin ve bitki mumları ile koruma tabakası oluşturur.
             </div>
             <div class="pill">
-              <strong>Direnci güçlendirerek:</strong> Shea yağı, badem yağı gibi doğal emolyanlar ile lipid çimentosunu doldurur.
+              <strong>Direnci güçlendirerek:</strong> Shea yağı, badem yağı gibi doğal emolyanlarla lipid çimentosunu doldurur.
             </div>
           </div>
 
@@ -180,17 +179,6 @@
             </div>
           </div>
 
-          <!-- Final CTA -->
-          <div class="final-cta">
-            <div class="cta-image">
-              <img src="https://larosee.twic.pics/1920x1920/21918a7559/diagnostic-personnalise.jpg/m/1920x1920" alt="Skin Diagnosis">
-            </div>
-            <div class="cta-content">
-              <h3>Kişiselleştirilmiş Tanı</h3>
-              <p>Cilt tipinize uygun nemlendirmeyi öğrenmek isterseniz, size rehberlik etmesi için bir cilt tanısı öneriyoruz.</p>
-              <router-link to="/diagnosis" class="cta-button">TANIMA BAŞLA</router-link>
-            </div>
-          </div>
         </section>
       </div>
     </main>
@@ -399,24 +387,24 @@ onMounted(() => {
   border-radius: 12px;
 }
 
-.stats-list {
-  list-style: none;
-  padding: 0;
+.stats-inline {
   display: flex;
+  gap: 3rem;
   justify-content: center;
-  gap: 4rem;
-  margin: 2rem 0;
+  margin: 1.5rem 0;
+  font-size: 1.05rem;
 }
 
-.stats-list li {
-  font-size: 1.1rem;
+.stats-inline span {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
-.stats-list li strong {
-  display: block;
-  font-size: 2.5rem;
+.stats-inline strong {
+  font-size: 1.5rem;
   color: #00B18B;
-  font-weight: 300;
+  font-weight: 600;
 }
 
 /* Split Layout */

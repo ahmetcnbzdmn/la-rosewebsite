@@ -37,16 +37,6 @@
           <div class="section-text animate-on-scroll right">
             <h2 class="section-title">Toprak: <em>Planète Urgence</em> iş birliği.</h2>
             <p>Madagaskar'ın endemik Tapia ormanlarını korumak ve yeniden canlandırmak için çalışıyoruz. İnsan faaliyetleri nedeniyle zarar gören bu ekosistem, birçok canlı türü için hayati önem taşıyor.</p>
-            <div class="stats-grid">
-              <div class="stat-item">
-                <span class="stat-value">15.000</span>
-                <span class="stat-label">2024 Dikim Hedefi</span>
-              </div>
-              <div class="stat-item">
-                <span class="stat-value">Endemik</span>
-                <span class="stat-label">Tapia Ormanları</span>
-              </div>
-            </div>
           </div>
         </section>
 

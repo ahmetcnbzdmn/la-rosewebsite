@@ -76,7 +76,7 @@
         <section class="story-section reversed">
           <div class="section-text animate-on-scroll left">
             <h2 class="section-title">Kendi <em>çocuklarımıza</em> sürdüğümüz güvenle.</h2>
-            <p>Anne olduğumuzda vizyonumuz daha da derinleşti. Bebeklerin o mucizevi ama narin cildi için en saflığını istedik. Mon Petit La Rosée serisini, bir annenin çocuğuna duyduğu sonsuz şefkatle ve bir bilim insanının titizliğiyle geliştirdik.</p>
+            <p>Anne olduğumuzda vizyonumuz daha da derinleşti. Bebeklerin o mucizevi ama narin cildi için yalnızca en saf ve güvenli formülleri kullanmak istedik. Mon Petit La Rosée serisini, bir annenin çocuğuna duyduğu sonsuz şefkatle ve bir bilim insanının titizliğiyle geliştirdik.</p>
             <router-link to="/collections/bebek-bakimi" class="premium-btn">Bebek Serisini Keşfet</router-link>
           </div>
           <div class="section-image animate-on-scroll right">
@@ -88,7 +88,7 @@
         <section class="story-future">
           <div class="future-content animate-on-scroll">
             <h2>Gelecek İçin Kararlıyız</h2>
-            <p>2035 yılına kadar tüm ürünlerimizin katı, yeniden doldurulabilir veya depozitolu olmasını hedefliyoruz. Bu bizim gezegenimize olan borcumuz.</p>
+            <p>2035 yılına kadar tüm ürünlerimizin katı veya yeniden doldurulabilir olmasını hedefliyoruz. Bu bizim gezegenimize olan borcumuz.</p>
             <div class="bcorp-badge">
               <img src="https://a.storyblok.com/f/196368/81x118/1786c2c8d6/certified_b_corporation_b_corp_logo_2022_black_rgb-1.svg" alt="B Corp">
               <span>Gururla B Corp Sertifikalıyız</span>

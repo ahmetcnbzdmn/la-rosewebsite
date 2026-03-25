@@ -98,19 +98,6 @@
           </div>
         </section>
 
-        <!-- Final CTA -->
-        <section class="story-future">
-          <div class="future-content animate-on-scroll">
-            <h2>Kişiselleştirilmiş Güneş Koruması</h2>
-            <p>Cilt tipinize ve fototipinize en uygun güneş korumasını keşfetmek için tanımızı yapın.</p>
-            <router-link to="/diagnosis" class="cta-button">
-              TANIMA BAŞLA
-            </router-link>
-          </div>
-          <div class="future-bg">
-            <img src="https://larosee.twic.pics/1371x1070/60f75a878b/la-protection-solaire-efficace-et-respectueuse-de-la-peau-des-oceans.jpg/m/1371x1070" alt="Güneş Koruması">
-          </div>
-        </section>
       </div>
     </main>
   </div>

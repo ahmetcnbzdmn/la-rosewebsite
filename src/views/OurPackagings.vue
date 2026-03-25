@@ -64,7 +64,7 @@
         <!-- Section 3: Plastic & Plant-based -->
         <section class="story-quote">
           <div class="quote-content animate-on-scroll">
-            <p>"2030 yılına kadar ambalajlarımızın hiçbiri fosil kökenli bakir plastik içermeyecek. Gelecek <em>bitkisel</em> ve geri dönüştürülmüş plastiklerde."</p>
+            <p>"2030 yılına kadar ambalajlarımızın hiçbiri fosil kökenli plastik içermeyecek. Gelecek <em>bitkisel</em> ve geri dönüştürülmüş plastiklerde."</p>
           </div>
         </section>
 
@@ -98,20 +98,6 @@
           </div>
         </section>
 
-        <!-- Section 5: B Corp & Deposit -->
-        <section class="story-future">
-          <div class="future-content animate-on-scroll">
-            <div class="bcorp-badge">
-              <img src="https://a.storyblok.com/f/196368/81x118/1786c2c8d6/certified_b_corporation_b_corp_logo_2022_black_rgb-1.svg" alt="B Corp">
-              <span>Sorumlu Marka</span>
-            </div>
-            <h2>Depozito Sistemini Test Ediyoruz</h2>
-            <p>2024 sonbaharından bu yana seçili eczanelerde iade sistemini test ediyoruz. Boş serum şişelerinizi getirin, hem 2€ indirim kazanın hem de şişelerin temizlenip yeniden kullanılmasını sağlayın.</p>
-          </div>
-          <div class="future-bg">
-            <img src="https://a.storyblok.com/f/196368/1920x1440/c089d2f388/la-rosee-est-distribuee-dans-plus-de-8000-pharmacies.jpg" alt="Sürdürülebilir Eczane">
-          </div>
-        </section>
       </div>
     </main>
   </div>
