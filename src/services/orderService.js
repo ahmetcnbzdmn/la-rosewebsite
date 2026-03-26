@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.VITE_WEBSITE_API_URL || 'http://localhost:5001/api';
+const API_URL = import.meta.env.VITE_WEBSITE_API_URL || 'https://la-rose-backend-production.up.railway.app/api';
 
 class OrderService {
   /**
