@@ -171,6 +171,30 @@ const router = createRouter({
           name: 'favorites',
           component: () => import('../views/FavoritesPage.vue')
         },
+        {
+          path: 'sepet',
+          alias: ['en-ww/sepet'],
+          name: 'cart',
+          component: () => import('../views/checkout/CartPage.vue')
+        },
+        {
+          path: 'odeme/bilgiler',
+          alias: ['en-ww/odeme/bilgiler'],
+          name: 'checkout-info',
+          component: () => import('../views/checkout/CheckoutInfo.vue')
+        },
+        {
+          path: 'odeme/odeme-yontemi',
+          alias: ['en-ww/odeme/odeme-yontemi', 'checkout'],
+          name: 'checkout-payment',
+          component: () => import('../views/checkout/CheckoutPayment.vue')
+        },
+        {
+          path: 'odeme/tamamlandi',
+          alias: ['en-ww/odeme/tamamlandi'],
+          name: 'checkout-success',
+          component: () => import('../views/checkout/OrderSuccess.vue')
+        },
       ]
     }
   ],
