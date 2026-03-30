@@ -40,7 +40,7 @@ function validate() {
 function proceed() {
   if (!validate()) return
   sessionStorage.setItem('larose_checkout_info', JSON.stringify(form.value))
-  router.push('/odeme/odeme')
+  router.push('/odeme/odeme-yontemi')
 }
 </script>
 
