@@ -4,9 +4,7 @@
       <!-- Immersive Hero Section -->
       <section class="story-hero">
         <div class="hero-bg">
-          <video muted autoplay loop playsinline class="hero-video">
-            <source src="https://cdn.shopify.com/videos/c/vp/388dc82404e3415e8beee9eb97752e5b/388dc82404e3415e8beee9eb97752e5b.HD-1080p-7.2Mbps-30048123.mp4" type="video/mp4">
-          </video>
+          <img :src="'/images/deodorant-hero.jpg'" alt="Fransız eczanelerinin en çok satan deodorantı" class="hero-img">
           <div class="hero-overlay"></div>
         </div>
         <div class="hero-content">
@@ -106,6 +104,8 @@
 
 <script setup>
 import { onMounted } from 'vue'
+import { useSEO } from '../composables/useSEO.js'
+useSEO({ title: 'Ekolojik Dönüşüm', description: 'La Rosée\'nin ekolojik dönüşüm yolculuğu: biyobozunur formüller, geri dönüştürülmüş ambalajlar ve 2035 karbon hedefleri. Sürdürülebilir bir gelecek için somut adımlar.' })
 
 onMounted(() => {
   const observer = new IntersectionObserver((entries) => {
@@ -149,10 +149,11 @@ onMounted(() => {
   height: 100%;
 }
 
-.hero-video {
+.hero-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 .hero-overlay {

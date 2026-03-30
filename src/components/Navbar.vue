@@ -3,20 +3,33 @@ import { ref, computed, onMounted, onUnmounted, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import megaMenuData from '../assets/mega_menu_data.json'
 import { useAuth } from '../composables/useAuth.js'
-import { useCart } from '../composables/useCart.js'
 import { useFavorites } from '../composables/useFavorites.js'
 
 const route = useRoute()
 const router = useRouter()
 const scrolledDown = ref(false)
 const hoveredMenu = ref(null)
+const mobileMenuOpen = ref(false)
+const mobileExpandedMenu = ref(null)
 const { state: authState } = useAuth()
-const { totalCount: cartCount, openCart } = useCart()
 const { totalCount: favCount } = useFavorites()
+
+const IKAS_STORE_URL = 'https://magaza.larosee.com.tr'
 
 watch(route, () => {
   hoveredMenu.value = null
+  mobileMenuOpen.value = false
+  mobileExpandedMenu.value = null
 })
+
+const toggleMobileMenu = () => {
+  mobileMenuOpen.value = !mobileMenuOpen.value
+  if (!mobileMenuOpen.value) mobileExpandedMenu.value = null
+}
+
+const toggleMobileExpand = (menu) => {
+  mobileExpandedMenu.value = mobileExpandedMenu.value === menu ? null : menu
+}
 
 // Only be transparent on homepage when at top
 const heroRoutes = ['home', '']
@@ -53,12 +66,10 @@ onUnmounted(() => {
   <header class="Header-module__root___vvIxr" :data-transparent="isTransparent">
     <div class="Nav-module__root___hd7MQ">
       <div class="Nav-module__left___lyd7T">
-        <button type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-_R_2p54l_" data-state="closed" title="Menü">
-          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M6 23H26" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-            <path d="M6 16H26" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-            <path d="M6 9H26" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-          </svg>
+        <button type="button" class="hamburger-btn" :class="{ 'is-open': mobileMenuOpen }" :aria-expanded="mobileMenuOpen" title="Menü" @click="toggleMobileMenu">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
         </button>
       </div>
       <router-link class="Nav-module__logo___P-xBR" to="/">
@@ -88,6 +99,9 @@ onUnmounted(() => {
               <li>
                 <button id="radix-_R_3p54l_-trigger-radix-_R_2rp54l_" :data-state="hoveredMenu === 'commitments' ? 'open' : 'closed'" :aria-expanded="hoveredMenu === 'commitments'" aria-controls="radix-_R_3p54l_-content-radix-_R_2rp54l_" class="Nav-module__link___I1Rij" data-radix-collection-item="" @click="toggleHoveredMenu('commitments')">HAKKIMIZDA</button>
               </li>
+              <li>
+                <router-link to="/eczanelerimiz" class="Nav-module__link___I1Rij nav-pharmacy-link" @click="hoveredMenu = null">ECZANELERİMİZ</router-link>
+              </li>
             </ul>
             
             <!-- Products Mega Menu -->
@@ -97,12 +111,6 @@ onUnmounted(() => {
                   <router-link :to="'/collections/' + col.slug" class="CardNavItem-module__root___oOCBj">
                     <img :src="col.image" width="960" height="1200" loading="lazy">
                     <span class="mega-menu-text">{{ col.name }}</span>
-                  </router-link>
-                </li>
-                <li v-for="prod in megaMenuData.products" :key="prod.slug">
-                  <router-link :to="'/products/' + prod.slug" class="CardNavItem-module__root___oOCBj">
-                    <img :src="prod.image" width="3473" height="3473" loading="lazy">
-                    <span class="mega-menu-text">{{ prod.name }}</span>
                   </router-link>
                 </li>
                 <li>
@@ -149,18 +157,90 @@ onUnmounted(() => {
             </router-link>
           </li>
           <li class="Nav-module__cart___U9yFl">
-            <button type="button" title="Sepet" class="nav-icon-btn nav-icon-btn--relative cart-btn" @click="openCart">
+            <a :href="IKAS_STORE_URL" target="_blank" rel="noopener" title="Mağaza" class="nav-icon-btn nav-icon-btn--relative cart-btn">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7.5 7.5C7.5 5.01472 9.51472 3 12 3C14.4853 3 16.5 5.01472 16.5 7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
                 <path d="M2.75 9.75H21.25L19.75 20.25H4.25L2.75 9.75Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
               </svg>
-              <span v-if="cartCount > 0" class="nav-badge">{{ cartCount }}</span>
-            </button>
+            </a>
           </li>
         </ul>
       </div>
     </div>
   </header>
+
+  <!-- Mobile Menu Overlay -->
+  <Teleport to="body">
+    <div class="mobile-overlay" :class="{ 'is-open': mobileMenuOpen }" @click="toggleMobileMenu"></div>
+    <div class="mobile-menu" :class="{ 'is-open': mobileMenuOpen }">
+      <div class="mobile-menu-header">
+        <button class="mobile-close-btn" @click="toggleMobileMenu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </div>
+      <nav class="mobile-nav">
+        <!-- Ürünler -->
+        <div class="mobile-nav-group">
+          <button class="mobile-nav-title" @click="toggleMobileExpand('products')">
+            ÜRÜNLER
+            <svg class="mobile-chevron" :class="{ 'rotated': mobileExpandedMenu === 'products' }" width="16" height="16" viewBox="0 0 24 24" fill="none">
+              <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+          <div class="mobile-submenu" :class="{ 'is-open': mobileExpandedMenu === 'products' }">
+            <router-link v-for="col in megaMenuData.collections" :key="col.slug" :to="'/collections/' + col.slug" class="mobile-submenu-link">
+              {{ col.name }}
+            </router-link>
+            <router-link to="/collections/tum-urunler" class="mobile-submenu-link mobile-submenu-link--all">
+              Tüm Ürünler →
+            </router-link>
+          </div>
+        </div>
+
+        <!-- Hakkımızda -->
+        <div class="mobile-nav-group">
+          <button class="mobile-nav-title" @click="toggleMobileExpand('commitments')">
+            HAKKIMIZDA
+            <svg class="mobile-chevron" :class="{ 'rotated': mobileExpandedMenu === 'commitments' }" width="16" height="16" viewBox="0 0 24 24" fill="none">
+              <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+          <div class="mobile-submenu" :class="{ 'is-open': mobileExpandedMenu === 'commitments' }">
+            <router-link v-for="item in megaMenuData.commitments" :key="item.slug" :to="'/' + item.slug" class="mobile-submenu-link">
+              {{ item.name }}
+            </router-link>
+          </div>
+        </div>
+
+        <router-link to="/eczanelerimiz" class="mobile-nav-link mobile-pharmacy-link" @click="mobileMenuOpen = false">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+            <circle cx="12" cy="9" r="2.5" stroke="currentColor" stroke-width="1.5"/>
+          </svg>
+          Eczanelerimiz
+        </router-link>
+
+        <div class="mobile-nav-divider"></div>
+
+        <router-link :to="accountLink" class="mobile-nav-link" @click="mobileMenuOpen = false">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+            <circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          {{ accountTitle }}
+        </router-link>
+        <router-link to="/favoriler" class="mobile-nav-link" @click="mobileMenuOpen = false">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" stroke="currentColor" stroke-width="1.5"/>
+          </svg>
+          Favorilerim
+          <span v-if="favCount > 0" class="mobile-badge">{{ favCount }}</span>
+        </router-link>
+      </nav>
+    </div>
+  </Teleport>
 </template>
 
 <style scoped>
@@ -440,6 +520,18 @@ onUnmounted(() => {
   position: relative;
 }
 
+.nav-pharmacy-link {
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+.nav-pharmacy-link:hover { opacity: 0.7; }
+.nav-pharmacy-link.router-link-active { border-bottom: 2px solid currentColor; }
+
+.mobile-pharmacy-link {
+  font-weight: 700;
+  color: #646892;
+}
+
 .user-dot {
   position: absolute;
   top: 6px;
@@ -449,6 +541,245 @@ onUnmounted(() => {
   background: #4ade80;
   border-radius: 50%;
   border: 1.5px solid white;
+}
+
+/* ── Hamburger Button ── */
+.hamburger-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.hamburger-line {
+  display: block;
+  width: 22px;
+  height: 1.5px;
+  background: currentColor;
+  border-radius: 2px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  transform-origin: center;
+}
+
+.hamburger-btn.is-open .hamburger-line:nth-child(1) {
+  transform: translateY(6.5px) rotate(45deg);
+}
+.hamburger-btn.is-open .hamburger-line:nth-child(2) {
+  opacity: 0;
+  transform: scaleX(0);
+}
+.hamburger-btn.is-open .hamburger-line:nth-child(3) {
+  transform: translateY(-6.5px) rotate(-45deg);
+}
+
+/* ── Mobile Overlay ── */
+.mobile-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: 499;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+.mobile-overlay.is-open {
+  opacity: 1;
+  pointer-events: all;
+}
+
+/* ── Mobile Menu Panel ── */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: min(320px, 85vw);
+  height: 100dvh;
+  background: #fff;
+  z-index: 500;
+  transform: translateX(-100%);
+  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+.mobile-menu.is-open {
+  transform: translateX(0);
+}
+
+.mobile-menu-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 16px 16px 8px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.mobile-close-btn {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  transition: background 0.2s;
+}
+.mobile-close-btn:hover { background: #f5f5f5; }
+
+.mobile-nav {
+  padding: 8px 0 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-nav-group {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.mobile-nav-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 16px 20px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #3f3f3f;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+.mobile-chevron {
+  transition: transform 0.25s ease;
+  flex-shrink: 0;
+}
+.mobile-chevron.rotated { transform: rotate(180deg); }
+
+.mobile-submenu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+.mobile-submenu.is-open {
+  max-height: 500px;
+}
+
+.mobile-submenu-link {
+  display: block;
+  padding: 11px 20px 11px 32px;
+  font-size: 14px;
+  color: #555;
+  text-decoration: none;
+  transition: color 0.2s, background 0.2s;
+  border-left: 2px solid transparent;
+}
+.mobile-submenu-link:hover {
+  color: #3f3f3f;
+  background: #fafafa;
+}
+.router-link-active.mobile-submenu-link {
+  color: #646892;
+  border-left-color: #646892;
+}
+
+.mobile-submenu-link--all {
+  font-weight: 600;
+  color: #646892;
+  margin-top: 4px;
+  padding-bottom: 16px;
+}
+
+.mobile-nav-divider {
+  height: 1px;
+  background: #f0f0f0;
+  margin: 8px 0;
+}
+
+.mobile-nav-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 20px;
+  font-size: 14px;
+  color: #3f3f3f;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.mobile-nav-link:hover { background: #fafafa; }
+
+.mobile-badge {
+  margin-left: auto;
+  background: #00B1EB;
+  color: white;
+  font-size: 10px;
+  font-weight: 700;
+  min-width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4px;
+}
+
+/* ── Responsive: Desktop nav gizle mobilde ── */
+@media (min-width: 769px) {
+  .hamburger-btn {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Desktop nav linklerini gizle */
+  .Nav-module__nav-menu-list___J1xZQ {
+    display: none !important;
+  }
+  .Nav-module__nav-menu-content___Kunf1 {
+    display: none !important;
+  }
+  .Nav-module__overlay___VXo0U {
+    display: none !important;
+  }
+
+  /* Nav bar layout */
+  .Nav-module__root___hd7MQ {
+    padding: 0 16px !important;
+    height: 60px !important;
+  }
+
+  .Nav-module__left___lyd7T {
+    display: flex;
+    align-items: center;
+  }
+
+  /* Logo küçült */
+  .Nav-module__logo___P-xBR svg {
+    width: 100px;
+    height: auto;
+  }
+
+  /* Sağ ikonları düzenle */
+  .Nav-module__menu___RCGJH {
+    gap: 2px;
+  }
+  .nav-icon-btn {
+    width: 36px;
+    height: 36px;
+  }
 }
 </style>
 

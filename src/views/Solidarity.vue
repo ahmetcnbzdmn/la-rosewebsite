@@ -43,7 +43,7 @@
         <!-- Section 2: Coral Gardeners -->
         <section class="story-section reversed">
           <div class="section-image animate-on-scroll right">
-            <img src="https://a.storyblok.com/f/196368/4000x3321/8e57b49578/en-2022-la-rosee-a-contribue-a-planter-plus-de-4000-coraux-avec-the-coral-planters.webp" alt="The Coral Gardeners">
+            <img :src="'/images/gardeners.webp'" alt="The Coral Gardeners">
           </div>
           <div class="section-text animate-on-scroll left">
             <h2 class="section-title">Deniz: <em>Coral Gardeners</em> ile resifleri koruyoruz.</h2>

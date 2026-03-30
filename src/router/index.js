@@ -78,6 +78,11 @@ const router = createRouter({
           component: () => import('../views/PharmacyLocator.vue')
         },
         {
+          path: 'eczanelerimiz',
+          name: 'pharmacies',
+          component: () => import('../views/PharmacyList.vue')
+        },
+        {
           path: 'taahhutlerimiz',
           alias: ['engagements', 'en-ww/engagements'],
           name: 'our-commitments',
@@ -166,26 +171,6 @@ const router = createRouter({
           name: 'favorites',
           component: () => import('../views/FavoritesPage.vue')
         },
-        {
-          path: 'sepet',
-          name: 'cart',
-          component: () => import('../views/checkout/CartPage.vue')
-        },
-        {
-          path: 'odeme/bilgiler',
-          name: 'checkout-info',
-          component: () => import('../views/checkout/CheckoutInfo.vue')
-        },
-        {
-          path: 'odeme/odeme',
-          name: 'checkout-payment',
-          component: () => import('../views/checkout/CheckoutPayment.vue')
-        },
-        {
-          path: 'odeme/tamamlandi',
-          name: 'order-success',
-          component: () => import('../views/checkout/OrderSuccess.vue')
-        }
       ]
     }
   ],

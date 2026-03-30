@@ -1,7 +1,8 @@
 <script setup>
 import { ref, onMounted, nextTick } from 'vue'
+import { useSEO } from '../composables/useSEO.js'
 import { useI18n } from 'vue-i18n'
-import { useCart } from '../composables/useCart.js'
+useSEO({ title: 'Doğal & Etkili Cilt Bakımı', description: 'La Rosée Paris — Fransız eczanelerinin No.1 doğal kozmetik markası. %95+ doğal kökenli, B Corp sertifikalı yüz, vücut, güneş ve bebek bakım ürünleri. Türkiye\'ye özel fiyatlarla.' })
 import { fetchProducts } from '../services/productService.js'
 import Button from 'primevue/button'
 import Swiper from 'swiper'
@@ -11,7 +12,7 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 
 const { t } = useI18n()
-const { addToCart } = useCart()
+const IKAS_STORE_URL = 'https://magaza.larosee.com.tr'
 
 const newArrivalsList = ref([])
 const bestsellersList = ref([])
@@ -175,7 +176,7 @@ const closeModal = () => {
                 <p v-if="product.price" class="ProductCard-module__price">₺{{ Number(product.price).toLocaleString('tr-TR', { minimumFractionDigits: 2 }) }}</p>
               </div>
             </router-link>
-            <button class="ProductCard-module__add-btn" @click.prevent="addToCart(product)">Ekle</button>
+            <a :href="IKAS_STORE_URL" target="_blank" rel="noopener" class="ProductCard-module__add-btn">Satın Al</a>
           </div>
         </div>
       </div>
@@ -227,7 +228,7 @@ const closeModal = () => {
                 <p v-if="product.price" class="ProductCard-module__price">₺{{ Number(product.price).toLocaleString('tr-TR', { minimumFractionDigits: 2 }) }}</p>
               </div>
             </router-link>
-            <button class="ProductCard-module__add-btn" @click.prevent="addToCart(product)">Ekle</button>
+            <a :href="IKAS_STORE_URL" target="_blank" rel="noopener" class="ProductCard-module__add-btn">Satın Al</a>
           </div>
         </div>
       </div>

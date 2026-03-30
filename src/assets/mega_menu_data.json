@@ -31,6 +31,21 @@
             "name": "Günlük Hijyen",
             "slug": "gunluk-hijyen",
             "image": "https://a.storyblok.com/f/196368/960x1200/e283ea33ae/menu-categorie-hygiene.jpg"
+        },
+        {
+            "name": "Güneş Bakımı",
+            "slug": "gunes-bakimi",
+            "image": "https://a.storyblok.com/f/196368/2000x2000/00a5f0a3cf/visuels-categorie-page-impact-3-1.jpg"
+        },
+        {
+            "name": "Bebek Bakımı",
+            "slug": "bebek-bakimi",
+            "image": "https://a.storyblok.com/f/196368/2000x2000/aab480cdc3/visuels-categorie-page-impact-2-1.jpg"
+        },
+        {
+            "name": "Makyaj & Bakım",
+            "slug": "makyaj-bakim",
+            "image": "https://a.storyblok.com/f/196368/2000x2000/1b44626fae/visuels-categorie-page-impact-1-1.jpg"
         }
     ],
     "commitments": [

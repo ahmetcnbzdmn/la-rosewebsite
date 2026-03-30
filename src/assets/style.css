@@ -200,3 +200,57 @@
 .AccordionTrigger-module__root___IRk5g {
   cursor: pointer !important;
 }
+
+/* ===== Global Mobile Responsive Fixes ===== */
+@media (max-width: 768px) {
+  /* Prevent horizontal overflow */
+  html, body {
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+
+  /* Responsive typography */
+  .CommitmentsHeader-module__title___rncEH {
+    font-size: 2rem !important;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    padding: 0 16px;
+  }
+
+  .CenteredBigText-module__text___0GRRV {
+    font-size: 1.5rem !important;
+    margin: 2.5rem auto;
+    padding: 0 16px;
+  }
+
+  .TextContainer-module__root___3x88v {
+    padding: 0 16px 2.5rem;
+    font-size: 1rem;
+  }
+
+  .TextContainer-module__root___3x88v h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  /* Carousel padding on mobile */
+  .CommitmentsCarousel-module__title___DRWkm {
+    padding: 0 16px;
+    font-size: 1.4rem;
+  }
+  .CommitmentsCarousel-module__carousel___raCxX {
+    padding: 0 16px;
+  }
+
+  /* Subnav scroll on mobile */
+  .Subnav-module__root___b6qK5 {
+    padding: 0 12px;
+  }
+  .Subnav-module__root___b6qK5 .swiper-wrapper {
+    gap: 1rem;
+  }
+  .Subnav-module__root___b6qK5 a {
+    font-size: 0.85rem;
+  }
+}

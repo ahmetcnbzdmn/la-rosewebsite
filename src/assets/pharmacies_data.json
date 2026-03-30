@@ -1,0 +1,1115 @@
+[
+  {
+    "name": "ATA ECZANESİ",
+    "pharmacist": "ELİF GÖKÇEN ÇAÇA",
+    "city": "BOLU",
+    "district": "Merkez",
+    "address": "Sağlık Mah., Dodurga Cad., 55/A"
+  },
+  {
+    "name": "DOĞAL ECZANESİ",
+    "pharmacist": "MİNE GÜNDOĞDU SÖNMEZER",
+    "city": "BOLU",
+    "district": "Merkez",
+    "address": "Yaşamkent Mahallesi, Kalıcı Konutlar İş Merkezleri 28.Blok Z-­9"
+  },
+  {
+    "name": "ÖRNEKBAŞ ECZANESİ",
+    "pharmacist": "HİLAL ÇAKIR",
+    "city": "BOLU",
+    "district": "Merkez",
+    "address": "Beşkavaklar Mah., Necdet Gören Caddesi, Yardemir Konutları B-Blok No:18/A"
+  },
+  {
+    "name": "DEMİRCAN ECZANESİ",
+    "pharmacist": "ONUR PEHLİVAN",
+    "city": "BURSA",
+    "district": "Osmangazi",
+    "address": "Geçit Mahallesi, 3.Bağ Sokak No:12/A"
+  },
+  {
+    "name": "KONSEPT BALAT ECZANESİ",
+    "pharmacist": "NACİYE BURÇAK AKBULUT",
+    "city": "BURSA",
+    "district": "Nilüfer",
+    "address": "Ahmet Yesevi Mahallesi, Bey Sokak No:10/B-E"
+  },
+  {
+    "name": "LAVANTA ECZANESİ",
+    "pharmacist": "ŞENGÜL GÖKMEN",
+    "city": "BURSA",
+    "district": "Nilüfer",
+    "address": "Ataevler Mahallesi, Gaziosmanpaşa Caddesi, No:13F/A"
+  },
+  {
+    "name": "NİLÜFERKÖY ECZANESİ",
+    "pharmacist": "AYŞENUR ERİMAN DUZCU",
+    "city": "BURSA",
+    "district": "Osmangazi",
+    "address": "Nilüferköy Mahallesi, Nilüfer Caddesi No:71/A"
+  },
+  {
+    "name": "ELİF YAVUZ ECZANESİ",
+    "pharmacist": "ELİF YAVUZ",
+    "city": "İSTANBUL",
+    "district": "Çekmeköy",
+    "address": "Mehmet Akif Mahallesi, Ulubatlı Hasan Caddesi No:45/A"
+  },
+  {
+    "name": "ELİF’İN ECZANESİ",
+    "pharmacist": "ELİF SAVUN",
+    "city": "DENİZLİ",
+    "district": "Pamukkale",
+    "address": "Kınıklı Mahallesi, Ulus Caddesi No:141/A Billur Apt. B-Blok"
+  },
+  {
+    "name": "AVRUPA PLUS",
+    "pharmacist": "EZGİ İLHAN GÖYTEPE",
+    "city": "İSTANBUL",
+    "district": "Kartal- Esentepe",
+    "address": "Esentepe Mahallesi, İnönü Caddesi No:151/A"
+  },
+  {
+    "name": "MARMARA ECZANESİ",
+    "pharmacist": "BERAT BERSU",
+    "city": "KOCAELİ",
+    "district": "İzmit",
+    "address": "Ömerağa Mahallesi, Alemdar Caddesi, No:32/B"
+  },
+  {
+    "name": "İLİM ECZANESİ",
+    "pharmacist": "ŞENGÜL UYGUN",
+    "city": "KOCAELİ",
+    "district": "İzmit",
+    "address": "İstiklal Caddesi, Belsa Plaza 5 Blok No:31"
+  },
+  {
+    "name": "NESLİHAN EROL ECZANESİ",
+    "pharmacist": "NESLİHAN EROL DURUL",
+    "city": "İSTANBUL",
+    "district": "Pendik",
+    "address": "Yenişehir Mahallesi, Dedepaşa Caddesi No:2/20-E"
+  },
+  {
+    "name": "TUZLAPORT ECZANESİ",
+    "pharmacist": "DOĞA ÇUKUROAVA",
+    "city": "İSTANBUL",
+    "district": "Tuzla",
+    "address": "Postane Mahallesi, Cumhuriyet Caddesi, Tuzla Port No:5/65"
+  },
+  {
+    "name": "BURCU BALABAN ECZANESİ",
+    "pharmacist": "BURCU KURT",
+    "city": "BURSA",
+    "district": "Nilüfer",
+    "address": "Kültür Mahallesi, Gümüşdere Caddesi No:47/B"
+  },
+  {
+    "name": "MİNE ECZANESİ",
+    "pharmacist": "MİNE BÜYÜKÜSTÜNKOLLU",
+    "city": "BURSA",
+    "district": "Osmangazi",
+    "address": "Tuzpazarı Mahallesi, Cumhuriyet Caddesi, No:105/B"
+  },
+  {
+    "name": "OKYANUS ECZANESİ",
+    "pharmacist": "İSMAİL HACIMÜEZZİN",
+    "city": "DENİZLİ",
+    "district": "Pamukkale",
+    "address": "Siteler mah. Bursa caddesi No:26/B"
+  },
+  {
+    "name": "İSTANBUL ECZANESİ",
+    "pharmacist": "BİRSEN EREN",
+    "city": "DÜZCE",
+    "district": "Merkez",
+    "address": "Kültür Mahallesi, 721.Sokak No:5/B Dostlar Sitesi I-Blok"
+  },
+  {
+    "name": "ARASTAPARK ECZANESİ",
+    "pharmacist": "MELİKE DÜZCÜ",
+    "city": "KOCAELİ",
+    "district": "İzmit",
+    "address": "Yahyakaptan Mahallesi, Akasyalar Caddesi No:24/1 İç Kapı No:2"
+  },
+  {
+    "name": "DİLARA ECZANESİ",
+    "pharmacist": "SELİN DİLARA ŞENOL",
+    "city": "KOCAELİ",
+    "district": "Kartepe",
+    "address": "İstasyon Mahallesi, Atakan Caddesi No:31/B"
+  },
+  {
+    "name": "MARS ECZANESİ",
+    "pharmacist": "MUSTAFA ALEMDAR",
+    "city": "KOCAELİ",
+    "district": "İzmit",
+    "address": "Yahyakaptan Mahallesi, Özyıldırım Sokak No:16/D"
+  },
+  {
+    "name": "HİLAL ECZANESİ",
+    "pharmacist": "HİLAL YUĞAÇ KURAL",
+    "city": "BURSA",
+    "district": "Nilüfer",
+    "address": "Odunluk Mahallesi, Akpınar Caddesi, No:12/A-D5"
+  },
+  {
+    "name": "MİNERAL ECZANESİ",
+    "pharmacist": "METİN GÜRKÖK",
+    "city": "BURSA",
+    "district": "Nilüfer",
+    "address": "Ahmet Yesevi Mahallesi, Bey Sokak No:4 D-Blok D:F-34"
+  },
+  {
+    "name": "HASİBE KARTOĞLAN ECZANESİ",
+    "pharmacist": "HASİBE URHAN",
+    "city": "DENİZLİ",
+    "district": "Merkezefendi",
+    "address": "Sırakapılar Mahallesi, Fatih Sultan Mehmet Bulvarı No:20/A"
+  },
+  {
+    "name": "GÜLCE ECZANESİ",
+    "pharmacist": "GÜLCE FURUNCU",
+    "city": "BURSA",
+    "district": "Nilüfer",
+    "address": "Kültür Mahallesi, Gümüşdere Caddesi No:22/B"
+  },
+  {
+    "name": "BOTANİK ECZANESİ",
+    "pharmacist": "CEVDET BİLAL",
+    "city": "KOCAELİ",
+    "district": "Başiskele",
+    "address": "Seymen Mahallesi, Hasangazi Caddesi No:2/1"
+  },
+  {
+    "name": "ESİN ECZANESİ",
+    "pharmacist": "ESİN ERBAŞ GALYAN",
+    "city": "KOCAELİ",
+    "district": "İzmit",
+    "address": "Yenişehir Mahallesi, Dönmez Sokak No:34"
+  },
+  {
+    "name": "MERVE ECZANESİ",
+    "pharmacist": "MERVE COŞAR ELYILDIRIM",
+    "city": "KOCAELİ",
+    "district": "İzmit",
+    "address": "Kadıköy, Bağdat Cd. No:78/A"
+  },
+  {
+    "name": "SEDEF ECZANESİ",
+    "pharmacist": "SEDEF ÇELEBİ",
+    "city": "KOCAELİ",
+    "district": "Gölcük",
+    "address": "Topçular Mahallesi, Devlet Karayolu(D130) Caddesi No:71/C"
+  },
+  {
+    "name": "SEYMEN AKSA ECZANESİ",
+    "pharmacist": "MUHAMMED ZİYA AFİFİ",
+    "city": "KOCAELİ",
+    "district": "Başiskele",
+    "address": "Seymen Mahallesi, Hürriyet Caddesi No:84/B"
+  },
+  {
+    "name": "EDİŞ ECZANESİ",
+    "pharmacist": "CANSU EDİŞ",
+    "city": "SAKARYA",
+    "district": "Merkez",
+    "address": "Cumhuriyet Mahallesi, Şal Sokak No:11"
+  },
+  {
+    "name": "ŞEVVAL HASKÖYLÜ",
+    "pharmacist": "ŞEVVAL HASKÖYLÜ",
+    "city": "SAKARYA",
+    "district": "Serdivan",
+    "address": "Arabacıalanı Alanı Mahallesi, Mehmet Akif Ersoy Caddesi No:23/1-D"
+  },
+  {
+    "name": "İREM ECZANESİ",
+    "pharmacist": "İREM SARICI",
+    "city": "YALOVA",
+    "district": "Merkez",
+    "address": "Bağlarbaşı Mahallesi, Kınalı Sokak No:1/14"
+  },
+  {
+    "name": "ÖZER ECZANESİ",
+    "pharmacist": "ARZU ERDEMİR",
+    "city": "DENİZLİ",
+    "district": "Merkezefendi",
+    "address": "Bahçelievler Mahallesi, 3007 Sokak"
+  },
+  {
+    "name": "SENA KELLECİ  ECZANESİ",
+    "pharmacist": "SENA KELLECİ PAK",
+    "city": "DENİZLİ",
+    "district": "Merkezefendi",
+    "address": "29 Ekim Bulvarı No:23/B"
+  },
+  {
+    "name": "ASLI ECZANESİ",
+    "pharmacist": "ASLI BEK",
+    "city": "DENİZLİ",
+    "district": "Merkezefendi",
+    "address": "29 Ekim Bulvarı No:100/A"
+  },
+  {
+    "name": "IRMAK ECZANESİ",
+    "pharmacist": "ZEHRA IRMAK",
+    "city": "DENİZLİ",
+    "district": "Merkezefendi",
+    "address": "Yenişafak mahallesi 1009/1 sokak no5a"
+  },
+  {
+    "name": "AYDIN ECZANESİ",
+    "pharmacist": "SİYAMİ AYDIN",
+    "city": "KOCAELİ",
+    "district": "Derince",
+    "address": "Çenedağ Mahallesi, Denizciler Caddesi No:58/A"
+  },
+  {
+    "name": "EMEKEVLER ECZANESİ",
+    "pharmacist": "NİSANUR KÜT",
+    "city": "KOCAELİ",
+    "district": "Kartepe",
+    "address": "Emekevler Mahallesi, Banu Sokak No:26/A-B"
+  },
+  {
+    "name": "HACETTEPE ECZANESİ",
+    "pharmacist": "GİZEM LALECİ GÜMÜŞ",
+    "city": "KOCAELİ",
+    "district": "İzmit",
+    "address": "Alikahya Fatih Mahallesi, Seymen Caddesi No:34"
+  },
+  {
+    "name": "KILIÇARSLAN ECZANESİ",
+    "pharmacist": "EMİRHAN EMİN ÜNSAL",
+    "city": "BOLU",
+    "district": "Merkez",
+    "address": "Kılıçarslan Mahallesi, Rauf Denktaş Bulvarı No:16B/11"
+  },
+  {
+    "name": "KAYRA ECZANESİ",
+    "pharmacist": "NUR HATİCE BIYIK",
+    "city": "KOCAELİ",
+    "district": "Gölcük- Derğirmendere",
+    "address": "Atatürk Mahallesi, 3037.Sokak No:5/A"
+  },
+  {
+    "name": "SEVGİ ECZANESİ",
+    "pharmacist": "İLAYDA VATANSEVER",
+    "city": "İSTANBUL",
+    "district": "Tuzla",
+    "address": "Postane Mahallesi, İstasyon Caddesi No:5"
+  },
+  {
+    "name": "GÖKOĞLU ECZANESİ",
+    "pharmacist": "DURMUŞ ALİ GÖKOĞLU",
+    "city": "İSTANBUL",
+    "district": "Silivri",
+    "address": "VEGA AVM - Yeni Mah.General Ali İhsan Türkkan Cad.  no:7"
+  },
+  {
+    "name": "ORMANKÖY CADDE ECZANESİ",
+    "pharmacist": "ZEYNEP NİHAN SARIMEHMETOĞLU",
+    "city": "İSTANBUL",
+    "district": "Çekmeköy",
+    "address": "GÜNGÖREN MH. TOLGAHAN SK. NO:3 ORMANKÖY EVLERİ"
+  },
+  {
+    "name": "GÖKSU ECZANESİ",
+    "pharmacist": "AYŞE SENA GÖKSU",
+    "city": "İSTANBUL",
+    "district": "Kağıthane",
+    "address": "HÜRRİYET MH. ABİDE İ HÜRRİYET CD. HAK İŞ MERKEZİ NO:166 A"
+  },
+  {
+    "name": "ECE BAYRAM ECZANESİ",
+    "pharmacist": "ECE BAYRAM",
+    "city": "İSTANBUL",
+    "district": "Kadıköy- Feneryolu",
+    "address": "BAĞDAT CD. NO:71 A"
+  },
+  {
+    "name": "VENÜS ECZANESİ",
+    "pharmacist": "TUĞÇE KARAYEL",
+    "city": "İSTANBUL",
+    "district": "Kadıköy- Fenerbahçe",
+    "address": "BAĞDAT CD. NO:146 A"
+  },
+  {
+    "name": "ANKA ECZANESİ",
+    "pharmacist": "TUĞÇE AYIK",
+    "city": "İSTANBUL",
+    "district": "Acıbadem",
+    "address": "ACIBADEM CD. NO:76/A"
+  },
+  {
+    "name": "PRİME ECZANESİ",
+    "pharmacist": "FATMA ÖZDOĞAN",
+    "city": "İSTANBUL",
+    "district": "Ataşehir",
+    "address": "YENİSAHRA MH. KARAMAN CD. NO:1 /10"
+  },
+  {
+    "name": "KIRMIZI ECZANESİ",
+    "pharmacist": "FATMA VİLDAN KÜÇÜK MUSTAFA",
+    "city": "İSTANBUL",
+    "district": "Maltepe",
+    "address": "HİLLTOWN AVM, AYDINEVLER MH. SİTELER SK. NO:1/187"
+  },
+  {
+    "name": "HARBİYE ECZANESİ",
+    "pharmacist": "CEYSU BENDER",
+    "city": "İSTANBUL",
+    "district": "Şişli",
+    "address": "ERGENEKON MH. CUMHURİYET CD. NO:183 A"
+  },
+  {
+    "name": "ZEPLİN ECZANESİ",
+    "pharmacist": "BUĞRA DORUK ÖZEFE",
+    "city": "İSTANBUL",
+    "district": "Kadıköy-Osmanağa",
+    "address": "SERASKER CD. NO:122 B"
+  },
+  {
+    "name": "RENK ECZANESİ",
+    "pharmacist": "ELİF ÇAĞLA ERDOĞAN",
+    "city": "İSTANBUL",
+    "district": "Göztepe",
+    "address": "KARANFİL SK. NO:24 A"
+  },
+  {
+    "name": "MODA ECZANESİ",
+    "pharmacist": "İREM KUŞÇU",
+    "city": "İSTANBUL",
+    "district": "Moda",
+    "address": "CAFER AĞA MH. MODA CD. NO:81-83 B"
+  },
+  {
+    "name": "SUADİYE ECZANESİ",
+    "pharmacist": "GAMZE ÇINAR SÖNMEZ",
+    "city": "İSTANBUL",
+    "district": "Suadiye",
+    "address": "AYŞEÇAVUŞ CD. NO:7C"
+  },
+  {
+    "name": "BÜYÜK ÜSKÜDAR ECZANESİ",
+    "pharmacist": "KÜBRA KADAK",
+    "city": "İSTANBUL",
+    "district": "Üsküdar",
+    "address": "MİMAR SİNAN MH. SELAMİALİ CD. NO:5/1"
+  },
+  {
+    "name": "HİSTORİA ECZANESİ",
+    "pharmacist": "NESLİHAN YILDIZ",
+    "city": "İSTANBUL",
+    "district": "Fatih",
+    "address": "HİSTORİA AVM, AKŞEMSETTİN MH. ADNAN MENDERES VATAN BLV.  NO:2"
+  },
+  {
+    "name": "4.LEVENT METRO ECZANESİ",
+    "pharmacist": "MUHAMMED ÇELİK",
+    "city": "İSTANBUL",
+    "district": "Levent",
+    "address": "EMNİYET EVLERİ MH. LALAPAŞA SK. NO:9/B"
+  },
+  {
+    "name": "AYLİN ECZANESİ",
+    "pharmacist": "AYLİN MUTLU ŞENTÜRK",
+    "city": "İSTANBUL",
+    "district": "Pendik- Kurtköy",
+    "address": "YILDIRIM BEYAZIT CD. NO:101A"
+  },
+  {
+    "name": "MEYDAN AVM İST ECZANESİ",
+    "pharmacist": "ZEHRA NUR ÇINAROĞLU",
+    "city": "İSTANBUL",
+    "district": "Ümraniye",
+    "address": "MEYDAN İSTANBUL AVM, FATİH SULTAN MEHMET MH. BALKAN CD.  NO:62"
+  },
+  {
+    "name": "NAR AĞACI ECZANESİ",
+    "pharmacist": "BÜŞRA AKDENİZ",
+    "city": "İSTANBUL",
+    "district": "Göztepe",
+    "address": "FAHRETTİN KERİM GÖKAY CD. NO:68 A"
+  },
+  {
+    "name": "KARTAL PLUS ECZANESİ",
+    "pharmacist": "ADİL ACIR",
+    "city": "İSTANBUL",
+    "district": "Kartal",
+    "address": "ORTA MH. YALNIZ SELVİ CD. IZ TOWER REZİDANCE NO:21 A"
+  },
+  {
+    "name": "KOZYATAĞI ECZANESİ",
+    "pharmacist": "ZEYNEP B. ZAPTİYEOĞLU DEĞİRMENTEPE",
+    "city": "İSTANBUL",
+    "district": "Kozyatağı",
+    "address": "ŞEMSETTİN GÜNALTAY CD. NO:114 B"
+  },
+  {
+    "name": "MERKEZ HAYAT ECZANESİ",
+    "pharmacist": "LEYLA DURSUN",
+    "city": "İSTANBUL",
+    "district": "Sultanbeyli",
+    "address": "HASANPAŞA MH. FATİH BLV. F BLOK NO:33"
+  },
+  {
+    "name": "GECE ECZANESİ",
+    "pharmacist": "MEHMET ÖZLEMİŞ",
+    "city": "İSTANBUL",
+    "district": "Kozyatağı",
+    "address": "ŞEMSETTİN GÜNALTAY CD. NO:44 A"
+  },
+  {
+    "name": "MALTEPE MÜZEYYEN ECZANESİ",
+    "pharmacist": "MÜZEYYEN KORKMAZ",
+    "city": "İSTANBUL",
+    "district": "Maltepe",
+    "address": "ZÜMRÜTEVLER MH. GÜL CD. NO:18 B"
+  },
+  {
+    "name": "BOĞAZİÇİ ECZANESİ",
+    "pharmacist": "HİLAL KARDADENİZ",
+    "city": "İSTANBUL",
+    "district": "Erenköy",
+    "address": "GENERAL NECMİ ÖKTEN SK. NO:14 A"
+  },
+  {
+    "name": "DEDEM ECZANESİ",
+    "pharmacist": "FUNDA FİGEN BAL",
+    "city": "İSTANBUL",
+    "district": "Kadıköy",
+    "address": "ACIBADEM MH. ACIBADEM CD. NO:145 A"
+  },
+  {
+    "name": "ATAŞEHİR ELİT ECZANESİ",
+    "pharmacist": "PELİN HARTAMACI KATMER",
+    "city": "İSTANBUL",
+    "district": "Ataşehir",
+    "address": "KÜÇÜKBAKKALKÖY MH. DEMİR SK. B BLOK NO:3"
+  },
+  {
+    "name": "OPTİMUM PREMİUM ECZANESİ",
+    "pharmacist": "YILDIZ ALTINTAŞ",
+    "city": "İSTANBUL",
+    "district": "Ataşehir",
+    "address": "OPTİMUM OUTLET AVM, YENİSAHRA MH. ELİBOL SK.  NO:2"
+  },
+  {
+    "name": "MAVİ ECZANESİ",
+    "pharmacist": "YAREN ELMACI",
+    "city": "İSTANBUL",
+    "district": "Beiktaş- Gayrettepe",
+    "address": "GAYRETTEPE MH. FAHRİ GİZDEN SK. D BLOK PETEK SİTESİ NO:5"
+  },
+  {
+    "name": "GÜNCE ECZANESİ",
+    "pharmacist": "GÜNCE ALİMOĞLU ÇAĞLAR",
+    "city": "İSTANBUL",
+    "district": "Beşiktaş",
+    "address": "ORTAKÖY MH. AMBARLIDERE YOLU SK. NO:4 MİGROS"
+  },
+  {
+    "name": "CEREN ECZANESİ",
+    "pharmacist": "CEREN AKYÜZ",
+    "city": "İSTANBUL",
+    "district": "Beşiktaş",
+    "address": "BAŞAK SK. NO:4"
+  },
+  {
+    "name": "LEVENT BAL ECZANESİ",
+    "pharmacist": "LEVENT BAL",
+    "city": "İSTANBUL",
+    "district": "Levent",
+    "address": "MELTEM SK. İŞBANKASI KULELERİ NO:8/34"
+  },
+  {
+    "name": "KEREM ECZANESİ",
+    "pharmacist": "SELEN KARADAĞ",
+    "city": "İSTANBUL",
+    "district": "Şişli",
+    "address": "ABİDE İ HÜRRİYET CD. NO:134 B"
+  },
+  {
+    "name": "MASLAK 1453 ECZANESİ",
+    "pharmacist": "FERİŞTE HACISÜLEYMAN",
+    "city": "İSTANBUL",
+    "district": "Maslak",
+    "address": "TAŞONCASI SK. MASLAK 1453 C BLOK NO:1"
+  },
+  {
+    "name": "TARABYA ECZANESİ",
+    "pharmacist": "MERAL YALÇINKAYA",
+    "city": "İSTANBUL",
+    "district": "Tarabya",
+    "address": "SARDUNYA SK. NO:1"
+  },
+  {
+    "name": "ELİF ECZANESİ",
+    "pharmacist": "ELİFHAN KAPKIN",
+    "city": "İSTANBUL",
+    "district": "Rumeli Hisarüstü",
+    "address": "NİSBETİYA CD. NO:37/8"
+  },
+  {
+    "name": "ECZANE KANYON",
+    "pharmacist": "KAMBER ÇAL",
+    "city": "İSTANBUL",
+    "district": "Levent",
+    "address": "KANYON AVM, ESENTEPE MH. BÜYÜKDERE CD. NO:185/15"
+  },
+  {
+    "name": "SİBEL GÜLÜZADE ECZANESİ",
+    "pharmacist": "SİBEL GULUZADE",
+    "city": "İSTANBUL",
+    "district": "Şişli",
+    "address": "CUMHURİYET MH. HALASKARGAZİ CD. NO:87 D"
+  },
+  {
+    "name": "PELİN ECZANESİ",
+    "pharmacist": "PELİN ÇELİK",
+    "city": "İSTANBUL",
+    "district": "Şişli",
+    "address": "ABİDE İ HÜRRİYET CD. NO:149 B"
+  },
+  {
+    "name": "SİNEM GÖKDEMİR ECZ.",
+    "pharmacist": "SİNEM GÖKDEMİR",
+    "city": "İSTANBUL",
+    "district": "Şişli",
+    "address": "MEŞRUTİYET MH. HALASKARGAZİ CD. NO:92 C"
+  },
+  {
+    "name": "LEVENT ECZANESİ",
+    "pharmacist": "GÖKHAN LEVENT",
+    "city": "İSTANBUL",
+    "district": "Esentepe",
+    "address": "BÜYÜKDERE CD. NO:159 A"
+  },
+  {
+    "name": "ÇAYIRCIOĞLU ECZANESİ",
+    "pharmacist": "FEHİME ÇAYIRCIOĞLU",
+    "city": "İSTANBUL",
+    "district": "Beşiktaş",
+    "address": "TÜRKALİ MH. IHLAMURDERE CD. NO:118 B"
+  },
+  {
+    "name": "17 BURDA ECZANESİ",
+    "pharmacist": "CAN YAVAŞOĞLU",
+    "city": "ÇANAKKALE",
+    "district": "Merkez",
+    "address": ""
+  },
+  {
+    "name": "CADDE 39 ECZANESİ",
+    "pharmacist": "ÇAĞIL GÖKÇE TEKNELİ",
+    "city": "KIRKLARELİ",
+    "district": "Lüleburgaz",
+    "address": "Yeni Mah.İstasyon Cad. Malkoc Apt. No:27 /A"
+  },
+  {
+    "name": "EDA ECZANESİ",
+    "pharmacist": "FERDA DERVİŞOĞLU",
+    "city": "İSTANBUL",
+    "district": "Ataköy",
+    "address": "Ataköy 7-8-9-10 kısım mah. Çobançeşme E-5 Yan Yol Cad. Ataköy Towers A Blok No: 20 F daire 36"
+  },
+  {
+    "name": "EDA ECZANESİ",
+    "pharmacist": "EDA ARSLAN",
+    "city": "TEKİRDAĞ",
+    "district": "Çorlu",
+    "address": "Şeyhsinan Mah. Şehit Teğmen Yavuzer Cad. No: 18 A"
+  },
+  {
+    "name": "GİZEM BİRKAN ECZANESİ",
+    "pharmacist": "GİZEM AYŞE BİRKAN",
+    "city": "EDİRNE",
+    "district": "Merkez",
+    "address": "ERASTA AVM - Abdurrahman Mah. Atatürk bulvarı no:235"
+  },
+  {
+    "name": "HAN ECZANESİ",
+    "pharmacist": "GÜLŞAH KAYA",
+    "city": "İSTANBUL",
+    "district": "Başakşehir",
+    "address": "Bahçeşehir 1. Kısım Mah. Vali Recep Yazıcıoğlu Cad. Ticari  Daire :15"
+  },
+  {
+    "name": "LARUS ECZANESİ",
+    "pharmacist": "NESLİŞAH GÜNDOĞAN",
+    "city": "İSTANBUL",
+    "district": "Eyüpsultan- Göktürk",
+    "address": "Belediye Cad. Larus Loft No: 21 B"
+  },
+  {
+    "name": "SEZER ECZANESİ",
+    "pharmacist": "CANAN TONTU",
+    "city": "İSTANBUL",
+    "district": "Sarıyer",
+    "address": "Derbent Çamlıtepe Mah.Akgün Cad. no:10"
+  },
+  {
+    "name": "YEŞİM ECZANESİ",
+    "pharmacist": "YEŞİM İPÇİ SÖNMEZ",
+    "city": "İSTANBUL",
+    "district": "Esenyurt",
+    "address": "Marmarapark AVM - Mevlana Mah. Yıldırım Beyazıt Cad. no:20"
+  },
+  {
+    "name": "YILMAZ ECZANESİ",
+    "pharmacist": "SEDA SERİN",
+    "city": "TEKİRDAĞ",
+    "district": "Çerkezköy",
+    "address": "Gaziosmanpaşa Mah.Güveniş Cad. No:1 D"
+  },
+  {
+    "name": "TREND ARENA ECZANESİ",
+    "pharmacist": "GÖKÇE MELİS DAYIOĞLU ÖZDEĞER",
+    "city": "TEKİRDAĞ",
+    "district": "Çorlu",
+    "address": "59850, Alipasa, Salih Omurtak Cd. 15/5, 59860"
+  },
+  {
+    "name": "BAL ECZANESİ",
+    "pharmacist": "HANDE DURAN",
+    "city": "İSTANBUL",
+    "district": "Şişli",
+    "address": "Harbiye Mah. Abdi İpekçi Cad. Birlik Apt. No: 10 A"
+  },
+  {
+    "name": "BELGİN ECZANESİ",
+    "pharmacist": "BELGİN İPEKGİL",
+    "city": "TEKİRDAĞ",
+    "district": "Çerkezköy",
+    "address": "Gaziosmanpaşa Mah. Ergün Sok. Akbaba Apt. no:42"
+  },
+  {
+    "name": "ECZANE AYSUN",
+    "pharmacist": "AYSUN BÜKER ÇAKIR",
+    "city": "İSTANBUL",
+    "district": "Eyüpsultan",
+    "address": "Mithatpaşa Mah.Abdulhamit Han Cad. No: 135 A"
+  },
+  {
+    "name": "ZORLU CENTER ECZANESİ",
+    "pharmacist": "PINAR ARI ŞENTUĞ",
+    "city": "İSTANBUL",
+    "district": "Beşiktaş-Levent",
+    "address": "ZORLU CENTER - Levazım Mah. Koru Sok. No:2 Daire 139"
+  },
+  {
+    "name": "EGE ECZANESİ",
+    "pharmacist": "EGE SOLAK",
+    "city": "İSTANBUL",
+    "district": "Başakşehir",
+    "address": "Bahçeşehir 2. Kısım Mah. Esenkent Bahçeşehir yolu cad. No: 108"
+  },
+  {
+    "name": "İDİL ECZANESİ",
+    "pharmacist": "CAN TÜRESİN",
+    "city": "ÇANAKKALE",
+    "district": "Merkez",
+    "address": ""
+  },
+  {
+    "name": "AKBATI ECZANESİ",
+    "pharmacist": "HALE ELMAS SIĞIRCI",
+    "city": "İSTANBUL",
+    "district": "Esenyurt",
+    "address": "AKBATI AVM - Koza mah.1655 sk. no:6"
+  },
+  {
+    "name": "BALÇİÇEK  ECZANESİ",
+    "pharmacist": "BÜŞRA YAVAŞ DAĞLI",
+    "city": "İSTANBUL",
+    "district": "Halkalı",
+    "address": "Atakent Mah.243 Sok. no: a1 ( Mostar Atakent Site Altı)"
+  },
+  {
+    "name": "BEYAZ ECZANESİ",
+    "pharmacist": "BİANCA RUTH BAKİSTANLI",
+    "city": "İSTANBUL",
+    "district": "Bakırköy",
+    "address": "Zeytinlik Mah. Yakut Sok. Sinanoğlu Pasajı ve iş Hanı no: 28 / 1A"
+  },
+  {
+    "name": "BİLGE ECZANESİ",
+    "pharmacist": "BEHİYE BİLGE ŞEN",
+    "city": "İSTANBUL",
+    "district": "Fatih",
+    "address": "Molla Fenari Mah. Nur-u Osmaniye Atasaray işhanı no:23 A"
+  },
+  {
+    "name": "CANBAL ECZANESİ",
+    "pharmacist": "BÜŞRA CANBALOĞLU",
+    "city": "İSTANBUL",
+    "district": "Esenler",
+    "address": "Havaalanı Mah. Taşocağı Cad. no:27 Daire :1"
+  },
+  {
+    "name": "CAPACİTY ECZANESİ",
+    "pharmacist": "BURCU TANINMIŞ",
+    "city": "İSTANBUL",
+    "district": "Bakırköy",
+    "address": "Fişekhane Cad. Capacity Avm ZE 3 no:7"
+  },
+  {
+    "name": "ÇARE ECZANESİ",
+    "pharmacist": "KÜBRA KINACI",
+    "city": "İSTANBUL",
+    "district": "Bağcılar",
+    "address": "Demirkapı Mah. Maslak Cad. İnsa Metro Point no:6 8c"
+  },
+  {
+    "name": "ERTUNÇ YAMAN ECZANESİ",
+    "pharmacist": "ERTUNÇ YAMAN",
+    "city": "İSTANBUL",
+    "district": "Bağcılar",
+    "address": "Fatih Mah. Velioğlu Cad. no:72 A"
+  },
+  {
+    "name": "FİLİZ DOĞAN ECZANESİ",
+    "pharmacist": "FİLİZ DOĞAN ÜSTÜNDAĞ",
+    "city": "İSTANBUL",
+    "district": "Bahçelievler",
+    "address": "Soğanlı Mah. Cumhuriyet 1 Cad.no:4"
+  },
+  {
+    "name": "KARLIDAĞ ECZANESİ",
+    "pharmacist": "AYŞE KARLIDAĞ",
+    "city": "İSTANBUL",
+    "district": "Esenyurt",
+    "address": "Yeşilkent Mah.2011 sk. Fı tower no:16 daire:11"
+  },
+  {
+    "name": "MAYA ECZANESİ",
+    "pharmacist": "BELTİNGE SİRKE",
+    "city": "KIRKLARELİ",
+    "district": "Merkez",
+    "address": "Karakaş Mah. Şehit Komiser Yardımcısı Selim Sarıkaya Cad. Eray Apartmanı no:37 B"
+  },
+  {
+    "name": "NAZLI ECZANESİ",
+    "pharmacist": "NAZLICAN ÖZANKA BOZDAĞ",
+    "city": "İSTANBUL",
+    "district": "Beylikdüzü",
+    "address": "Adnan Kahveci Mah. Anadolu Cad. Dora Park2 No:17 /1"
+  },
+  {
+    "name": "TREND ARENA ECZANESİ",
+    "pharmacist": "GÖKÇE MELİS DAYIOĞLU ÖZDEĞER",
+    "city": "TEKİRDAĞ",
+    "district": "Çorlu",
+    "address": "Alipaşa Mah. Salih Omurtak Cad. Trend Arena Avm No:15"
+  },
+  {
+    "name": "YAKUPLU ECZANESİ",
+    "pharmacist": "ÖZGE KARA",
+    "city": "İSTANBUL",
+    "district": "Beylikdüzü",
+    "address": "Yakuplu mah.Hürriyet Blvr.Kudret apt.No:187 daire: C"
+  },
+  {
+    "name": "YAMAN ECZANESİ",
+    "pharmacist": "FATMA FİLİZ YAMAN",
+    "city": "İSTANBUL",
+    "district": "Bağcılar",
+    "address": "Kemalpaşa Mah. Hacıbektaş Veli Cad. Koru Apt.no :13 A"
+  },
+  {
+    "name": "YENİ YAMAN ECZANESİ",
+    "pharmacist": "YAĞIZ YAMAN",
+    "city": "İSTANBUL",
+    "district": "Bağcılar",
+    "address": "Kemalpaşa Mah. 1932 sk. No:11 A"
+  },
+  {
+    "name": "YEŞİL ECZANESİ",
+    "pharmacist": "SAFİYE ÖZDEMİR ÇEZİK",
+    "city": "İSTANBUL",
+    "district": "Avcılar",
+    "address": "Tahtakale Mah. Ziya Gökalp Cad. c2 Blok no:13"
+  },
+  {
+    "name": "EZGİ ECZANESİ",
+    "pharmacist": "EZGİ ERGÜN SOLAK",
+    "city": "İSTANBUL",
+    "district": "Küçükçekmece",
+    "address": "Gültepe Mah. 1012 Sk. Ve yaşam merkezi ist.aydın ünv kısyurdu no:4"
+  },
+  {
+    "name": "AZUR ECZANESİ",
+    "pharmacist": "ESRA ALPAT",
+    "city": "İSTANBUL",
+    "district": "Beylikdüzü",
+    "address": "Kavaklı Mah. Yeşilyurt Cad. No:59 A"
+  },
+  {
+    "name": "CADDEPARK ECZANESİ",
+    "pharmacist": "NURCAN ERKUL",
+    "city": "İSTANBUL",
+    "district": "Bayrampaşa",
+    "address": "Yıldırım Mah.Millet Cad. No:163 C"
+  },
+  {
+    "name": "CEMRE ECZANESİ",
+    "pharmacist": "CEMRENUR TOPAL",
+    "city": "MERSİN",
+    "district": "Erdemli",
+    "address": "Akdeniz Mah. Kazım Karabekir Cad. Atalay Konutları No: 57"
+  },
+  {
+    "name": "ÇINAR ECZANESİ",
+    "pharmacist": "ALPARSLAN KEREM KUŞÇU",
+    "city": "İSTANBUL",
+    "district": "Avcılar",
+    "address": "Tahtakale Mah. Fırat Cad. Toki Sitesi A ve B Blok no:2"
+  },
+  {
+    "name": "GÜRPINAR ECZANESİ",
+    "pharmacist": "BEYZA GÜRPINAR",
+    "city": "KIRKLARELİ",
+    "district": "Lüleburgaz",
+    "address": "Siteler Mah. Nazif Balkan Cad. no:31 D"
+  },
+  {
+    "name": "İSTİNYEPARK ECZANESİ",
+    "pharmacist": "AYŞEGÜL YILDIRIM",
+    "city": "İSTANBUL",
+    "district": "Sarıyer",
+    "address": "Pınar Mah.Katar Cad. No:11 Daire 158"
+  },
+  {
+    "name": "MELTEM TÜRKER ECZANESİ",
+    "pharmacist": "MELTEM TÜRKER ERGÜL",
+    "city": "ÇANAKKALE",
+    "district": "Merkez",
+    "address": "Hamidiye Mah. Rauf Denktaş Cad. Eyüboğlu Yaşam A Blok 16 nolu iş yeri No:20"
+  },
+  {
+    "name": "NEVİZADE ECZANESİ",
+    "pharmacist": "SEHER ÖZMEN",
+    "city": "İSTANBUL",
+    "district": "Beyoğlu",
+    "address": "Hüseyinağa Sahne sok. no:8 a"
+  },
+  {
+    "name": "NİHAN ERGÜL ECZANESİ",
+    "pharmacist": "NİHAN ERGÜL",
+    "city": "İSTANBUL",
+    "district": "Başakşehir",
+    "address": "Güvercintepe Mah. Fatih Cad. No:221 A"
+  },
+  {
+    "name": "ÖYKÜ ECZANESİ",
+    "pharmacist": "GÖZDE CANSUVAR",
+    "city": "GAZİANTEP",
+    "district": "Şahinbey",
+    "address": "Şahintepe Mah. 133386 nolu cad. Damla Apt. A Blok no: 12 AF"
+  },
+  {
+    "name": "GAMZE ECZANESİ",
+    "pharmacist": "GAMZE KAYA ULUHAN",
+    "city": "TEKİRDAĞ",
+    "district": "Süleymanpaşa",
+    "address": "Hürriyet Mah. Tepe başı Cad. no:27 A"
+  },
+  {
+    "name": "3.İSTANBUL ECZANESİ",
+    "pharmacist": "HANİFE AYLİN ALEMDAR",
+    "city": "İSTANBUL",
+    "district": "Başakşehir",
+    "address": "Gazi Mustafa Kemal Bulv.3.İstanbul Moda Evleri t2 Blok No: 7a"
+  },
+  {
+    "name": "ASMALI HAYAT ECZANESİ",
+    "pharmacist": "REYHAN ŞENEL",
+    "city": "İSTANBUL",
+    "district": "Beylikdüzü",
+    "address": "Marmara Mah. Yurt Cad. D2 N0:20 / 1 Daire : 28"
+  },
+  {
+    "name": "ÇİÇEKLİ ECZANESİ",
+    "pharmacist": "SEDA ÇİÇEKLİ İRTEM",
+    "city": "İZMİR",
+    "district": "Bornova",
+    "address": "Çınarlı Mah. Fatih Cad. No:1 / 23 F"
+  },
+  {
+    "name": "DEFNE DOĞA ECZANESİ",
+    "pharmacist": "HÜLYA GÜL",
+    "city": "İSTANBUL",
+    "district": "Bağcılar",
+    "address": "Güneşli Mah. 1306 sk. C Blok no :1 E"
+  },
+  {
+    "name": "DERYA ECZANESİ",
+    "pharmacist": "DERYA GÜL YILMAZ",
+    "city": "İSTANBUL",
+    "district": "Silivri",
+    "address": "Yeni Mah. Nedim Beyazgül Sk. No: 1 D"
+  },
+  {
+    "name": "FORMÜL ECZANESİ",
+    "pharmacist": "SABİHA SAGUN",
+    "city": "İSTANBUL",
+    "district": "Şişli",
+    "address": "Fulya Mah.Akıncı Bayırı sk. Cicihan no: 4 / A"
+  },
+  {
+    "name": "MARMARAFORUM ECZANESİ",
+    "pharmacist": "CEYLAN ÇELİK",
+    "city": "İSTANBUL",
+    "district": "Zeytinburnu",
+    "address": "Marmaraforum A Blok No:3 , Osmaniye Mah. Çobançeşme Koşuyolu blv."
+  },
+  {
+    "name": "MENEKŞE ECZANESİ",
+    "pharmacist": "KÜBRA KARA",
+    "city": "İSTANBUL",
+    "district": "Bayrampaşa",
+    "address": "Yenidoğan Mah. Numunebağı Cad. Lütuf no: 76 A"
+  },
+  {
+    "name": "NESLİHAN ELYÜREK ECZANESİ",
+    "pharmacist": "NESLİHAN BURAN",
+    "city": "İSTANBUL",
+    "district": "Bahçelievler",
+    "address": "Zafer Mah.Ahmet Yesevi cad.Kartal Kardeşler apt. no:195 A"
+  },
+  {
+    "name": "TUĞÇEM ECZANESİ",
+    "pharmacist": "FİLYET TUĞÇE IŞIK",
+    "city": "İSTANBUL",
+    "district": "Zeytinburnu",
+    "address": "Nuripaşa Mah. 58.Bulvar Cad. no:96 B"
+  },
+  {
+    "name": "TUNA ECZANESİ",
+    "pharmacist": "ABDULLAH TUNA",
+    "city": "TEKİRDAĞ",
+    "district": "Çorlu",
+    "address": "Hürriyet mah.Çamlıbel cad. no:29 / 1G"
+  },
+  {
+    "name": "YEDİ MAVİ ECZANESİ",
+    "pharmacist": "MELİS FATMA YILMAZTÜRK",
+    "city": "İSTANBUL",
+    "district": "Zeytinburnu",
+    "address": "Kazlıçeşme mah.Kennedy cad. No: 54"
+  },
+  {
+    "name": "ŞÜKRAN ECZANESİ",
+    "pharmacist": "ŞERİFE ŞÜKRAN ATALAY BAYIRLI",
+    "city": "ANTALYA",
+    "district": "Alanya",
+    "address": "Saray Mahallesi, Sugözü Caddesi No:41/C"
+  },
+  {
+    "name": "İNAN ECZANESİ",
+    "pharmacist": "ASLI İNAN",
+    "city": "İSTANBUL",
+    "district": "Bakırköy-Florya",
+    "address": "Basınköy, Florya Cd. No:21, 34153"
+  },
+  {
+    "name": "SÜLEYMANPAŞA ECZANESİ",
+    "pharmacist": "MEHMET SEZGİN ULUHAN",
+    "city": "TEKİRDAĞ",
+    "district": "Süleymanpaşa",
+    "address": "Namık Kemal Mah. Cemal Sk. K- Blok no:2 / 9 Daire Z4"
+  },
+  {
+    "name": "AKMERKEZ",
+    "pharmacist": "ADİLE ÖZDAĞ",
+    "city": "İSTANBUL",
+    "district": "Beşiktaş-Levent",
+    "address": "Kültür, Nisbetiye Cd No:56, 34430"
+  },
+  {
+    "name": "İLKE DAL DAL ECZANESİ",
+    "pharmacist": "İLKE HACIKERİMOĞLU DALDAL",
+    "city": "ANKARA",
+    "district": "Çankaya",
+    "address": "Mustafa Kemal, Dumlupınar Blv. No:274, 06510"
+  },
+  {
+    "name": "DAL DAL ECZANESİ",
+    "pharmacist": "SELİM DALDAL",
+    "city": "ANKARA",
+    "district": "Çankaya",
+    "address": "Mahallesi, İşçi Blokları, 1489. Cd. No:9, 06530"
+  },
+  {
+    "name": "KİTAPÇI ECZANESİ",
+    "pharmacist": "ELÇİM KİTAPÇI AĞDERE",
+    "city": "GİRESUN",
+    "district": "Merkez",
+    "address": "Şeyhkeramettin Mahallesi, Gazi Caddesi No:10"
+  },
+  {
+    "name": "EBRU ECZANESİ",
+    "pharmacist": "EBRU BAL",
+    "city": "TRABZON",
+    "district": "Ortahisar",
+    "address": "3 NOLU ERDOĞDU MAH. ZİRAAT SK. NO:5"
+  },
+  {
+    "name": "UZUN SOKAK ECZANESİ",
+    "pharmacist": "GİZEM BAYRAKTAR",
+    "city": "TRABZON",
+    "district": "Ortahisar",
+    "address": "Kemerkaya Mah. Uzun Sok. No:24c"
+  },
+  {
+    "name": "İNANIR ECZANESİ",
+    "pharmacist": "AYŞENUR KAREL",
+    "city": "TRABZON",
+    "district": "Ortahisar",
+    "address": "Kalkınma, Farabi Cd. No:39 iş merkezi NO:39/A, 61080"
+  },
+  {
+    "name": "TRABZON ECZANESİ",
+    "pharmacist": "MERVE ÇİÇEN",
+    "city": "TRABZON",
+    "district": "Merkez",
+    "address": "Yavuz Selim Blv. No:50Gazipaşa, 61030"
+  },
+  {
+    "name": "DOĞANER ECZANESİ",
+    "pharmacist": "GÜLÜZAR DOĞANER AYDIN",
+    "city": "AMASYA",
+    "district": "Merzifon",
+    "address": "BAHÇELIEVLER MAH. IBN-I SINA SOK. NO:3/B."
+  },
+  {
+    "name": "HEYKEL ECZANESİ",
+    "pharmacist": "GİZEM ÖZCAN",
+    "city": "ZONGULDAK",
+    "district": "Ereğli",
+    "address": "Sarıkokmaz, Şht. Er Kudret Özcan Sk. No:5 D:C, 67300"
+  },
+  {
+    "name": "MADEN ECZANESİ",
+    "pharmacist": "GONCA MADEN",
+    "city": "AMASYA",
+    "district": "Merkez",
+    "address": "Dere Mahallesi, Şeyh Zekeriya Sokak No:10/B"
+  },
+  {
+    "name": "ORGANİK ECZANESİ",
+    "pharmacist": "GÜLÇİN DOĞANŞEN",
+    "city": "ANKARA",
+    "district": "Çankaya",
+    "address": "Beytepe, Kanuni Sultan Süleyman Bulvarı, 5314 Cd., 06200"
+  },
+  {
+    "name": "TERAPİ ECZANESİ",
+    "pharmacist": "RUKİYE KAPLAN",
+    "city": "KAYSERİ",
+    "district": "Melikgazi",
+    "address": "VATAN CAD. NO:32/A"
+  }
+]

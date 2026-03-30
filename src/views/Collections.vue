@@ -2,12 +2,12 @@
 import { useRoute } from 'vue-router'
 import { ref, computed, onMounted, watch } from 'vue'
 import { fetchProducts } from '../services/productService.js'
-import { useCart } from '../composables/useCart.js'
 import { useFavorites } from '../composables/useFavorites.js'
 
 const route = useRoute()
-const { addToCart } = useCart()
 const { toggleFavorite, isFavorited } = useFavorites()
+
+const IKAS_STORE_URL = 'https://magaza.larosee.com.tr'
 
 const products = ref([])
 const loading = ref(true)
@@ -49,14 +49,6 @@ const filteredProducts = computed(() => {
   }
   return products.value.filter(p => p.category === collectionId)
 })
-
-const addedFeedback = ref(null)
-
-function handleAddToCart(product) {
-  addToCart(product)
-  addedFeedback.value = product.id
-  setTimeout(() => { addedFeedback.value = null }, 1500)
-}
 
 async function loadProducts() {
   loading.value = true
@@ -108,10 +100,7 @@ watch(() => route.params.id, () => {
           </div>
         </router-link>
         <div class="PCard-actions">
-          <button class="PCard-add-btn" :class="{ 'added': addedFeedback === product.id }" @click="handleAddToCart(product)">
-            <template v-if="addedFeedback === product.id">✓ Eklendi</template>
-            <template v-else>Sepete Ekle</template>
-          </button>
+          <a :href="IKAS_STORE_URL" target="_blank" rel="noopener" class="PCard-add-btn">Satın Al</a>
           <button
             class="PCard-fav-btn"
             :class="{ 'is-fav': isFavorited(product.id) }"
