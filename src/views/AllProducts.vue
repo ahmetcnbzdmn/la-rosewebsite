@@ -6,6 +6,7 @@ import { useFavorites } from '../composables/useFavorites.js'
 const { toggleFavorite, isFavorited } = useFavorites()
 
 const IKAS_STORE_URL = 'https://magaza.larosee.com.tr'
+
 const hoveredSlug = ref(null)
 const products = ref([])
 const loading = ref(true)
