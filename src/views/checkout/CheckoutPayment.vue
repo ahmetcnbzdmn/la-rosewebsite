@@ -147,7 +147,7 @@ async function submitOrder() {
             <!-- Iyzico'nun form içeriği burada oluşacak -->
             <div id="iyzipay-checkout-form" class="cp-iyzico-form-container">
               <div class="cp-iyzico-info">
-                <img src="https://www.iyzico.com/assets/images/iyzico-logo.svg" alt="iyzico" height="28" onerror="this.style.display='none'" />
+                <div style="font-size:20px; font-weight:900; letter-spacing:-0.5px; color:#0052cc; margin-bottom:8px;">iyzico</div>
                 <p>Güvenli ödeme <strong>iyzico</strong> altyapısı ile gerçekleştirilecektir.</p>
                 <p class="cp-iyzico-small">Kredi kartı, banka kartı ve taksit seçenekleri kullanılabilir.</p>
               </div>
