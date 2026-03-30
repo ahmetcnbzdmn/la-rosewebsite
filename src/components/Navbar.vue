@@ -4,6 +4,7 @@ import { useRoute, useRouter } from 'vue-router'
 import megaMenuData from '../assets/mega_menu_data.json'
 import { useAuth } from '../composables/useAuth.js'
 import { useFavorites } from '../composables/useFavorites.js'
+import { useCart } from '../composables/useCart.js'
 
 const route = useRoute()
 const router = useRouter()
@@ -13,6 +14,7 @@ const mobileMenuOpen = ref(false)
 const mobileExpandedMenu = ref(null)
 const { state: authState } = useAuth()
 const { totalCount: favCount } = useFavorites()
+const { openCart, totalCount } = useCart()
 
 
 
@@ -157,12 +159,13 @@ onUnmounted(() => {
             </router-link>
           </li>
           <li class="Nav-module__cart___U9yFl">
-            <a :href="IKAS_STORE_URL" target="_blank" rel="noopener" title="Mağaza" class="nav-icon-btn nav-icon-btn--relative cart-btn">
+            <button type="button" @click="openCart" title="Sepet" class="nav-icon-btn nav-icon-btn--relative cart-btn">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7.5 7.5C7.5 5.01472 9.51472 3 12 3C14.4853 3 16.5 5.01472 16.5 7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
                 <path d="M2.75 9.75H21.25L19.75 20.25H4.25L2.75 9.75Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
               </svg>
-            </a>
+              <span v-if="totalCount > 0" class="nav-badge">{{ totalCount }}</span>
+            </button>
           </li>
         </ul>
       </div>
