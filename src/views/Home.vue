@@ -12,7 +12,7 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 
 const { t } = useI18n()
-const IKAS_STORE_URL = 'https://magaza.larosee.com.tr'
+
 
 const newArrivalsList = ref([])
 const bestsellersList = ref([])

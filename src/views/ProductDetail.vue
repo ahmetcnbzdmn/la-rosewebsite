@@ -3,17 +3,28 @@ import { ref, computed, onMounted, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { fetchProductBySlug } from '../services/productService.js'
 import { useFavorites } from '../composables/useFavorites.js'
+import { useCart } from '../composables/useCart.js'
 
 const route = useRoute()
 const product = ref(null)
 const loading = ref(true)
 
+const quantity = ref(1)
+const isAdding = ref(false)
+const showSuccess = ref(false)
+
 const { toggleFavorite, isFavorited } = useFavorites()
+const { addToCart } = useCart()
 
-const IKAS_STORE_URL = 'https://magaza.larosee.com.tr'
-
-function goToIkas() {
-  window.open(IKAS_STORE_URL, '_blank')
+function handleAddToCart() {
+  if (isAdding.value || !product.value) return
+  isAdding.value = true
+  addToCart(product.value, quantity.value)
+  setTimeout(() => {
+    isAdding.value = false
+    showSuccess.value = true
+    setTimeout(() => { showSuccess.value = false }, 2000)
+  }, 400)
 }
 
 const categoryLabel = computed(() => {
@@ -108,11 +119,19 @@ onMounted(async () => {
             </button>
 
             <div class="ProductActions-module__root">
+              <div class="ProductActions-module__quantity">
+                <button @click="quantity > 1 && quantity--" :disabled="quantity <= 1" class="qty-btn" aria-label="Azalt">-</button>
+                <span class="qty-value">{{ quantity }}</span>
+                <button @click="quantity++" class="qty-btn" aria-label="Artır">+</button>
+              </div>
               <button
-                @click="goToIkas"
+                @click="handleAddToCart"
                 class="ProductActions-module__add-btn"
+                :class="{ 'is-adding': isAdding, 'is-success': showSuccess }"
               >
-                Satın Al
+                <span v-if="!isAdding && !showSuccess">Sepete Ekle</span>
+                <span v-else-if="isAdding" class="loader"></span>
+                <span v-else-if="showSuccess" class="success-text">✓ Eklendi</span>
               </button>
             </div>
 

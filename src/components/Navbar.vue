@@ -14,7 +14,7 @@ const mobileExpandedMenu = ref(null)
 const { state: authState } = useAuth()
 const { totalCount: favCount } = useFavorites()
 
-const IKAS_STORE_URL = 'https://magaza.larosee.com.tr'
+
 
 watch(route, () => {
   hoveredMenu.value = null

@@ -3,7 +3,7 @@ import { useFavorites } from '../composables/useFavorites.js'
 
 const { favorites, removeFavorite } = useFavorites()
 
-const IKAS_STORE_URL = 'https://magaza.larosee.com.tr'
+
 </script>
 
 <template>

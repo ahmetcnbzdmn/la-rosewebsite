@@ -7,7 +7,7 @@ import { useFavorites } from '../composables/useFavorites.js'
 const route = useRoute()
 const { toggleFavorite, isFavorited } = useFavorites()
 
-const IKAS_STORE_URL = 'https://magaza.larosee.com.tr'
+
 
 const products = ref([])
 const loading = ref(true)
