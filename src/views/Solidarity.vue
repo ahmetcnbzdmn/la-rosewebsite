@@ -249,12 +249,12 @@ onMounted(() => {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #00B18B;
+  background-color: #00B1EB;
   transition: width 0.4s;
 }
 
 .nav-item.active, .nav-item:hover {
-  color: #00B18B;
+  color: #00B1EB;
 }
 
 .nav-item.active::after {
@@ -303,7 +303,7 @@ onMounted(() => {
 .section-title em {
   font-family: serif;
   font-style: italic;
-  color: #00B18B;
+  color: #00B1EB;
 }
 
 .section-text p {
@@ -328,7 +328,7 @@ onMounted(() => {
 .stat-value {
   font-size: 3rem;
   font-weight: 300;
-  color: #00B18B;
+  color: #00B1EB;
   font-family: serif;
   font-style: italic;
   margin-bottom: 0.5rem;
@@ -366,7 +366,7 @@ onMounted(() => {
 }
 
 .quote-content em {
-  color: #00B18B;
+  color: #00B1EB;
 }
 
 /* Values Header */

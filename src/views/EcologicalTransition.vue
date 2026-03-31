@@ -224,7 +224,7 @@ onMounted(() => {
 }
 
 .nav-item.active, .nav-item:hover {
-  color: #00B18B; /* Specialized Green for Ecological Transition */
+  color: #00B1EB; /* Specialized Green for Ecological Transition */
 }
 
 /* Container & Sections */
@@ -269,7 +269,7 @@ onMounted(() => {
 .section-title em {
   font-family: serif;
   font-style: italic;
-  color: #00B18B;
+  color: #00B1EB;
 }
 
 .section-text p {
@@ -302,7 +302,7 @@ onMounted(() => {
 }
 
 .quote-content em {
-  color: #00B18B;
+  color: #00B1EB;
 }
 
 /* Values Grid */

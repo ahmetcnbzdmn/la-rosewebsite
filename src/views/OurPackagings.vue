@@ -221,7 +221,7 @@ onMounted(() => {
 }
 
 .nav-item.active, .nav-item:hover {
-  color: #00B18B; /* Eco green */
+  color: #00B1EB; /* Eco green */
 }
 
 /* Container & Sections */
@@ -266,7 +266,7 @@ onMounted(() => {
 .section-title em {
   font-family: serif;
   font-style: italic;
-  color: #00B18B;
+  color: #00B1EB;
 }
 
 .section-text p {
@@ -291,7 +291,7 @@ onMounted(() => {
 .stat-value {
   font-size: 2.5rem;
   font-weight: 300;
-  color: #00B18B;
+  color: #00B1EB;
   font-family: serif;
   font-style: italic;
 }
@@ -328,7 +328,7 @@ onMounted(() => {
 }
 
 .quote-content em {
-  color: #00B18B;
+  color: #00B1EB;
 }
 
 /* Values Grid */
