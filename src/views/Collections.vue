@@ -6,6 +6,8 @@ import { useFavorites } from '../composables/useFavorites.js'
 
 const route = useRoute()
 const { toggleFavorite, isFavorited } = useFavorites()
+import { useCart } from '../composables/useCart.js'
+const { addToCart } = useCart()
 
 
 
@@ -100,7 +102,7 @@ watch(() => route.params.id, () => {
           </div>
         </router-link>
         <div class="PCard-actions">
-          <a :href="IKAS_STORE_URL" target="_blank" rel="noopener" class="PCard-add-btn">Satın Al</a>
+          <button class="PCard-add-btn" @click.prevent="addToCart(product)">Satın Al</button>
           <button
             class="PCard-fav-btn"
             :class="{ 'is-fav': isFavorited(product.id) }"

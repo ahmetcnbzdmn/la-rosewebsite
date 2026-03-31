@@ -2,8 +2,10 @@
 import { ref, computed, onMounted } from 'vue'
 import { fetchProducts } from '../services/productService.js'
 import { useFavorites } from '../composables/useFavorites.js'
+import { useCart } from '../composables/useCart.js'
 
 const { toggleFavorite, isFavorited } = useFavorites()
+const { addToCart } = useCart()
 
 
 
@@ -95,7 +97,7 @@ onMounted(async () => {
             </div>
           </router-link>
           <div class="ProductCard-module__actions">
-            <a :href="IKAS_STORE_URL" target="_blank" rel="noopener" class="ProductCard-module__add-btn">Satın Al</a>
+            <button class="ProductCard-module__add-btn" @click.prevent="addToCart(product)">Satın Al</button>
             <button
               class="ProductCard-module__fav-btn"
               :class="{ 'is-favorited': isFavorited(product.id) }"

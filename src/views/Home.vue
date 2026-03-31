@@ -12,6 +12,8 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 
 const { t } = useI18n()
+import { useCart } from '../composables/useCart.js'
+const { addToCart } = useCart()
 
 
 const newArrivalsList = ref([])
@@ -176,7 +178,7 @@ const closeModal = () => {
                 <p v-if="product.price" class="ProductCard-module__price">₺{{ Number(product.price).toLocaleString('tr-TR', { minimumFractionDigits: 2 }) }}</p>
               </div>
             </router-link>
-            <a :href="IKAS_STORE_URL" target="_blank" rel="noopener" class="ProductCard-module__add-btn">Satın Al</a>
+            <button class="ProductCard-module__add-btn" @click.prevent="addToCart(product)">Satın Al</button>
           </div>
         </div>
       </div>
@@ -228,7 +230,7 @@ const closeModal = () => {
                 <p v-if="product.price" class="ProductCard-module__price">₺{{ Number(product.price).toLocaleString('tr-TR', { minimumFractionDigits: 2 }) }}</p>
               </div>
             </router-link>
-            <a :href="IKAS_STORE_URL" target="_blank" rel="noopener" class="ProductCard-module__add-btn">Satın Al</a>
+            <button class="ProductCard-module__add-btn" @click.prevent="addToCart(product)">Satın Al</button>
           </div>
         </div>
       </div>

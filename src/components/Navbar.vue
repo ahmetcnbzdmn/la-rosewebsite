@@ -560,6 +560,9 @@ onUnmounted(() => {
   cursor: pointer;
   padding: 4px;
   border-radius: 4px;
+  position: relative;
+  z-index: 9999 !important;
+  pointer-events: auto !important;
 }
 
 .hamburger-line {
@@ -767,6 +770,8 @@ onUnmounted(() => {
   .Nav-module__left___lyd7T {
     display: flex;
     align-items: center;
+    position: relative;
+    z-index: 100;
   }
 
   /* Logo küçült */
