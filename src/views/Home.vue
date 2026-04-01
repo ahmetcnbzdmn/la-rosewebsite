@@ -765,7 +765,7 @@ const closeModal = () => {
 
 @media (max-width: 768px) {
     .hero-slide-img {
-        object-position: center top;
+        object-position: left top;
     }
 
     .Hero-module__media___h24l9::after {
