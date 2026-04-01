@@ -324,9 +324,9 @@ const closeModal = () => {
 }
 
 .SpotlightCollections-module__text em {
-    font-family: var(--font-family-cursive);
-    font-style: normal;
-    font-weight: 600;
+    font-family: serif;
+    font-style: italic;
+    font-weight: 400;
     color: #00B1EB;
 }
 
