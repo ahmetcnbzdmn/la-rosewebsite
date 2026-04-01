@@ -92,7 +92,10 @@ const closeModal = () => {
     <div class="swiper-slide">
       <div class="Hero-module__root___x7nJW">
         <div class="Hero-module__media___h24l9">
-          <img src="../assets/hero-1.jpg" alt="La Rosée Hero 1" class="hero-slide-img">
+          <picture>
+            <source media="(max-width: 768px)" srcset="../assets/hero-1-mobile.jpg">
+            <img src="../assets/hero-1.jpg" alt="La Rosée Hero 1" class="hero-slide-img">
+          </picture>
         </div>
         <div class="Hero-module__content___6hUpl">
           <div class="Hero-module__pause-zone___m9W13">
@@ -107,7 +110,10 @@ const closeModal = () => {
     <div class="swiper-slide">
       <div class="Hero-module__root___x7nJW">
         <div class="Hero-module__media___h24l9">
-          <img src="../assets/hero-2.jpg" alt="La Rosée Hero 2" class="hero-slide-img">
+          <picture>
+            <source media="(max-width: 768px)" srcset="../assets/hero-2-mobile.jpg">
+            <img src="../assets/hero-2.jpg" alt="La Rosée Hero 2" class="hero-slide-img">
+          </picture>
         </div>
         <div class="Hero-module__content___6hUpl">
           <div class="Hero-module__pause-zone___m9W13">
@@ -122,7 +128,10 @@ const closeModal = () => {
     <div class="swiper-slide">
       <div class="Hero-module__root___x7nJW">
         <div class="Hero-module__media___h24l9">
-          <img src="../assets/hero-3.jpg" alt="La Rosée Hero 3" class="hero-slide-img">
+          <picture>
+            <source media="(max-width: 768px)" srcset="../assets/hero-3-mobile.jpg">
+            <img src="../assets/hero-3.jpg" alt="La Rosée Hero 3" class="hero-slide-img">
+          </picture>
         </div>
         <div class="Hero-module__content___6hUpl">
           <div class="Hero-module__pause-zone___m9W13">
@@ -137,7 +146,10 @@ const closeModal = () => {
     <div class="swiper-slide">
       <div class="Hero-module__root___x7nJW">
         <div class="Hero-module__media___h24l9">
-          <img src="../assets/hero-4.jpg" alt="La Rosée Hero 4" class="hero-slide-img">
+          <picture>
+            <source media="(max-width: 768px)" srcset="../assets/hero-4-mobile.jpg">
+            <img src="../assets/hero-4.jpg" alt="La Rosée Hero 4" class="hero-slide-img">
+          </picture>
         </div>
         <div class="Hero-module__content___6hUpl">
           <div class="Hero-module__pause-zone___m9W13">
