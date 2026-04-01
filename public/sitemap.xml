@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Ana Sayfalar -->
   <url><loc>https://larosee.com.tr/</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://larosee.com.tr/collections/tum-urunler</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://larosee.com.tr/collections/yuz-bakimi</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
@@ -8,6 +9,7 @@
   <url><loc>https://larosee.com.tr/collections/gunes-bakimi</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://larosee.com.tr/collections/bebek-bakimi</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://larosee.com.tr/collections/makyaj-bakim</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
+  <!-- Kurumsal -->
   <url><loc>https://larosee.com.tr/hikayemiz</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://larosee.com.tr/ekolojik-donusum</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://larosee.com.tr/formullerimiz</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
@@ -19,4 +21,51 @@
   <url><loc>https://larosee.com.tr/iletisim</loc><priority>0.5</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://larosee.com.tr/gizlilik-politikasi</loc><priority>0.4</priority><changefreq>yearly</changefreq></url>
   <url><loc>https://larosee.com.tr/kullanim-sartlari</loc><priority>0.4</priority><changefreq>yearly</changefreq></url>
+  <!-- Ürün Sayfaları -->
+  <url><loc>https://larosee.com.tr/products/moisturizing-cream-organic-shea-butter</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/moisturizing-cream-gel-organic-cucumber</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/plumping-face-serum-5-organic-vegetal-oils</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/radiance-concentrate-organic-carrot-and-apricot</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/hydrating-face-serum-hyaluronic-acid</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/purifying-anti-blemish-serum-zinc-and-organic-fruit-acide</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/refillable-anti-blemish-tinted-concealer-stick</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/anti-blemish-tinted-concealer-stick-refill</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/sivilce-karsiti-yuz-temizleme-jeli-yedegi</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/sivilce-karsiti-yuz-temizleme-jel-sisesi</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/anti-fatigue-eye-contour-organic-aloe-vera</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/ultra-yumusak-organik-cicek-solusyonlu-makyaj-temizleyici-misel-jel</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/organik-papatya-cicekli-nemlendirici-tonik-losyon</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/organik-aloe-verali-yumusak-yuz-peelingi</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/beyaz-kil-iceren-3u-1-arada-yenileyici-stik-maske</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/organik-tatl%C4%B1-badem-ya%C4%9F%C4%B1-%C4%B0%C3%A7eren-besleyici-stick-maske</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/organik-kiraz-%C3%A7ekirdek-ya%C4%9F%C4%B1-i%C3%A7eren-y%C3%BCz-temizleme-balsam%C4%B1</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/organik-aycicek-cekirdegi-yagli-temizleyici-dus-yagi</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/organik-aycicek-cekirdegi-yagli-temizleyici-dus-yagi-yedegi</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/organik-shea-ya%C4%9Fl%C4%B1-ultra-hafif-ekstra-zengin-sabun</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/organik-shea-yagli-nemlendirici-vucut-kremi</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/organik-shea-ya%C4%9Fl%C4%B1-nemlendirici-v%C3%BCcut-kremi</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/bitkisel-ya%C4%9Flar-ve-bal-mumlu-SOS-onar%C4%B1c%C4%B1-balm%C4%B1</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/organik-bitkisel-yagli-besleyici-bakim-yagi</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/organik-%C5%9Fifall%C4%B1-bitkili-ultra-onar%C4%B1c%C4%B1-el-kremi</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/organik-shea-yagi-iceren-besleyici-dudak-stik-balmi</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/organik-shea-yagi-iceren-besleyici-dudak-stik-balmi-yedegi</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/organik-shea-yagli-besleyici-renkli-dudak-balmi</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/organik-shea-yagi-iceren-besleyici-renkli-dudak-stik-balmi-yedegi</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/organik-nane-aromal%C4%B1-di%C5%9F-macunu</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/probiyotikli-ferahlatici-deodorant</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/probiyotikli-ferahlat%C4%B1c%C4%B1-deodorant-YEDE%C4%9E%C4%B0</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/organik-kay%C4%B1s%C4%B1-ya%C4%9Fl%C4%B1-SPF-30-y%C3%BCksek-korumall%C4%B1-g%C3%BCne%C5%9F-koruyucu-s%C3%BCt</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/organik-kay%C4%B1s%C4%B1-ya%C4%9F-i%C3%A7eren-SPF-30-y%C3%BCksek-krumal%C4%B1-g%C3%BCne%C5%9F-koruyucu-ya%C4%9F%C4%B1</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/organik-kayisi-yagli-spf-50-cok-yuksek-koruma-saglayan-gunes-koruyucu-sut</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/organik-kayisi-yagli-spf-50-yuksek-korumali-gunes-koruyucu-yagi</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/organik-kay%C4%B1s%C4%B1-ya%C4%9Fl%C4%B1-y%C3%BCksek-korumall%C4%B1-g%C3%BCne%C5%9F-koruyucu-stick</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/organik-kay%C4%B1s%C4%B1-ya%C4%9Fl%C4%B1-SPF-50%2B-%C3%A7ok-y%C3%BCksek-korumall%C4%B1-%C3%A7o%C3%A7uk-g%C3%BCne%C5%9F-koruyucu-s%C3%BCt</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/MPLR-organik-bitkisel-gliserin-i%C3%A7eren-ultra-hassas-y%C4%B1kama-jeli</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/MPLR-bio-bitkisel-gliserin-i%C3%A7eren-ultra-hassas-temizleme-jeli</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/MPLR-rahatlay%C4%B1c%C4%B1-s%C4%B1v%C4%B1-merhem-s%C4%B1zma-zeytinya%C4%9F%C4%B1</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/mplr-organik-aloe-verali-temizleme-suyu</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/MPLR-organik-tatl%C4%B1-badem-ya%C4%9Fl%C4%B1-temizleme-s%C3%BCt%C3%BC</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/MPLR-Organik-Shea-Ya%C4%9F%C4%B1-ve-Aloe-Veral%C4%B1-Nemlendirici-Krem</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/mpkr-bitkisel-yaglar-ve-bal-mumlu-sos-onarici-balsam</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://larosee.com.tr/products/mplr-organik-cilekli-dis-macunu</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
 </urlset>
