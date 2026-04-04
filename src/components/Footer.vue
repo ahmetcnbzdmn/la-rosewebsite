@@ -33,7 +33,7 @@ function toggleSection(name) {
       <div v-show="openSection === 'brand'" :data-state="openSection === 'brand' ? 'open' : 'closed'" role="region" data-orientation="vertical" class="AccordionContent-module__root___EyqbN Footer-module__accordion-content___u-B8D" data-size="xl">
         <ul>
           <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/hikayemiz">Hikayemiz</router-link></li>
-          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/pharmacy-locator">Eczanelerimiz</router-link></li>
+          <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/eczanelerimiz">Eczanelerimiz</router-link></li>
           <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/engagements">Taahhütlerimiz</router-link></li>
           <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/nemlendirme-uzmanligimiz">Uzmanlık</router-link></li>
           <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/gunes-bakimi">Güneş Bakımı</router-link></li>
@@ -73,7 +73,7 @@ function toggleSection(name) {
       <h2>La Rosée</h2>
       <ul>
         <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/hikayemiz">Hikayemiz</router-link></li>
-        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/pharmacy-locator">Eczanelerimiz</router-link></li>
+        <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/eczanelerimiz">Eczanelerimiz</router-link></li>
         <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/engagements">Taahhütlerimiz</router-link></li>
         <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/nemlendirme-uzmanligimiz">Uzmanlık</router-link></li>
         <li><router-link data-variant="underline-reverse" class="Link-module__root___YqUoP" to="/gunes-bakimi">Güneş Bakımı</router-link></li>

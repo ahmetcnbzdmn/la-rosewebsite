@@ -278,19 +278,39 @@ onUnmounted(() => {
   gap: 0.5rem;
   height: 100%;
   padding: 1rem;
-  color: currentColor;
+  color: #222 !important; /* Force dark color */
   text-decoration: none;
   font-size: 0.875rem;
   font-weight: 600;
+  background-color: #fff;
   border: 1.5px solid #e0e0e0;
   border-radius: 0.25rem;
-  transition: border-color 0.2s, color 0.2s;
+  transition: border-color 0.2s, opacity 0.2s;
   aspect-ratio: 1;
 }
 
-.all-products-nav-link:hover {
-  border-color: currentColor;
-  opacity: 0.8;
+.all-products-nav-link:hover,
+.all-products-nav-link.router-link-active {
+  border-color: #222;
+  opacity: 1;
+  color: #222 !important;
+}
+
+/* Header & Nav Base Styles */
+.Header-module__root___vvIxr {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: white;
+  transition: background-color 0.3s ease, border-bottom 0.3s ease;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.Header-module__root___vvIxr[data-transparent="true"] {
+  background-color: transparent;
+  border-bottom-color: transparent;
 }
 
 .language-switcher {
@@ -318,6 +338,51 @@ onUnmounted(() => {
 /* Make nav root a containing block for fixed dropdowns */
 .Nav-module__root___hd7MQ {
   transform: translate(0, 0);
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  max-width: 1856px;
+  margin: 0 auto;
+  padding: 0 40px;
+  height: 80px;
+}
+
+.Nav-module__left___lyd7T {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.Nav-module__logo___P-xBR {
+  display: flex;
+  justify-content: center;
+}
+
+.Nav-module__right___X60Qa {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.Nav-module__link___I1Rij {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #3f3f3f;
+  text-transform: uppercase;
+  transition: color 0.2s;
+  padding: 10px 15px;
+}
+
+[data-transparent="true"] .Nav-module__link___I1Rij {
+  color: white;
+}
+
+.Nav-module__nav-menu-list___J1xZQ {
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 
 .nav-icon-btn--relative {

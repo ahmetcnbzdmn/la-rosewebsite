@@ -18,7 +18,6 @@ const categories = [
   { label: 'Tüm Ürünler', filter: null },
   { label: 'Yüz Bakımı', filter: 'yuz-bakimi' },
   { label: 'Vücut Bakımı', filter: 'vucut-bakimi' },
-  { label: 'Makyaj & Bakım', filter: 'makyaj-bakim' },
   { label: 'Bebek Bakımı', filter: 'bebek-bakimi' },
   { label: 'Güneş Bakımı', filter: 'gunes-bakimi' },
   { label: 'Rutinler', filter: 'rutinler' },

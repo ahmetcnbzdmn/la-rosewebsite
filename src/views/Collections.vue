@@ -22,8 +22,6 @@ const collectionNames = {
   'yuz-bakimi': 'Yüz Bakımı',
   'soins-corps': 'Vücut Bakımı',
   'vucut-bakimi': 'Vücut Bakımı',
-  'soins-maquillages': 'Makyaj & Bakım',
-  'makyaj-bakim': 'Makyaj & Bakım',
   'soins-bebe': 'Bebek Bakımı',
   'bebek-bakimi': 'Bebek Bakımı',
   'solaires': 'Güneş Bakımı',

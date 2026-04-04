@@ -32,7 +32,7 @@
         <!-- Section 1: Natural Origin -->
         <section class="story-section staggered">
           <div class="section-image animate-on-scroll left">
-            <img src="https://a.storyblok.com/f/196368/2000x2000/1b44626fae/visuels-categorie-page-impact-1-1.jpg" alt="Doğal Kaynaklı Formüller">
+            <img src="https://a.storyblok.com/f/196368/2000x2000/aab480cdc3/visuels-categorie-page-impact-2-1.jpg" alt="Doğal Kaynaklı Formüller">
           </div>
           <div class="section-text animate-on-scroll right">
             <h2 class="section-title">En <em>saf</em> haliyle doğa.</h2>
@@ -60,7 +60,7 @@
             </ul>
           </div>
           <div class="section-image animate-on-scroll right">
-            <img src="https://a.storyblok.com/f/196368/2000x2000/00a5f0a3cf/visuels-categorie-page-impact-3-1.jpg" alt="Temiz İçerik">
+            <img src="https://a.storyblok.com/f/196368/2000x2000/aab480cdc3/visuels-categorie-page-impact-2-1.jpg" alt="Temiz İçerik">
           </div>
         </section>
 

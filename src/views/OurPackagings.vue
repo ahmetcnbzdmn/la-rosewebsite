@@ -4,7 +4,7 @@
       <!-- Immersive Hero Section -->
       <section class="story-hero">
         <div class="hero-bg">
-          <img src="https://a.storyblok.com/f/196368/2000x2000/aab480cdc3/visuels-categorie-page-impact-2-1.jpg" alt="Ambalajlarımız Hero" class="hero-img">
+          <img src="/images/ambalaj.jpeg" alt="Ambalajlarımız Hero" class="hero-img">
           <div class="hero-overlay"></div>
         </div>
         <div class="hero-content">

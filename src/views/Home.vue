@@ -112,7 +112,7 @@ const closeModal = () => {
         <div class="Hero-module__media___h24l9">
           <picture>
             <source media="(max-width: 768px)" srcset="../assets/hero-2-mobile.jpg">
-            <img src="../assets/hero-2.jpg" alt="La Rosée Hero 2" class="hero-slide-img">
+            <img src="../assets/hero2.jpg" alt="La Rosée Hero 2" class="hero-slide-img">
           </picture>
         </div>
         <div class="Hero-module__content___6hUpl">
@@ -587,9 +587,10 @@ const closeModal = () => {
 }
 
 .HomeShoppables-module__heading em {
-    font-family: var(--font-family-cursive);
-    font-style: normal;
-    font-weight: 600;
+    font-family: serif;
+    font-style: italic;
+    font-weight: 400;
+    color: #00B1EB;
 }
 
 .HomeShoppables-module__carousel {
@@ -777,7 +778,14 @@ const closeModal = () => {
 
 @media (max-width: 768px) {
     .hero-slide-img {
-        object-position: left top;
+        object-fit: cover;
+        object-position: center center;
+    }
+
+    /* Hero yüksekliğini mobil fotoğraf oranına göre ayarla (750x950) */
+    .HomeHeader-module__root___NRDQF,
+    .Hero-module__root___x7nJW {
+        height: calc(100vw * 950 / 750) !important;
     }
 
     .Hero-module__media___h24l9::after {
@@ -791,12 +799,12 @@ const closeModal = () => {
     justify-content: flex-start !important;
     align-items: flex-end !important;
     padding-left: 80px !important;
-    padding-bottom: 70px !important;
+    padding-bottom: 280px !important;
     text-align: left !important;
 }
 
 .Hero-module__pause-zone___m9W13 {
-    max-width: 600px !important;
+    max-width: none !important;
     display: flex !important;
     flex-direction: column !important;
     align-items: flex-start !important;
@@ -809,6 +817,7 @@ const closeModal = () => {
     font-size: 52px !important;
     color: white !important;
     text-shadow: 0 2px 20px rgba(0,0,0,0.5), 0 4px 40px rgba(0,0,0,0.3) !important;
+    white-space: nowrap !important;
 }
 
 .Hero-module__link___QJaJI {
@@ -873,6 +882,10 @@ const closeModal = () => {
 
     .Hero-module__pause-zone___m9W13 {
         max-width: 100% !important;
+    }
+
+    .Hero-module__title___ak74S {
+        white-space: normal !important;
     }
 
     .Hero-module__title___ak74S {

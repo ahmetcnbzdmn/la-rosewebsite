@@ -4,7 +4,7 @@
       <!-- Immersive Hero Section -->
       <section class="story-hero">
         <div class="hero-bg">
-          <img :src="'/images/deodorant-hero.jpg'" alt="Fransız eczanelerinin en çok satan deodorantı" class="hero-img">
+          <img :src="'/images/eko1.jpeg'" alt="Fransız eczanelerinin en çok satan deodorantı" class="hero-img">
           <div class="hero-overlay"></div>
         </div>
         <div class="hero-content">
@@ -346,8 +346,16 @@ onMounted(() => {
 }
 
 .value-card img {
-  width: 70px;
-  margin-bottom: 2rem;
+  width: 280px;
+  height: 280px;
+  object-fit: contain;
+  margin: 0 auto 2.5rem;
+  display: block;
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.value-card:hover img {
+  transform: scale(1.1) rotate(2deg);
 }
 
 .value-card h3 {
@@ -503,12 +511,27 @@ onMounted(() => {
   }
   .values-grid {
     grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .value-card {
+    padding: 2rem 1.5rem;
+  }
+  .value-card img {
+    width: 200px;
+    height: 200px;
   }
   .hero-title {
     font-size: 2.2rem;
   }
   .section-title {
     font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .value-card img {
+    width: 160px;
+    height: 160px;
   }
 }
 </style>

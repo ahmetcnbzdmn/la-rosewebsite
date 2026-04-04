@@ -290,7 +290,7 @@ onMounted(() => {
   font-family: serif;
   font-style: italic;
   font-weight: 400;
-  color: #00B18B;
+  color: #00B1EB;
 }
 
 .hero-intro {
@@ -316,8 +316,8 @@ onMounted(() => {
 }
 
 .jump-link:hover {
-  color: #00B18B;
-  border-color: #00B18B;
+  color: #00B1EB;
+  border-color: #00B1EB;
 }
 
 /* Sub-nav */
@@ -403,7 +403,7 @@ onMounted(() => {
 
 .stats-inline strong {
   font-size: 1.5rem;
-  color: #00B18B;
+  color: #00B1EB;
   font-weight: 600;
 }
 
@@ -445,7 +445,7 @@ onMounted(() => {
 
 .accordion summary::after {
   content: '+';
-  color: #00B18B;
+  color: #00B1EB;
   font-size: 1.5rem;
 }
 
@@ -481,7 +481,7 @@ onMounted(() => {
 .pillar-num {
   font-size: 0.9rem;
   font-weight: 700;
-  color: #00B18B;
+  color: #00B1EB;
   display: block;
   margin-bottom: 0.5rem;
 }
@@ -557,7 +557,7 @@ onMounted(() => {
 .test-tab h4 {
   font-size: 1.25rem;
   margin-bottom: 1rem;
-  color: #00B18B;
+  color: #00B1EB;
 }
 
 /* Final CTA */

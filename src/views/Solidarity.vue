@@ -272,7 +272,7 @@ onMounted(() => {
   display: flex;
   align-items: center;
   gap: 8rem;
-  margin-bottom: 15rem;
+  margin-bottom: 7rem;
 }
 
 .story-section.reversed {
@@ -317,7 +317,7 @@ onMounted(() => {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
-  margin-top: 4rem;
+  margin-top: 2.5rem;
 }
 
 .stat-item {
@@ -345,8 +345,8 @@ onMounted(() => {
 /* Quote Section */
 .story-quote {
   text-align: center;
-  padding: 12rem 0;
-  margin-bottom: 15rem;
+  padding: 8rem 0;
+  margin-bottom: 10rem;
   background: #f8fffb;
   border-radius: 40px;
 }
