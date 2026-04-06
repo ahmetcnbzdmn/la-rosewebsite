@@ -755,7 +755,7 @@ const closeModal = () => {
 /* Hero slide image */
 .hero-slide-img {
     width: 100%;
-    height: 100%;
+    height: 100% !important;
     object-fit: cover;
     object-position: center center;
 }
@@ -774,6 +774,15 @@ const closeModal = () => {
 
 .Hero-module__media___h24l9 {
     position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.Hero-module__media___h24l9 picture {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 @media (max-width: 768px) {
@@ -786,6 +795,7 @@ const closeModal = () => {
     .HomeHeader-module__root___NRDQF,
     .Hero-module__root___x7nJW {
         height: calc(100vw * 950 / 750) !important;
+        overflow: hidden;
     }
 
     .Hero-module__media___h24l9::after {
