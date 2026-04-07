@@ -886,25 +886,25 @@ const closeModal = () => {
     .Hero-module__content___6hUpl {
         padding-left: 20px !important;
         padding-right: 20px !important;
-        padding-bottom: 55px !important;
-        align-items: flex-end !important;
+        padding-bottom: 40px !important;
+        align-items: center !important;
+        justify-content: flex-end !important;
     }
 
     .Hero-module__pause-zone___m9W13 {
         max-width: 100% !important;
+        align-items: center !important;
     }
 
+    /* Resimlerde metin zaten yazılı — HTML başlığı mobilde gizle */
     .Hero-module__title___ak74S {
-        white-space: normal !important;
-    }
-
-    .Hero-module__title___ak74S {
-        font-size: 30px !important;
+        display: none !important;
     }
 
     .Hero-module__link___QJaJI {
-        padding: 12px 28px !important;
-        font-size: 12px !important;
+        padding: 12px 32px !important;
+        font-size: 13px !important;
+        margin-bottom: 0 !important;
     }
 
     :deep(.swiper-pagination) {
