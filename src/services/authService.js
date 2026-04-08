@@ -101,17 +101,20 @@ class AuthService {
 
   // Çıkış
   logout() {
+    if (typeof window === 'undefined') return;
     localStorage.removeItem('larose_token');
     localStorage.removeItem('larose_user');
   }
 
   // Token al
   getToken() {
+    if (typeof window === 'undefined') return null;
     return localStorage.getItem('larose_token');
   }
 
   // Kullanıcı bilgisi al
   getUser() {
+    if (typeof window === 'undefined') return null;
     const user = localStorage.getItem('larose_user');
     return user ? JSON.parse(user) : null;
   }

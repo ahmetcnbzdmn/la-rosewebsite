@@ -1,4 +1,4 @@
-import { createApp } from 'vue'
+import { ViteSSG } from 'vite-ssg'
 import { createI18n } from 'vue-i18n'
 import PrimeVue from 'primevue/config'
 import Aura from '@primevue/themes/aura'
@@ -8,7 +8,7 @@ import './assets/style.css'
 import 'primeicons/primeicons.css'
 
 import App from './App.vue'
-import router from './router'
+import { routes, scrollBehavior } from './router/config.js'
 
 import en from './locales/en.json'
 import tr from './locales/tr.json'
@@ -47,29 +47,27 @@ const LaRoseePreset = definePreset(Aura, {
     }
 });
 
-const i18n = createI18n({
-    legacy: false,
-    locale: 'tr', // Default language
-    fallbackLocale: 'en',
-    messages: {
-        en,
-        tr
+export const createApp = ViteSSG(
+    App,
+    { routes, scrollBehavior },
+    ({ app }) => {
+        const i18n = createI18n({
+            legacy: false,
+            locale: 'tr',
+            fallbackLocale: 'en',
+            messages: { en, tr }
+        })
+
+        app.use(i18n)
+        app.use(PrimeVue, {
+            theme: {
+                preset: LaRoseePreset,
+                options: {
+                    prefix: 'p',
+                    darkModeSelector: 'none',
+                    cssLayer: false
+                }
+            }
+        })
     }
-})
-
-const app = createApp(App)
-
-app.use(router)
-app.use(i18n)
-app.use(PrimeVue, {
-    theme: {
-        preset: LaRoseePreset,
-        options: {
-            prefix: 'p',
-            darkModeSelector: 'none',
-            cssLayer: false
-        }
-    }
-})
-
-app.mount('#app')
+)
